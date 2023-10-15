@@ -1,0 +1,84 @@
+/* top-heading */
+.parent{
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; */
+    /* z-index: 1000; */
+    background-color: #fff;
+}
+
+.top-heading {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid #03174F;;
+  }
+  
+  .logo-1 {
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+  }
+  .logo-2 img {
+    height: 8rem;
+  }
+  .logo-2 {
+    padding: 0.5rem;
+    padding-right: 1.5rem;
+  }
+  
+  
+  
+  
+  /* bu-tec */
+  
+  .bu-tec{
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #03174f96;
+  }
+  .bu-tec-1{
+    font-size: xx-large;
+    padding: 0 1rem;
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
+  }
+  
+  
+  
+  
+  
+  /* navbar */
+  
+  .outer-navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+  }
+  .inner-navbar {
+    background-color: #03174F; /* Blue shade background color */
+    display: flex; /* Arrange items horizontally */
+    border-top-left-radius: 4rem;
+    box-shadow: 10px 10px 20px #03174F;
+  }
+  .navbar-items {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+    display: flex; /* Arrange items horizontally */
+  }
+  
+  .navbar-item {
+    margin: 0 1.3rem; /* Add spacing between items (adjust as needed) */
+    color: white; /* Text color for the items */
+  }
+  .social-handles{
+    display: flex;
+    flex-direction: row;
+  }
+  .social-handle{
+    align-self: center;
+    padding: 1rem;
+    padding-top: 1.5rem;
+  }
+  
+  

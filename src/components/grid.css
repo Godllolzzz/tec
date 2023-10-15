@@ -1,0 +1,32 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal-width columns */
+    padding: 1.7rem;
+  }
+.grid-item{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  margin: 1.7rem;
+  /* height: 15rem; */
+  border-radius: 3rem;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: #c9d7ffaf;
+  box-shadow: 5px 5px 10px #c9d7ffaf;
+}
+.number{
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: #03174F;
+}
+.main {
+  font-size: larger;
+  font-weight: 700;
+  margin: 0.5rem;
+}
+.content{
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
+}
