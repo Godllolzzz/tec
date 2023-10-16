@@ -2,7 +2,7 @@
 
 /* Carousel Image Container */
 .carousel-image-container {
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
     width: 100%;
     height: 40rem;
     /* padding-bottom: 56.25%; 16:9 aspect ratio (change this to the desired aspect ratio) */
@@ -21,27 +21,46 @@
   }
   .info{
     position: absolute;
-    width: 40%;
+    width: 50%;
     color: white;
     bottom: 0rem;
-    right: 2rem;
+    /* right: 2rem; */
   }
   .events{
     padding: 1rem;
-    background-color: #1BABC6;
+    background-color: rgba(27, 172, 198, 0.631);
     border-top-left-radius: 2.5rem;
     margin: 1rem;
+    animation: 3s slide-right;
   }
+  .events, .highlights, .announcements {
+    /* position: absolute; */
+    /* top: 0; */
+    width: 100%;
+    animation: slide-in 3s;
+  }
+  
+  @keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  
+  
   .highlights{
     padding: 1rem;
-    background-color: #00376B;
+    background-color: rgba(0, 55, 107, 0.633);
     margin: 1rem;
     border-bottom-right-radius: 2.5rem;
   }
   .announcements{
     padding: 1rem;
     margin: 1rem;
-    background-color: #4F8034;
+    background-color: hsla(99, 42%, 35%, 0.634);
   }
   .heading{
     font-size: larger;

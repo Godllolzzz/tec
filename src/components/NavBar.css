@@ -11,20 +11,37 @@
 .top-heading {
     display: flex;
     justify-content: space-between;
-    border-bottom: 4px solid #03174F;;
+    /* border-bottom: 4px solid #03174F; */
   }
   
   .logo-1 {
     padding-left: 1.5rem;
     padding-top: 1.5rem;
+    align-self: center;
+  }
+  .logo-1 img {
+    height: 5rem;
   }
   .logo-2 img {
-    height: 8rem;
+    height: 6rem;
   }
   .logo-2 {
     padding: 0.5rem;
     padding-right: 1.5rem;
+    align-self: center;
+
   }
+  
+    
+  .bu_name{
+    font-size: 3rem;
+    align-self: center;
+    font-weight: bolder;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 1rem;
+  }
+  
   
   
   
@@ -35,16 +52,16 @@
     height: 3rem;
     display: flex;
     justify-content: space-between;
-    background-color: #03174f96;
+    background-color: gold;
   }
   .bu-tec-1{
     font-size: xx-large;
     padding: 0 1rem;
     font-weight: bolder;
+    align-self: center;
     font-family:'Courier New', Courier, monospace;
   }
-  
-  
+
   
   
   
@@ -68,9 +85,16 @@
   }
   
   .navbar-item {
+    text-decoration: none;
     margin: 0 1.3rem; /* Add spacing between items (adjust as needed) */
     color: white; /* Text color for the items */
   }
+
+  .navbar-item:hover {
+    cursor: pointer;
+    text-shadow: 2px 2px 8px white;
+  }
+
   .social-handles{
     display: flex;
     flex-direction: row;

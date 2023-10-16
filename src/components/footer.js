@@ -7,7 +7,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 
-export default function App() {
+const Footer = () => {
   return (
     <footer class="footer-distributed">
       <div class="footer-left">
@@ -85,3 +85,5 @@ export default function App() {
     </footer>
   );
 }
+
+export default Footer
