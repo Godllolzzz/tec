@@ -3,9 +3,13 @@ import NavBar from "./NavBar";
 import Footer from "./footer";
 import Dst from "./About/dst-tec";
 import Butec from "./About/bu-tec";
+import { useInView } from "react-intersection-observer";
 import "./About.css";
 
 const About = () => {
+  const [textRef, textInView] = useInView({
+    triggerOnce: true,
+  });
   return (
     <>
       <NavBar />
@@ -16,7 +20,7 @@ const About = () => {
         <hr
           style={{ width: "70%", height: "4px", backgroundColor: "#03174F"}}
         ></hr>
-        <div className="key-points">
+        <div ref={textRef} className={`key-points ${textInView ? 'slide-in' : ''}`}>
           <ol>
             <li>
               <b>Technology Translation:</b> Converting research findings and

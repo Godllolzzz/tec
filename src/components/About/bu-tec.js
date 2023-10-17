@@ -1,7 +1,7 @@
 import React from "react";
 import './dst-tec.css';
 import { useInView } from 'react-intersection-observer';
-import bu_tec_logo from "../../images/img6.png";
+import bu_tec_logo from "../../images/BUTEC(Organisation).jpg";
 
 const Butec = (props) => {
   const [textRef, textInView] = useInView({
@@ -27,6 +27,7 @@ const Butec = (props) => {
         </div>
       </div>
       <div
+      style={{borderLeft: '4px solid #03174F', padding:"1rem"}}
         ref={imageRef}
         className={`about-image ${imageInView ? 'slide-in' : ''}`}
       >
