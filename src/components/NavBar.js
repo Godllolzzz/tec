@@ -100,6 +100,7 @@ function NavBar() {
             <Link to="/about">
               <l1 className="navbar-item">About</l1>
             </Link>
+            <l1 className="navbar-item">TEC Team</l1>
             <l1 className="navbar-item">Network</l1>
             <l1 className="navbar-item">Events</l1>
             <l1 className="navbar-item">Services</l1>

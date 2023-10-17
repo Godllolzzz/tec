@@ -1,58 +1,130 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./grid.css";
 
 const GridComponent = () => {
+  const [figures, setFigures] = useState({
+    facultyTrained: 0,
+    undergradTrained: 0,
+    postgradTrained: 0,
+    projectsDone: 0,
+    patents: 0,
+    MOUs: 0,
+  });
+
+  const targetNumbers = {
+    facultyTrained: 150,
+    undergradTrained: 300,
+    postgradTrained: 200,
+    projectsDone: 90,
+    patents: 25,
+    MOUs: 120,
+  };
+
+  const targetRef = useRef(null);
+  const intervalRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            intervalRef.current = setInterval(() => {
+              let isUpdated = false;
+              const updatedFigures = { ...figures };
+
+              for (const key in targetNumbers) {
+                const target = targetNumbers[key];
+                let current = updatedFigures[key];
+                const increment = Math.ceil(target / 100);
+
+                if (current < target) {
+                  current += increment;
+                  current = Math.min(current, target);
+                  updatedFigures[key] = current;
+                  isUpdated = true;
+                }
+              }
+
+              if (isUpdated) {
+                setFigures(updatedFigures);
+              } else {
+                clearInterval(intervalRef.current);
+              }
+            }, 10); // Update the numbers every 100 milliseconds
+          }
+        });
+      },
+      {
+        root: null,
+        rootMargin: "0px",
+        threshold: 0.2, // Trigger the animation when 20% visible
+      }
+    );
+
+    if (targetRef.current) {
+      observer.observe(targetRef.current);
+    }
+
+    return () => {
+      if (targetRef.current) {
+        observer.unobserve(targetRef.current);
+      }
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current);
+      }
+    };
+  }, [figures, targetNumbers]);
+
   return (
-    <div className="grid-container">
-      <div className="grid-item">
-        <div className="number">150+</div>
-        <div className="main">Faculty Trained</div>
-        <div className="content">
-          We have trained more than 150 faculty in last 15 years We have trained
-          more than 150 faculty in last 15 years We have trained more than 150
-          faculty in last 15 years
+    <>
+      <div>
+        <hr
+          style={{ width: "70%", height: "4px", backgroundColor: "#03174F", marginTop:"3rem" }}
+        ></hr>
+      </div>
+      <div className="outer-container">
+        <div
+          style={{ fontSize: "2rem", fontWeight: "bold" }}
+          className="heading"
+        >
+          Manpower Trained
+        </div>
+        <div className="data-box" ref={targetRef}>
+          <div className="data">
+            <div className="figure">{figures.facultyTrained}+</div>
+            <div className="topic">Faculty Trained</div>
+          </div>
+          <div className="data">
+            <div className="figure">{figures.undergradTrained}+</div>
+            <div className="topic">Undergraduate Trained</div>
+          </div>
+          <div className="data">
+            <div className="figure">{figures.postgradTrained}+</div>
+            <div className="topic">Postgraduate Trained</div>
+          </div>
+        </div>
+        <div
+          style={{ fontSize: "2rem", fontWeight: "bold" }}
+          className="heading"
+        >
+          Project, Patents and Collaborative work
+        </div>
+        <div className="data-box">
+          <div className="data">
+            <div className="figure">{figures.projectsDone}+</div>
+            <div className="topic">Projects Done</div>
+          </div>
+          <div className="data">
+            <div className="figure">{figures.patents}+</div>
+            <div className="topic">Patents</div>
+          </div>
+          <div className="data">
+            <div className="figure">{figures.MOUs}+</div>
+            <div className="topic">MOUs</div>
+          </div>
         </div>
       </div>
-      <div className="grid-item">
-        <div className="number">500+</div>
-        <div className="main">Students Trained</div>
-        <div className="content">
-          We have trained more than 150 faculty in last 15 years We have trained
-          more than 150 faculty in last 15 years We have trained more than 150
-          faculty in last 15 years
-        </div>
-      </div>
-      <div className="grid-item">
-        <div className="number">90+</div>
-        <div className="main">Projects Done</div>
-        <div className="content">
-          We have trained more than 150 faculty in last 15 years We have trained
-          more than 150 faculty in last 15 years We have trained more than 150
-          faculty in last 15 years
-        </div>
-      </div>
-      <div className="grid-item">
-        <div className="number">120+</div>
-        <div className="main">MOU's</div>
-        <div className="content">
-          We have trained more than 150 faculty in last 15 years We have trained
-          more than 150 faculty in last 15 years We have trained more than 150
-          faculty in last 15 years
-        </div>
-      </div>
-      <div className="grid-item">
-        <div className="number">25+</div>
-        <div className="main">Patents</div>
-        <div className="content">
-          We have trained more than 150 faculty in last 15 years We have trained
-          more than 150 faculty in last 15 years We have trained more than 150
-          faculty in last 15 years
-        </div>
-      </div>
-      {/* <div className="more" style={}>
-        <div className="number" style={{justifyContent:'center'}}>25+</div>
-      </div> */}
-    </div>
+    </>
   );
 };
 

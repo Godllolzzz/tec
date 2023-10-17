@@ -6,12 +6,13 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import YouTubeIcon from '@mui/icons-material/YouTube';
+import { Widgets } from "@mui/icons-material";
 
 const Footer = () => {
   return (
     <footer class="footer-distributed">
       <div class="footer-left">
-        <div>
+        <div style={{backgroundColor:"white", width:"20rem"}}>
           <img src={logo1}></img>
         </div>
 

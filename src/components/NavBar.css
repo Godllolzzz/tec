@@ -93,6 +93,7 @@
   .navbar-item:hover {
     cursor: pointer;
     text-shadow: 2px 2px 8px white;
+    /* transform: scale(1.2);  */
   }
 
   .social-handles{

@@ -1,36 +1,60 @@
 import React from "react";
 import NavBar from "./NavBar";
 import Footer from "./footer";
+import Dst from "./About/dst-tec";
+import Butec from "./About/bu-tec";
+import "./About.css";
+
 const About = () => {
   return (
     <>
       <NavBar />
-      <div>
-        <h1>About Us</h1>
-        <p>
-          but still need the element to resemble a link, use a button and change
-          it with appropriate styles. Learn more:
-          https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md
-          jsx-a11y/anchor-is-valid Line 30:11: The href attribute requires a
-          valid value to be accessible. Provide a valid, navigable address as
-          the href value. If you cannot provide a valid href, but still need the
-          element to resemble a link, use a button and change it with
-          appropriate styles. Learn more:
-          https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md
-          jsx-a11y/anchor-is-valid Line 32:11: The href attribute requires a
-          valid value to be accessible. Provide a valid, navigable address as
-          the href value. If you cannot provide a valid href, but still need the
-          element to resemble a link, use a button and change it with
-          appropriate styles. Learn more:
-          https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md
-          jsx-a11y/anchor-is-valid src\components\message.js Line 16:15: img
-          elements must have an alt prop, either with meaningful text, or an
-          empty string for decorative images jsx-a11y/alt-text webpack compiled
-          with 1 warning
-        </p>
+      <div className="about-outer">
+        <Dst />
+        <Butec />
+        <h2>Key Objectives and Activities of TEC</h2>
+        <hr
+          style={{ width: "70%", height: "4px", backgroundColor: "#03174F"}}
+        ></hr>
+        <div className="key-points">
+          <ol>
+            <li>
+              <b>Technology Translation:</b> Converting research findings and
+              academic knowledge into practical technologies that can be used by
+              industries and society.
+            </li>
+            <li>
+              <b>Incubation and Commercialization:</b> Supporting the incubation
+              of technology startups and assisting them in commercializing their
+              innovations.
+            </li>
+            <li>
+              <b>Skill Development:</b> Providing training and skill development
+              programs to researchers, entrepreneurs, and students to enhance
+              their capabilities in technology development and
+              commercialization.
+            </li>
+            <li>
+              <b>Industry Collaboration:</b> Facilitating collaborations between
+              academia and industry to ensure that technologies meet real-world
+              needs and can be adopted by businesses.
+            </li>
+            <li>
+              <b>Funding and Resources:</b> Securing funding and resources to
+              help advance promising technologies beyond the research phase.
+            </li>
+            <li>
+              <b>Intellectual Property Management:</b> Managing intellectual
+              property rights and patents associated with the developed
+              technologies to protect them and facilitate their use by various
+              stakeholders.
+            </li>
+          </ol>
+        </div>
       </div>
       <Footer />
     </>
   );
 };
+
 export default About;

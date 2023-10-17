@@ -1,0 +1,22 @@
+.about-outer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.key-points{
+    background-color: #03174F;
+    box-shadow: 5px 5px 10px #03174F;
+    color: white;
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.key-points li {
+    margin: 0.5rem;
+}
