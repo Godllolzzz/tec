@@ -1,0 +1,13 @@
+.staff-logo-1{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 5rem;
+}
+.staff-logo-1-1{
+    margin: auto;
+    
+}
+.staff-logo-1-2{
+    margin: auto;
+}

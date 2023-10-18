@@ -1,0 +1,52 @@
+.our-leaders{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    height: 40rem;
+    object-fit: contain;
+    margin-top:2rem
+}
+
+.our-leaders img{
+    width: 80%;
+    height: 100%;
+    
+    
+}
+
+.our-leader{
+    text-align: center;
+    font-size: x-large;
+}
+
+.vcsir1{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+ 
+.vcsir1-logo{
+    margin:4rem ;
+    align-self: center;
+}
+
+.vcsir1-logo img{
+    width: 30rem;
+    
+}
+
+
+.vcsir1-title{
+    text-align: center;
+}
+
+.vcsir1-content{
+    background-color: #03174F ;
+    color: white;
+    padding: 3rem;
+    width: 60%;
+    margin: 4rem;
+    box-shadow: 5px 5px 10px #03174F;
+    
+}
