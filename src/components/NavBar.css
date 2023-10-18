@@ -108,4 +108,38 @@
     padding-top: 1.5rem;
   }
   
+  /* Dropdown styling */
+.dropdown {
+  display: none;
+  position: absolute;
+  margin-top: 0.2rem;
+  /* width: rem; */
+  /* top: 100%; */
+  /* left: 40rem; */
+  /* left: 0;S */
+  background-color: gold; /* Set dropdown background color */
   
+  padding: 10px;
+  z-index: 1;
+}
+.dropdown:hover{
+  display: block;
+}
+.navbar-item:hover .dropdown {
+  display: block;
+}
+
+/* Style for dropdown items */
+.dropdown-item {
+  /* padding: 5px 0; */
+  color: black; /* Set dropdown text color */
+  text-decoration: none;
+  margin: 0.5rem;
+  display: block;
+  font-size: large;
+  /* font-style: oblique; */
+  /* border-bottom: 2px solid white; */
+}
+.dropdown-item a {
+  text-decoration: none;
+}

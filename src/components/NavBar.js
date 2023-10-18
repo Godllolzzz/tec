@@ -100,6 +100,48 @@ function NavBar() {
             <Link to="/about">
               <l1 className="navbar-item">About</l1>
             </Link>
+<<<<<<< HEAD
+            
+            <l1 className="navbar-item">TEC Team
+            
+            <ul class="dropdown">
+       <li className="dropdown-item"><Link to="/our-leaders" >Our Leaders</Link></li>
+        <li className="dropdown-item"><Link to="/our-committe">Our Committe</Link></li>
+        <li className="dropdown-item"><Link to="/pag">PAG</Link></li>
+        <li className="dropdown-item"><Link to="/staff">Staff</Link></li>
+        <li className="dropdown-item"><a href="#">Students Team</a></li>
+
+        
+      </ul>
+            </l1>
+            
+            <l1 className="navbar-item">Network
+            <ul class="dropdown">
+       <li className="dropdown-item"><Link to="/our-partners" >Our Partners</Link></li>
+        <li className="dropdown-item">Research Persons</li>
+        <li className="dropdown-item">All DST</li>
+        
+
+        
+      </ul>
+
+
+           </l1>
+            <l1 className="navbar-item">Events</l1>
+            <l1 className="navbar-item">Services</l1>
+            <l1 className="navbar-item">Achievements
+            <ul class="dropdown">
+       <li className="dropdown-item"><a href="#">Sanctioned Projects</a></li>
+        <li className="dropdown-item"><a href="#">Patents</a></li>
+        <li className="dropdown-item"><a href="#">Publications</a></li>
+        <li className="dropdown-item"><a href="#">News Letter</a></li>
+        <li className="dropdown-item"><a href="#">MoU's</a></li>
+
+        
+      </ul>
+            </l1>
+            <l1 className="navbar-item">Contacts</l1>
+=======
             <l1 className="navbar-item">TEC Team</l1>
             <l1 className="navbar-item">Network</l1>
             <Link to="/events">
@@ -112,6 +154,7 @@ function NavBar() {
             <Link to="/gallery">
               <l1 className="navbar-item">Contacts</l1>
             </Link>
+>>>>>>> main
           </ul>
         </div>
       </div>

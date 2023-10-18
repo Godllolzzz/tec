@@ -1,0 +1,32 @@
+.partners{
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+    /* text-align: center; */
+}
+.partner-logo{
+    align-self: center;
+    
+}
+.partner-logo img{
+    width: 13rem;
+    margin-top: 6.5rem;
+    
+    
+}
+.partner-detail{
+    width: 70rem;
+}
+.partner-title{
+    text-align: center;
+}
+
+
+.partner-content{
+    background-color:#03174F ;
+    color: white;
+    padding: 5rem;
+    margin: 2rem;
+    box-shadow: 5px 5px 10px #03174F;
+    width: 60rem;
+}
