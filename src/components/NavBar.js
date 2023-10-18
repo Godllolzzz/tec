@@ -31,8 +31,8 @@ function NavBar() {
       </div>
       {/* bu-tec */}
       <div className="bu-tec">
-        <div className="bu-tec-1">TECHNOLOGY ENABLING CENTER</div>
-        <div className="bu-tec-1">INNOVATION CENTER</div>
+        <div className="bu-tec-1">TECHNOLOGY ENABLING CENTRE</div>
+        <div className="bu-tec-1">INNOVATION CENTRE</div>
       </div>
       {/* navbar */}
       <div className="outer-navbar">
@@ -100,6 +100,7 @@ function NavBar() {
             <Link to="/about">
               <l1 className="navbar-item">About</l1>
             </Link>
+<<<<<<< HEAD
             
             <l1 className="navbar-item">TEC Team
             
@@ -140,6 +141,20 @@ function NavBar() {
       </ul>
             </l1>
             <l1 className="navbar-item">Contacts</l1>
+=======
+            <l1 className="navbar-item">TEC Team</l1>
+            <l1 className="navbar-item">Network</l1>
+            <Link to="/events">
+              <l1 className="navbar-item">Events</l1>
+            </Link>
+            <Link to="/service">
+              <l1 className="navbar-item">Services</l1>
+            </Link>
+            <l1 className="navbar-item">Achievements</l1>
+            <Link to="/gallery">
+              <l1 className="navbar-item">Contacts</l1>
+            </Link>
+>>>>>>> main
           </ul>
         </div>
       </div>

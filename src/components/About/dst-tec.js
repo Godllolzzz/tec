@@ -14,6 +14,7 @@ const Dst = (props) => {
   return (
     <div className="about-inner">
       <div
+      style={{borderRight: '4px solid #03174F'}}
         ref={imageRef}
         className={`about-image ${imageInView ? 'slide-in' : ''}`}
       >

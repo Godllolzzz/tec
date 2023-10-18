@@ -4,6 +4,9 @@
   justify-content: center;
   align-items: center;
   margin: 3rem;
+  background-image: url('../images/blue-brush-stroke-watercolor-design_1035-21670.avif');
+  /* background-repeat: no-repeat; */
+  background-size: contain;
 }
 
 .data-box {
