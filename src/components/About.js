@@ -16,7 +16,7 @@ const About = () => {
       <div className="about-outer">
         <Dst />
         <Butec />
-        <h2>Key Objectives and Activities of TEC</h2>
+        <h2 className="about-heading">Key Objectives and Activities of TEC</h2>
         <hr
           style={{ width: "70%", height: "4px", backgroundColor: "#03174F"}}
         ></hr>

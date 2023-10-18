@@ -14,6 +14,9 @@ import Footer from "./components/footer";
 import Grid from "./components/grid";
 import Home from "./components/home";
 import VCMessage from "./components/message";
+import Event from "./components/event";
+import Service from "./components/service";
+import Gallery from "./components/gallery";
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
         <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} /> 
+        <Route path="/events" element={<Event />} /> 
+        <Route path="/service" element={<Service />} /> 
+        <Route path="/gallery" element={<Gallery />} /> 
         </Routes>
 
         {/* <Achievements /> */}

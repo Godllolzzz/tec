@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+.gallery-heading {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: xx-large;
+  margin: 3rem 0 1rem 0;
+}
+.gallery-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 2rem 1rem;
+  }
+  
+  .grid-item {
+    background-color: #3498db;
+    height: 15rem;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 8px;
+  }
+  img {
+    width: 100%;
+    border-radius: 8px;
+
+    height: 15rem;
+  }
+  
+  .grid-item:hover {
+    transform: scale(1.5);
+  }
+  

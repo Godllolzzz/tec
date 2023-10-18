@@ -6,6 +6,12 @@
     overflow-x: hidden;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+.about-heading {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: xx-large;
+}
+
 .key-points{
     background-color: #03174F;
     box-shadow: 5px 5px 10px #03174F;
