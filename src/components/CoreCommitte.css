@@ -1,7 +1,14 @@
 .core-committe{
     text-align:center ;
-    padding: 4rem;
+    padding: 2rem;
 }
+.core-heading{
+    text-align: center;
+    font-size: x-large;
+    
+}
+
 .core-committe img{
-    width: 60rem;
+    width: 40rem;
+    height: 50rem;
 }

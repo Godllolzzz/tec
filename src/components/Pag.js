@@ -18,11 +18,18 @@ const Pag=()=>{
         <div>
             <NavBar/>
             <div className="pag">
+
+            <div className="pag-logo-1-1-a">
+                  <img src={firstimg}></img>
+                  <h3>Prof. Mukesh Pandey </h3>
+                  <h5>Vice Chancellor</h5>
+                </div>
+
                <div className="pag-logo-1">
                 <div className="pag-logo-1-1">
-                  <img src={firstimg}></img>
-                  <h3>Prof. Mukesh Pandey</h3>
-                  <h5>Vice Chancellor</h5>
+                  <img src={seventhimg}></img>
+                  <h3>Prof. Sunil Kabia </h3>
+                  <h5>Director IQAC, BU Jhansi</h5>
                 </div>
                 <hr style={{border:"2px solid black",height:"15rem",marginTop:"3rem"}}></hr>
                 
@@ -63,11 +70,7 @@ const Pag=()=>{
                     </div>
                     
                </div>
-               <div className="pag-logo-1-1">
-                  <img src={seventhimg}></img>
-                  <h3>Prof. Sunil Kabia </h3>
-                  <h5>Director IQAC, BU Jhansi</h5>
-                </div>
+              
                 </div>
                   
             

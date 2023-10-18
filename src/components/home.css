@@ -1,0 +1,27 @@
+.patents-highlights {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.patents-highlights-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px grey;
+    margin: 3rem;
+}
+.patents-highlights-image{
+    margin: 3rem;
+    
+    /* transform: translateX(100%);
+    transition: transform 0.5s ease-in-out; */
+}
+.patents-highlights-image img{
+    width: 25rem;
+    height: 35rem;
+ }
+ /* .slide-in {
+    transform: translateX(0) !important;
+  } */
