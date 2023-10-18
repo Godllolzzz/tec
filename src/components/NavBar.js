@@ -1,8 +1,5 @@
-import "./NavBar.css";
-import { Link } from "react-router-dom";
-import logo2 from "../images/BU_logo.png";
-import logo1 from "../images/DST_logo.png";
 import React from "react";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,
@@ -11,6 +8,9 @@ import {
   faLinkedin,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import logo1 from "../images/DST_logo.png";
+import logo2 from "../images/BU_logo.png";
+import "./NavBar.css";
 
 function NavBar() {
   return (
@@ -18,15 +18,14 @@ function NavBar() {
       {/* top-heading */}
       <div className="top-heading">
         <div className="logo-1">
-          <img src={logo1} alt="BU_logo"></img>
+          <img src={logo1} alt="BU_logo" />
         </div>
         <div className="bu_name">
           <div>BUNDELKHAND</div>
           <div>UNIVERSITY</div>
-            
         </div>
         <div className="logo-2">
-          <img src={logo2} alt="BU_logo"></img>
+          <img src={logo2} alt="BU_logo" />
         </div>
       </div>
       {/* bu-tec */}
@@ -47,10 +46,8 @@ function NavBar() {
               />
             </a>
           </div>
-
           <div className="social-handle">
             <a href="https://www.facebook.com/busocial/">
-              {" "}
               <FontAwesomeIcon
                 icon={faFacebook}
                 beat
@@ -80,7 +77,7 @@ function NavBar() {
             </a>
           </div>
           <div className="social-handle">
-            <a href="https://www.youtube.com/channel/UCTL-YWI3GojQogY-YH4qQng">
+            <a href="https://www.youtube.com/channel/UCTL-YWI3GojQogY-H4qQng">
               <FontAwesomeIcon
                 icon={faYoutube}
                 beat
@@ -92,69 +89,65 @@ function NavBar() {
         </div>
         <div className="inner-navbar">
           <ul className="navbar-items">
-            <Link to="/">
-              <l1 className="navbar-item" style={{ marginLeft: "2rem" }}>
-                Home
-              </l1>
-            </Link>
-            <Link to="/about">
-              <l1 className="navbar-item">About</l1>
-            </Link>
-<<<<<<< HEAD
-            
-            <l1 className="navbar-item">TEC Team
-            
-            <ul class="dropdown">
-       <li className="dropdown-item"><Link to="/our-leaders" >Our Leaders</Link></li>
-        <li className="dropdown-item"><Link to="/our-committe">Our Committe</Link></li>
-        <li className="dropdown-item"><Link to="/pag">PAG</Link></li>
-        <li className="dropdown-item"><Link to="/staff">Staff</Link></li>
-        <li className="dropdown-item"><a href="#">Students Team</a></li>
-
-        
-      </ul>
-            </l1>
-            
-            <l1 className="navbar-item">Network
-            <ul class="dropdown">
-       <li className="dropdown-item"><Link to="/our-partners" >Our Partners</Link></li>
-        <li className="dropdown-item">Research Persons</li>
-        <li className="dropdown-item">All DST</li>
-        
-
-        
-      </ul>
-
-
-           </l1>
-            <l1 className="navbar-item">Events</l1>
-            <l1 className="navbar-item">Services</l1>
-            <l1 className="navbar-item">Achievements
-            <ul class="dropdown">
-       <li className="dropdown-item"><a href="#">Sanctioned Projects</a></li>
-        <li className="dropdown-item"><a href="#">Patents</a></li>
-        <li className="dropdown-item"><a href="#">Publications</a></li>
-        <li className="dropdown-item"><a href="#">News Letter</a></li>
-        <li className="dropdown-item"><a href="#">MoU's</a></li>
-
-        
-      </ul>
-            </l1>
-            <l1 className="navbar-item">Contacts</l1>
-=======
-            <l1 className="navbar-item">TEC Team</l1>
-            <l1 className="navbar-item">Network</l1>
-            <Link to="/events">
-              <l1 className="navbar-item">Events</l1>
-            </Link>
-            <Link to="/service">
-              <l1 className="navbar-item">Services</l1>
-            </Link>
-            <l1 className="navbar-item">Achievements</l1>
-            <Link to="/gallery">
-              <l1 className="navbar-item">Contacts</l1>
-            </Link>
->>>>>>> main
+            <li className="navbar-item" style={{ marginLeft: "2rem" }}>
+              <Link to="/">Home</Link>
+            </li>
+            <li className="navbar-item">
+              <Link to="/about">About</Link>
+            </li>
+            <li className="navbar-item">
+              TEC Team
+              <ul className="dropdown">
+                <li className="dropdown-item">
+                  <Link to="/our-leaders">Our Leaders</Link>
+                </li>
+                <li className="dropdown-item">
+                  <Link to="/our-committee">Our Committee</Link>
+                </li>
+                <li className="dropdown-item">
+                  <Link to="/pag">PAG</Link>
+                </li>
+                <li className="dropdown-item">
+                  <Link to="/staff">Staff</Link>
+                </li>
+                <li className="dropdown-item">
+                  <Link to="#">Students Team</Link>
+                </li>
+              </ul>
+            </li>
+            <li className="navbar-item">
+              Network
+              <ul className="dropdown">
+                <li className="dropdown-item">
+                  <Link to="/our-partners">Our Partners</Link>
+                </li>
+                <li className="dropdown-item">Research Persons</li>
+                <li className="dropdown-item">All DST</li>
+              </ul>
+            </li>
+            <li className="navbar-item"> <Link to="/events">Events</Link></li>
+            <li className="navbar-item"> <Link to="/service">Service</Link></li>
+            <li className="navbar-item">
+              Achievements
+              <ul className="dropdown">
+                <li className="dropdown-item">
+                  <Link to="#">Sanctioned Projects</Link>
+                </li>
+                <li className="dropdown-item">
+                  <Link to="#">Patents</Link>
+                </li>
+                <li className="dropdown-item">
+                  <Link to="#">Publications</Link>
+                </li>
+                <li className="dropdown-item">
+                  <Link to="#">News Letter</Link>
+                </li>
+                <li className="dropdown-item">
+                  <Link to="#">MoU's</Link>
+                </li>
+              </ul>
+            </li>
+            <li className="navbar-item"> <Link to="/gallery">Contacts</Link></li>
           </ul>
         </div>
       </div>
