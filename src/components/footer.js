@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import logo1 from "../images/DST_logo.png";
+import picture from "../images/DST_logo.png";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -13,7 +13,7 @@ const Footer = () => {
     <footer class="footer-distributed">
       <div class="footer-left">
         <div style={{backgroundColor:"white", width:"20rem"}}>
-          <img src={logo1}></img>
+          <img style={{height:"5rem"}} src={picture}></img>
         </div>
 
         <p class="footer-links">

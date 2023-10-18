@@ -122,12 +122,12 @@
   padding: 10px;
   z-index: 1;
 }
-.dropdown:hover{
+/* .dropdown:hover{
   display: block;
-}
-.navbar-item:hover .dropdown {
+} */
+/* .navbar-item:hover .dropdown {
   display: block;
-}
+} */
 
 /* Style for dropdown items */
 .dropdown-item {
