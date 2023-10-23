@@ -8,6 +8,8 @@ const CoreCommitte=()=>{
     return(
          <div>
             <NavBar/>
+            <div className="core-heading"> <h1>Committees</h1></div>
+            <hr style={{width:"60%",border:"2px solid black",marginTop:"2rem"}}></hr>
               <div className="core-committe">
                 <img src={committelogo}></img>
               </div>

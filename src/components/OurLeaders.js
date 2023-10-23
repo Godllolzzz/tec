@@ -36,7 +36,7 @@ const OurLeaders=()=>{
                  
                 <div className="vcsir1">
                     <div className="vcsir1-logo">
-                    <img style={{height:"30rem"}} src={lavsirlogo}></img>
+                    <img style={{height:"20rem"}} src={lavsirlogo}></img>
                     <div className="vcsir1-title">
                     <h3>Dr. Lavkush Dwivedi</h3>
                     <h5>Co-Ordinator
