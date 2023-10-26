@@ -16,15 +16,25 @@ import {
 function NavBar() {
   const [isTeamTecVisible, setIsTeamTecVisible] = useState(false);
   const [isNetworkVisible, setIsNetworkVisible] = useState(false);
+  const [isAchievementsVisible, setIsAchievementsVisible] = useState(false);
 
   const tec_on_click_handler = () => {
     setIsTeamTecVisible((prevState) => !prevState);
     setIsNetworkVisible(false);
   };
+  
   const network_on_click_handler = () => {
-    setIsNetworkVisible((prevState) => !prevState);
-    setIsTeamTecVisible(false);
-  };
+    setIsNetworkVisible((prevState) => !prevState)
+    setIsTeamTecVisible(false)
+    setIsAchievementsVisible(false)
+  }
+
+  const achievements_on_click_handler = () => {
+    setIsAchievementsVisible((prevState) => !prevState)
+    setIsTeamTecVisible(false)
+    setIsNetworkVisible(false)
+  }
+
 
   return (
     <div className="parent">
@@ -159,25 +169,16 @@ function NavBar() {
             </l1>
             {/* <l1 className="navbar-item">Events</l1> */}
             {/* <l1 className="navbar-item">Services</l1> */}
-            <l1 className="navbar-item">
-              Achievements
-              <ul class="dropdown">
-                <li className="dropdown-item">
-                  <a href="#">Sanctioned Projects</a>
-                </li>
-                <li className="dropdown-item">
-                  <a href="#">Patents</a>
-                </li>
-                <li className="dropdown-item">
-                  <a href="#">Publications</a>
-                </li>
-                <li className="dropdown-item">
-                  <a href="#">News Letter</a>
-                </li>
-                <li className="dropdown-item">
-                  <a href="#">MoU's</a>
-                </li>
-              </ul>
+            <l1 className="navbar-item" onClick={achievements_on_click_handler}>Achievements
+            <ul class="dropdown"    style={{display: `${isAchievementsVisible ? "block" : "none"}`}}>
+       <li className="dropdown-item"><Link to="/sanctioned-projects ">Sanctioned Projects</Link></li>
+        <li className="dropdown-item"><a href="#">Patents</a></li>
+        <li className="dropdown-item"><a href="#">Publications</a></li>
+        <li className="dropdown-item"><a href="#">News Letter</a></li>
+        <li className="dropdown-item"><a href="#">MoU's</a></li>
+
+        
+      </ul>
             </l1>
             {/* <l1 className="navbar-item">Contacts</l1> */}
             {/* <l1 className="navbar-item">TEC Team</l1> */}
@@ -197,6 +198,6 @@ function NavBar() {
       </div>
     </div>
   );
-}
+};
 
 export default NavBar;
