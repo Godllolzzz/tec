@@ -1,20 +1,55 @@
 import React, { useState, useEffect } from "react";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import "./carousel.css"; // Import your CSS file for carousel styling
 // import img1 from "../images/GandhiAuditorium.jpeg";
-import img2 from "../images/innovation_centre (2).jpg";
-import img3 from "../images/innovation_center.jpeg";
-import img4 from "../images/img4.png";
-import img5 from "../images/img5.png";
-import img6 from "../images/img6.png";
-import img7 from "../images/img7.png";
-import img8 from "../images/img8.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCalendar, faVolumeHigh, faHighlighter } from '@fortawesome/free-solid-svg-icons';
+import img2 from "../galleryimage/DSC_0491.JPG";
+import img3 from "../galleryimage/A7403529.JPG";
+import img4 from "../galleryimage/A7403304.JPG";
+import img5 from "../galleryimage/A7402379.JPG";
+import img6 from "../galleryimage/A7402281.JPG";
+import img7 from "../images/innovation_center.jpeg";
+import img8 from "../images/innovation_centre (2).jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCalendar,
+  faVolumeHigh,
+  faHighlighter,
+} from "@fortawesome/free-solid-svg-icons";
 
 const images = [img2, img3, img4, img5, img6, img7, img8];
 
 const Carousel = () => {
+  const [isEventOpen, setIsEventOpen] = useState(false);
+  const [isAnnouncementOpen, setIsAnnouncementOpen] = useState(false);
+  const [isHighLightOpen, setIsHighLightOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  const eventHandler = (e) => {
+    setIsEventOpen(true);
+    setIsAnnouncementOpen(false);
+    setIsHighLightOpen(false);
+  };
+  const announcementHandler = (e) => {
+    setIsAnnouncementOpen(true);
+    setIsEventOpen(false);
+    setIsHighLightOpen(false);
+  };
+  const highlightHandler = (e) => {
+    setIsHighLightOpen(true);
+    setIsEventOpen(false);
+    setIsAnnouncementOpen(false);
+  };
+
+  const highlightCloseHandler = (e) => {
+    setIsHighLightOpen(false);
+  };
+  const eventCloseHandler = (e) => {
+    setIsEventOpen(false);
+  };
+  const announcementClosetHandler = (e) => {
+    setIsAnnouncementOpen(false);
+  };
   const nextSlide = () => {
     setCurrentIndex((prevIndex) =>
       prevIndex === images.length - 1 ? 0 : prevIndex + 1
@@ -41,36 +76,88 @@ const Carousel = () => {
           />
         </div>
         <div className="info">
-          <div className="events">
-            <div className="heading">
-            <FontAwesomeIcon icon={faCalendar} size="lg" style={{color: "#ffffff", paddingRight: '0.5rem'}} />Events
+          {!isEventOpen && (
+            <div onClick={eventHandler} className="close-events">
+              <div>Events</div>
+              <ArrowForwardIosIcon />
             </div>
-            <div className="content">
-              We are excited to announce our upcoming product launch event! Join
-              us on [Date] at [Location] to get a sneak peek at our latest
-              innovations and offerings. Don't miss out on this exciting
-              opportunity to learn and connect with our team.
+          )}
+          {isEventOpen && (
+            <div className="events">
+              <div className="heading-container">
+                <div className="heading">
+                  <FontAwesomeIcon
+                    icon={faCalendar}
+                    size="lg"
+                    style={{ color: "#ffffff", paddingRight: "0.5rem" }}
+                  />
+                  Events
+                </div>
+                <ArrowBackIosNewIcon onClick={eventCloseHandler} />
+              </div>
+              <div className="content">
+                We are excited to announce our upcoming product launch event!
+                Join us on [Date] at [Location] to get a sneak peek at our
+                latest innovations and offerings. Don't miss out on this
+                exciting opportunity to learn and connect with our team.
+              </div>
             </div>
-          </div>
-          <div className="announcements">
-            <div className="heading">
-            <FontAwesomeIcon icon={faVolumeHigh} size="xl" style={{color: "#ffffff", paddingRight: '0.5rem'}} />Announcements</div>
-            <div className="content">
-              Join us for the Tech Conference 2023, where industry experts and
-              innovators will discuss the latest trends and technologies in the
-              tech world. Don't miss this opportunity to learn and network.
+          )}
+          {!isAnnouncementOpen && (
+            <div onClick={announcementHandler} className="close-announcements">
+              <div>Announcements</div>
+              <ArrowForwardIosIcon />
             </div>
-          </div>
-          <div className="highlights">
-            <div className="heading">
-            <FontAwesomeIcon icon={faHighlighter} size="xl" style={{color: "#ffffff", paddingRight: '0.5rem'}} />Hightlights</div>
-            <div className="content">
-              {" "}
-              Join us for the Tech Conference 2023, where industry experts and
-              innovators will discuss the latest trends and technologies in the
-              tech world. Don't miss this opportunity to learn and network.
+          )}
+          {isAnnouncementOpen && (
+            <div className="announcements">
+              <div className="heading-container">
+                <div className="heading">
+                  <FontAwesomeIcon
+                    icon={faVolumeHigh}
+                    size="xl"
+                    style={{ color: "#ffffff", paddingRight: "0.5rem" }}
+                  />
+                  Announcements
+                </div>
+                <ArrowBackIosNewIcon onClick={announcementClosetHandler} />
+              </div>
+              <div className="content">
+                Join us for the Tech Conference 2023, where industry experts and
+                innovators will discuss the latest trends and technologies in
+                the tech world. Don't miss this opportunity to learn and
+                network.
+              </div>
             </div>
-          </div>
+          )}
+          {!isHighLightOpen && (
+            <div onClick={highlightHandler} className="close-highlights">
+              <div>Hightlights</div>
+              <ArrowForwardIosIcon />
+            </div>
+          )}
+          {isHighLightOpen && (
+            <div className="highlights">
+              <div className="heading-container">
+                <div className="heading">
+                  <FontAwesomeIcon
+                    icon={faHighlighter}
+                    size="xl"
+                    style={{ color: "#ffffff", paddingRight: "0.5rem" }}
+                  />
+                  Hightlights
+                </div>
+                <ArrowBackIosNewIcon onClick={highlightCloseHandler} />
+              </div>
+              <div className="content">
+                {" "}
+                Join us for the Tech Conference 2023, where industry experts and
+                innovators will discuss the latest trends and technologies in
+                the tech world. Don't miss this opportunity to learn and
+                network.
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </>

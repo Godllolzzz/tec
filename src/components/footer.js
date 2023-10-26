@@ -7,6 +7,8 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import { Widgets } from "@mui/icons-material";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -18,19 +20,19 @@ const Footer = () => {
 
         <p class="footer-links">
           <a href="#" class="link-1">
-            home
+            Home
           </a>
 
-          <a href="#">About</a>
+          <a href="/about">About</a>
 
-          <a href="#">Nerwork</a>
+          <a href="/network">Network</a>
 
-          <a href="#">Events</a>
+          <a href="/events">Events</a>
 
-          <a href="#">Services</a>
-          <a href="#">Achievements</a>
+          <a href="/service">Services</a>
+          <a href="/achievement">Achievements</a>
 
-          <a href="#">Contacts</a>
+          <a href="/gallery">Contacts</a>
         </p>
 
         <p class="footer-company-name">Bundelkhand University ©1975</p>
@@ -44,15 +46,19 @@ const Footer = () => {
           </p>
         </div>
 
-        <div>
-          <i class="fa fa-phone"></i>
-          <p>+1.555.555.5555</p>
+        <div className="footer-phone">
+          <p className="phone-container"><FontAwesomeIcon icon={faPhone} style={{color: "#ffffff",}} /><p className="mbn">+91 9511015157</p></p>
+          <p className="phone-container"><FontAwesomeIcon icon={faPhone} style={{color: "#ffffff",}} /><p className="mbn">+91 9840998686</p></p>
+          <p className="phone-container"><FontAwesomeIcon icon={faPhone} style={{color: "#ffffff",}} /><p className="mbn">+91 9452888176</p></p>
         </div>
 
         <div>
           <i class="fa fa-envelope"></i>
           <p>
-            <a href="mailto:support@company.com">support@company.com</a>
+            <a href="mailto:support@company.com">dsttec.bu@gmail.com</a>
+          </p>
+          <p>
+            <a href="mailto:support@company.com">tecdst2022@bujhansi.ac.in</a>
           </p>
         </div>
       </div>

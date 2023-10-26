@@ -78,14 +78,11 @@ const GridComponent = () => {
   return (
     <>
       <div>
-        <hr
-          style={{ width: "70%", height: "4px", backgroundColor: "#03174F", marginTop:"3rem" }}
-        ></hr>
       </div>
       <div className="outer-container">
         <div
           style={{ fontSize: "2rem", fontWeight: "bold" }}
-          className="heading"
+          className="grid-main-heading"
         >
           Manpower Trained
         </div>
@@ -105,7 +102,7 @@ const GridComponent = () => {
         </div>
         <div
           style={{ fontSize: "2rem", fontWeight: "bold" }}
-          className="heading"
+          className="grid-main-heading"
         >
           Project, Patents and Collaborative work
         </div>

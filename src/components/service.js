@@ -16,12 +16,9 @@ const Service = () => {
       <NavBar />
       <div className="about-outer">
         <h2 className="service-heading"> Fabrication & Instrumental Services</h2>
-        <hr
-          style={{ width: "70%", height: "4px", backgroundColor: "#03174F" }}
-        ></hr>
         <div
           ref={textRef1}
-          className={`key-points ${textInView1 ? "slide-in" : ""}`}
+          className={`service-points ${textInView1 ? "slide-in" : ""}`}
         >
           <ol>
             <p>
@@ -93,12 +90,9 @@ const Service = () => {
           </ol>
         </div>
         <h2 className="service-heading">Intellectual Property Services</h2>
-        <hr
-          style={{ width: "70%", height: "4px", backgroundColor: "#03174F" }}
-        ></hr>
         <div
           ref={textRef2}
-          className={`key-points ${textInView2 ? "slide-in" : ""}`}
+          className={`service-points ${textInView2 ? "slide-in" : ""}`}
         >
           <ol>
             <p>

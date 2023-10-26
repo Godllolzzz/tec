@@ -49,9 +49,6 @@ const Gallery = () => {
       <NavBar />
       <div className="gallery-parent">
         <div className="gallery-heading">TEC Gallery</div>
-        <hr
-          style={{ width: "70%", height: "4px", backgroundColor: "#03174F" }}
-        ></hr>
         <div className="grid-container">
           <div className="grid-item">
             <img src={img1}></img>

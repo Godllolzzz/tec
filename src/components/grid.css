@@ -4,9 +4,9 @@
   justify-content: center;
   align-items: center;
   margin: 3rem;
-  background-image: url('../images/blue-brush-stroke-watercolor-design_1035-21670.avif');
+  /* background-image: url('../images/blue-brush-stroke-watercolor-design_1035-21670.avif'); */
   /* background-repeat: no-repeat; */
-  background-size: contain;
+  /* background-size: contain; */
 }
 
 .data-box {
@@ -19,18 +19,21 @@
   margin: 1rem 3rem;
   justify-content: center;
   align-items: center;
-  min-width: 15rem;
-  background-color: #c9d7ffaf;
-  box-shadow: 5px 5px 10px #c9d7ffaf;
+  min-width: 14rem;
+  background-color: gold;
+  box-shadow: 5px 5px 10px gold;
   /* border-radius: 1.5rem; */
 }
-.heading {
-  /* font-size: 70px;
-   */
+.grid-main-heading{
+  border-bottom: 1px solid rgb(41, 38, 38);
+  font-family: "Montserrat", sans-serif;
+  padding: 1rem 0rem;
+  color: rgb(41, 36, 36);
+  font-size: 2.2rem;
 }
 .data:hover {
-  background-color: #c9d7ff;
-  box-shadow: 5px 5px 10px #c9d7ff;
+  background-color: gold;
+  box-shadow: 5px 5px 10px gold;
   transform: scale(1.1);
   cursor: pointer;
 }

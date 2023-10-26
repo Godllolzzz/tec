@@ -30,21 +30,30 @@ function NavBar() {
     <div className="parent">
       {/* top-heading */}
       <div className="top-heading">
-        <div className="logo-1">
-          <img src={logo1} alt="BU_logo" />
-        </div>
         <div className="bu_name">
-          <div>BUNDELKHAND</div>
-          <div>UNIVERSITY</div>
+          <div id="bu_name_first">BUNDELKHAND</div>
+          <div id="bu_name_second">UNIVERSITY</div>
+          <div id="bu_name_third">JHANSI</div>
         </div>
-        <div className="logo-2">
-          <img src={logo2} alt="BU_logo" />
+        <div className="bu_details">
+          B++ NAAC Accredited, ISO Certified, No-1 State University in U.P.
+          India
         </div>
       </div>
       {/* bu-tec */}
       <div className="bu-tec">
-        <div className="bu-tec-1">TECHNOLOGY ENABLING CENTRE</div>
-        <div className="bu-tec-1">INNOVATION CENTRE</div>
+        <div className="bu-tec-1">
+          <div className="logo1">
+            <img src={logo1} alt="tec_logo"></img>
+          </div>
+          <div className="bu-tec-1-details">TECHNOLOGY ENABLING CENTRE</div>
+        </div>
+        <div className="bu-tec-2">
+          <div className="logo2">
+            <img src={logo2} alt="tec_logo"></img>
+          </div>
+          <div className="bu-tec-2-details">INNOVATION CENTRE</div>
+        </div>
       </div>
       {/* navbar */}
       <div className="outer-navbar">
@@ -54,7 +63,7 @@ function NavBar() {
               <FontAwesomeIcon
                 icon={faInstagram}
                 beat
-                size="xl"
+                size="l"
                 style={{ color: "#a82929" }}
               />
             </a>
@@ -64,7 +73,7 @@ function NavBar() {
               <FontAwesomeIcon
                 icon={faFacebook}
                 beat
-                size="xl"
+                size="l"
                 style={{ color: "#2953a8" }}
               />
             </a>
@@ -74,7 +83,7 @@ function NavBar() {
               <FontAwesomeIcon
                 icon={faLinkedin}
                 beat
-                size="xl"
+                size="l"
                 style={{ color: "#0047c2" }}
               />
             </a>
@@ -84,7 +93,7 @@ function NavBar() {
               <FontAwesomeIcon
                 icon={faTwitter}
                 beat
-                size="xl"
+                size="l"
                 style={{ color: "#2953a8" }}
               />
             </a>
@@ -94,7 +103,7 @@ function NavBar() {
               <FontAwesomeIcon
                 icon={faYoutube}
                 beat
-                size="xl"
+                size="l"
                 style={{ color: "#a82929" }}
               />
             </a>

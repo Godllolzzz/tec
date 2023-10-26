@@ -1,8 +1,7 @@
-.outer {
+.outer-msg-container {
   /* display: flex;
   flex-direction: column; */
-  background-color: rgba(255, 217, 0, 0.835);
-  color: #03174F;
+  background-color: gold;
   margin: 4rem;
   /* border-radius: 2rem; */
   min-height: 25rem;
@@ -13,6 +12,7 @@
   /* width: 60%; */
   padding: 3rem 1rem 3rem 2rem;
   font-style: oblique;
+  font-size: small;
 }
 .inner1 {
   display: flex;
@@ -28,12 +28,17 @@
   margin: 1rem;
 }
 .vcsir_image {
+  /* border: 2px solid #03174F; */
   margin: 1rem;
+  /* padding: 1rem; */
 }
 .vcsir_name {
-  font-size: x-large;
+  font-size: large;
   color: #03174F;
   font-weight: bolder;
 }
 .vcsir_intro {
+}
+.vcsir-msg-img{
+  width: 10rem;
 }

@@ -1,114 +1,140 @@
 /* top-heading */
-.parent{
-    /* position: fixed;
-    top: 0;
-    left: 0;
-    right: 0; */
-    /* z-index: 1000; */
-    background-color: #fff;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Condensed:wght@400;700&display=swap');
+.parent {
+  background-color: #fff;
+  position: sticky;
 }
 
 .top-heading {
-    display: flex;
-    justify-content: space-between;
-    /* border-bottom: 4px solid #03174F; */
-  }
-  
-  .logo-1 {
-    padding-left: 1.5rem;
-    padding-top: 1.5rem;
-    align-self: center;
-  }
-  .logo-1 img {
-    height: 5rem;
-  }
-  .logo-2 img {
-    height: 6rem;
-  }
-  .logo-2 {
-    padding: 0.5rem;
-    padding-right: 1.5rem;
-    align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border-bottom: 4px solid #03174F; */
+  /* background-image: url("../images/heading_image.jpeg");
+  background-size: contain; */
+  /* background-repeat: no-repeat; */
+  color: white;
+  background-color: #03174f;
+}
 
-  }
+#bu_name_first{
+  font-family: 'Playfair Display', serif;
+  /* font-family: 'Roboto Condensed', sans-serif; */
+}
+#bu_name_second{
+  font-family: 'Playfair Display', serif;
+  /* font-family: 'Roboto Condensed', sans-serif; */
+}
+#bu_name_third{
+  font-family: 'Playfair Display', serif;
+  /* font-family: 'Roboto Condensed', sans-serif; */
+}
+.bu_name {
+  font-size: 2.5em;
+  align-self: center;
+  font-weight: bolder;
   
-    
-  .bu_name{
-    font-size: 3rem;
-    align-self: center;
-    font-weight: bolder;
-    display: flex;
-    /* justify-content: space-between; */
-    gap: 1rem;
-  }
-  
-  
-  
-  
-  
-  /* bu-tec */
-  
-  .bu-tec{
-    height: 3rem;
-    display: flex;
-    justify-content: space-between;
-    background-color: gold;
-  }
-  .bu-tec-1{
-    font-size: xx-large;
-    padding: 0 1rem;
-    font-weight: bolder;
-    align-self: center;
-    font-family:'Courier New', Courier, monospace;
-  }
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 1rem;
+}
+.bu_details{
+  display: flex;
+  /* justify-content: center; */
+  width: 45%;
+  margin: auto;
+  border-top: 1px solid rgb(255, 255, 255);
+}
+/* bu-tec */
 
-  a {
-    text-decoration: none;
-  }
-  
-  
-  /* navbar */
-  
-  .outer-navbar {
-    display: flex;
-    justify-content: space-between;
-    height: 3rem;
-  }
-  .inner-navbar {
-    background-color: #03174F; /* Blue shade background color */
-    display: flex; /* Arrange items horizontally */
-    border-top-left-radius: 4rem;
-    box-shadow: 10px 10px 20px #03174F;
-  }
-  .navbar-items {
-    list-style: none; /* Remove default list styles */
-    padding: 0;
-    display: flex; /* Arrange items horizontally */
-  }
-  
-  .navbar-item {
-    text-decoration: none;
-    margin: 0 1.3rem; /* Add spacing between items (adjust as needed) */
-    color: white; /* Text color for the items */
-  }
+.bu-tec {
+  height: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: gold;
+}
+.bu-tec-1 {
+  display: flex;
+}
+.bu-tec-1-details{
+  font-family: 'Playfair Display', serif;
+  align-self: center;
+  font-size: large;
+  font-weight:bolder;
+}
+.logo1 img{
+  height: 3rem;
+  align-self: center;
+}
+.bu-tec-2 {
+  display: flex;
+}
+.bu-tec-2-details{
+  font-family: 'Playfair Display', serif;
+  align-self: center;
+  font-size: large;
+  font-weight: bolder;
+  margin-right: 1rem;
+}
+.logo2 img{
+  align-self: center;
+  height: 3rem;
+}
+.logo2{
+  margin: 0.25rem 0.5rem;
+}
+.logo1{
+  margin: 0.25rem 0.5rem;
 
-  .navbar-item:hover {
-    cursor: pointer;
-    text-shadow: 2px 2px 8px white;
-    /* transform: scale(1.2);  */
-  }
+}
 
-  .social-handles{
-    display: flex;
-    flex-direction: row;
-  }
-  .social-handle{
-    align-self: center;
-    padding: 1rem;
-    padding-top: 1.5rem;
-  }
-  
-  /* Dropdown styling */
+a {
+  text-decoration: none;
+}
+
+/* navbar */
+
+.outer-navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 2rem;
+}
+.inner-navbar {
+  display: flex; /* Arrange items horizontally */
+  align-items: center;
+  background-color: #03174F;
+  border-top-left-radius: 2rem;
+}
+.navbar-items {
+  list-style: none; /* Remove default list styles */
+  padding: 0;
+  display: flex; /* Arrange items horizontally */
+}
+
+.navbar-item {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.navbar-item:hover {
+  cursor: pointer;
+  text-shadow: 2px 2px 8px white;
+  font-weight: 500;
+  /* transform: scale(1.2);  */
+}
+
+.social-handles {
+  display: flex;
+  flex-direction: row;
+}
+.social-handle {
+  align-self: center;
+  padding: 1rem;
+  /* padding-top: 1.5rem; */
+}
+
+/* Dropdown styling */
 .dropdown {
   display: none;
   position: absolute;
@@ -118,7 +144,7 @@
   /* left: 40rem; */
   /* left: 0;S */
   background-color: gold; /* Set dropdown background color */
-  
+
   padding: 10px;
   z-index: 1;
 }
