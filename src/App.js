@@ -23,6 +23,8 @@ import Partners from "./components/Partners";
 import Event from "./components/event";
 import Service from "./components/service";
 import Gallery from "./components/gallery";
+import Tec from "./components/Tec";
+import SanctionedProjects from "./components/SanctionedProjects";
 
 function App() {
   return (
@@ -41,6 +43,8 @@ function App() {
         <Route path="/events" element={<Event />} /> 
         <Route path="/service" element={<Service />} /> 
         <Route path="/gallery" element={<Gallery />} /> 
+        <Route path="/all-tec" element={<Tec />} />
+        <Route path="/sanctioned-projects" element={<SanctionedProjects />} />  
         </Routes>
 
         {/* <Achievements /> */}
