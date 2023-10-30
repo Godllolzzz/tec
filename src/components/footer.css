@@ -201,12 +201,3 @@ section {
 	display: flex;
 	flex-direction: column;
 }
-.mbn{
-	padding-left: 1rem;
-	font-size: 0.8rem;
-	padding-top: 0.5rem;
-
-}
-.phone-container{
-	padding-left: 2rem;
-}

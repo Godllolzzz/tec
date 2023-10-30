@@ -32,6 +32,10 @@
   margin: 1rem;
   /* padding: 1rem; */
 }
+.vcsir-msg-img {
+  width: 10rem;
+
+}
 .vcsir_name {
   font-size: large;
   color: #03174F;

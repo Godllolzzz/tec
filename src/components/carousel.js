@@ -16,6 +16,8 @@ import {
   faVolumeHigh,
   faHighlighter,
 } from "@fortawesome/free-solid-svg-icons";
+import tec_logo1 from "../images/tec_handmade_logo1.png"
+import tec_logo2 from "../images/tec_handmade_logo2.png"
 
 const images = [img2, img3, img4, img5, img6, img7, img8];
 
@@ -68,6 +70,11 @@ const Carousel = () => {
   return (
     <>
       <div className="parent">
+        <div className="carousel-blue-box">
+          <div className="carousel-logo-box">
+            <img src={tec_logo1}></img>
+          </div>
+        </div>
         <div className="carousel-image-container">
           <img
             className="carousel-image"

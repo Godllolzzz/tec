@@ -164,7 +164,7 @@ function NavBar() {
                   <Link to="/our-partners">Our Partners</Link>
                 </li>
                 <li className="dropdown-item">Research Persons</li>
-                <li className="dropdown-item">All DST</li>
+                <li className="dropdown-item"><Link to="/all-tec">Tec team</Link></li>
               </ul>
             </l1>
             {/* <l1 className="navbar-item">Events</l1> */}
@@ -190,7 +190,7 @@ function NavBar() {
               <l1 className="navbar-item">Services</l1>
             </Link>
             {/* <l1 className="navbar-item">Achievements</l1> */}
-            <Link to="/gallery">
+            <Link to="/contact-us">
               <l1 className="navbar-item">Contacts</l1>
             </Link>
           </ul>

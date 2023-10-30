@@ -1,11 +1,11 @@
 import React from "react";
 import "./footer.css";
 import picture from "../images/DST_logo.png";
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import YouTubeIcon from '@mui/icons-material/YouTube';
+import FacebookIcon from "@mui/icons-material/Facebook";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import YouTubeIcon from "@mui/icons-material/YouTube";
 import { Widgets } from "@mui/icons-material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
@@ -14,8 +14,8 @@ const Footer = () => {
   return (
     <footer class="footer-distributed">
       <div class="footer-left">
-        <div style={{backgroundColor:"white", width:"20rem"}}>
-          <img style={{height:"5rem"}} src={picture}></img>
+        <div style={{ backgroundColor: "white", width: "20rem" }}>
+          <img style={{ height: "5rem" }} src={picture}></img>
         </div>
 
         <p class="footer-links">
@@ -47,17 +47,27 @@ const Footer = () => {
         </div>
 
         <div className="footer-phone">
-          <p className="phone-container"><FontAwesomeIcon icon={faPhone} style={{color: "#ffffff",}} /><p className="mbn">+91 9511015157</p></p>
-          <p className="phone-container"><FontAwesomeIcon icon={faPhone} style={{color: "#ffffff",}} /><p className="mbn">+91 9840998686</p></p>
-          <p className="phone-container"><FontAwesomeIcon icon={faPhone} style={{color: "#ffffff",}} /><p className="mbn">+91 9452888176</p></p>
+          <p cl>
+            {" "}
+            <i class="fa fa-phone"></i>+91 9511015157
+          </p>
+          <p cl>
+            {" "}
+            <i class="fa fa-phone"></i>+91 9840998686
+          </p>
+          <p cl>
+            {" "}
+            <i class="fa fa-phone"></i>+91 9452888176
+          </p>
         </div>
 
         <div>
-          <i class="fa fa-envelope"></i>
           <p>
+            <i class="fa fa-envelope"></i>
             <a href="mailto:support@company.com">dsttec.bu@gmail.com</a>
           </p>
           <p>
+            <i class="fa fa-envelope"></i>
             <a href="mailto:support@company.com">tecdst2022@bujhansi.ac.in</a>
           </p>
         </div>
@@ -91,6 +101,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;

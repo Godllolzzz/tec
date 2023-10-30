@@ -1,0 +1,58 @@
+.contact-us-container{
+    padding: 4rem;
+    background-color: #03174fcc;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+
+.contact-us-outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 6rem;
+}
+.contact-us-inner-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-us-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 1rem;
+}
+.contact-us-image-container {
+    /* height: 30rem; */
+    background-image: url("../images/innovation_centre\ \(2\).jpg");
+    background-size: cover;
+}
+.contact-us-logo{
+    background-color: #03174fc4;
+    padding: 2rem;
+    border-radius: 50%;
+}
+.contact-us-inner-container:hover .contact-us-logo{
+    background-color: rgba(255, 217, 0, 0.7);
+}
+.contact-us-main-heading {
+    border-bottom: 1px solid white;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    color: white;
+    font-size: 2.5rem;
+}
+.contact-us-name{
+    font-weight: bold;  
+}
+.contact-us-inner-container:hover .contact-us-name{
+    color: gold;
+}

@@ -1,14 +1,42 @@
-.core-committe{
-    text-align:center ;
-    padding: 2rem;
-}
-.core-heading{
-    text-align: center;
-    font-size: x-large;
-    
-}
-
-.core-committe img{
-    width: 40rem;
-    height: 50rem;
-}
+/* Center the table with margin and add background color */
+.core-committee-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif; /* Change the font-family to your preference */
+  }
+  
+  /* Style table headers */
+  .core-committee-table th {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 12px;
+    font-weight: bold;
+  }
+  
+  /* Style table cells */
+  .core-committee-table td {
+    text-align: left;
+    padding: 12px;
+    font-weight: normal; /* Reset font-weight */
+    font-size: 16px; /* Change the font size to your preference */
+  }
+  
+  /* Alternate row background color for better readability */
+  .core-committee-table tbody tr:nth-child(even) {
+    background-color: #e0e0e0;
+  }
+  
+  /* Highlight rows with no <td> elements */
+  .core-committee-table tbody tr:not(:has(td)) {
+    background-color: #ffcccc; /* Change the background color to your preference */
+  }
+  
+  /* Center text inside table cells */
+  .core-committee-table td {
+    vertical-align: middle;
+  }
+  
