@@ -14,7 +14,7 @@ const Service = () => {
   return (
     <>
       <NavBar />
-      <div className="about-outer">
+      <div className="service-outer">
         <h2 className="service-heading"> Fabrication & Instrumental Services</h2>
         <div
           ref={textRef1}
@@ -32,50 +32,50 @@ const Service = () => {
             </p>
             <ol>
               <li>
-                <b>Rapid Prototyping:</b> BU-TEC provides support to the
+                <b className="points-heading">Rapid Prototyping:</b> BU-TEC provides support to the
                 innovators by helping them in refining their idea to get a
                 better design for better implementation.
               </li>
               <li>
-                <b>Machining and Fabrication:</b> We have Labs equipped with
+                <b className="points-heading">Machining and Fabrication:</b> We have Labs equipped with
                 high end instruments & machinery for better precision during
                 development and assembling components.
               </li>
 
               <li>
-                <b>Material Testing:</b> Innovators can access facilities for
+                <b className="points-heading">Material Testing:</b> Innovators can access facilities for
                 material characterization and testing to ensure the quality and
                 suitability of their materials for their intended applications.
               </li>
 
               <li>
-                <b>Design and Engineering Support:</b> BU-TEC offers expertise
+                <b className="points-heading">Design and Engineering Support:</b> BU-TEC offers expertise
                 in design and engineering, helping innovators refine their
                 product designs and optimize them for manufacturability.
               </li>
               <li>
-                <b>Technical Consultation:</b> Innovators can consult with
+                <b className="points-heading">Technical Consultation:</b> Innovators can consult with
                 experts at TEC to address technical challenges and receive
                 guidance on the fabrication process.
               </li>
               <li>
-                <b>Training and Workshops:</b> BU-TEC organize training
+                <b className="points-heading">Training and Workshops:</b> BU-TEC organize training
                 sessions, workshops, and seminars to enhance the skills of
                 innovators and entrepreneurs in areas related to fabrication and
                 technology.
               </li>
               <li>
-                <b>Access to Advanced Equipment:</b> These centres often provide
+                <b className="points-heading">Access to Advanced Equipment:</b> These centres often provide
                 access to specialized equipment and tools that innovators might
                 not have access to otherwise.
               </li>
               <li>
-                <b>Funding and Grant Assistance:</b> BU-TEC assists innovators
+                <b className="points-heading">Funding and Grant Assistance:</b> BU-TEC assists innovators
                 in identifying funding opportunities and applying for grants or
                 financial support to further develop their innovations.
               </li>
               <li>
-                <b>Market Research and Commercialization Support:</b> BU-TEC
+                <b className="points-heading">Market Research and Commercialization Support:</b> BU-TEC
                 offer assistance in market research, intellectual property
                 protection, and strategies for commercializing innovations.
               </li>
@@ -106,57 +106,57 @@ const Service = () => {
             </p>
             <ol>
               <li>
-                <b>IP Consultation and Guidance:</b> We offer consultations with
+                <b className="points-heading">IP Consultation and Guidance:</b> We offer consultations with
                 experts or IP professionals who can provide guidance on
                 intellectual property matters. This may include advice on
                 patenting, copyright, trademark registration, and trade secrets.
               </li>
               <li>
-                <b>Prior Art Searches:</b> We assist innovators in conducting
+                <b className="points-heading">Prior Art Searches:</b> We assist innovators in conducting
                 prior art searches to determine whether their inventions or
                 innovations are novel and eligible for patent protection.
               </li>
               <li>
-                <b>Patent Drafting:</b> Assistance in drafting and preparing
+                <b className="points-heading">Patent Drafting:</b> Assistance in drafting and preparing
                 patent applications to protect innovative technologies or
                 inventions. This includes ensuring that the patent application
                 meets the requirements of the Indian Patent Act.
               </li>
               <li>
-                <b>IP Workshops and Seminars:</b> BU-TEC organizes workshops,
+                <b className="points-heading">IP Workshops and Seminars:</b> BU-TEC organizes workshops,
                 seminars, and training sessions on various aspects of
                 intellectual property rights, including patenting, copyright,
                 and trademark registration.
               </li>
               <li>
-                <b>IP Strategy Development:</b> Helping innovators and startups
+                <b className="points-heading">IP Strategy Development:</b> Helping innovators and startups
                 develop strategies for protecting their intellectual property
                 assets and managing IP portfolios effectively.
               </li>
               <li>
-                <b>Technology Transfer and Licensing:</b> Facilitating the
+                <b className="points-heading">Technology Transfer and Licensing:</b> Facilitating the
                 transfer or licensing of intellectual property rights to
                 interested parties, such as companies or investors, for
                 commercialization.
               </li>
               <li>
-                <b>Assistance in Filing IP Applications:</b> BU-TEC provides
+                <b className="points-heading">Assistance in Filing IP Applications:</b> BU-TEC provides
                 support in the actual filing of patent, trademark, or copyright
                 applications with the relevant authorities.
               </li>
               <li>
-                <b>IP Awareness Programs:</b> We engage in educational outreach
+                <b className="points-heading">IP Awareness Programs:</b> We engage in educational outreach
                 to raise awareness about the importance of intellectual property
                 rights among innovators and researchers.
               </li>
               <li>
-                <b>IP Commercialization Support:</b> Assisting innovators in
+                <b className="points-heading">IP Commercialization Support:</b> Assisting innovators in
                 identifying potential markets and commercialization
                 opportunities for their IP-protected innovations.
               </li>
               1
               <li>
-                <b>Legal Support:</b> In some cases, BU-TEC have access to legal
+                <b className="points-heading">Legal Support:</b> In some cases, BU-TEC have access to legal
                 experts or law firms specializing in intellectual property law
                 to provide legal advice and support.
               </li>

@@ -5,7 +5,6 @@ import NavBar from "./NavBar";
 import Footer from "./footer";
 import "./home.css";
 import Patents from "./patents";
-import ServiceOverview from "./ServiceOverview";
 import HomeOverview from "./home_overiew";
 
 const Home = () => {
@@ -13,8 +12,6 @@ const Home = () => {
     <>
       <NavBar />
       <Carousel />
-      {/* <Patents />
-      <ServiceOverview /> */}
       <HomeOverview />
       <VCMessage />
       <Footer />

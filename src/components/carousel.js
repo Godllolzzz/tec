@@ -70,11 +70,11 @@ const Carousel = () => {
   return (
     <>
       <div className="parent">
-        <div className="carousel-blue-box">
+        {/* <div className="carousel-blue-box">
           <div className="carousel-logo-box">
             <img src={tec_logo1}></img>
           </div>
-        </div>
+        </div> */}
         <div className="carousel-image-container">
           <img
             className="carousel-image"
