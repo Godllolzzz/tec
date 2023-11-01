@@ -146,7 +146,7 @@ a {
   background-color: gold; /* Set dropdown background color */
 
   padding: 10px;
-  z-index: 1;
+  z-index: 12;
 }
 /* .dropdown:hover{
   display: block;

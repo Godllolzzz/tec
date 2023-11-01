@@ -1,13 +1,14 @@
 import React from "react";
 import NavBar from "./NavBar";
 import Footer from "./footer";
-import firstimg from "../images/logo_.jpg";
-import secondimg from "../images/logo3_.jpg";
-import thirdimg from "../images/logo2_.jpg";
-import fourthimg from "../images/logo1_.jpg";
-import fifthimg from "../images/logo4_.jpg";
-import sixthimg from "../images/logo5_.jpg";
-import seventhimg from "../images/logo6_.jpg";
+import firstimg from "../images/logo_1.png";
+import secondimg from "../images/logo2_.png";
+import thirdimg from "../images/logo3_.png";
+import fourthimg from "../images/logo4_.png";
+import fifthimg from "../images/logo5_.png";
+import sixthimg from "../images/logo6_.png";
+import seventhimg from "../images/logo7_.png";
+import eighthimg from "../images/lavsir.jpg"
 
 
 import "./Pag.css";
@@ -18,58 +19,69 @@ const Pag=()=>{
         <div>
             <NavBar/>
             <div className="pag">
-
+              <h2>PAG Members</h2>
             <div className="pag-logo-1-1-a">
                   <img src={firstimg}></img>
-                  <h3>Prof. Mukesh Pandey </h3>
-                  <h5>Vice Chancellor</h5>
+                  <div>Prof. Mukesh Pandey </div>
+                  <div>Vice Chancellor</div>
                 </div>
 
                <div className="pag-logo-1">
-                <div className="pag-logo-1-1">
-                  <img src={seventhimg}></img>
-                  <h3>Prof. Sunil Kabia </h3>
-                  <h5>Director IQAC, BU Jhansi</h5>
-                </div>
-                <hr style={{border:"2px solid black",height:"15rem",marginTop:"3rem"}}></hr>
                 
-                <div className="pag-logo-1-2">
-                <img src={secondimg}></img>
-                <h3>Prof. B. Gurumoorthy</h3>
+                
+                
+                <div style={{marginLeft:"2rem"}} className="pag-logo-1-1">
+                <img  src={secondimg}></img>
+                <div>Prof. B. Gurumoorthy</div>
+                    </div>
+
+                    <div style={{marginLeft:"7rem"}} className="pag-logo-1-2">
+                  <img src={thirdimg}></img>
+                  <div>Dr. Anita Aggarwal </div>
+                  <div>Department of Science & Technology</div>
+                </div>
+                <div className="pag-logo-1-3">
+                <img src={fourthimg}></img>
+                <div> Dr. Krishna Kanth Pulicherla</div>
+                <div>Department of Science & Technology</div>
+
                     </div>
                </div>
                  
-               <div className="pag-logo-1">
-                <div className="pag-logo-1-1">
-                  <img src={thirdimg}></img>
-                  <h3>Dr. A. Abhyankar</h3>
-                  <h5>TEC Coordinator</h5>
-                  <h5>University of Pune</h5>
-                </div>
-                <hr style={{border:"2px solid black",height:"15rem",marginTop:"3rem"}}></hr>
-                <div className="pag-logo-1-2">
-                <img src={fourthimg}></img>
-                <h3>Prof. Deepak Chitkara</h3>
-                <h5>TEC Coordinator</h5>
-                  <h5>BITS Pilani</h5>
+               <div className="pag-logo-2">
+               <div className="pag-logo-2-1">
+                <img src={fifthimg}></img>
+                <div>Prof. Deepak Chitkara</div>
+                <div>TEC Coordinator</div>
+                  <div>BITS Pilani</div>
                     </div>
+                <div className="pag-logo-2-2">
+                  <img src={sixthimg}></img>
+                  <div>Dr. A. Abhyankar</div>
+                  <div>TEC Coordinator</div>
+                  <div>University of Pune</div>
+                </div>
+
+                <div className="pag-logo-2-3">
+                  <img src={seventhimg}></img>
+                  <div>Dr. Kabia Dube</div>
+                  <div>Director IQAC</div>
+                  <div>Bundelkhand University</div>
+                </div>
+
+                <div className="pag-logo-2-4">
+                  <img src={eighthimg}></img>
+                  <div>Dr. LavKush Diwevedi</div>
+                  <div>TEC Co-Coordinator</div>
+                  <div>Bundelkhand University</div>
+                </div>
+                
+                
                </div>
                
-               <div className="pag-logo-1">
-                <div className="pag-logo-1-1">
-                  <img src={fifthimg}></img>
-                  <h3>Dr. Anita Aggarwal </h3>
-                  <h5>Department of Science & Technology</h5>
-                </div>
-                <hr style={{border:"2px solid black",height:"15rem",marginTop:"3rem"}}></hr>
-                <div className="pag-logo-1-2">
-                <img src={sixthimg}></img>
-                <h3> Dr. Krishna Kanth Pulicherla</h3>
-                <h5>Department of Science & Technology</h5>
-
-                    </div>
+               
                     
-               </div>
+               
               
                 </div>
                   

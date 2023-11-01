@@ -8,6 +8,8 @@ import Patents from "./patents";
 import ServiceOverview from "./ServiceOverview";
 import HomeOverview from "./home_overiew";
 
+import ContactUsHome from "./ContactUsHome";
+
 const Home = () => {
   return (
     <>
@@ -17,6 +19,7 @@ const Home = () => {
       <ServiceOverview /> */}
       <HomeOverview />
       <VCMessage />
+      <ContactUsHome/>
       <Footer />
     </>
   );

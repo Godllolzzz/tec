@@ -8,7 +8,7 @@ const Tec=()=>{
     return(
    <div className="Tec-main-container">
     <NavBar/>
-   <h2 id="Tec-partners-heading">DST TEC PARTNERS</h2>
+   <h2 id="Tec-partners-heading">DST-TEC PARTNERS</h2>
     <div className="Tec-container">
        <div className="row">
         <div className="part-1"><img style={{width:"15rem"}} src="https://kiittec.in/wp-content/uploads/2021/12/KIIT-TEC-Logo.png"></img>

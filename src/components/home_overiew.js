@@ -144,7 +144,9 @@ const HomeOverview = () => {
             <div></div>
           </div>
         </div>
-        <div className="see_more">See More...</div>
+        <div className="see_more">
+        <a href="/patents">See More...</a>
+</div>
       </div>
       {/* partners */}
       <div className="partner-overview-container">

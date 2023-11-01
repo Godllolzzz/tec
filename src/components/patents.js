@@ -3,6 +3,7 @@ import img1 from "../images/patent1.jpg";
 import img2 from "../images/patent2.jpg";
 import img3 from "../images/patent3.jpg";
 import "./patent.css"
+import { Link } from "react-router-dom";
 
 
 const Patents = () => {
@@ -23,7 +24,7 @@ const Patents = () => {
                 <div></div>
             </div>
         </div>
-        <div className="see_more">See More...</div>
+        <div className="see_more"><Link to="/patents">See More...</Link></div>
         </div>
     )
 }

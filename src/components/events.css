@@ -126,6 +126,7 @@
   .timeline-item .descr {
     padding-block-end: 1.5rem;
     font-weight: 300;
+    text-align: justify;
   }
   
   /* Shadows Styles */

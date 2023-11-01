@@ -13,9 +13,9 @@ const OurLeaders=()=>{
             
     <div className="leader-main-container">
             <div className="our-leader-heading">
-                <h2>Our Leaders</h2>
+                Our Leaders
                 </div>
-                <hr style={{width:"60%",border:"1px solid black",marginTop:"2rem"}}></hr>
+                
                 <div className="vcsir1">
                     <div className="vcsir1-logo">
                     <img src={vcsirlogo}></img>
@@ -36,10 +36,10 @@ const OurLeaders=()=>{
                  
                 <div className="vcsir1">
                     <div className="vcsir1-logo">
-                    <img style={{height:"17rem"}} src={lavsirlogo}></img>
+                    <img style={{height:"17rem",width:"23rem"}} src={lavsirlogo}></img>
                     <div className="vcsir1-title">
                     <h3>Dr. Lavkush Dwivedi</h3>
-                    <h4>Co-Ordinator</h4>
+                    <h4>Co-Cordinator</h4>
                     <h4>DST-BU-TEC</h4>
                     </div>
                     </div>

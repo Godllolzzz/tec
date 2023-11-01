@@ -26,6 +26,8 @@ import Gallery from "./components/gallery";
 import Tec from "./components/Tec";
 import SanctionedProjects from "./components/SanctionedProjects";
 import ContactUs from "./components/contactus";
+import ResourcePersons from "./components/ResourcePersons";
+import Patents2 from "./components/Patents2";
 
 function App() {
   return (
@@ -46,6 +48,9 @@ function App() {
           <Route path="/all-tec" element={<Tec />} />
           <Route path="/sanctioned-projects" element={<SanctionedProjects />} />
           <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/Resource-persons" element={<ResourcePersons/>}/>
+          <Route path="/patents" element={<Patents2/>}/>
+          
         </Routes>
 
         {/* <Achievements /> */}

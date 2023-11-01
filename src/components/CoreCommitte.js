@@ -18,7 +18,7 @@ const CoreCommitte = () => {
           </tr>
         </thead>
         <tbody>
-          <tr>TEC Project Management Unit</tr>
+          <tr style={{textAlign:"center"}}>TEC Project Management Unit</tr>
           <tr>
             <td>1.</td>
             <td>
