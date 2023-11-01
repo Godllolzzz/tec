@@ -81,7 +81,7 @@ const VCMessage = () => {
           <br></br>
           <div>Greetings from me and Bundelkhand University!!</div>
           <br></br>
-          {text}
+          <div style={{textAlign:"justify"}}>{text}</div>
         </div>
       </div>
     </>

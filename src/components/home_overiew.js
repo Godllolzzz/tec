@@ -7,8 +7,9 @@ import partner2 from "../images/IndianGrass.jpg";
 import partner3 from "../images/biet.jpg";
 import partner4 from "../images/CentralAgro.jpg";
 import partner5 from "../images/CentralAyurved.jpg";
-import partner6 from "../images/shreebaidyanath.jpg";
-import innovation_image from "../images/innovation_centre (2).jpg";
+import partner6 from "../images/baidyanath_logo.png";
+import partner7 from "../images/bhel logo.png";
+import innovation_image from "../images/innovation_centre__2_.1e7cba71ec612361ba0e-removebg-preview.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBriefcase,
@@ -17,6 +18,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import "./home_overview.css";
 import Grid from "./grid";
+import { Widgets } from "@mui/icons-material";
 
 const HomeOverview = () => {
   return (
@@ -193,11 +195,19 @@ const HomeOverview = () => {
             </div>
           </div>
           <div className="partner-overview-inner-container">
-            <div className="partner-overview-logo">
-              <img src={partner6} alt="partner image"></img>
+            <div style={{width:"7.5rem"}} className="partner-overview-logo">
+              <img style={{width:"100%"}} src={partner6} alt="partner image"></img>
             </div>
             <div className="partner-overview-name">
               Shree Baidyanath Ayurved Bhawan Pvt. Ltd.
+            </div>
+          </div>
+          <div className="partner-overview-inner-container">
+            <div className="partner-overview-logo">
+              <img style={{width:"10rem"}} src={partner7} alt="partner image"></img>
+            </div>
+            <div className="partner-overview-name">
+              Bhartiya Heavy  Electronic Limited, Jhansi
             </div>
           </div>
         </div>
