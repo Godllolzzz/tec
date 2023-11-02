@@ -11,6 +11,7 @@
 .patents2-container{
     display: flex;
     justify-content: space-evenly;
+    gap: 1rem;
     /* padding: 1rem; */
     width: 100%;
 }
@@ -24,8 +25,9 @@
 .patents2-main-heading{
     border-bottom: 1px solid black;
     font-family: 'Montserrat', sans-serif;
-    padding-bottom: 1rem;
-    color: black;
+    padding-bottom: 1rem;    
+  color: #F4C430;
+  text-shadow: 2px 2px 2px #03174f;
     font-size: 2.2rem;
 }
 .see_more{

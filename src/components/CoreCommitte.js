@@ -3,11 +3,15 @@ import committelogo from "../images/CoreCommity.jpg";
 import NavBar from "./NavBar";
 import Footer from "./footer";
 import "./CoreCommitte.css";
+import core_committee_top_image from "../images/core_committee_top_image.jpg"
 
 const CoreCommitte = () => {
   return (
     <div>
       <NavBar />
+      <div className="core-committee-top-image">
+        <img src={core_committee_top_image} alt="core-committee-top-image"></img>
+      </div>
       <h2 className="core-committee-heading"> Core Committee</h2>
       <div className="core-committee-outer">
 

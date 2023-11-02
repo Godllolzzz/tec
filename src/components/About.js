@@ -51,7 +51,7 @@ const About = () => {
         </div>
         <Dst />
         <Butec />
-        <AboutInnovationCentre />
+        {/* <AboutInnovationCentre /> */}
         <h2 className="about-heading">Key Objectives and Activities of TEC</h2>
         <div
           ref={textRef}

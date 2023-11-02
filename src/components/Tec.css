@@ -1,133 +1,126 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
-.Tec-main-container{
-    max-width: 100%;
-    max-height: 100%;
+.Tec-top-image img {
+  width: 100%;
 }
 
-
-#Tec-partners-heading{
-    font-family: 'Montserrat', sans-serif;
-    margin: auto;
-    margin-top: 2rem;
-    font-size: 2.2rem;
-    padding-bottom: 1rem;
-    color: rgb(61, 54, 54);
-    border-bottom: 3px solid black;
-    width: 30%;
+.Tec-image-container img {
+  width: 100%;
 }
 
-.Tec-container{
-    margin: 2rem;
-    width: 95%;
+#Tec-partners-heading {
+  border-bottom: 1px solid rgb(41, 38, 38);
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 1rem;
+  padding-top: 3rem;
+  font-size: 2.2rem;
+  color: #f4c430;
+  text-shadow: 2px 2px 2px #03174f;
+  text-align: center;
+  margin: auto;
+  width: 30%;
 }
 
-.row{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
+.Tec-container {
+  margin: 2rem;
+  width: 95%;
 }
 
-
-.part-1{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    /* border: 2px solid black; */
-    box-shadow: 2px 2px 5px grey;
-
-    margin: 2rem;
-    width: 28%;
-    min-width: 28%;
-    align-items: center;
-
-}
-.part-1:hover{
-    /* transform: scale(1.1); */
-    box-shadow: 5px 5px 10px grey;
+.row {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
 }
 
-.part-1 img{
-    width:10rem;
-    height: 10rem;
-    padding: 2rem;
-    /* margin: 2rem; */
-    
-    
-}
-.part-2{
-    text-align: center;
-    display: flex;
-    flex-direction: column; 
-    /* border: 2px solid black; */
-    box-shadow: 2px 2px 5px grey;
+.part-1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  box-shadow: 2px 2px 5px grey;
 
-    margin: 2rem;
-    width: 28%;
-    min-width: 28%;
-
-    align-items: center;
-    
+  margin: 2rem;
+  width: 28%;
+  min-width: 28%;
+  align-items: center;
 }
-.part-2:hover{
-    /* transform: scale(1.1); */
-    box-shadow: 5px 5px 10px grey;
-}
-.part-2 img{
-    
-    width:10rem;
-    height: 10rem;
-    padding: 2rem;
-
+.part-1:hover {
+  /* transform: scale(1.1); */
+  box-shadow: 5px 5px 10px grey;
 }
 
-.part-3{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    /* border: 2px solid black; */
-    box-shadow: 2px 2px 5px grey;
-    margin: 2rem;
-    width: 28%;
-    min-width: 28%;
-
-    justify-content: center;
-    align-items: center;
+.part-1 img {
+  width: 10rem;
+  height: 10rem;
+  padding: 2rem;
+  /* margin: 2rem; */
 }
-.part-3:hover{
-    /* transform: scale(1.1); */
-    box-shadow: 5px 5px 10px grey;
-}
-.part-3 img{
-    width:10rem;
-    height: 10rem;
-    padding: 2rem;
+.part-2 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  box-shadow: 2px 2px 5px grey;
 
-}
-.row a{
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
+  margin: 2rem;
+  width: 28%;
+  min-width: 28%;
 
-
-.last-tec-1{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    box-shadow: 2px 2px 5px grey;
-    width: 30%;
-    min-width: 30%;
-    align-items: center;
-    
+  align-items: center;
+}
+.part-2:hover {
+  /* transform: scale(1.1); */
+  box-shadow: 5px 5px 10px grey;
+}
+.part-2 img {
+  width: 10rem;
+  height: 10rem;
+  padding: 2rem;
 }
 
-.last-tec-1 a{
-    font-weight: bold;
-    margin-bottom: 1rem;
+.part-3 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  box-shadow: 2px 2px 5px grey;
+  margin: 2rem;
+  width: 28%;
+  min-width: 28%;
+
+  justify-content: center;
+  align-items: center;
+}
+.part-3:hover {
+  /* transform: scale(1.1); */
+  box-shadow: 5px 5px 10px grey;
+}
+.part-3 img {
+  width: 10rem;
+  height: 10rem;
+  padding: 2rem;
+}
+.row a {
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
+.last-tec-1 {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  box-shadow: 2px 2px 5px grey;
+  width: 30%;
+  min-width: 30%;
+  align-items: center;
+}
 
-.last-tec img{
-    width: 13rem;
-    height: 13rem;
+.last-tec-1 a {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.last-tec img {
+  width: 13rem;
+  height: 13rem;
 }

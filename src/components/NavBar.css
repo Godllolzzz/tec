@@ -120,7 +120,7 @@ a {
 .navbar-item:hover {
   cursor: pointer;
   text-shadow: 2px 2px 8px white;
-  font-weight: 500;
+  /* font-weight: 500; */
   /* transform: scale(1.2);  */
 }
 
@@ -146,7 +146,7 @@ a {
   background-color: gold; /* Set dropdown background color */
 
   padding: 10px;
-  z-index: 12;
+  z-index: 1000;
 }
 /* .dropdown:hover{
   display: block;
@@ -163,51 +163,13 @@ a {
   margin: 0.5rem;
   display: block;
   font-size: large;
+  transition: transform 200ms ease-in-out;
   /* font-style: oblique; */
   /* border-bottom: 2px solid white; */
 }
 .dropdown-item a {
   text-decoration: none;
 }
-
-/* Media query for smaller screens (e.g., mobile devices) */
-@media (max-width: 768px) {
-  .bu-tec {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .bu-tec-1, .bu-tec-2 {
-    flex: 1;
-  }
-
-  .logo1, .logo2 {
-    width: 80px;
-    height: 80px;
-  }
-
-  .social-handles {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .social-handle {
-    margin: 5px 10px;
-    font-size: 18px;
-  }
-}
-
-/* Add a media query to adjust styles for smaller screens */
-@media (max-width: 768px) {
-  .navbar-items {
-    flex-direction: column; /* Stack items vertically on smaller screens */
-    align-items: center; /* Center align items on smaller screens */
-  }
-
-  .navbar-item {
-    margin: 5px; /* Reduce spacing between items on smaller screens */
-  }
-
-  /* Add any other responsive styles you need for smaller screens here */
+.dropdown-item:hover {
+transform: translateX(5%);
 }

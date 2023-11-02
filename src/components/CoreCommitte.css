@@ -68,3 +68,11 @@ margin-top: 2rem;
 .core-committee-table td {
   vertical-align: middle;
 }
+
+.core-committee-top-image img {
+  width: 100%;
+}
+
+.core-committee-image-container img {
+  width: 100%;
+}

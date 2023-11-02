@@ -28,6 +28,9 @@ import SanctionedProjects from "./components/SanctionedProjects";
 import ContactUs from "./components/contactus";
 import ResourcePersons from "./components/ResourcePersons";
 import Patents2 from "./components/Patents2";
+import AboutInnovationCentre from "./components/About/about-innovation";
+import ToTPlan from "./components/totplan";
+import TrainingPlan from "./components/training_plan";
 import MoU from "./components/MoU";
 
 function App() {
@@ -39,7 +42,7 @@ function App() {
           <Route path="/about" element={<About />} />
 
           <Route path="/our-leaders" element={<OurLeaders />} />
-          <Route path="/our-committe" element={<CoreCommitte />} />
+          <Route path="/core-committee" element={<CoreCommitte />} />
           <Route path="/pag" element={<Pag />} />
           <Route path="/staff" element={<Staff />} />
           <Route path="/our-partners" element={<Partners />} />
@@ -52,6 +55,10 @@ function App() {
           <Route path="/Resource-persons" element={<ResourcePersons/>}/>
           <Route path="/patents" element={<Patents2/>}/>
           <Route path="/Mou" element={<MoU/>}/>
+          <Route path="/about-innovation-centre" element={<AboutInnovationCentre/>}/>
+          <Route path="/tot-plan" element={<ToTPlan/>}/>
+          <Route path="/training-plan" element={<TrainingPlan/>}/>
+
           
         </Routes>
 
