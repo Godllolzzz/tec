@@ -13,7 +13,6 @@
   align-items: center;
   justify-content: center;
   overflow-x: hidden;
-  padding-top: 2rem;
 }
 
 .service-points {
@@ -36,4 +35,11 @@
 }
 .slide-in {
   transform: translateX(0) !important;
+}
+.service-top-image img {
+  width: 100%;
+}
+
+.service-top-image-container img {
+  width: 100%;
 }

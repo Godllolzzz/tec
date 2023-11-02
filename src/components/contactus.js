@@ -27,7 +27,7 @@ const ContactUs = () => {
                 />
               </div>
               <div className="contact-us-content">
-                <p> Kanpur Road Jhansi, 284001</p>
+                <p> Kanpur Road Jhansi, 284128</p>
                 <p>Uttar Pradesh, India</p>
               </div>
             </div>
@@ -41,9 +41,9 @@ const ContactUs = () => {
                 />
               </div>
               <div className="contact-us-content">
-                <p className="contact-us-name">Dr.Nishtha Vyas:</p>
+                <p className="contact-us-name">Dr.Nishtha Vyas</p>
                 <p style={{ marginTop: "-0.5rem" }}>+91 9511015157</p>
-                <p className="contact-us-name">Dr.Shrikanth Krishnamurthy:</p>
+                <p className="contact-us-name">Dr.Shrikanth Krishnamurthy</p>
                 <p style={{ marginTop: "-0.5rem" }}>+91 9840998686</p>
               </div>
             </div>
@@ -57,7 +57,7 @@ const ContactUs = () => {
                 />
               </div>
               <div className="contact-us-content">
-                <p className="contact-us-name">Dr.Lavkush Dwivedi:</p>
+                <p className="contact-us-name">Dr.Lavkush Dwivedi</p>
                 <p style={{ marginTop: "-0.5rem" }}>lavkush@bujhansi.ac.in</p>
                 <p>dsttec.bu@gmail.com</p>
                 <p>tecdst2022@bujhansi.ac.in</p>

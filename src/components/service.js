@@ -3,6 +3,7 @@ import "./service.css";
 import NavBar from "./NavBar";
 import Footer from "./footer";
 import { useInView } from "react-intersection-observer";
+import service_top_image from "../images/service_top_image.jpg"
 
 const Service = () => {
   const [textRef1, textInView1] = useInView({
@@ -15,6 +16,9 @@ const Service = () => {
     <>
       <NavBar />
       <div className="service-outer">
+      <div className="service-top-image-container">
+        <img src={service_top_image} alt="service-top-image"></img>
+      </div>
         <h2 className="service-heading"> Fabrication & Instrumental Services</h2>
         <div
           ref={textRef1}
