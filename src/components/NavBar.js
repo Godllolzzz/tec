@@ -185,7 +185,7 @@ function NavBar() {
         <li className="dropdown-item"><Link to="/patents ">Patents</Link></li>
         
         <li className="dropdown-item"><a href="#">News Letter</a></li>
-        <li className="dropdown-item"><a href="#">MoU's</a></li>
+        <li className="dropdown-item"><Link to="/Mou">MoU's</Link></li>
 
         
       </ul>

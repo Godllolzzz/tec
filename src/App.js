@@ -28,6 +28,7 @@ import SanctionedProjects from "./components/SanctionedProjects";
 import ContactUs from "./components/contactus";
 import ResourcePersons from "./components/ResourcePersons";
 import Patents2 from "./components/Patents2";
+import MoU from "./components/MoU";
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/Resource-persons" element={<ResourcePersons/>}/>
           <Route path="/patents" element={<Patents2/>}/>
+          <Route path="/Mou" element={<MoU/>}/>
           
         </Routes>
 

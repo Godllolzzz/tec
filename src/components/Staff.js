@@ -1,6 +1,7 @@
 import React from "react";
 import './Staff.css';
-import firststaff from "../images/Nistha_mam.jpg";
+import firststaff from "../images/Nistha_mam.png";
+import secondstaff from "../images/kSrikantsir.jpg"
 import NavBar from "./NavBar";
 import Footer from "./footer";
 
@@ -9,18 +10,25 @@ const Staff=()=>{
     return(
          <div>
             <NavBar/>
+            <div className="staff-main">
+            <div className="Staff-heading">TEC Staff</div>
+            </div>
+            
             <div className="staff-logo-1">
+              
                 <div className="staff-logo-1-1">
                   <img src={firststaff}></img>
-                  <h3>Dr. Nishtha Vyas</h3>
-                  <h5>Principal Project Associate</h5>
-                  <h5>DST-BU-TEC</h5>
+                  <div>Dr. Nishtha Vyas</div>
+                  <div>Principal Project Associate</div>
+                  <div>DST-BU-TEC</div>
                 </div>
-                <hr style={{border:"2px solid black",height:"15rem",marginTop:"3rem"}}></hr>
+                {/* <hr style={{border:"2px solid black",height:"15rem",position:"absolute",left:"50%",bottom:"20%"}}></hr> */}
                 
                 <div className="staff-logo-1-2">
-                <img src="" alt="yet to pe added"></img>
-                <h3>Prof. B. Gurumoorthy</h3>
+                <img src={secondstaff} alt="yet to pe added"></img>
+                <div>Dr. K.Shrikanth</div>
+                <div>Principal Project Associate</div>
+                  <div>DST-BU-TEC</div>
                     </div>
                </div>
                <Footer/>

@@ -60,7 +60,15 @@
     background-color:#03174F ;
     color: white;
     padding: 2rem;
+    position: relative;
     
     box-shadow: 5px 5px 10px #03174F;
     /* width: 60%; */
+}
+
+.partner-link{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    
 }

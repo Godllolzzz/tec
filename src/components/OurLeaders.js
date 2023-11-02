@@ -21,7 +21,7 @@ const OurLeaders=()=>{
                     <img src={vcsirlogo}></img>
                     <div className="vcsir1-title">
                     <h3>Prof. Mukesh Pandey</h3>
-                    <h4>Vice Chancellor</h4>
+                    <h4> Hon'ble Vice-Chancellor</h4>
                     <h4>Bundelkhand University</h4>
                     </div>
                     </div>

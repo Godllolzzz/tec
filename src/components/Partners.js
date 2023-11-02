@@ -9,6 +9,8 @@ import logo4 from "../images/CentralAgro.jpg";
 import logo5 from "../images/CentralAyurved.jpg";
 import logo6 from "../images/baidyanath_logo.png";
 import logo7 from "../images/bhel logo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 
 const Partners = () => {
   return (
@@ -18,7 +20,7 @@ const Partners = () => {
         <h1 className="partners-heading">Our Partners</h1>
         <div className="partners">
           <div className="partner-logo">
-            <img src={logo1}></img>
+           <img src={logo1}></img>
           </div>
           <div className="partner-detail">
             <div className="partner-title">
@@ -28,6 +30,9 @@ const Partners = () => {
             </div>
             {/* <hr style={{width:"60%",border:"2px solid black",marginTop:"2rem"}}></hr> */}
             <div className="partner-content">
+              <div className="partner-link">
+                <a href="http://www.rlbcau.ac.in/">
+            <FontAwesomeIcon  icon={faExternalLinkAlt} style={{color: "gold"}} /></a></div>
               <p>
                 {" "}
                 RLBCAU is dedicated to agricultural education, research, and
@@ -54,6 +59,9 @@ const Partners = () => {
             </div>
             {/* <hr style={{width:"60%",border:"2px solid black",marginTop:"2rem"}}></hr> */}
             <div className="partner-content">
+            <div className="partner-link">
+              <a href="https://igfri.icar.gov.in/">
+            <FontAwesomeIcon  icon={faExternalLinkAlt} style={{color: "gold"}} /></a></div>
               <p>
                 {" "}
                 The primary focus of IGFRI is on research related to grasslands,
@@ -81,6 +89,9 @@ const Partners = () => {
             </div>
             {/* <hr style={{width:"60%",border:"2px solid black",marginTop:"2rem"}}></hr> */}
             <div className="partner-content">
+            <div className="partner-link">
+              <a href="http://bietjhs.ac.in/">
+            <FontAwesomeIcon  icon={faExternalLinkAlt} style={{color: "gold"}} /></a></div>
               <p>
                 The Bundelkhand Institute of Engineering & Technology (BIET) is
                 an engineering and technology institute located in Jhansi, Uttar
@@ -110,6 +121,9 @@ const Partners = () => {
             </div>
             {/* <hr style={{width:"60%",border:"2px solid black",marginTop:"2rem"}}></hr> */}
             <div className="partner-content">
+            <div className="partner-link">
+              <a href="https://cafri.icar.gov.in/">
+            <FontAwesomeIcon  icon={faExternalLinkAlt} style={{color: "gold"}} /></a></div>
               <p>
                 CAFRI's primary objective is to conduct research and provide
                 technical support and guidance in the field of agroforestry.
@@ -133,6 +147,9 @@ const Partners = () => {
             </div>
             {/* <hr style={{width:"60%",border:"2px solid black",marginTop:"2rem"}}></hr> */}
             <div className="partner-content">
+            <div className="partner-link">
+              <a href="http://www.ccras.nic.in/content/regional-ayurveda-research-institute-jhansi">
+            <FontAwesomeIcon  icon={faExternalLinkAlt} style={{color: "gold"}} /></a></div>
               <p>
                 {" "}
                 CARI is one of several research institutes under the Central
@@ -161,6 +178,9 @@ const Partners = () => {
             </div>
             {/* <hr style={{width:"60%",border:"2px solid black",marginTop:"2rem"}}></hr> */}
             <div className="partner-content">
+            <div className="partner-link">
+              <a href="https://www.baidyanath.co.in/">
+            <FontAwesomeIcon  icon={faExternalLinkAlt} style={{color: "gold"}} /></a></div>
               <p>
                 Shree Baidyanath Ayurved Bhawan Pvt. Ltd. is a well-known
                 Ayurvedic pharmaceutical company based in India. It is one of
@@ -182,6 +202,9 @@ const Partners = () => {
             </div>
             {/* <hr style={{width:"60%",border:"2px solid black",marginTop:"2rem"}}></hr> */}
             <div className="partner-content">
+            <div className="partner-link">
+              <a href="https://www.bhel.com/">
+            <FontAwesomeIcon  icon={faExternalLinkAlt} style={{color: "gold"}} /></a></div>
               <p>
                 Bharat Heavy Electricals Limited (BHEL) in Jhansi is a
                 significant industrial entity and a branch of BHEL, a renowned

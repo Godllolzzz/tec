@@ -1,13 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+
+.staff-main{
+    text-align: center;
+}
+.Staff-heading{
+    border-bottom: 1px solid rgb(41, 38, 38);
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 1rem;
+  color: #F4C430;
+  text-shadow: 2px 2px 2px #03174f;
+  font-size: 2.2rem;
+  width: 25%;
+  margin: auto;
+  
+  padding-top: 3rem;
+}
+
+
 .staff-logo-1{
     display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 5rem;
+    /* position: relative; */
 }
 .staff-logo-1-1{
-    margin: auto;
+    padding: 1rem;
+    background-color: rgb(249, 221, 168);
+    
     
 }
+.staff-logo-1-1 img{
+    width: 280px;
+    height: 320px;
+    
+}
+
 .staff-logo-1-2{
-    margin: auto;
+    padding: 1rem;
+    background-color: rgb(249, 221, 168);
+}
+
+.staff-logo-1-2 img{
+    width: 230px;
+    height: 270px;
+    padding: 2rem;
+    
 }

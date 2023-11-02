@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
 
-.resource-person-heading {
+.Mou-heading {
   border-bottom: 1px solid rgb(41, 38, 38);
   font-family: "Montserrat", sans-serif;
   padding-bottom: 1rem;
@@ -10,10 +10,11 @@
   width:25%;
   margin: auto;
   padding-top: 3rem;
+  text-align: center;
 }
 
 
-.resource-logo img{
+.Mou-logo img{
   width: 100%;
   height: 35rem;
   
