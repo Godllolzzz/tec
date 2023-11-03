@@ -3,6 +3,7 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import "./carousel.css"; // Import your CSS file for carousel styling
 // import img1 from "../images/GandhiAuditorium.jpeg";
+import img1 from "../images/about-top-image.jpg";
 import img2 from "../galleryimage/DSC_0491.JPG";
 import img3 from "../galleryimage/A7403529.JPG";
 import img4 from "../galleryimage/A7403304.JPG";
@@ -10,16 +11,18 @@ import img5 from "../galleryimage/A7402379.JPG";
 import img6 from "../galleryimage/A7402281.JPG";
 import img7 from "../images/innovation_center.jpeg";
 import img8 from "../images/innovation_centre (2).jpg";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCalendar,
   faVolumeHigh,
   faHighlighter,
 } from "@fortawesome/free-solid-svg-icons";
-import tec_logo1 from "../images/tec_handmade_logo1.png"
-import tec_logo2 from "../images/tec_handmade_logo2.png"
+import tec_logo1 from "../images/tec_handmade_logo1.png";
+import tec_logo2 from "../images/tec_handmade_logo2.png";
+import TypeWriter from "./Typewriter";
 
-const images = [img2, img3, img4, img5, img6, img7, img8];
+const images = [img1, img2, img3, img4, img5, img6, img7, img8];
 
 const Carousel = () => {
   const [isEventOpen, setIsEventOpen] = useState(false);
@@ -75,6 +78,16 @@ const Carousel = () => {
             <img src={tec_logo1}></img>
           </div>
         </div> */}
+        <div
+          style={{
+            position: "absolute",
+            zIndex: "101",
+            bottom: "3rem",
+            right: "3rem",
+          }}
+        >
+          <TypeWriter />
+        </div>
         <div className="carousel-image-container">
           <img
             className="carousel-image"

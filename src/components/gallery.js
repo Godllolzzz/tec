@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./gallery.css";
 import NavBar from "./NavBar";
 import Footer from "./footer";
+import GalleryImage from "./gallery_img";
 import img1 from "../galleryimage/A7402274.JPG";
 import img2 from "../galleryimage/A7402281.JPG";
 import img3 from "../galleryimage/A7402357.JPG";
@@ -16,16 +17,11 @@ import img11 from "../galleryimage/A7403410.JPG";
 import img12 from "../galleryimage/A7403494.JPG";
 import img13 from "../galleryimage/A7403501.JPG";
 import img14 from "../galleryimage/A7403529.JPG";
-import img15 from "../galleryimage/DSC_0491.JPG";
 import img16 from "../galleryimage/DSC_0492.JPG";
-import img17 from "../galleryimage/DSC_0493.JPG";
 import img18 from "../galleryimage/DSC_0494.JPG";
 import img19 from "../galleryimage/DSC_0495.JPG";
 import img20 from "../galleryimage/DSC_0496.JPG";
 import img21 from "../galleryimage/DSC_0497.JPG";
-import img22 from "../galleryimage/DSC_0498.JPG";
-import img23 from "../galleryimage/DSC_0499.JPG";
-import img24 from "../galleryimage/DSC_0500.JPG";
 import img25 from "../galleryimage/DSC_0501.JPG";
 import img26 from "../galleryimage/DSC_0502.JPG";
 import img27 from "../galleryimage/DSC_0503.JPG";
@@ -44,133 +40,54 @@ import img48 from "../galleryimage/DSC_0524.JPG";
 import img49 from "../galleryimage/DSC01400.JPG";
 
 const Gallery = () => {
+  const [isImgOpen, setIsImgOpen] = useState(null);
+  let image_array = [
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
+    img9,
+    img10,
+    img11,
+    img12,
+    img13,
+    img14,
+    img16,
+    img18,
+    img19,
+    img21,
+    img28,
+    img37,
+    img38,
+    img39,
+    img40,
+    img46,
+    img47,
+    img48,
+    img49,
+  ];
   return (
     <>
       <NavBar />
+      {isImgOpen && (
+        <GalleryImage image={isImgOpen} onClose={() => setIsImgOpen(null)} />
+      )}
       <div className="gallery-parent">
         <div className="gallery-heading">TEC Gallery</div>
         <div className="grid-container">
-          <div className="grid-item">
-            <img src={img1}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img2}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img3}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img4}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img5}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img6}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img7}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img8}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img9}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img10}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img11}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img12}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img13}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img14}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img15}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img16}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img17}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img18}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img19}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img20}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img21}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img22}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img23}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img24}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img25}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img26}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img27}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img28}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img29}></img>
-          </div>
-
-          <div className="grid-item">
-            <img src={img37}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img38}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img39}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img40}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img43}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img44}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img45}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img46}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img47}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img48}></img>
-          </div>
-          <div className="grid-item">
-            <img src={img49}></img>
-          </div>
+          {image_array.map((img) => (
+            <div
+              onClick={() => {
+                setIsImgOpen(img);
+              }}
+              className="grid-item"
+            >
+              <img src={img}></img>
+            </div>
+          ))}
         </div>
       </div>
       <Footer />

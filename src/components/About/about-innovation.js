@@ -13,7 +13,7 @@ import eqp4 from "../../images/eqp4.jpg"
 import eqp5 from "../../images/eqp5.jpg"
 import eqp6 from "../../images/eqp6.jpg"
 import mm_sir from "../../images/mm_sir.jpg"
-import luv_sir from "../../images/luv_sir.jpg"
+import lav_sir from "../../images/luv_sir.jpg"
 import about_innovation_top_image from "../../images/about-innovation-top-image.jpg"
 
 const AboutInnovationCentre = (props) => {
@@ -277,8 +277,8 @@ const AboutInnovationCentre = (props) => {
           <p className="about-innovation-position">Dean Engineering</p>
         </div>
         <div className="about-innovation-bottom-image">
-          <img src={luv_sir} style={{width:"100%"}} alt="luv_sir"></img>
-          <div className="about-innovation-name">Dr.Luvkush Dwivedi</div>
+          <img src={lav_sir} style={{width:"100%"}} alt="lav_sir"></img>
+          <div className="about-innovation-name">Dr.Lavkush Dwivedi</div>
           <p className="about-innovation-position">Coordinator</p>
           <p className="about-innovation-position">Innovation Centre</p>
         </div>

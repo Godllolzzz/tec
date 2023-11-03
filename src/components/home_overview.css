@@ -92,8 +92,9 @@
 .service-overview-heading {
   color: #03174F;
   margin: 1rem 1rem 0rem 1rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   text-align: center;
+  font-weight: bold;
 }
 .service-overview-content {
   color: #03174F;
