@@ -8,12 +8,14 @@ import Patents from "./patents";
 import HomeOverview from "./home_overiew";
 
 import ContactUsHome from "./ContactUsHome";
+import VideoPlayer from "./VideoPlayer";
 
 const Home = () => {
   return (
     <>
       <NavBar />
       <Carousel />
+      <VideoPlayer videoId="M3ygFVrfR6E?si=3hj0krRt9Yp8AeTJ" />
       <HomeOverview />
       <VCMessage />
       <ContactUsHome/>

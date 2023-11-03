@@ -12,9 +12,9 @@ import eqp3 from "../../images/eqp3.jpg"
 import eqp4 from "../../images/eqp4.jpg"
 import eqp5 from "../../images/eqp5.jpg"
 import eqp6 from "../../images/eqp6.jpg"
-import mm_sir from "../../images/mm_sir.jpg"
-import lav_sir from "../../images/luv_sir.jpg"
-import about_innovation_top_image from "../../images/about-innovation-top-image.jpg"
+import mm_sir from "../../images/mm_sir__1_-removebg-preview.png"
+import lav_sir from "../../images/luv_sir (1).jpg"
+import about_innovation_top_image from "../../images/service_top_image.jpg"
 
 const AboutInnovationCentre = (props) => {
   const [textRef, textInView] = useInView({
@@ -160,34 +160,7 @@ const AboutInnovationCentre = (props) => {
         )}
         {isOpen && (
           <div className="about-innovation-images">
-            {/* <div
-              style={{ borderRight: "4px solid #03174F" }}
-              ref={imageRef}
-              className={`about-innovation-img ${
-                imageInView ? "slide-in" : ""
-              }`}
-            >
-              <img
-                style={{ height: "100%", width: "100%" }}
-                src={eqp1}
-                alt="DST TEC Logo"
-              />
-            </div> */}
-            {/* <div
-              style={{ borderRight: "4px solid #03174F" }}
-              ref={imageRef}
-              className={`about-innovation-img ${
-                imageInView ? "slide-in" : ""
-              }`}
-            >
-              <img
-                style={{ height: "100%", width: "100%" }}
-                src={eqp2}
-                alt="DST TEC Logo"
-              />
-            </div> */}
             <div
-              style={{ borderRight: "4px solid #03174F" }}
               ref={imageRef}
               className={`about-innovation-img ${
                 imageInView ? "slide-in" : ""
@@ -200,7 +173,6 @@ const AboutInnovationCentre = (props) => {
               />
             </div>
             <div
-              style={{ borderRight: "4px solid #03174F" }}
               ref={imageRef}
               className={`about-innovation-img ${
                 imageInView ? "slide-in" : ""
@@ -213,7 +185,18 @@ const AboutInnovationCentre = (props) => {
               />
             </div>
             <div
-              style={{ borderRight: "4px solid #03174F" }}
+              ref={imageRef}
+              className={`about-innovation-img ${
+                imageInView ? "slide-in" : ""
+              }`}
+            >
+              <img
+                style={{ height: "100%", width: "100%" }}
+                src={eqp4}
+                alt="DST TEC Logo"
+              />
+            </div>
+            <div
               ref={imageRef}
               className={`about-innovation-img ${
                 imageInView ? "slide-in" : ""
@@ -226,7 +209,6 @@ const AboutInnovationCentre = (props) => {
               />
             </div>
             <div
-              style={{ borderRight: "4px solid #03174F" }}
               ref={imageRef}
               className={`about-innovation-img ${
                 imageInView ? "slide-in" : ""
@@ -268,6 +250,58 @@ const AboutInnovationCentre = (props) => {
           )}
         </div>
       </div>
+      {isOpen && (
+          <div className="about-innovation-row-images">
+            <div
+              ref={imageRef}
+              className={`about-innovation-row-img ${
+                imageInView ? "slide-in" : ""
+              }`}
+            >
+              <img
+                style={{ height: "100%", width: "100%" }}
+                src={eqp3}
+                alt="DST TEC Logo"
+              />
+            </div>
+            <div
+              ref={imageRef}
+              className={`about-innovation-row-img ${
+                imageInView ? "slide-in" : ""
+              }`}
+            >
+              <img
+                style={{ height: "100%", width: "100%" }}
+                src={eqp4}
+                alt="DST TEC Logo"
+              />
+            </div>
+            <div
+              ref={imageRef}
+              className={`about-innovation-row-img ${
+                imageInView ? "slide-in" : ""
+              }`}
+            >
+              <img
+                style={{ height: "100%", width: "100%" }}
+                src={eqp5}
+                alt="DST TEC Logo"
+              />
+            </div>
+            <div
+              ref={imageRef}
+              className={`about-innovation-row-img ${
+                imageInView ? "slide-in" : ""
+              }`}
+            >
+              <img
+                style={{ height: "100%", width: "100%" }}
+                src={eqp6}
+                alt="DST TEC Logo"
+              />
+            </div>
+          </div>
+        )}
       {!isOpen && (<div className="about-innovation-bottom-images">
         <div className="about-innovation-bottom-image">
           <img src={mm_sir} style={{width:"100%"}} alt="mm_sir"></img>

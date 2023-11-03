@@ -9,8 +9,7 @@ import img3 from "../galleryimage/A7403529.JPG";
 import img4 from "../galleryimage/A7403304.JPG";
 import img5 from "../galleryimage/A7402379.JPG";
 import img6 from "../galleryimage/A7402281.JPG";
-import img7 from "../images/innovation_center.jpeg";
-import img8 from "../images/innovation_centre (2).jpg";
+import img7 from "../images/innovation_centre (2).jpg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -22,7 +21,7 @@ import tec_logo1 from "../images/tec_handmade_logo1.png";
 import tec_logo2 from "../images/tec_handmade_logo2.png";
 import TypeWriter from "./Typewriter";
 
-const images = [img1, img2, img3, img4, img5, img6, img7, img8];
+const images = [img1, img2, img3, img4, img5, img6, img7];
 
 const Carousel = () => {
   const [isEventOpen, setIsEventOpen] = useState(false);
