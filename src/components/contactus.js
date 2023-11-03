@@ -58,9 +58,10 @@ const ContactUs = () => {
               </div>
               <div className="contact-us-content">
                 <p className="contact-us-name">Dr.Lavkush Dwivedi</p>
-                <p style={{ marginTop: "-0.5rem" }}>lavkush@bujhansi.ac.in</p>
-                <p>dsttec.bu@gmail.com</p>
-                <p>tecdst2022@bujhansi.ac.in</p>
+                <a href="mailto:lavkush@bujhansi.ac.in" style={{ marginTop: "-0.5rem", textDecoration:"none", color:"white"}}>lavkush@bujhansi.ac.in</a>
+                <a href="mailto:dsttec.bu@gmail.com" style={{marginTop: "0.5rem", textDecoration:"none", color:"white"}}>dsttec.bu@gmail.com</a>
+                <a href="mailto:tecdst2022@bujhansi.ac.in" style={{marginTop: "0.5rem", textDecoration:"none", color:"white"}}>tecdst2022@bujhansi.ac.in</a>
+                <p></p>
               </div>
             </div>
           </div>

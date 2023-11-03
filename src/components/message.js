@@ -73,7 +73,7 @@ const VCMessage = () => {
               <img className="vcsir-msg-img" src={img1} alt="VC" />
             </div>
             <div className="vcsir_name">Prof. Mukesh Pandey</div>
-            <div className="vcsir_intro">Vice Chancellor</div>
+            <div className="vcsir_intro">Hon'ble Vice Chancellor</div>
           </div>
         </div>
         <div className="inner2">

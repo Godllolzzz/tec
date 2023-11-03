@@ -32,8 +32,8 @@ const HomeOverview = () => {
         <div className="about-overview-right">
           <div className="about-overview-main-heading">About Us</div>
           <div className="about-overview-content">
-            The DST's establishment in May 1971 reflects the Indian government's
-            commitment to advancing science and technology as a means of
+            The DST's establishment in May 1971 reflects the Indian Government's
+            commitment to advancing Science and Technology as a means of
             fostering national development and innovation. The objectives of
             DST, as you mentioned, encompass a wide range of activities aimed at
             promoting and coordinating scientific and technological endeavours

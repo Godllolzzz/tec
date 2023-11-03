@@ -64,12 +64,12 @@ function NavBar() {
       <div className="top-heading">
         <div className="bu_name">
           <div id="bu_name_first">BUNDELKHAND</div>
-          <div id="bu_name_second">UNIVERSITY</div>
+          <div id="bu_name_second">UNIVERSITY,</div>
           <div id="bu_name_third">JHANSI</div>
         </div>
         <div className="bu_details">
-          NAAC Accredited | NIRF ranked, ISO certified | (UGC-12(b) | 2(f)
-          category State University of U.P. | AISHE Code: U-0502)
+          NAAC Accredited | NIRF ranked, ISO certified | UGC-12(b) 2(f)
+          category State University of U.P. | AISHE Code: U-0502
         </div>
       </div>
       {/* bu-tec */}
@@ -155,7 +155,7 @@ function NavBar() {
                 style={{ display: `${isAboutVisible ? "block" : "none"}` }}
               >
                 <li className="dropdown-item">
-                  <Link to="/about">About Bu TEC </Link>
+                  <Link to="/about">About BU TEC </Link>
                 </li>
                 <li className="dropdown-item">
                   <Link to="/about-innovation-centre">Innovation Centre</Link>{" "}
@@ -213,13 +213,6 @@ function NavBar() {
         
         <li className="dropdown-item"><a href="#">News Letter</a></li>
         <li className="dropdown-item"><Link to="/Mou">MoU's</Link></li>
-
-                <li className="dropdown-item">
-                  <a href="#">News Letter</a>
-                </li>
-                <li className="dropdown-item">
-                  <a href="#">MoU's</a>
-                </li>
               </ul>
             </l1>
             {/* <l1 className="navbar-item">Contacts</l1> */}
