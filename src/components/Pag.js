@@ -63,7 +63,7 @@ const Pag=()=>{
                   <div>University of Pune</div>
                 </div> 
 
-                 <div className="pag-logo-2-3">
+                 {/* <div className="pag-logo-2-3">
                   <img src={seventhimg}></img>
                   <div><b>Prof. Sunil Kabia</b></div>
                   <div>Director IQAC</div>
@@ -76,7 +76,7 @@ const Pag=()=>{
                   <div>TEC Co-Coordinator</div>
                   <div>Bundelkhand University</div>
                 </div> 
-                
+                 */}
                 
                 </div> 
                

@@ -57,14 +57,17 @@
     margin: auto;
     background-color: rgb(245, 237, 189);
     /* background-color: #00929C; */
-    width: 40%;
+    width: 30%;
     margin-top: 2rem;
     border-radius: 20px;
+    padding:  2rem;
+    box-shadow: 2px 2px 5px rgba(255, 217, 0, 0.833);
 }
 .pag-logo-1-1-a img{
     width: 14rem;
     height: 17rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
+    /* margin-top: 3rem; */
 
 }
 

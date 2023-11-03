@@ -48,6 +48,7 @@
   background-color: #03174f;
   color: white;
   padding: 2rem;
+}
 
 .partner-content{
     background-color:#03174F ;
@@ -61,10 +62,8 @@
 
 .partner-link{
     position: absolute;
-    top: 1rem;
+  top: 1rem;
     right: 1rem;
+}
     
-}
-  box-shadow: 5px 5px 10px #03174f;
-  /* width: 60%; */
-}
+

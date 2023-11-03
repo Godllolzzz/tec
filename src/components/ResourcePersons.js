@@ -31,20 +31,20 @@ const ResourcePersons = () => {
             Prof. A.C. Pandey  
              
             </td>
-            <td>Institute of Earth Science</td>
+            <td>IUAC, New Delhi</td>
           </tr>
           <tr>
             <td>2.</td>
             <td>
             Prof. Anand Kar 
             </td>
-            <td>Institute of Management</td>
+            <td>DAVV, Indore</td>
 
           </tr>
           <tr>
             <td>3.</td>
             <td>Prof. U.N. Dwivedi </td>
-            <td>Institute of Architecture and Town planning</td>
+            <td>Lucknow University</td>
 
           </tr>
           
@@ -52,34 +52,34 @@ const ResourcePersons = () => {
           <tr>
             <td>4.</td>
             <td>Prof. Yogesh C. Goswami</td>
-            <td>Institute of Environmental Science</td>
+            <td>ITM University, Gwalior</td>
           </tr>
           <tr>
           <td>5.</td>
             <td>Dr. D. Harnath </td>
-            <td>Institute of Education</td>
+            <td>NIT, Warangal</td>
           </tr>
           <tr>
             <td>6.</td>
             <td>Dr. Mukesh K. Meghvanshi </td>
-            <td>Dept. of Physics</td>
+            <td>DRDE, Gwalior</td>
           </tr>
           
           <tr>
             <td>7.</td>
             <td>Dr. Naveen Dhingra </td>
-            <td>Institute of Pharmacy</td>
+            <td>Medicap University, Indore</td>
           </tr>
 <tr>
             <td>8.</td>
             <td>Dr. Ranjana Goswami  </td>
-            <td>Dept. of Microbiology</td>
+            <td>ITM University, Gwalior</td>
           </tr>
           
           <tr>
             <td>9.</td>
             <td>Dr. Vinit Kumar  </td>
-            <td>Institute of Forensic Science & Criminology</td>
+            <td>BBACU, Lucknow</td>
           </tr>
           
            
