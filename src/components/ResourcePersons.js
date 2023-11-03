@@ -13,14 +13,14 @@ const ResourcePersons = () => {
       <div className="resource-logo">
         <img src={resourcelogo} alt="reloaded"></img>
       </div>
-      <h2 className="resource-person-heading">External Experts</h2>
+      <h2 className="resource-person-heading">External Resource Persons</h2>
 
       <table className="core-committee-table" border="1">
         <thead>
           <tr>
             <th>S.No.</th>
-            <th>Resource Persorns</th>
-            <th>Affilation</th>
+            <th>Resource Persons</th>
+            <th>Affiliation</th>
           </tr>
         </thead>
         <tbody>
@@ -70,14 +70,9 @@ const ResourcePersons = () => {
             <td>Dr. Naveen Dhingra </td>
             <td>Medicap University, Indore</td>
           </tr>
-<tr>
-            <td>8.</td>
-            <td>Dr. Ranjana Goswami  </td>
-            <td>ITM University, Gwalior</td>
-          </tr>
-          
+
           <tr>
-            <td>9.</td>
+            <td>8.</td>
             <td>Dr. Vinit Kumar  </td>
             <td>BBACU, Lucknow</td>
           </tr>
@@ -91,14 +86,14 @@ const ResourcePersons = () => {
         </tbody>
       </table>
 
-      <h2 className="resource-person-heading">Internal Experts</h2>
+      <h2 className="resource-person-heading">Internal Resource Persons</h2>
       
       <table className="core-committee-table" border="1">
         <thead>
           <tr>
             <th>S.No.</th>
-            <th>Resource Persorns</th>
-            <th>Affilation</th>
+            <th>Resource Persons</th>
+            <th>Affiliation</th>
           </tr>
         </thead>
         <tbody>

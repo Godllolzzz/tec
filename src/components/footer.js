@@ -57,8 +57,8 @@ const Footer = () => {
       <div class="footer-center">
         <div>
           <i class="fa fa-map-marker"></i>
-          <p>
-            <span>Kanpur Road Jhansi, 284001</span> Uttar Pradesh, India
+          <p>Bundelkhand University
+            <span>Kanpur Road Jhansi, 284128</span> Uttar Pradesh, India
           </p>
         </div>
 

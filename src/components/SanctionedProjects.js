@@ -18,7 +18,7 @@ const SanctionedProjects = () => {
         <>
             <NavBar />
             <div className="sanctioned-main-container">
-                <h1>Sanctioned-Projects</h1>
+                <h1>Sanctioned Projects</h1>
                 <div className="sanctioned-container">
 
                     <div className="project-logo">
@@ -26,7 +26,7 @@ const SanctionedProjects = () => {
                         <img src={project11}></img>
                     </div>
                     <div className="project-content">
-                        <h2>Identify student's mental Stress - Dr Kavya Dube</h2>
+                        <h2>IDENTIFY STUDENT'S MENTAL STRESS <br></br> PI- DR. KAVYA DUBE</h2>
                         <p><b>Introduction : </b>
 
                             Mental health is a growing concern among students, with studies showing that many college and university students experience mental health challenges such as anxiety and depression. Early detection and intervention of these challenges can help students manage their stress and anxiety, improving their academic performance and overall quality of life. This proposal presents a machine learning-based app that can identify students' mental stress by building models and predicting students’ mental stress levels and well-being.
@@ -47,7 +47,8 @@ const SanctionedProjects = () => {
                         <img src={project22}></img>
                     </div>
                     <div className="project-content">
-                        <h2>Market Research of a Locality for the Development of Online Bridging Tool between Working and Non-Working Population and the Extent of Employment – Dr. Shambhunath Singh </h2>
+                        <h2>MARKET RESEARCH OF A LOCALITY FOR THE DEVELOPMENT OF ONLINE BRIDGING TOOL BETWEEN WORKING AND NON-WORKING POPULATION AND THE EXTENT OF EMPLOYMENT<br></br>
+                        PI – DR. SHAMBHUNATH SINGH </h2>
                         <p><b>Introduction : </b>
 
                             We know that people have their unlimited wants. If one want is completed other is automatically created and it is going continuously. Due to this economic activity and economic process is going on. As population is increasing day by day so the demand of the general services also increases. To complete these at time bound at reasonable charges is the main challenges at national as well as international level. To complete this we have created so many employment opportunities and help to India to become self-reliant this is the main need of the hour. The overall purpose of this market research is study to develop a bridging tool to fulfil the demand of the nonworking population by the working population.
@@ -80,7 +81,8 @@ const SanctionedProjects = () => {
                         <img src={project33}></img>
                     </div>
                     <div className="project-content">
-                        <h2>Studies on Wound Healing and Anti-Inflammatory Potential of Polyherbal Formulation using in vitro and in vivo Assays in swiss Albino Rats – Dr. Bhawna Sharma
+                        <h2>STUDIES ON WOUND HEALING AND ANTI-INFLAMMATORY POTENTIAL OF POLYHERBAL FORMULATION USING IN VITRO AND IN VIVO ASSAYS IN SWISS ALBINO RATS <br></br> 
+                        PI– DR. BHAWNA SHARMA
 
                         </h2>
                         <p><b>Introduction : </b>
@@ -129,7 +131,8 @@ const SanctionedProjects = () => {
                         <img src={project44}></img>
                     </div>
                     <div className="project-content">
-                        <h2>Problems and Prospects of MSME: An Empirical Investigation of Bundelkhand Region of Uttar Pradesh - Dr. Era Tiwari
+                        <h2>PROBLEMS AND PROSPECTS OF MSME: AN EMPIRICAL INVESTIGATION OF BUNDELKHAND REGION OF UTTAR PRADESH <br></br>
+                        PI- DR. ERA TIWARI
 
                         </h2>
                         <p><b>Introduction : </b>
@@ -179,7 +182,8 @@ attempts to cover both in order to get a realistic overview of the scenario.
                         <img src={project5}></img>
                     </div>
                     <div className="project-content">
-                        <h2>Studies on Wound Healing and Anti-Inflammatory Potential of Polyherbal Formulation using in vitro and in vivo Assays in swiss Albino Rats – Dr. Bhawna Sharma
+                        <h2>A SAFTEY SYSTEM FOR WEARABLE HELMETS<br></br>
+                        PI- DR. ROHIT PEARDON
 
                         </h2>
                         <p><b>Introduction : </b>

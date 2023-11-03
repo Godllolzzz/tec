@@ -83,7 +83,7 @@ const Carousel = () => {
             position: "absolute",
             zIndex: "101",
             bottom: "3rem",
-            right: "3rem",
+            left: "15rem",
           }}
         >
           <TypeWriter />

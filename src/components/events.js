@@ -32,7 +32,7 @@ function Events() {
                 className="timeline-item"
                 style={{ "--accent-color": "#41516C" }}
               >
-                <div className="date">November 23th - 27th, 2023</div>
+                <div className="date">November 23 to 27, 2023</div>
                 <div className="title">
                   {" "}
                   The two-day event was marked by spirited discussions,
@@ -44,7 +44,7 @@ function Events() {
                 className="timeline-item"
                 style={{ "--accent-color": "#FBCA3E" }}
               >
-                <div className="date">December 1th - 6th, 2023</div>
+                <div className="date">December 1 to 6, 2023</div>
                 <div className="title">
                   Technology Hackthon - 2 (Screening Round)
                 </div>
@@ -53,14 +53,14 @@ function Events() {
                 className="timeline-item"
                 style={{ "--accent-color": "#E24A68" }}
               >
-                <div className="date">December 11th, 2023</div>
+                <div className="date">December 11, 2023</div>
                 <div className="title">Technology Hackthon- 1 (Review)</div>
               </li>
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#1B5F8C" }}
               >
-                <div className="date">December 16th - 22th, 2023</div>
+                <div className="date">December 16 to 22, 2023</div>
                 <div className="title">
                   One Week Training cum Workshop on the Advanced
                   Characterization Technology
@@ -70,7 +70,7 @@ function Events() {
                 className="timeline-item"
                 style={{ "--accent-color": "#4CADAD" }}
               >
-                <div className="date">December 1st, 2023 onwards</div>
+                <div className="date">December 1, 2023 onwards</div>
                 <div className="title">
                   Starting of Module-1 (Advanced Research Methodology)
                 </div>
@@ -79,7 +79,7 @@ function Events() {
                 className="timeline-item"
                 style={{ "--accent-color": "#41516C" }}
               >
-                <div className="date">January 16th - 27th, 2024</div>
+                <div className="date">January 16 to 27, 2024</div>
                 <div className="title">
                   Two Weeks Capacity Building programme for young Social Science
                   faculty
@@ -89,7 +89,7 @@ function Events() {
                 className="timeline-item"
                 style={{ "--accent-color": "#FBCA3E" }}
               >
-                <div className="date">January 15th, 2024 onwards</div>
+                <div className="date">January 15, 2024 onwards</div>
                 <div className="title">
                   Starting of Module-2 (Two weeks training on Advanced Research
                   Equipments)
@@ -108,7 +108,7 @@ function Events() {
                 className="timeline-item"
                 style={{ "--accent-color": "#1B5F8C" }}
               >
-                <div className="date">March 15th - 16th, 2024</div>
+                <div className="date">March 15 to 16, 2024</div>
                 <div className="title">
                   Event for Transfer of Technology to industries
                 </div>
@@ -131,7 +131,7 @@ function Events() {
                 className="timeline-item"
                 style={{ "--accent-color": "#41516C" }}
               >
-                <div className="date">April 17th - 18th, 2023</div>
+                <div className="date">April 17 to 18, 2023</div>
                 <div className="title">TEC Conclave at Hyderabad University</div>
                 <div className="descr">
                   The two-day event was marked by spirited discussions,
@@ -143,7 +143,7 @@ function Events() {
                 className="timeline-item"
                 style={{ "--accent-color": "#FBCA3E" }}
               >
-                <div className="date">May 1st - 7th, 2023</div>
+                <div className="date">May 1 to 7, 2023</div>
                 <div className="title">
                   Hands on Training on “Advance Research Equipments”
                 </div>
@@ -159,7 +159,7 @@ function Events() {
                 className="timeline-item"
                 style={{ "--accent-color": "#E24A68" }}
               >
-                <div className="date">May 25th - 30th, 2023</div>
+                <div className="date">May 25 to 30, 2023</div>
                 <div className="title">
                   Technology Hackthon- 1 (Screening Round)
                 </div>
@@ -174,7 +174,7 @@ function Events() {
                 className="timeline-item"
                 style={{ "--accent-color": "#1B5F8C" }}
               >
-                <div className="date">June 1st, 2023</div>
+                <div className="date">June 1, 2023</div>
                 <div className="title">
                   Nurturing innovative ideas for social benefits (Invited
                   Lecture)
@@ -192,7 +192,7 @@ function Events() {
                 className="timeline-item"
                 style={{ "--accent-color": "#4CADAD" }}
               >
-                <div className="date">June 19th, 2023</div>
+                <div className="date">June 19, 2023</div>
                 <div className="title">The Industrial Expert visit </div>
                 <div className="descr">
                   The Industrial Expert visit program has driven by DST-TEC
@@ -211,7 +211,7 @@ function Events() {
                 className="timeline-item"
                 style={{ "--accent-color": "#41516C" }}
               >
-                <div className="date">July 15th, 2023</div>
+                <div className="date">July 15, 2023</div>
                 <div className="title">
                   Technology Hackthon- 1 (FinalSelection)
                 </div>
@@ -236,7 +236,7 @@ function Events() {
                 className="timeline-item"
                 style={{ "--accent-color": "#FBCA3E" }}
               >
-                <div className="date">July 25th - 31th, 2023</div>
+                <div className="date">July 25 to 31, 2023</div>
                 <div className="title">
                   One Week Training on Advanced Research Equipments for
                   Technological Advancement of MSMEs
@@ -252,7 +252,7 @@ function Events() {
                 className="timeline-item"
                 style={{ "--accent-color": "#E24A68" }}
               >
-                <div className="date">September 15th, 2023</div>
+                <div className="date">September 15, 2023</div>
                 <div className="title">
                   Technology Hackthon - 2 (Poster Release)
                 </div>
@@ -266,7 +266,7 @@ function Events() {
                 className="timeline-item"
                 style={{ "--accent-color": "#1B5F8C" }}
               >
-                <div className="date">October 12th - 18th, 2023</div>
+                <div className="date">October 12 to 18, 2023</div>
                 <div className="title">
                   One Week Training cum Workshop on Industry Oriented
                   Spectroscopic Techniques

@@ -18,17 +18,17 @@ const Staff=()=>{
               
                 <div className="staff-logo-1-1">
                   <img src={firststaff}></img>
-                  <div>Dr. Nishtha Vyas</div>
+                  <div><b>Dr. Nishtha Vyas</b></div>
                   <div>Principal Project Associate</div>
-                  <div>DST-BU-TEC</div>
+                  <div>DST-BU TEC</div>
                 </div>
                 {/* <hr style={{border:"2px solid black",height:"15rem",position:"absolute",left:"50%",bottom:"20%"}}></hr> */}
                 
                 <div className="staff-logo-1-2">
                 <img src={secondstaff} alt="yet to pe added"></img>
-                <div>Dr. K.Shrikanth</div>
+                <div><b>Dr. K.Shrikanth</b></div>
                 <div>Principal Project Associate</div>
-                  <div>DST-BU-TEC</div>
+                  <div>DST-BU TEC</div>
                     </div>
                </div>
                <Footer/>

@@ -8,20 +8,20 @@ function TypeWriter() {
             <Typewriter
                 onInit={(typewriter) => {
                     typewriter
-                        .typeString("TECHNOLOGY ENABLING CENTRE")
+                        .typeString("DST-TECHNOLOGY ENABLING CENTRE")
                         .pauseFor(1000)
                         .deleteAll()
-                        .typeString('INNOVATION CENTRE')
+                        .typeString('BU-INNOVATION CENTRE')
                         .pauseFor(1000)
                         .start();
 
                     setInterval(() => {
                         typewriter
                             .deleteAll()
-                            .typeString('TECHNOLOGY ENABLING CENTRE')
+                            .typeString('DST-TECHNOLOGY ENABLING CENTRE')
                             .pauseFor(1000)
                             .deleteAll()
-                            .typeString('INNOVATION CENTRE')
+                            .typeString('BU-INNOVATION CENTRE')
                             .pauseFor(1000)
                             .start();
                     }, 5000); // Repeat the alternation every 5 seconds

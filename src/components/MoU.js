@@ -89,6 +89,9 @@ const MoU=()=>{
          
         </tbody>
       </table>
+      <div className="seemore">
+      <a href="https://www.bujhansi.ac.in/en/page/mous-and-collaborations">See More....</a>
+      </div>
       <Footer/>
 
 </>

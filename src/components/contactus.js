@@ -27,6 +27,7 @@ const ContactUs = () => {
                 />
               </div>
               <div className="contact-us-content">
+                <p>Bundelkhand University</p>
                 <p> Kanpur Road Jhansi, 284128</p>
                 <p>Uttar Pradesh, India</p>
               </div>
