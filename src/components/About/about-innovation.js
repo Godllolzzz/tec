@@ -6,12 +6,15 @@ import innovation_centre_image2 from "../../images/innovation_collage.jpg";
 import bu_tec_logo from "../../images/BUTEC(Organisation).jpg";
 import NavBar from "../NavBar";
 import Footer from "../footer";
-import eqp1 from "../../images/eqp1.jpg"
-import eqp2 from "../../images/eqp2.jpg"
-import eqp3 from "../../images/eqp3.jpg"
-import eqp4 from "../../images/eqp4.jpg"
-import eqp5 from "../../images/eqp5.jpg"
-import eqp6 from "../../images/eqp6.jpg"
+import eqp1 from "../../images/innov_eqip1.jpg"
+import eqp2 from "../../images/innov_eqip2.jpg"
+import eqp3 from "../../images/innov_eqip3.jpg"
+import eqp4 from "../../images/innov_eqip4.jpg"
+import eqp5 from "../../images/innov_eqip5.jpg"
+import eqp6 from "../../images/innov_eqip6.jpg"
+import eqp7 from "../../images/innov_eqip7.jpg"
+import eqp8 from "../../images/innov_eqip8.jpg"
+import eqp9 from "../../images/innov_eqip9.jpg"
 import mm_sir from "../../images/mm_sir__1_-removebg-preview.png"
 import lav_sir from "../../images/luv_sir (1).jpg"
 import about_innovation_top_image from "../../images/service_top_image.jpg"
@@ -168,6 +171,30 @@ const AboutInnovationCentre = (props) => {
             >
               <img
                 style={{ height: "100%", width: "100%" }}
+                src={eqp1}
+                alt="DST TEC Logo"
+              />
+            </div>
+            <div
+              ref={imageRef}
+              className={`about-innovation-img ${
+                imageInView ? "slide-in" : ""
+              }`}
+            >
+              <img
+                style={{ height: "100%", width: "100%" }}
+                src={eqp2}
+                alt="DST TEC Logo"
+              />
+            </div>
+            <div
+              ref={imageRef}
+              className={`about-innovation-img ${
+                imageInView ? "slide-in" : ""
+              }`}
+            >
+              <img
+                style={{ height: "100%", width: "100%" }}
                 src={eqp3}
                 alt="DST TEC Logo"
               />
@@ -192,31 +219,7 @@ const AboutInnovationCentre = (props) => {
             >
               <img
                 style={{ height: "100%", width: "100%" }}
-                src={eqp4}
-                alt="DST TEC Logo"
-              />
-            </div>
-            <div
-              ref={imageRef}
-              className={`about-innovation-img ${
-                imageInView ? "slide-in" : ""
-              }`}
-            >
-              <img
-                style={{ height: "100%", width: "100%" }}
                 src={eqp5}
-                alt="DST TEC Logo"
-              />
-            </div>
-            <div
-              ref={imageRef}
-              className={`about-innovation-img ${
-                imageInView ? "slide-in" : ""
-              }`}
-            >
-              <img
-                style={{ height: "100%", width: "100%" }}
-                src={eqp6}
                 alt="DST TEC Logo"
               />
             </div>
@@ -260,43 +263,43 @@ const AboutInnovationCentre = (props) => {
             >
               <img
                 style={{ height: "100%", width: "100%" }}
-                src={eqp3}
-                alt="DST TEC Logo"
-              />
-            </div>
-            <div
-              ref={imageRef}
-              className={`about-innovation-row-img ${
-                imageInView ? "slide-in" : ""
-              }`}
-            >
-              <img
-                style={{ height: "100%", width: "100%" }}
-                src={eqp4}
-                alt="DST TEC Logo"
-              />
-            </div>
-            <div
-              ref={imageRef}
-              className={`about-innovation-row-img ${
-                imageInView ? "slide-in" : ""
-              }`}
-            >
-              <img
-                style={{ height: "100%", width: "100%" }}
-                src={eqp5}
-                alt="DST TEC Logo"
-              />
-            </div>
-            <div
-              ref={imageRef}
-              className={`about-innovation-row-img ${
-                imageInView ? "slide-in" : ""
-              }`}
-            >
-              <img
-                style={{ height: "100%", width: "100%" }}
                 src={eqp6}
+                alt="DST TEC Logo"
+              />
+            </div>
+            <div
+              ref={imageRef}
+              className={`about-innovation-row-img ${
+                imageInView ? "slide-in" : ""
+              }`}
+            >
+              <img
+                style={{ height: "100%", width: "100%" }}
+                src={eqp7}
+                alt="DST TEC Logo"
+              />
+            </div>
+            <div
+              ref={imageRef}
+              className={`about-innovation-row-img ${
+                imageInView ? "slide-in" : ""
+              }`}
+            >
+              <img
+                style={{ height: "100%", width: "100%" }}
+                src={eqp8}
+                alt="DST TEC Logo"
+              />
+            </div>
+            <div
+              ref={imageRef}
+              className={`about-innovation-row-img ${
+                imageInView ? "slide-in" : ""
+              }`}
+            >
+              <img
+                style={{ height: "100%", width: "100%" }}
+                src={eqp9}
                 alt="DST TEC Logo"
               />
             </div>
