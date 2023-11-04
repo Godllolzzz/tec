@@ -35,7 +35,6 @@
   font-weight: bolder;
   
   display: flex;
-  /* justify-content: space-between; */
   gap: 1rem;
 }
 .bu_details{
@@ -48,7 +47,7 @@
 /* bu-tec */
 
 .bu-tec {
-  height: 3.5rem;
+  /* height: 3.5rem; */
   display: flex;
   justify-content: space-between;
   background-color: gold;
@@ -92,84 +91,50 @@ a {
   text-decoration: none;
 }
 
-/* navbar */
+@media screen and (max-width: 768px) {
+  .bu_name {
+    /* flex-direction: column; */
+    overflow-x: hidden;
+    font-size: 1.3rem;
+    padding-top: 0.5rem;
+  }
+  .bu_details {
+    font-size: 10px;
+    width: 90%;
+    text-align: center;
+    padding-bottom: 0.5rem;
+  }
+  .bu-tec{
+    padding-bottom: 0.3rem;
+  }
+  .bu-tec-1 {
+    align-items: left;
+    flex-direction: column;
+  }
+  .bu-tec-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo1 img{
+    width: 12em;
+    margin: 0rem;
+  }
+  .logo2 img{
+    /* width: 8rem; */
+    margin: 0rem;
+  }
+  .logo1{
+    margin-bottom: 0rem;
+  }
+  .logo2{
+    margin-bottom: 0rem;
+  }
+  .bu-tec-1-details {
+    font-size: 13px;
+  } 
+  .bu-tec-2-details {
+    font-size: 13px;
+  } 
+}
 
-.outer-navbar {
-  display: flex;
-  justify-content: space-between;
-  height: 2rem;
-}
-.inner-navbar {
-  display: flex; /* Arrange items horizontally */
-  align-items: center;
-  background-color: #03174F;
-  border-top-left-radius: 2rem;
-}
-.navbar-items {
-  list-style: none; /* Remove default list styles */
-  padding: 0;
-  display: flex; /* Arrange items horizontally */
-}
-
-.navbar-item {
-  color: #fff;
-  text-decoration: none;
-  margin: 0 1rem;
-}
-
-.navbar-item:hover {
-  cursor: pointer;
-  text-shadow: 2px 2px 8px white;
-  /* font-weight: 500; */
-  /* transform: scale(1.2);  */
-}
-
-.social-handles {
-  display: flex;
-  flex-direction: row;
-}
-.social-handle {
-  align-self: center;
-  padding: 1rem;
-  /* padding-top: 1.5rem; */
-}
-
-/* Dropdown styling */
-.dropdown {
-  display: none;
-  position: absolute;
-  margin-top: 0.2rem;
-  /* width: rem; */
-  /* top: 100%; */
-  /* left: 40rem; */
-  /* left: 0;S */
-  background-color: gold; /* Set dropdown background color */
-
-  padding: 10px;
-  z-index: 1000;
-}
-/* .dropdown:hover{
-  display: block;
-} */
-/* .navbar-item:hover .dropdown {
-  display: block;
-} */
-
-/* Style for dropdown items */
-.dropdown-item {
-  /* padding: 5px 0; */
-  color: black; /* Set dropdown text color */
-  text-decoration: none;
-  margin: 0.5rem;
-  display: block;
-  font-size: large;
-  transition: transform 200ms ease-in-out;
-  /* font-style: oblique; */
-  /* border-bottom: 2px solid white; */
-}
-.dropdown-item a {
-  text-decoration: none;
-}
-.dropdown-item:hover {
-transform: translateX(5%);
-}
