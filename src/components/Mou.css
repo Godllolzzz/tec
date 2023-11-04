@@ -12,6 +12,13 @@
   padding-top: 3rem;
   text-align: center;
 }
+/* .pdf-viewer{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
 
 
 .Mou-logo img{

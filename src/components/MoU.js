@@ -2,7 +2,11 @@ import React from "react";
 import NavBar from "./NavBar";
 import Footer from "./footer";
 import moulogo from "../images/Moulogo.jpg"
-import "./Mou.css"
+import "./Mou.css";
+import { Document, Page,pdfjs } from 'react-pdf';
+import docs from "../documents/Collaborations.pdf"
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const MoU=()=>{
     return(
@@ -92,6 +96,13 @@ const MoU=()=>{
       <div className="seemore">
       <a href="https://www.bujhansi.ac.in/en/page/mous-and-collaborations">See More....</a>
       </div>
+
+      {/* <div className="pdf-viewer">
+ <Document file={docs}>
+ <Page pageNumber={10} />
+ </Document>
+ </div> */}
+
       <Footer/>
 
 </>
