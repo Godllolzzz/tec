@@ -35,7 +35,7 @@ import MoU from "./components/MoU";
 
 function App() {
   return (
-    <>
+    <div className="app">
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -73,7 +73,7 @@ function App() {
       >
         <i class="fa fa-whatsapp whatsapp-icon"></i>
       </a>
-    </>
+    </div>
   );
 }
 export default App;
