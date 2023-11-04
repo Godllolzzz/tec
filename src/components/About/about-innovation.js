@@ -211,7 +211,7 @@ const AboutInnovationCentre = (props) => {
                 alt="DST TEC Logo"
               />
             </div>
-            <div
+            {/* <div
               ref={imageRef}
               className={`about-innovation-img ${
                 imageInView ? "slide-in" : ""
@@ -222,7 +222,7 @@ const AboutInnovationCentre = (props) => {
                 src={eqp5}
                 alt="DST TEC Logo"
               />
-            </div>
+            </div> */}
           </div>
         )}
         <div
