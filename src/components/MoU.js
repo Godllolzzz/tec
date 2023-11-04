@@ -3,10 +3,10 @@ import NavBar from "./NavBar";
 import Footer from "./footer";
 import moulogo from "../images/Moulogo.jpg"
 import "./Mou.css";
-import { Document, Page,pdfjs } from 'react-pdf';
-import docs from "../documents/Collaborations.pdf"
+// import { Document, Page,pdfjs } from 'react-pdf';
+// import docs from "../documents/Collaborations.pdf"
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const MoU=()=>{
     return(
