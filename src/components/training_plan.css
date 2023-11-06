@@ -18,3 +18,9 @@
       width: 100%;
   }
   
+  @media screen and (max-width: 650px) {
+    .training-main-heading {
+      font-size: 1.5rem;
+      width: 60%;
+    }
+  }

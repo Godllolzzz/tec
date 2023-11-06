@@ -5,6 +5,8 @@
   padding-bottom: 1rem;
   font-size: 2.2rem;
   color: #F4C430;
+  text-align: center;
+  max-width: 90%;
   text-shadow: 2px 2px 2px #03174f;
 }
 .service-outer {
@@ -42,4 +44,15 @@
 
 .service-top-image-container img {
   width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+  .service-points {
+    padding: 1rem;
+    margin: 1rem;
+    text-align: justify;
+  }
+  .service-heading{
+    font-size: 1.5rem;
+  }
 }

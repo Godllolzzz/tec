@@ -164,7 +164,7 @@
   } */
 
   .title{
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   
   .timeline-item .title::before {
@@ -206,5 +206,19 @@
     }
     .timeline-item:nth-child(odd) .date {
       border-radius: 0 calc(var(--dateH) / 2) calc(var(--dateH) / 2) 0;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .timeline-title {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+      margin-bottom: 0rem;
+    }
+    .events-toggle-button {
+      padding: 0.75rem;
+      font-weight: 500;
+      font-size: small;
+      margin: 0.5rem;
     }
   }

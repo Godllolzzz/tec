@@ -23,104 +23,54 @@
 
 .Tec-container {
   margin: 2rem;
-  width: 95%;
 }
 
-.row {
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-}
-
-.part-1 {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  /* border: 2px solid black; */
-  box-shadow: 2px 2px 5px grey;
-
-  margin: 2rem;
-  width: 28%;
-  min-width: 28%;
-  align-items: center;
-}
-.part-1:hover {
-  /* transform: scale(1.1); */
-  box-shadow: 5px 5px 10px grey;
-}
-
-.part-1 img {
-  width: 10rem;
-  height: 10rem;
-  padding: 2rem;
-  /* margin: 2rem; */
-}
-.part-2 {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  /* border: 2px solid black; */
-  box-shadow: 2px 2px 5px grey;
-
-  margin: 2rem;
-  width: 28%;
-  min-width: 28%;
-
-  align-items: center;
-}
-.part-2:hover {
-  /* transform: scale(1.1); */
-  box-shadow: 5px 5px 10px grey;
-}
-.part-2 img {
-  width: 10rem;
-  height: 10rem;
-  padding: 2rem;
-}
-
-.part-3 {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  /* border: 2px solid black; */
-  box-shadow: 2px 2px 5px grey;
-  margin: 2rem;
-  width: 28%;
-  min-width: 28%;
-
+.tec-grid-container {
+  display: grid;
+  row-gap: 2rem;
+  column-gap: 2rem;
   justify-content: center;
   align-items: center;
+  grid-template-columns: repeat(3, 1fr);
 }
-.part-3:hover {
-  /* transform: scale(1.1); */
-  box-shadow: 5px 5px 10px grey;
-}
-.part-3 img {
-  width: 10rem;
-  height: 10rem;
-  padding: 2rem;
-}
-.row a {
-  font-weight: bold;
-  margin-bottom: 1rem;
-}
-
-.last-tec-1 {
+.tec-grid-cell {
+  /* width: 30%; */
+  width: 90%;
   display: flex;
+  gap: 1rem;
+  min-height: 15rem;
   flex-direction: column;
-  margin: auto;
-  box-shadow: 2px 2px 5px grey;
-  width: 30%;
-  min-width: 30%;
+  justify-content: center;
   align-items: center;
+  box-shadow: 2px 2px 5px rgb(201, 190, 126);
+  padding: 0.5rem;
+}
+.tec-grid-cell img {
+  width: 80%;
 }
 
-.last-tec-1 a {
+.tec-grid-cell a {
+  text-decoration: none;
   font-weight: bold;
-  margin-bottom: 1rem;
+  text-align: center;
 }
 
-.last-tec img {
-  width: 13rem;
-  height: 13rem;
+
+@media screen and (max-width: 1200px) {
+  .tec-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #Tec-partners-heading {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .tec-grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #Tec-partners-heading {
+    font-size: 1.5rem;
+    width: 65%;
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Godllolzzz.github.io",
+  "homepage": "https://Godllolzzz.github.io/tec",
   "name": "tce",
   "version": "0.1.0",
   "private": true,
@@ -21,6 +21,7 @@
     "mdbreact": "^5.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
     "react-intersection-observer": "^9.5.2",
     "react-pdf": "^7.5.1",
     "react-router-dom": "^6.16.0",

@@ -76,3 +76,10 @@ margin-top: 2rem;
 .core-committee-image-container img {
   width: 100%;
 }
+
+@media screen and (max-width: 750px) {
+  .core-committee-heading {
+    font-size: 1.5rem;
+    width: 70%;
+  }
+}

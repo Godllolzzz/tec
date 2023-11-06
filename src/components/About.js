@@ -52,7 +52,7 @@ const About = () => {
         <Dst />
         <Butec />
         {/* <AboutInnovationCentre /> */}
-        <h2 className="about-heading">Key Objectives and Activities of TEC</h2>
+        <div className="about-heading">Key Objectives and Activities of TEC</div>
         <div
           ref={textRef}
           className={`key-points ${textInView ? "slide-in" : ""}`}

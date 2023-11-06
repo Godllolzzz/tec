@@ -14,6 +14,11 @@ const Navigation = () => {
   const [isEventVisible, setIsEventVisible] = useState(false);
   const [isAboutVisible, setIsAboutVisible] = useState(false);
 
+
+  // if(!isMobileNavbarOpen) {
+  //   document.querySelector('.dropdown').style.display = "none";
+  // }
+
   const tec_on_click_handler = () => {
     setIsTeamTecVisible((prevState) => !prevState);
     setIsNetworkVisible(false);
@@ -52,7 +57,6 @@ const Navigation = () => {
     setIsEventVisible(false);
   };
   const hamburgerHandler = () => {
-    console.log(isMobileNavbarOpen);
     setIsMobileNavbarOpen(!isMobileNavbarOpen);
   };
   return (

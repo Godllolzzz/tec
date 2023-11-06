@@ -24,7 +24,6 @@ const Service = () => {
           ref={textRef1}
           className={`service-points ${textInView1 ? "slide-in" : ""}`}
         >
-          <ol>
             <p>
               The Department of Science and Technology (DST) funded Technology
               Enabling Centre (TEC) at Bundelkhand University aim to support
@@ -91,14 +90,12 @@ const Service = () => {
               innovators may vary as per the discipline as per the availability
               of equipment and technology available.
             </p>
-          </ol>
         </div>
         <h2 className="service-heading">Intellectual Property Services</h2>
         <div
           ref={textRef2}
           className={`service-points ${textInView2 ? "slide-in" : ""}`}
         >
-          <ol>
             <p>
               As of my last knowledge update in September 2021, specific details
               about the intellectual property (IP) services provided by the
@@ -158,7 +155,6 @@ const Service = () => {
                 identifying potential markets and commercialization
                 opportunities for their IP-protected innovations.
               </li>
-              1
               <li>
                 <b className="points-heading">Legal Support:</b> In some cases, BU-TEC have access to legal
                 experts or law firms specializing in intellectual property law
@@ -170,7 +166,6 @@ const Service = () => {
               the DST-funded TEC at Bundelkhand University may vary, and the
               availability of these services can change over time.
             </p>
-          </ol>
         </div>
       </div>
       <Footer />

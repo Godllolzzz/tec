@@ -1,39 +1,83 @@
-  /* for desktop */
-  .whatsapp_float {
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 40px;
-    right: 40px;
-    background-color: #1cc75b;
-    color: #FFF;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    /* box-shadow: 2px 2px 3px #999; */
-    z-index: 100;
+/* for desktop */
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 25px;
+  right: 25px;
+  background-color: #1cc75b;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  /* box-shadow: 2px 2px 3px #999; */
+  z-index: 100;
 }
 
 .whatsapp-icon {
-    margin-top: 16px;
+  margin-top: 16px;
 }
 
-.app{
-    overflow-x: hidden;
-    min-height: 100vh;
+.app {
+  overflow-x: hidden;
+  min-height: 100vh;
 }
 
 /* for mobile */
 @media screen and (max-width: 767px) {
-    .whatsapp-icon {
-        margin-top: 10px;
-    }
+  /* .whatsapp-icon {
+    margin-top: 10px;
+  } */
 
-    .whatsapp_float {
-        width: 40px;
-        height: 40px;
-        bottom: 20px;
-        right: 10px;
-        font-size: 22px;
-    }
+  /* .whatsapp_float {
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 10px;
+    font-size: 22px;
+  } */
+}
+.top-to-btm {
+  position: relative;
+}
+.icon-position {
+  position: fixed;
+  bottom: 100px;
+  right: 25px;
+  z-index: 20;
+}
+.icon-style {
+  background-color: rgb(255, 217, 0);
+  opacity: 0.7;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  color: #fff;
+  cursor: pointer;
+  animation: movebtn 3s ease-in-out infinite;
+  transition: all 0.5s ease-in-out;
+}
+.icon-style:hover {
+  animation: none;
+  background: #fff;
+  color: gold;
+  border: 2px solid gold;
+}
+@keyframes movebtn {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }

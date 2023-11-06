@@ -118,10 +118,12 @@ a {
   
   .logo1 img{
     width: 12em;
+    height: 4rem ;
     margin: 0rem;
   }
   .logo2 img{
     /* width: 8rem; */
+    height: 4rem;
     margin: 0rem;
   }
   .logo1{
@@ -131,10 +133,10 @@ a {
     margin-bottom: 0rem;
   }
   .bu-tec-1-details {
-    font-size: 13px;
+    font-size: 14px;
   } 
   .bu-tec-2-details {
-    font-size: 13px;
+    font-size: 14px;
   } 
 }
 

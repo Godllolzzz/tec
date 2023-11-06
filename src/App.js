@@ -32,6 +32,7 @@ import AboutInnovationCentre from "./components/About/about-innovation";
 import ToTPlan from "./components/totplan";
 import TrainingPlan from "./components/training_plan";
 import MoU from "./components/MoU";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
@@ -73,6 +74,7 @@ function App() {
       >
         <i class="fa fa-whatsapp whatsapp-icon"></i>
       </a>
+      <ScrollToTop />
     </div>
   );
 }

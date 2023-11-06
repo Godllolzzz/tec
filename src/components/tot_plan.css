@@ -8,7 +8,7 @@
   text-shadow: 2px 2px 2px #03174f;
   text-align: center;
   margin: auto;
-  width: 40%;
+  width: 50%;
 }
 
 .workflow-top-image img{
@@ -17,4 +17,10 @@
 
 .workflow-image-container img {
   width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+  .workflow-main-heading {
+    font-size: 1.5rem;
+  }
 }

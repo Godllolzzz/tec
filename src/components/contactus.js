@@ -43,9 +43,9 @@ const ContactUs = () => {
               </div>
               <div className="contact-us-content">
                 <p className="contact-us-name">Dr. Nishtha Vyas</p>
-                <p style={{ marginTop: "-0.5rem" }}>+91 9511015157</p>
+                <p>+91 9511015157</p>
                 <p className="contact-us-name">Dr. Shrikanth Krishnamurthy</p>
-                <p style={{ marginTop: "-0.5rem" }}>+91 9840998686</p>
+                <p>+91 9840998686</p>
               </div>
             </div>
             <div className="contact-us-inner-container">
