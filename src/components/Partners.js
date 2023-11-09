@@ -25,7 +25,7 @@ const Partners = () => {
           <div className="partner-detail">
             <div className="partner-title">
               <h2>
-                ICAR - Rani Laxmi Bai Central Agriculture University, Jhansi
+                 Rani Laxmi Bai Central Agriculture University, Jhansi
               </h2>
             </div>
             {/* <hr style={{width:"60%",border:"2px solid black",marginTop:"2rem"}}></hr> */}
@@ -117,7 +117,7 @@ const Partners = () => {
           </div>
           <div className="partner-detail">
             <div className="partner-title">
-              <h2>CCRAS - Central Agroforestry Research Institute, Jhansi</h2>
+              <h2>ICAR - Central Agroforestry Research Institute, Jhansi</h2>
             </div>
             {/* <hr style={{width:"60%",border:"2px solid black",marginTop:"2rem"}}></hr> */}
             <div className="partner-content">
@@ -143,7 +143,7 @@ const Partners = () => {
           </div>
           <div className="partner-detail">
             <div className="partner-title">
-              <h2>Central Ayurved Research Institute, Jhansi</h2>
+              <h2>CCRAS - Central Ayurved Research Institute, Jhansi</h2>
             </div>
             {/* <hr style={{width:"60%",border:"2px solid black",marginTop:"2rem"}}></hr> */}
             <div className="partner-content">

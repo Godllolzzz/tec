@@ -125,7 +125,7 @@ const Navigation = () => {
                 <Link to="/staff">Staff</Link>
               </li>
               <li className="dropdown-item">
-                <a href="#">Students Team</a>
+              <Link to="/students-team">Students Team</Link>
               </li>
             </ul>
           </l1>
@@ -144,6 +144,11 @@ const Navigation = () => {
               </li>
               <li className="dropdown-item">
                 <Link to="/all-tec">TEC Network</Link>
+              </li>
+              <li className="dropdown-item">
+              <a href="https://drive.google.com/file/d/1EuGegi80mCKjljQiZ4ewIb9AoFgF5V7x/view" target="_blank" rel="noopener noreferrer">
+      Collaborations
+      </a>
               </li>
             </ul>
           </l1>

@@ -50,7 +50,7 @@ const HomeOverview = () => {
       <div className="wsro-overview-container">
         <h1 className="wsro-overview-main-heading">
           {" "}
-          Who Should Reach Out To Bundelkhand University TEC?
+          Who Should Reach Out To DST-BU TEC & Innovation Centre?
         </h1>
         <div className="wsro-overview-outer-container">
           <div className="wsro-overview-inner-container">

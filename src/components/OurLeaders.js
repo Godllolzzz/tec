@@ -39,15 +39,15 @@ const OurLeaders=()=>{
                     <img style={{height:"17rem",width:"23rem"}} src={lavsirlogo}></img>
                     <div className="vcsir1-title">
                     <h3>Dr. Lavkush Dwivedi</h3>
-                    <h4>Co-Cordinator</h4>
-                    <h4>DST-BU-TEC</h4>
+                    <h4>Co-Co-ordinator</h4>
+                    <h4>DST-BU TEC</h4>
                     </div>
                     </div>
                     <div className="vcsir1-content">
-                     <p>Our mission at the Technology Enabling Centre is to empower students and researchers with the tools, resources, and knowledge they need to push the boundaries of science and technology. We aim to provide a dynamic environment that fosters interdisciplinary collaboration, encourages out-of-the-box thinking, and promotes a culture of innovation.</p>
+                     <p>Our mission at the Technology Enabling Centre is to empower students and researchers with the tools, resources, and knowledge they need to push the boundaries of Science & Technology. We aim to provide a dynamic environment that fosters interdisciplinary collaboration, encourages out-of-the-box thinking, and promotes a culture of innovation.</p>
                      <p>One of the most exciting aspects of this initiative is its potential to bridge the gap between academia and industry. Through strategic partnerships and collaborations, we can take research from the laboratory to the marketplace, ensuring that our innovations have a tangible impact on society and the economy.</p>
                      <p>Furthermore, the Technology Enabling Centre is not confined to the walls of our institution. It is a beacon of knowledge and a driver of regional development. We are committed to sharing our expertise, collaborating with local industries, and providing training and support to the broader community.</p>
-                     <p>I look forward to working with all of you, our students, faculty, and industry partners, as we explore new frontiers, break barriers, and unleash the full potential of science and technology.</p>
+                     <p>I look forward to working with all of you, our students, faculty, and industry partners, as we explore new frontiers, break barriers, and unleash the full potential of Science & Technology.</p>
                      <p>Thank you, and let's embark on this exciting journey together.</p>
 
 

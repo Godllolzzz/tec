@@ -148,7 +148,7 @@ function Events() {
                   Hands on Training on “Advance Research Equipments”
                 </div>
                 <div className="descr">
-                  Hands on Training on “Advance Research Equipments” have
+                  Hands on Training on “Advance Research Equipments” was
                   conducted at the innovation centre by Department of Science &
                   Technology-Technology Enabling Centre (DST-TEC) in
                   collaboration with Training and Placement Cell, Bundelkhand
@@ -165,7 +165,7 @@ function Events() {
                 </div>
                 <div className="descr">
                   For the screening of project proposals received under
-                  Technology Hackathon Phase 1 module was held during May 25-30,
+                  Technology Hackathon Phase 1 module was held during May 25 to 30,
                   2023, 11:00 am onward at the Innovation Centre, Bundelkhand
                   University, Jhansi.
                 </div>
@@ -184,7 +184,7 @@ function Events() {
                   (DST-TEC) and Innovation Centre, Bundelkhand University,
                   Jhansi organized an invited Lecture with the theme entitled
                   “Nurturing innovative ideas for social benefits” by Prof. P.K.
-                  Vajpayee, TEC Coordinator, Guru Ghasidas University, Bilaspur
+                  Bajpayee, TEC Coordinator, Guru Ghasidas University, Bilaspur
                   on 01st June 2023.
                 </div>
               </li>
@@ -216,20 +216,7 @@ function Events() {
                   Technology Hackthon- 1 (FinalSelection)
                 </div>
                 <div className="descr">
-                  On July 15, 2023, Prof. Yogesh Goswami, ITM University
-                  Gwalior, Dr. Ravi Prakash Saini, Sr. Scientist, ICAR-IGFRI,
-                  Jhansi, Dr.Lavkush Dwivedi, Co-Coordinator, DST- TEC,
-                  Bundelkhand University Jhansi, Prof. Soma Anil Mishra,
-                  Director, Institute of Architecture & Town Planning, BU
-                  Jhansi, Dr. Vinit Kumar, Associate Professor, Institute of
-                  Environmental Science & Developmental Studies, BU Jhansi, Dr.
-                  Nupur Gautam, Associate Professor, Department of Food Science
-                  & Technology, BU Jhansi, and Dr.Sadik Khan, Dept. of Computer
-                  Science Engineering, Institute of Engineering & Technology, BU
-                  Jhansi are the following Projects Evaluation Committee members
-                  were present in the meeting for the evaluation of project
-                  proposals at the Innovation Centre, Bundelkhand University,
-                  Jhansi.
+                  The evaluation committee meeting was held on July 15, 2023 for selection of final five projects under TEC - Technology Hackathon-1. Five projects on different areas of the identified social needs were sanctioned.
                 </div>
               </li>
               <li
