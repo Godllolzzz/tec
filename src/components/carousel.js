@@ -81,12 +81,24 @@ const Carousel = () => {
           style={{
             position: "absolute",
             zIndex: "101",
-            bottom: "3rem",
+            bottom: "8rem",
+            marginRight:"20%",
+            marginLeft:"20%",
+          }}
+        >
+          <TypeWriter first = "DST: Only Government University in Uttar Pradesh having TEC" second = "INNOVATION CENTRE: The State-of-Art facility of Bundelkhand University"/>
+        </div>
+        {/* <div
+          style={{
+            position: "absolute",
+            zIndex: "101",
+            bottom: "4rem",
             left: "15rem",
           }}
         >
-          <TypeWriter />
-        </div>
+          <TypeWriter first = "The State-of-art facility" second = "of BUNDELKHAND UNIVERSITY"/>
+
+        </div> */}
         <div className="carousel-image-container">
           <img
             className="carousel-image"
