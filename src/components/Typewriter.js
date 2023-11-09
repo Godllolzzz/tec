@@ -2,26 +2,28 @@ import React from 'react';
 import Typewriter from 'typewriter-effect';
 import "./Typewriter.css"
 
-function TypeWriter() {
+function TypeWriter(props) {
+    console.log(props);
     return (
         <div className='typewriter-parent' >
             <Typewriter
                 onInit={(typewriter) => {
                     typewriter
-                        .typeString("DST-TECHNOLOGY ENABLING CENTRE")
+                        .typeString(props.first,
+                            )
                         .pauseFor(1000)
                         .deleteAll()
-                        .typeString('BU-INNOVATION CENTRE')
+                        .typeString(props.second)
                         .pauseFor(1000)
                         .start();
 
                     setInterval(() => {
                         typewriter
                             .deleteAll()
-                            .typeString('DST-TECHNOLOGY ENABLING CENTRE')
+                            .typeString(props.first)
                             .pauseFor(1000)
                             .deleteAll()
-                            .typeString('BU-INNOVATION CENTRE')
+                            .typeString(props.second)
                             .pauseFor(1000)
                             .start();
                     }, 5000); // Repeat the alternation every 5 seconds
