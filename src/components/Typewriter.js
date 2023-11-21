@@ -9,8 +9,7 @@ function TypeWriter(props) {
             <Typewriter
                 onInit={(typewriter) => {
                     typewriter
-                        .typeString(props.first,
-                            )
+                        .typeString(props.first)
                         .pauseFor(1000)
                         .deleteAll()
                         .typeString(props.second)
