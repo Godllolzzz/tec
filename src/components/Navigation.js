@@ -168,7 +168,7 @@ const Navigation = () => {
               </li>
 
               <li className="dropdown-item">
-                <a href="#">News Letter</a>
+                <a href="https://drive.google.com/file/d/1L0jGXdQ37eF1qbQkTWQ2Z6s1Dahc7bFj/view?usp=drivesdk">News Letter</a>
               </li>
               <li className="dropdown-item">
                 <Link to="/Mou">MoU's</Link>

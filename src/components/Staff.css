@@ -20,32 +20,39 @@
 .staff-logo-1{
     display: flex;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 5rem;
     margin: 5rem;
 }
 .staff-logo-1-1{
-    padding: 1rem;
-    background-color: rgb(249, 221, 168);
+    /* padding: 1rem; */
+    /* background-color: rgb(249, 221, 168); */
+    width: 30%;
+    object-fit: cover;
     
     
 }
 .staff-logo-1-1 img{
-    width: 280px;
-    height: 320px;
+    /* width: 280px; */
+    /* height: 320px; */
+    width: 100%;
     
 }
 
 .staff-logo-1-2{
-    padding: 1rem;
-    background-color: rgb(249, 221, 168);
+    /* padding: 1rem; */
+    /* background-color: rgb(249, 221, 168); */
+    width: 30%;
+    object-fit: cover;
+    
 }
 
 .staff-logo-1-2 img{
-    width: 230px;
+    /* width: 230px;
     height: 270px;
     padding: 2rem;
-    
-    
+     */
+     width: 100%;
 }
 
 @media screen and (max-width: 750px) {
