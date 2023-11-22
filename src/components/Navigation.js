@@ -116,11 +116,12 @@ const Navigation = () => {
                 <Link to="/our-leaders">Our Leaders</Link>
               </li>
               <li className="dropdown-item">
-                <Link to="/core-committee">Core Committee</Link>
-              </li>
-              <li className="dropdown-item">
                 <Link to="/pag">PAG</Link>
               </li>
+              <li className="dropdown-item">
+                <Link to="/core-committee">Core Committee</Link>
+              </li>
+             
               <li className="dropdown-item">
                 <Link to="/staff">Staff</Link>
               </li>
