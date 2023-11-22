@@ -15,7 +15,6 @@ const Home = () => {
     <>
       <NavBar />
       <Carousel />
-      <VideoPlayer videoId="M3ygFVrfR6E?si=3hj0krRt9Yp8AeTJ" />
       <HomeOverview />
       <VCMessage />
       <ContactUsHome/>
