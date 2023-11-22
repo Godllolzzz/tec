@@ -86,7 +86,7 @@ const Carousel = () => {
             marginLeft:"20%",
           }}
         >
-          <TypeWriter first = "DST: Only Government University in Uttar Pradesh having TEC" second = "INNOVATION CENTRE: The State-of-Art facility of Bundelkhand University"/>
+          <TypeWriter first = "DST - TECHNOLOGY ENABLING CENTRE" second = "BU - INNOVATION CENTRE"/>
         </div>
         {/* <div
           style={{
