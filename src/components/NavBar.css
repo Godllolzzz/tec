@@ -96,8 +96,9 @@ a {
  display: flex;
  justify-content: space-between;
  padding: 0rem 0.5rem;
- font-family: 'Style Script', cursive;
+ /* font-family: 'Style Script', cursive;. */
  /* font-family: 'Cedarville Cursive', cursive; */
+ font-family: 'Playfair Display', serif;
  font-weight: bold;
 }
 

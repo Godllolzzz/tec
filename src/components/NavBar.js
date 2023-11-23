@@ -41,7 +41,7 @@ function NavBar() {
         Only Government University in Uttar Pradesh having TEC
         </div>
         <div>
-        The State-of-Art facility of Bundelkhand University
+        The State-of-Art Research facility of Bundelkhand University
         </div>
       </div>
       {/* navbar */}
