@@ -33,6 +33,7 @@ import ToTPlan from "./components/totplan";
 import TrainingPlan from "./components/training_plan";
 import MoU from "./components/MoU";
 import ScrollToTop from "./components/ScrollToTop";
+import StudentsTeam from "./components/StudentsTeam";
 
 function App() {
   return (
@@ -59,6 +60,7 @@ function App() {
           <Route path="/about-innovation-centre" element={<AboutInnovationCentre/>}/>
           <Route path="/tot-plan" element={<ToTPlan/>}/>
           <Route path="/training-plan" element={<TrainingPlan/>}/>
+          <Route path="/students-team" element={<StudentsTeam/>}/>
 
           
         </Routes>

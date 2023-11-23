@@ -168,7 +168,7 @@ const SanctionedProjects = () => {
                                 </li>
                             </ol>
                         </p>
-                        <p>Both quantitative and Qualitative research tools are applied for effective understanding.
+                        <p>Both quantitative and qualitative research tools are applied for effective understanding.
 MSMEs in the study region lie in both registered as well as unregistered group. The study
 attempts to cover both in order to get a realistic overview of the scenario. 
 </p>

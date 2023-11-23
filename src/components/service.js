@@ -97,13 +97,7 @@ const Service = () => {
           className={`service-points ${textInView2 ? "slide-in" : ""}`}
         >
             <p>
-              As of my last knowledge update in September 2021, specific details
-              about the intellectual property (IP) services provided by the
-              Department of Science and Technology (DST) funded Technology
-              Enabling Centre (TEC) at Bundelkhand University may not have been
-              widely available. However, I can provide a general overview of the
-              types of IP-related services that institutions and organizations,
-              including TECs, may offer to innovators and researchers:
+             IP services offered at BU TEC are:
             </p>
             <ol>
               <li>
@@ -163,7 +157,7 @@ const Service = () => {
             </ol>
             <p>
               It's important to note that the specific IP services offered by
-              the DST-funded TEC at Bundelkhand University may vary, and the
+              the DST-TEC at Bundelkhand University may vary, and the
               availability of these services can change over time.
             </p>
         </div>

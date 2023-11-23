@@ -116,16 +116,17 @@ const Navigation = () => {
                 <Link to="/our-leaders">Our Leaders</Link>
               </li>
               <li className="dropdown-item">
-                <Link to="/core-committee">Core Committee</Link>
-              </li>
-              <li className="dropdown-item">
                 <Link to="/pag">PAG</Link>
               </li>
+              <li className="dropdown-item">
+                <Link to="/core-committee">Core Committee</Link>
+              </li>
+             
               <li className="dropdown-item">
                 <Link to="/staff">Staff</Link>
               </li>
               <li className="dropdown-item">
-                <a href="#">Students Team</a>
+              <Link to="/students-team">Students Team</Link>
               </li>
             </ul>
           </l1>
@@ -145,6 +146,11 @@ const Navigation = () => {
               <li className="dropdown-item">
                 <Link to="/all-tec">TEC Network</Link>
               </li>
+              <li className="dropdown-item">
+              <a href="https://drive.google.com/file/d/1EuGegi80mCKjljQiZ4ewIb9AoFgF5V7x/view" target="_blank" rel="noopener noreferrer">
+      Collaborations
+      </a>
+              </li>
             </ul>
           </l1>
           {/* <l1 className="navbar-item">Events</l1> */}
@@ -163,7 +169,7 @@ const Navigation = () => {
               </li>
 
               <li className="dropdown-item">
-                <a href="#">News Letter</a>
+                <a href="https://drive.google.com/file/d/1L0jGXdQ37eF1qbQkTWQ2Z6s1Dahc7bFj/view?usp=drivesdk">News Letter</a>
               </li>
               <li className="dropdown-item">
                 <Link to="/Mou">MoU's</Link>

@@ -5,16 +5,12 @@ import img1 from "../images/vcsir.jpg";
 const VCMessage = () => {
   const [text, setText] = useState("");
   const content = `
-  
-  It is really a matter of honor and immense pleasure that destiny has given me an opportunity to lead the Bundelkhand University, Jhansi (UP). Although I joined as the Vice Chancellor of this renowned university but somewhere at the core of my heart, actually I want to serve this university as a facilitator between the university and society.
-  
-  In the continuing task of nation building, Bundelkhand University is trying to promote excellence in higher education for a vibrant and inclusive society through knowledge creation and dissemination. It is making sincere efforts to contribute its mite by providing the right kind of human resources. It is striving hard to impart quality education to meet national and global challenges, towards accomplishing its mission. For students, the degree represents certification of competence, and a passport to advanced education or gainful employment and livelihood and prosperity. They have an important role to play in the development of the Nation and hence have to handle their future with confidence and capabilities.
-  
-  Education is meant to inculcate right values among students to produce socially sensitive citizens. Thus it encourages not only curricular activities, but also co- curricular, extra-curricular and extension activities. Bundelkhand University provides quite kindred academic circle for the evolution of future incitements to outrun global standards. The university has carved out an alcove among the comity of universities to provide a sharp and well-defined platform to bloom students as variegated human assets.
-  
-  Bred-in-the-bone of intellectual excellence and embedded with the guidance of highly qualified faculty members, It endeavors to unlatch the inquisitiveness for prompting and encountering quality leadership & entrepreneurship.
-  
-  Bundelkhand University not only provides a lively and constructive ambience but also provides well-equipped library, sports facility, advance laboratories, state of the art campus and open-to-all stage for cultural and other co-curricular activities.`;
+ 
+The Technology Enabling Centre is not just a project; it is a beacon of hope and a catalyst for transformative change. In today's fast-paced world, where technology is at the heart of almost every endeavour, having a dedicated centre for technology is paramount. It is a place where ideas converge, where research finds its practical applications, and where innovation thrives.
+This initiative reflects our commitment to advancing science and technology in our region, and it underscores the pivotal role that universities play in fostering innovation and progress. This centre embodies our vision to bridge the gap between academia and industry. It is a platform where our talented students and faculty members can collaborate with industry experts and researchers to address real-world challenges. By doing so, we not only contribute to the development of cutting-edge technologies but also nurture the next generation of innovators and problem solvers.
+As the Vice Chancellor of Bundelkhand University, I extend my wholehearted support to the Technology Enabling Centre. I encourage all our students, faculty members, and stakeholders to actively participate and leverage this resource to explore new horizons, push boundaries, and contribute to the advancement of science, technology, and our society.
+Together, we can harness the power of innovation to drive positive change and make a lasting impact on the world.
+`;
 
   const startTyping = () => {
     const wordsArray = content.split(" ");
@@ -31,6 +27,7 @@ const VCMessage = () => {
 
     // Clear the interval when the component unmounts
     return () => clearInterval(interval);
+   
   };
 
   const handleMouseEnter = () => {

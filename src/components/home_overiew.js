@@ -33,14 +33,10 @@ const HomeOverview = () => {
       {/* https://youtube.com/shorts/1Vz0V0avHuc?feature=shared */}
         </div>
         <div className="about-overview-right">
-          <div className="about-overview-main-heading">About Us</div>
+          <div className="about-overview-main-heading">About BUTEC & Innovation Centre</div>
           <div className="about-overview-content">
-            The DST's establishment in May 1971 reflects the Indian Government's
-            commitment to advancing Science and Technology as a means of
-            fostering national development and innovation. The objectives of
-            DST, as you mentioned, encompass a wide range of activities aimed at
-            promoting and coordinating scientific and technological endeavours
-            in the country.
+          The TEC program, is a significant initiative under DST's purview. Its goals align with the broader objectives of DST by focusing on creating an ecosystem for technology development within universities and enhancing collaboration between academia, national laboratories, and industry. This approach is crucial for translating research outcomes into practical applications and driving innovation that can contribute to economic growth and societal development. BUTEC was established in the Bundelkhand University in the Year 2023. The BUTEC facility in the campus has ignited the young brains since then.
+The State-of-Art facility named as Innovation centre was established in 2014, this research centre cum testing lab is having almost all kinds of sample testing equipment that have been serving the society in the region.
           </div>
           <div className="about-overview-learn-more">
             <a href="/about">LEARN MORE</a>
@@ -53,7 +49,7 @@ const HomeOverview = () => {
       <div className="wsro-overview-container">
         <h1 className="wsro-overview-main-heading">
           {" "}
-          Who Should Reach Out To Bundelkhand University TEC?
+          Who Should Reach Out To DST-BU TEC & Innovation Centre?
         </h1>
         <div className="wsro-overview-outer-container">
           <div className="wsro-overview-inner-container">

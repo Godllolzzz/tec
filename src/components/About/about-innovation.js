@@ -328,6 +328,7 @@
 // export default AboutInnovationCentre;
 
 import "./about-innovation-centre.css";
+import ab0 from "../../images/inovate.png"
 import ab1 from "../../images/about-innovation-1.jpg";
 import ab2 from "../../images/about-innovation-2.jpg";
 import ab3 from "../../images/about-innovation-3.jpg";
@@ -349,6 +350,9 @@ const AboutInnovationCentre = () => {
     <>
     <NavBar />
       <div className="about-innovation-centre-outer">
+      <div className="about-innovation-centre-image-container">
+          <img src={ab0} alt="about-image"></img>
+        </div>
         <div className="about-innovation-centre-heading">
           1. About the Centre
         </div>
@@ -419,6 +423,160 @@ const AboutInnovationCentre = () => {
             Biomedical Sciences
           </li>
         </ul>
+        <table className="core-committee-table" border="1">
+        <thead>
+          <tr>
+            <th>S.No.</th>
+            <th>Major Areas</th>
+            <th>Works done/ongoing for the social benefits (in brief) 
+</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1.</td>
+            <td>
+            Farmers’ Empowerment 
+of Bundelkhand region by 
+providing the scientific 
+support for better yield of 
+traditional & medicinal 
+crops. 
+
+              
+            </td>
+            <td>The medicinal plants like Aloe vera, Anaar, Anjeer, Safed Musli & 
+Stevia (Mithi Tulsi) are evaluated for their medicinal and 
+industrial values and promoted to be cultivated as alternative 
+cash crops among the farmers of villages namely Kalothra, 
+Ambabay, Hastinapur, Kanachapur, Ganeshgarh & Raksha
+of Jhansi district. About 100 farmers of the abovesaid villages 
+are given onsite trainings for adopting the practices. The above 
+work is done with the help of DST, Govt. of India in 
+collaboration with Rani Laxmi Bai Central Agriculture 
+University, Jhansi </td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>
+            Social awareness and 
+development of 
+predictive tools for the 
+online/offline self-regulation of lifestyle 
+generated disorders like 
+Diabetes, CVDs, COVID-19, etc. 
+            </td>
+            <td>A predictive In-silico tool is being development with the help 
+of Govt. of Uttar Pradesh which will facilitate app based online 
+self-Health Risk Assessment & Management to the users. The 
+tool is being developed in a way where it could perform the 
+disease based and occupation-based assessment of every user 
+and predict possible risks of disease and disorder, if any. To 
+ensure utility of the tool to a common man and society, the 
+outreached people like welders, traffic police men, Flax 
+printers, Ricksha pullers, Cement factory workers, 
+Autodrivers, Health workers etc. are being target for the 
+assessment of their occupation related health hazards. This will 
+make the user aware for taking precautions for the predicted 
+ailments.</td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>
+            Identification of 
+environmental, 
+occupational, dietary 
+health hazards including 
+quality assessment of 
+different drinking and eating materials of local 
+market and minimization 
+of health risks by them.
+            </td>
+            <td>The Centre is engaged in assessing the heavy metals (Iron, 
+Lead, Chromium, Cadmium, Nikal, Cobalt, Mercury) content 
+in water, soil and cultivated crop samples of Jhansi and other 
+adjoining areas for their quantitative and qualitative 
+estimation. Accordingly, approaches are being taken into 
+action for the phytoextraction of the heavy metals from the identified hot pockets areas so that shifting of heavy metals in 
+food chain could be minimized and chances of metal toxicity 
+could be reduced among the human being s and animals. 
+Also, Centre is engaged in quality assessment of market 
+products but for the research purposes only. </td>
+          </tr>
+          <tr>
+            <td>4.</td>
+            <td>Epidemiological health 
+survey for the 
+identification of major 
+health issues of 
+Bundelkhand region and 
+assessment of their 
+possible causes.</td>
+<td>The Centre has been involved in the assessment of Soci-economic, Environmental health hazards. Under a 
+transdisciplinary approach we are engaged in the assessment 
+of entrepreneurship, employability and consumer behavior 
+after COVID-19 phases. Also, we promoted nudge practices for 
+healthy food habits among the Campus people through 
+projects under STRIDE programme. </td>
+          </tr>
+          <tr>
+            <td>5.</td>
+            <td>Phytochemical evaluation 
+of locally dominant 
+medicinal plants of the 
+Bundelkhand region for 
+the identification of their 
+therapeutic effects.</td>
+<td>Considering the key health issues of Bundelkhand like Kidney 
+stone, Anemia, Depression due to financial stress, Diabetes 
+Colon Cancer, Centre has been completed several projects on 
+different medicinal plants like Kakora, Pathachata, Paras peepal, 
+Annar, Aloevera, Mithi Tulsi, Anjeer, Punarnava, Papaya, etc. for 
+the identification of medicinal & therapeutic agents among 
+them. Additionally, several traditionally used locally taken 
+polyherbal formulations are also being validated at the Centre. 
+More than 10 minor projects have been done on this area. The 
+findings are regularly popularized through local news papers 
+and FM radio for the awareness among the common people.</td>
+
+          </tr>
+          <tr>
+            <td>6.</td>
+            <td>Promotional program for 
+the development of the 
+tendency of maintaining 
+cleanliness, going for 
+normal health check-ups 
+in rural & semi-urban 
+areas for the early 
+identification of severe 
+health issues. 
+</td>
+<td>Such projects are being undertaken in collaboration with 
+Institute of Pharmacy, Social works and physiotherapy. Camps 
+are regularly organized on Campus and also at remote areas 
+for enhancing the tendency of getting normal health checkups 
+at certain intervals in rural & semi-urban areas. Also, projects 
+are undertaken by the Centre on enhancing the drug efficacy 
+by introducing Niosome, Liposome based drug delivery 
+system. </td>
+          </tr>
+          <tr>
+            <td>7.</td>
+            <td>Assessment of food, 
+water-borne diseases and 
+social awareness for water 
+conservation 
+</td>
+<td>The projects are undertaken on identification of food and 
+water borne diseases by the Microbiology and Food 
+Technology Students under the UGC-STRIDE programme. The 
+environmental science students are using the facility for 
+developing techniques/models for water conservation and 
+harvesting. </td>
+          </tr>
+        </tbody>
+      </table>
         <div className="about-innovation-centre-heading">
           4. Major beneficiaries of the Centre
         </div>
@@ -488,6 +646,248 @@ const AboutInnovationCentre = () => {
         <div className="about-innovation-centre-heading">
           7. The Research Capacity Building & Human Resource Development
           activities conducted in last 05 years.
+          <table className="core-committee-table" border="1">
+        <thead>
+          <tr>
+            <th>S.No.</th>
+            <th>Title of the Programme</th>
+            <th>Duration  
+</th>
+<th>Participants
+(Approx.) 
+</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1.</td>
+            <td>DST-STUTI funded one-week Hands-on-Training on 
+Sophisticated equipments of Material Science</td>
+            <td>September 
+14-20, 2022 </td>
+            <td>30 </td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>One Week Hands on-Training on Spectroscopic analysis of 
+heavy metals and trace elements in soil, water and plant 
+samples through Flame Photometer & Atomic Absorption 
+Spectrometer (AAS) 
+</td>
+            <td>September 
+14-20, 2022 
+</td>
+            <td>18</td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>Brain Storming on Innovative Ideation & Conceptualization of 
+Research Themes (Round-1) 
+</td>
+            <td>July 11, 2022</td>
+            <td>15</td>
+          </tr>
+          <tr>
+            <td>4.</td>
+            <td>UGC-STRIDE funded Two Weeks Hands-on-Training on 
+Advanced Research Equipments (Module-2, Batch-III) 
+</td>
+            <td>June 06-21, 
+2022 </td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>5.</td>
+            <td>UGC-STRIDE(I) funded One Week Workshop on Nucleic Acid 
+Extraction analysis through Gel Electrophoresis and Real 
+Time-PCR</td>
+            <td>May 04-10, 
+2022 </td>
+            <td>40</td>
+          </tr>
+          <tr>
+            <td>6.</td>
+            <td>UGC-STRIDE(I) funded One Week Workshop on 
+Phytochemical Extraction and their chromatographic Analysis 
+through HPLC & GC-MS </td>
+            <td>April 04-10, 
+2022 
+</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>7.</td>
+            <td>UGC-STRIDE(I) funded Advanced Research Methodology 
+Teaching (Module-1; Batch-III) </td>
+            <td>February 28- 
+April 15, 
+2020 </td>
+            <td>28</td>
+          </tr>
+          <tr>
+            <td>8.</td>
+            <td>UGC-STRIDE (I) funded Hands on Training on Advanced 
+Research Equipments </td>
+            <td>June 21- July 
+01, 2021 </td>
+            <td>45</td>
+          </tr>
+          <tr>
+            <td>9.</td>
+            <td>UGC-STRIDE(I) Funded 2nd National Conference on Recent 
+Trends in Transdisciplinary Research for Socio-economic 
+Development of India. </td>
+            <td>December 29-
+30, 2021</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>10.</td>
+            <td>UGC-STRIDE(I) funded Online Faculty Development 
+Programme on Teaching, Examination, and Research Ethics</td>
+            <td>October 03-
+09, 2021 </td>
+            <td>52</td>
+          </tr>
+          <tr>
+            <td>11.</td>
+            <td>UGC-STRIDE(I) funded Research on socially relevant 
+Transdisciplinary areas through 30+ minor projects. (Module-3; Batch-II) 
+</td>
+            <td>March 15-
+October 15, 
+2021</td>
+            <td>27</td>
+          </tr>
+          <tr>
+            <td>12.</td>
+            <td>UGC-STRIDE(I) funded Training on Advanced Research 
+Equipments (Module-2; Batch-II) 
+</td>
+            <td>April 16- July 
+01, 2021 </td>
+            <td>45</td>
+          </tr>
+          <tr>
+            <td>13.</td>
+            <td>UGC-STRIDE(I) funded Advanced Research Methodology 
+Teaching (Module-1; Batch-II) 
+</td>
+            <td>February 18- 
+April 13 2021</td>
+            <td>32</td>
+          </tr>
+          <tr>
+            <td>14.</td>
+            <td>UGC-STRIDE(I) funded Online National Conference on Recent 
+Advances in Transdisciplinary Research</td>
+            <td>December 29-
+30, 2020 </td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>15.</td>
+            <td>UGC-STRIDE(I) funded Online Faculty Development Program 
+on Research and Publication Ethics & IPR </td>
+            <td>September 
+24-30, 2020 </td>
+            <td>33</td>
+          </tr>
+          <tr>
+            <td>16.</td>
+            <td>UGC-STRIDE(I) funded Research on socially relevant areas 
+through 30+ minor projects. (Module-3; Batch-I) 
+</td>
+            <td>
+through 30+ minor projects. (Module-3; Batch-I) 
+May-October, 2020</td>
+            <td>32</td>
+          </tr>
+          <tr>
+            <td>17.</td>
+            <td>UGC-STRIDE(I) funded Training on Advanced Research 
+Equipments (Module-2; Batch-I) 
+</td>
+            <td>h 
+Equipments (Module-2; Batch-I) 
+12th May-6th June 202</td>
+            <td>35</td>
+          </tr>
+          <tr>
+            <td>18.</td>
+            <td>UGC-STRIDE(I) funded Advanced Research Methodology 
+Teaching (Module-1; Batch-I) </td>
+            <td>February 18- 
+April 15, 
+2020 </td>
+            <td>35</td>
+          </tr>
+          <tr>
+            <td>19.</td>
+            <td>10 days Winter Training Programme on Advanced Scientific 
+Research Equipments</td>
+            <td>26th Dec. – 
+04 Jan. 2020</td>
+            <td>43</td>
+          </tr>
+          <tr>
+            <td>20.</td>
+            <td>Summer Training Programme on Advanced Agro-Pharma-Biotechnology Research Equipments</td>
+            <td> May 27 – 
+June 05, 2019</td>
+            <td>17</td>
+          </tr>
+          <tr>
+            <td>21.</td>
+            <td>Research Scholars Training Programme on Advance Scientific 
+Research Equipments</td>
+            <td>October 10-
+13, 2018</td>
+            <td>32</td>
+          </tr>
+          <tr>
+            <td>22.</td>
+            <td>Faculty Training Programme on Advance Scientific Research 
+Equipments</td>
+            <td>October 03-
+06, 2018</td>
+            <td>46</td>
+          </tr>
+          <tr>
+            <td>23.</td>
+            <td>Symposium on Recent Advances in Clinical & Pharmaceutical 
+Sciences 
+</td>
+            <td>6th July, 2018 </td>
+            <td>150</td>
+          </tr>
+          <tr>
+            <td>24.</td>
+            <td>Symposium on DNA Technology & Nanotechnology; will it 
+change medical science in future? </td>
+            <td>1st October, 
+2018 
+</td>
+            <td>200</td>
+          </tr>
+          <tr>
+            <td>25.</td>
+            <td>Symposium on Bionics: Learning Science from Nature</td>
+            <td>17th Feb, 
+2018 </td>
+            <td>175</td>
+          </tr>
+          <tr>
+            <td>26.</td>
+            <td>Brain storming session cum stake holders Meeting on 
+Medicinal & Aromatic Plants Initiatives in Bundelkhand region</td>
+            <td>February 17-
+18, 2017</td>
+            <td>100</td>
+          </tr>
+
+        </tbody>
+        </table>
         </div>
         <div className="about-innovation-centre-heading">
           8. The Human Resources trained so far through FDPs, Training
@@ -523,6 +923,146 @@ const AboutInnovationCentre = () => {
         </ul>
         <div className="about-innovation-centre-heading">
           10. Earning of the Centre through Consultancy in last 05 Years
+          <table className="core-committee-table" border="1">
+        <thead>
+          <tr>
+            <th>S.No.</th>
+            <th>Type</th>
+            <th>Income Generated</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1.</td>
+            <td>
+            Registration Fee of the various programmes like WTP, STP, 
+etc. organized by the Centre 
+
+            </td>
+            <td>1,35,000.0000 
+</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>
+            Equipment Usage Charges (excluding STRIDE) 
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style={{textAlign:"end"}}>i.</td>
+            <td style={{fontWeight:"bold"}}>
+            Revenue generated through GC-MS (Academic Year Wise) 
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+            </td>
+            <td>2019-20</td>
+            <td>56400.00</td>
+          </tr>
+          <tr>
+            <td>
+            </td>
+            <td>2020-21</td>
+            <td>90500.00</td>
+          </tr>
+          <tr>
+            <td>
+            </td>
+            <td>2021-22</td>
+            <td>71150.00</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style={{textAlign:"end",fontWeight:"bold"}}>Total</td>
+            <td style={{fontWeight:"bold"}}>2,18,050.00</td>
+          </tr>
+          <tr>
+            <td style={{textAlign:"end"}}>ii.</td>
+            <td style={{fontWeight:"bold"}}>
+            Revenue generated through other equipments (Academic 
+year wise) 
+ 
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+            </td>
+            <td>2019-20</td>
+            <td>19200.00</td>
+          </tr>
+          <tr>
+            <td>
+            </td>
+            <td>2020-21</td>
+            <td>19050.00</td>
+          </tr>
+          <tr>
+            <td>
+            </td>
+            <td>2021-22</td>
+            <td>63950.00</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style={{textAlign:"end",fontWeight:"bold"}}>Total</td>
+            <td style={{fontWeight:"bold"}}>1,02,200.00</td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td style={{fontWeight:"bold"}}>
+            Trainings
+ 
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style={{textAlign:"end"}}>i.</td>
+            <td>Batch I 
+(Reg. fee Rs. 2,10,000.00 + EU Charges Rs. 39250.00 + Module-4 
+Conference Reg. fee Rs. 900.00) 
+</td>
+            <td>2,50,150.00</td>
+          </tr>
+          <tr>
+            <td style={{textAlign:"end"}}>ii.</td>
+            <td>Batch II 
+(Reg. fee Rs. 192000.00+ EU Charges Rs. 65100.00 + Module-4 
+Conference Reg. fee Rs. 1000.00) </td>
+            <td>2,67,100.00 </td>
+          </tr>
+          <tr>
+            <td style={{textAlign:"end"}}>iii.</td>
+            <td>Hands on Training Programme (May-June 2021)</td>
+            <td>25,000.00</td>
+          </tr>
+          <tr>
+            <td style={{textAlign:"end"}}>iv.</td>
+            <td>Batch-III Registration Fee</td>
+            <td>1,50,000.00 </td>
+          </tr>
+          <tr>
+            <td style={{textAlign:"end"}}>v.</td>
+            <td>One Week Workshops in April-May 2022 </td>
+            <td>45,000.00 </td>
+          </tr>
+          <tr>
+            <td style={{textAlign:"end"}}>vi.</td>
+            <td> 14 days Training Program (June 06-21, 2022)</td>
+            <td>62,500.00 
+</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style={{fontWeight:"bold"}}>Grand Total</td>
+            <td style={{fontWeight:"bold",textDecoration:"underline"}}>12,49,900.00</td>
+          </tr>
+          
+        </tbody>
+      </table>
         </div>
         <div className="about-innovation-centre-heading">
           11. Community Services & Outreach Programs of the Centre

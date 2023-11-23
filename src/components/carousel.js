@@ -7,7 +7,7 @@ import img1 from "../images/about-top-image.jpg";
 import img2 from "../galleryimage/DSC_0491.JPG";
 import img3 from "../galleryimage/A7403529.JPG";
 import img4 from "../galleryimage/A7403304.JPG";
-import img5 from "../galleryimage/A7402379.JPG";
+import img5 from "../images/TEC-3.jpg";
 import img6 from "../galleryimage/A7402281.JPG";
 import img7 from "../images/innovation_centre (2).jpg";
 
