@@ -1,5 +1,6 @@
 /* top-heading */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Style+Script&display=swap');
 .parent {
   background-color: #fff;
   position: sticky;
@@ -91,6 +92,15 @@ a {
   text-decoration: none;
 }
 
+.navbar-bottom-strip{
+ display: flex;
+ justify-content: space-between;
+ padding: 0rem 0.5rem;
+ font-family: 'Style Script', cursive;
+ /* font-family: 'Cedarville Cursive', cursive; */
+ font-weight: bold;
+}
+
 @media screen and (max-width: 768px) {
   .bu_name {
     /* flex-direction: column; */
@@ -138,5 +148,8 @@ a {
   .bu-tec-2-details {
     font-size: 14px;
   } 
+  .navbar-bottom-strip {
+    display: none;
+  }
 }
 

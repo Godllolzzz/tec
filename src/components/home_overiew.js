@@ -19,6 +19,8 @@ import {
 import "./home_overview.css";
 import Grid from "./grid";
 import { Widgets } from "@mui/icons-material";
+import VideoPlayer from "./VideoPlayer";
+
 
 const HomeOverview = () => {
   return (
@@ -27,7 +29,8 @@ const HomeOverview = () => {
       <div className="about-overview-container">
         <div className="about-overview-style-box"></div>
         <div className="about-overview-left">
-          <img src={innovation_image} alt="innovation center image"></img>
+      <VideoPlayer videoId="1Vz0V0avHuc?feature=shared" />
+      {/* https://youtube.com/shorts/1Vz0V0avHuc?feature=shared */}
         </div>
         <div className="about-overview-right">
           <div className="about-overview-main-heading">About BUTEC & Innovation Centre</div>

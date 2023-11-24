@@ -36,6 +36,14 @@ function NavBar() {
           <div className="bu-tec-2-details">INNOVATION CENTRE</div>
         </div>
       </div>
+      <div className="navbar-bottom-strip">
+        <div>
+        Only Government University in Uttar Pradesh having TEC
+        </div>
+        <div>
+        The State-of-Art facility of Bundelkhand University
+        </div>
+      </div>
       {/* navbar */}
       <Navigation />
     </div>

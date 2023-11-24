@@ -26,7 +26,7 @@ const SanctionedProjects = () => {
                         <img src={project11}></img>
                     </div>
                     <div className="project-content">
-                        <h2>IDENTIFY STUDENT'S MENTAL STRESS <br></br> PI- DR. KAVYA DUBE</h2>
+                        <h2>PREDICTING STUDENTS' STRESS LEVEL AND WELLBEING WITH MACHINE LEARNING<br></br> PI- DR. KAVYA DUBE</h2>
                         <p><b>Introduction : </b>
 
                             Mental health is a growing concern among students, with studies showing that many college and university students experience mental health challenges such as anxiety and depression. Early detection and intervention of these challenges can help students manage their stress and anxiety, improving their academic performance and overall quality of life. This proposal presents a machine learning-based app that can identify students' mental stress by building models and predicting students’ mental stress levels and well-being.
@@ -47,7 +47,7 @@ const SanctionedProjects = () => {
                         <img src={project22}></img>
                     </div>
                     <div className="project-content">
-                        <h2>MARKET RESEARCH OF A LOCALITY FOR THE DEVELOPMENT OF ONLINE BRIDGING TOOL BETWEEN WORKING AND NON-WORKING POPULATION AND THE EXTENT OF EMPLOYMENT<br></br>
+                        <h2>MARKET RESEARCH OF THE LOCALITY FOR THE DEVELOPMENT OF ONLINE BRIDGING TOOL BETWEEN SERVICE PROVIDER AND NEEDY POPULATION<br></br>
                         PI – DR. SHAMBHUNATH SINGH </h2>
                         <p><b>Introduction : </b>
 
@@ -81,7 +81,7 @@ const SanctionedProjects = () => {
                         <img src={project33}></img>
                     </div>
                     <div className="project-content">
-                        <h2>STUDIES ON WOUND HEALING AND ANTI-INFLAMMATORY POTENTIAL OF POLYHERBAL FORMULATION USING IN VITRO AND IN VIVO ASSAYS IN SWISS ALBINO RATS <br></br> 
+                        <h2>ORAL CANCER OCCURS FOR BUNDELKHAND REGION: EFFECT OF NOVEL HERBAL COCKTAIL TO ALLEVIATE ORAL SQUAMOUS CELL CARCINOMA<br></br> 
                         PI– DR. BHAWNA SHARMA
 
                         </h2>
@@ -182,7 +182,7 @@ attempts to cover both in order to get a realistic overview of the scenario.
                         <img src={project5}></img>
                     </div>
                     <div className="project-content">
-                        <h2>A SAFTEY SYSTEM FOR WEARABLE HELMETS<br></br>
+                        <h2>SMART HELMET<br></br>
                         PI- DR. ROHIT PEARDON
 
                         </h2>
