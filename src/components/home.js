@@ -4,7 +4,7 @@ import VCMessage from "./message";
 import NavBar from "./NavBar";
 import Footer from "./footer";
 import "./home.css";
-// import Patents from "./patents";
+import Patents from "./patents";
 import HomeOverview from "./home_overiew";
 
 import ContactUsHome from "./ContactUsHome";

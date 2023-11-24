@@ -119,7 +119,7 @@ The State-of-Art facility named as Innovation centre was established in 2014, th
           </div>
         </div>
         <div className="see_more">
-          <a href="/service">See More...</a>
+          <a  href="/service">See More...</a>
         </div>
       </div>
       {/* patent */}
@@ -146,7 +146,7 @@ The State-of-Art facility named as Innovation centre was established in 2014, th
           </div>
         </div>
         <div className="see_more">
-        <a href="/patents">See More...</a>
+        <a  href="/patents"> See More...</a>
 </div>
       </div>
       {/* partners */}

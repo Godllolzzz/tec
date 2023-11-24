@@ -24,7 +24,7 @@ const Patents = () => {
                 <div></div>
             </div>
         </div>
-        <div className="see_more"><Link to="/patents">See More...</Link></div>
+        <div className="see_more"><Link to="/patents"><button style={{backgroundColor:"gold"}}>See More...</button></Link></div>
         </div>
     )
 }
