@@ -13,6 +13,7 @@ const Navigation = () => {
   const [isAchievementsVisible, setIsAchievementsVisible] = useState(false);
   const [isEventVisible, setIsEventVisible] = useState(false);
   const [isAboutVisible, setIsAboutVisible] = useState(false);
+  const [isDownloadVisible, setIsDownloadVisible] = useState(false);
 
 
   // if(!isMobileNavbarOpen) {
@@ -43,6 +44,13 @@ const Navigation = () => {
     setIsAboutVisible(false);
   };
   const event_on_click_handler = () => {
+    setIsEventVisible((prevState) => !prevState);
+    setIsTeamTecVisible(false);
+    setIsNetworkVisible(false);
+    setIsAchievementsVisible(false);
+    setIsAboutVisible(false);
+  };
+  const download_on_click_handler = () => {
     setIsEventVisible((prevState) => !prevState);
     setIsTeamTecVisible(false);
     setIsNetworkVisible(false);
@@ -294,6 +302,7 @@ const Navigation = () => {
               <li className="dropdown-item">
                 <Link to="/Mou">MoU's</Link>
               </li>
+             
             </ul>
           </l1>
           {/* <l1 className="navbar-item">Contacts</l1> */}
@@ -322,6 +331,27 @@ const Navigation = () => {
           <Link to="/service">
             <l1 className="navbar-item">Services</l1>
           </Link>
+          <l1 className="navbar-item" onClick={download_on_click_handler}>
+            Downloads
+            <ul
+              class="dropdown"
+              style={{ display: `${isDownloadVisible ? "block" : "none"}` }}
+            >
+              <li className="dropdown-item">
+                <Link to="/events">Our Events</Link>
+              </li>
+              <li className="dropdown-item">
+                <Link to="/gallery">Gallery</Link>{" "}
+              </li>
+              <li className="dropdown-item">
+                <Link to="/tot-plan">ToT Plan</Link>{" "}
+              </li>
+              <li className="dropdown-item">
+                <Link to="/training-plan">Training Plan</Link>{" "}
+              </li>
+            </ul>
+            </l1>
+
           {/* <l1 className="navbar-item">Achievements</l1> */}
           <Link to="/contact-us">
             <l1 className="navbar-item">Contacts</l1>

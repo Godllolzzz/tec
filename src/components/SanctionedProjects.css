@@ -113,6 +113,9 @@
     padding: 2rem;
     margin: 2rem;
 }
+.project-content h2{
+color: gold;
+}
 
 @media (max-width: 768px) {
   .sanctioned-main-container {

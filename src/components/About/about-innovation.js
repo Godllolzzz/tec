@@ -415,7 +415,7 @@ const AboutInnovationCentre = () => {
         </ul>
         <div className="about-innovation-centre-heading">
           3. Major Research Areas
-        </div>
+        
         <ul className="about-innovation-centre-content">
           <li>Biological, Physical, Chemical Sciences</li>
           <li>
@@ -577,6 +577,7 @@ harvesting. </td>
           </tr>
         </tbody>
       </table>
+      </div>
         <div className="about-innovation-centre-heading">
           4. Major beneficiaries of the Centre
         </div>
@@ -659,16 +660,41 @@ harvesting. </td>
           </tr>
         </thead>
         <tbody>
-          <tr>
+        <tr>
             <td>1.</td>
-            <td>DST-STUTI funded one-week Hands-on-Training on 
-Sophisticated equipments of Material Science</td>
-            <td>September 
-14-20, 2022 </td>
+            <td>One-week Hands-on-Training Program on Advanced Research Equipments for the technological advancement of MSMEs. </td>
+            <td>July 25-31, 2023</td>
             <td>30 </td>
           </tr>
           <tr>
             <td>2.</td>
+            <td>One Week Hands-on-Training cum workshop on industry oriented spectroscopic techniques</td>
+            <td>October 12-18, 2023</td>
+            <td>30 </td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>One-week Hands-on-Training Program on Advanced Research Equipments. </td>
+            <td>May 01-07, 2023. </td>
+            <td>30 </td>
+          </tr>
+          <tr>
+            <td>4.</td>
+            <td>DST-STUTI funded one-week Hands-on-Training Program on Biotechnology applications.</td>
+            <td>January 06-12, 2023 </td>
+            <td>30 </td>
+          </tr>
+          <tr>
+            <td>5.</td>
+            <td>DST-STUTI funded one-week Hands-on-Training on 
+Sophisticated equipments of Material Science</td>
+            <td></td>
+            <td>30 </td>
+          </tr>
+          
+          
+          <tr>
+            <td>6.</td>
             <td>One Week Hands on-Training on Spectroscopic analysis of 
 heavy metals and trace elements in soil, water and plant 
 samples through Flame Photometer & Atomic Absorption 
@@ -680,7 +706,7 @@ Spectrometer (AAS)
             <td>18</td>
           </tr>
           <tr>
-            <td>3.</td>
+            <td>7.</td>
             <td>Brain Storming on Innovative Ideation & Conceptualization of 
 Research Themes (Round-1) 
 </td>
@@ -688,7 +714,7 @@ Research Themes (Round-1)
             <td>15</td>
           </tr>
           <tr>
-            <td>4.</td>
+            <td>8.</td>
             <td>UGC-STRIDE funded Two Weeks Hands-on-Training on 
 Advanced Research Equipments (Module-2, Batch-III) 
 </td>
@@ -697,7 +723,7 @@ Advanced Research Equipments (Module-2, Batch-III)
             <td>50</td>
           </tr>
           <tr>
-            <td>5.</td>
+            <td>9.</td>
             <td>UGC-STRIDE(I) funded One Week Workshop on Nucleic Acid 
 Extraction analysis through Gel Electrophoresis and Real 
 Time-PCR</td>
@@ -706,7 +732,7 @@ Time-PCR</td>
             <td>40</td>
           </tr>
           <tr>
-            <td>6.</td>
+            <td>10.</td>
             <td>UGC-STRIDE(I) funded One Week Workshop on 
 Phytochemical Extraction and their chromatographic Analysis 
 through HPLC & GC-MS </td>
@@ -716,7 +742,7 @@ through HPLC & GC-MS </td>
             <td>50</td>
           </tr>
           <tr>
-            <td>7.</td>
+            <td>11.</td>
             <td>UGC-STRIDE(I) funded Advanced Research Methodology 
 Teaching (Module-1; Batch-III) </td>
             <td>February 28- 
@@ -725,7 +751,7 @@ April 15,
             <td>28</td>
           </tr>
           <tr>
-            <td>8.</td>
+            <td>12.</td>
             <td>UGC-STRIDE (I) funded Hands on Training on Advanced 
 Research Equipments </td>
             <td>June 21- July 
@@ -733,7 +759,7 @@ Research Equipments </td>
             <td>45</td>
           </tr>
           <tr>
-            <td>9.</td>
+            <td>13.</td>
             <td>UGC-STRIDE(I) Funded 2nd National Conference on Recent 
 Trends in Transdisciplinary Research for Socio-economic 
 Development of India. </td>
@@ -742,7 +768,7 @@ Development of India. </td>
             <td>50</td>
           </tr>
           <tr>
-            <td>10.</td>
+            <td>14.</td>
             <td>UGC-STRIDE(I) funded Online Faculty Development 
 Programme on Teaching, Examination, and Research Ethics</td>
             <td>October 03-
@@ -750,142 +776,16 @@ Programme on Teaching, Examination, and Research Ethics</td>
             <td>52</td>
           </tr>
           <tr>
-            <td>11.</td>
+            <td>15.</td>
             <td>UGC-STRIDE(I) funded Research on socially relevant 
 Transdisciplinary areas through 30+ minor projects. (Module-3; Batch-II) 
 </td>
             <td>March 15-
 October 15, 
 2021</td>
-            <td>27</td>
-          </tr>
-          <tr>
-            <td>12.</td>
-            <td>UGC-STRIDE(I) funded Training on Advanced Research 
-Equipments (Module-2; Batch-II) 
-</td>
-            <td>April 16- July 
-01, 2021 </td>
-            <td>45</td>
-          </tr>
-          <tr>
-            <td>13.</td>
-            <td>UGC-STRIDE(I) funded Advanced Research Methodology 
-Teaching (Module-1; Batch-II) 
-</td>
-            <td>February 18- 
-April 13 2021</td>
-            <td>32</td>
-          </tr>
-          <tr>
-            <td>14.</td>
-            <td>UGC-STRIDE(I) funded Online National Conference on Recent 
-Advances in Transdisciplinary Research</td>
-            <td>December 29-
-30, 2020 </td>
-            <td>50</td>
-          </tr>
-          <tr>
-            <td>15.</td>
-            <td>UGC-STRIDE(I) funded Online Faculty Development Program 
-on Research and Publication Ethics & IPR </td>
-            <td>September 
-24-30, 2020 </td>
-            <td>33</td>
-          </tr>
-          <tr>
-            <td>16.</td>
-            <td>UGC-STRIDE(I) funded Research on socially relevant areas 
-through 30+ minor projects. (Module-3; Batch-I) 
-</td>
-            <td>
-through 30+ minor projects. (Module-3; Batch-I) 
-May-October, 2020</td>
-            <td>32</td>
-          </tr>
-          <tr>
-            <td>17.</td>
-            <td>UGC-STRIDE(I) funded Training on Advanced Research 
-Equipments (Module-2; Batch-I) 
-</td>
-            <td>h 
-Equipments (Module-2; Batch-I) 
-12th May-6th June 202</td>
-            <td>35</td>
-          </tr>
-          <tr>
-            <td>18.</td>
-            <td>UGC-STRIDE(I) funded Advanced Research Methodology 
-Teaching (Module-1; Batch-I) </td>
-            <td>February 18- 
-April 15, 
-2020 </td>
-            <td>35</td>
-          </tr>
-          <tr>
-            <td>19.</td>
-            <td>10 days Winter Training Programme on Advanced Scientific 
-Research Equipments</td>
-            <td>26th Dec. – 
-04 Jan. 2020</td>
-            <td>43</td>
-          </tr>
-          <tr>
-            <td>20.</td>
-            <td>Summer Training Programme on Advanced Agro-Pharma-Biotechnology Research Equipments</td>
-            <td> May 27 – 
-June 05, 2019</td>
-            <td>17</td>
-          </tr>
-          <tr>
-            <td>21.</td>
-            <td>Research Scholars Training Programme on Advance Scientific 
-Research Equipments</td>
-            <td>October 10-
-13, 2018</td>
-            <td>32</td>
-          </tr>
-          <tr>
-            <td>22.</td>
-            <td>Faculty Training Programme on Advance Scientific Research 
-Equipments</td>
-            <td>October 03-
-06, 2018</td>
-            <td>46</td>
-          </tr>
-          <tr>
-            <td>23.</td>
-            <td>Symposium on Recent Advances in Clinical & Pharmaceutical 
-Sciences 
-</td>
-            <td>6th July, 2018 </td>
-            <td>150</td>
-          </tr>
-          <tr>
-            <td>24.</td>
-            <td>Symposium on DNA Technology & Nanotechnology; will it 
-change medical science in future? </td>
-            <td>1st October, 
-2018 
-</td>
-            <td>200</td>
-          </tr>
-          <tr>
-            <td>25.</td>
-            <td>Symposium on Bionics: Learning Science from Nature</td>
-            <td>17th Feb, 
-2018 </td>
-            <td>175</td>
-          </tr>
-          <tr>
-            <td>26.</td>
-            <td>Brain storming session cum stake holders Meeting on 
-Medicinal & Aromatic Plants Initiatives in Bundelkhand region</td>
-            <td>February 17-
-18, 2017</td>
-            <td>100</td>
-          </tr>
-
+<td>27</td>
+            </tr>
+        
         </tbody>
         </table>
         </div>
@@ -922,8 +822,8 @@ Medicinal & Aromatic Plants Initiatives in Bundelkhand region</td>
           </li>
         </ul>
         <div className="about-innovation-centre-heading">
-          10. Earning of the Centre through Consultancy in last 05 Years
-          <table className="core-committee-table" border="1">
+          10. Earning of the Centre through Consultancy in last 05 Years is more than 15+ Lakhs.
+          {/* <table className="core-committee-table" border="1">
         <thead>
           <tr>
             <th>S.No.</th>
@@ -1062,7 +962,7 @@ Conference Reg. fee Rs. 1000.00) </td>
           </tr>
           
         </tbody>
-      </table>
+      </table> */}
         </div>
         <div className="about-innovation-centre-heading">
           11. Community Services & Outreach Programs of the Centre
