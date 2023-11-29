@@ -354,7 +354,7 @@ const AboutInnovationCentre = () => {
           <img src={ab0} alt="about-image"></img>
         </div>
         <div className="about-innovation-centre-heading">
-          1. About the Centre
+          1. About the Centre 
         </div>
         <ul className="about-innovation-centre-content">
           <li>

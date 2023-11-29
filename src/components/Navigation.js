@@ -14,11 +14,22 @@ const Navigation = () => {
   const [isEventVisible, setIsEventVisible] = useState(false);
   const [isAboutVisible, setIsAboutVisible] = useState(false);
   const [isDownloadVisible, setIsDownloadVisible] = useState(false);
+  const [isHomeOpen, setisHomeOpen] = useState(false);
+  
 
 
   // if(!isMobileNavbarOpen) {
   //   document.querySelector('.dropdown').style.display = "none";
   // }
+
+  const home_on_click_handler = () => {
+    setIsNetworkVisible(false);
+    setIsAchievementsVisible(false);
+    setIsEventVisible(false);
+    setIsAboutVisible(false);
+    setIsDownloadVisible(false);
+    setIsTeamTecVisible(false);
+  }
 
   const tec_on_click_handler = () => {
     setIsTeamTecVisible((prevState) => !prevState);
@@ -26,6 +37,7 @@ const Navigation = () => {
     setIsAchievementsVisible(false);
     setIsEventVisible(false);
     setIsAboutVisible(false);
+    setIsDownloadVisible(false);
   };
 
   const network_on_click_handler = () => {
@@ -33,6 +45,7 @@ const Navigation = () => {
     setIsTeamTecVisible(false);
     setIsAchievementsVisible(false);
     setIsEventVisible(false);
+    setIsDownloadVisible(false);
     setIsAboutVisible(false);
   };
 
@@ -41,6 +54,7 @@ const Navigation = () => {
     setIsTeamTecVisible(false);
     setIsNetworkVisible(false);
     setIsEventVisible(false);
+    setIsDownloadVisible(false);
     setIsAboutVisible(false);
   };
   const event_on_click_handler = () => {
@@ -48,20 +62,24 @@ const Navigation = () => {
     setIsTeamTecVisible(false);
     setIsNetworkVisible(false);
     setIsAchievementsVisible(false);
+    setIsDownloadVisible(false);
     setIsAboutVisible(false);
   };
   const download_on_click_handler = () => {
-    setIsEventVisible((prevState) => !prevState);
+    setIsDownloadVisible((prevState) => !prevState);
     setIsTeamTecVisible(false);
     setIsNetworkVisible(false);
     setIsAchievementsVisible(false);
     setIsAboutVisible(false);
+    setIsEventVisible(false)
   };
+ 
   const about_on_click_handler = () => {
     setIsAboutVisible((prevState) => !prevState);
     setIsTeamTecVisible(false);
     setIsNetworkVisible(false);
     setIsAchievementsVisible(false);
+    setIsDownloadVisible(false);
     setIsEventVisible(false);
   };
   const hamburgerHandler = () => {
@@ -97,7 +115,7 @@ const Navigation = () => {
       <div className="inner-navbar">
         <ul className="navbar-items">
           <Link to="/">
-            <l1 className="navbar-item">Home</l1>
+            <l1 className="navbar-item" onClick={home_on_click_handler}>Home</l1>
           </Link>
           <l1 className="navbar-item" onClick={about_on_click_handler}>
             About Us
@@ -207,6 +225,20 @@ const Navigation = () => {
               </li>
             </ul>
           </l1>
+          <l1 className="navbar-item" onClick={download_on_click_handler}>
+            Downloads
+            <ul
+              class="dropdown"
+              style={{ display: `${isDownloadVisible ? "block" : "none"}` }}
+            >
+              <li className="dropdown-item">
+                <a href="https://bujhansi.ac.in/site/writereaddata/siteContent/201801221641141857UIC%20Brochure%20.pdf">Brochure</a>
+              </li>
+              <li className="dropdown-item">
+                <a href="https://bujhansi.ac.in/innovation/user_application_form.pdf">User Application Form</a>
+              </li>
+            </ul>
+          </l1>
           <Link to="/service">
             <l1 className="navbar-item">Services</l1>
           </Link>
@@ -223,7 +255,7 @@ const Navigation = () => {
       >
         <ul className="navbar-items">
           <Link to="/">
-            <l1 className="navbar-item">Home</l1>
+            <l1 className="navbar-item" onClick={home_on_click_handler}>Home</l1>
           </Link>
           <l1 className="navbar-item" onClick={about_on_click_handler}>
             About Us
@@ -302,7 +334,7 @@ const Navigation = () => {
               <li className="dropdown-item">
                 <Link to="/Mou">MoU's</Link>
               </li>
-             
+              
             </ul>
           </l1>
           {/* <l1 className="navbar-item">Contacts</l1> */}
@@ -326,11 +358,9 @@ const Navigation = () => {
               <li className="dropdown-item">
                 <Link to="/training-plan">Training Plan</Link>{" "}
               </li>
+             
             </ul>
           </l1>
-          <Link to="/service">
-            <l1 className="navbar-item">Services</l1>
-          </Link>
           <l1 className="navbar-item" onClick={download_on_click_handler}>
             Downloads
             <ul
@@ -338,19 +368,17 @@ const Navigation = () => {
               style={{ display: `${isDownloadVisible ? "block" : "none"}` }}
             >
               <li className="dropdown-item">
-                <Link to="/events">Our Events</Link>
+                <a href="https://bujhansi.ac.in/site/writereaddata/siteContent/201801221641141857UIC%20Brochure%20.pdf">Brochure</a>
               </li>
               <li className="dropdown-item">
-                <Link to="/gallery">Gallery</Link>{" "}
-              </li>
-              <li className="dropdown-item">
-                <Link to="/tot-plan">ToT Plan</Link>{" "}
-              </li>
-              <li className="dropdown-item">
-                <Link to="/training-plan">Training Plan</Link>{" "}
+                <a href="https://bujhansi.ac.in/innovation/user_application_form.pdf">User Application Form</a>
               </li>
             </ul>
-            </l1>
+          </l1>
+          <Link to="/service">
+            <l1 className="navbar-item">Services</l1>
+          </Link>
+         
 
           {/* <l1 className="navbar-item">Achievements</l1> */}
           <Link to="/contact-us">

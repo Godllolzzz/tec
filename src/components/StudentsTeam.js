@@ -1,5 +1,5 @@
 import react from "react";
-import sushantimg from "../images/Sushant.jpg";
+import sushantimg from "../images/sushant1.jpg";
 import praveenimg from "../images/Praveen.jpg"
 import NavBar from "./NavBar";
 import Footer from "./footer";
