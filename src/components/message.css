@@ -41,3 +41,11 @@
   color: #03174F;
   font-weight: bolder;
 }
+@media screen and (max-width: 750px) {
+  .outer-msg-container {
+    margin: 2rem;
+  }
+  .inner2{
+    padding: 3rem 1rem 1rem 2rem;
+  }
+}

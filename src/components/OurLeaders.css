@@ -7,13 +7,6 @@
     width: 100%;
 }
 
-.vcsir1 img{
-    width: 80%;
-    height: 100%;
-    
-    
-}
-
 .our-leader-heading{
     border-bottom: 1px solid rgb(41, 38, 38);
   font-family: "Montserrat", sans-serif;
@@ -39,15 +32,36 @@
     
 }
  
-.vcsir1-logo{
-    margin:4rem ;
-    align-self: center;
+.officials-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 30%;
 }
-
-.vcsir1-logo img{
-    width: 30rem;
-    
+.other_officials {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+.fo_bu {
+    width: 40%;
+}
+.fo_bu img{
+    width: 100%;
+}
+.registrar_bu{
+    width: 40%;
+}
+.registrar_bu img{
+    width: 100%;
+}
+.vcsir_image {
+    width: 90%;
+}
+.vcsir_image img{
+    width: 100%;
 }
 
 
@@ -58,17 +72,24 @@
 .vcsir1-title h4{
     margin-top: -1rem;
 }
-
+ .lavsir-logo {
+    width: 30%;
+    align-self: center;
+    padding:1rem;
+ }
+ .lavsir-logo img{
+    width: 100%;
+ }
 .vcsir1-content{
     background-color: #03174F ;
     color: white;
     padding: 2rem;
     width: 60%;
     margin: 4rem;
+    margin-left: 0rem;
     box-shadow: 5px 5px 10px #03174F;
     font-family: 'Montserrat', sans-serif;
     justify-content: center;
-    
 }
 .vcsir1-content p{
     text-align: justify;

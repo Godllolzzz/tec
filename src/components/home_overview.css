@@ -3,8 +3,8 @@
   /* background-color: #03174F; */
   background-image: linear-gradient(#fff, white, white, gold);
   position: relative;
-  height: 40rem;
-  padding: 0rem 2rem;
+  /* height: 40rem; */
+  padding: 2rem 2rem;
   justify-content: center;
   background-color: rgb(62, 98, 155);
   gap: 4rem;
@@ -195,4 +195,59 @@
 }
 .partner-overview-name {
   text-align: center;
+}
+
+@media screen and (max-width: 1080px) {
+  .wsro-overview-outer-container {
+    flex-direction: column;
+  }
+  .wsro-overview-inner-container {
+    width: 90%;
+  }
+  .wsro-overview-main-heading {
+    font-size: 1.5rem;
+  }
+  .service-overview-outer-container {
+    flex-direction: column;
+  }
+  .service-overview-inner-container{
+    width: 80%;
+    margin: 1rem;
+  }
+  .service-overview-main-heading{
+    font-size:2rem;
+  }
+ 
+  .partner-overview-outer-container{
+    flex-direction: column;
+  }
+  .partner-overview-inner-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .partner-overview-name {
+    max-width: 60%;
+    font-weight: bold;
+  }
+  .partner-overview-main-heading {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .patents-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .patent-container {
+    width: 80%;
+  }
+  .patent-main-heading {
+    font-size: 2rem;
+  }
+  .outer-patent-container{
+    padding: 0rem;
+  }
 }

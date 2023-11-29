@@ -164,7 +164,7 @@
   } */
 
   .title{
-    font-size: 2rem;
+    font-size: 1rem;
   }
   
   .timeline-item .title::before {
@@ -193,6 +193,9 @@
   
     .timeline-item:nth-child(2) {
       grid-row: 2/4;
+    }
+    .title{
+      font-size: 1.5rem;
     }
   
     .timeline-item:nth-child(odd) .date::before {
