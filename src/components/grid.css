@@ -28,8 +28,11 @@
   border-bottom: 1px solid rgb(41, 38, 38);
   font-family: "Montserrat", sans-serif;
   padding: 1rem 0rem;
+  font-style: 2rem;
+  font-weight: bold;
   color: rgb(41, 36, 36);
   font-size: 2.2rem;
+  text-align: center;
 }
 .data:hover {
   background-color: gold;
@@ -45,4 +48,13 @@
 .topic {
   font-size: 1.2rem;
   font-weight: 500;
+}
+
+@media screen and (max-width: 1080px) {
+  .data-box{
+    flex-direction: column;
+  }
+  .grid-main-heading{
+    font-size: 1.5rem;
+  }
 }

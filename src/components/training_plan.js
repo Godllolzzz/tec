@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import Footer from "./footer";
 import "./training_plan.css"
-import training_image from "../images/training_image.jpg"
+import training_image from "../images/training_image1.jpg"
 import training_top_image from "../images/training_top_image.jpg"
 
 const TrainingPlan = () => {
