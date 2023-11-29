@@ -29,8 +29,9 @@ const HomeOverview = () => {
       <div className="about-overview-container">
         <div className="about-overview-style-box"></div>
         <div className="about-overview-left">
-      <VideoPlayer videoId="1Vz0V0avHuc?feature=shared" />
+      {/* <VideoPlayer videoId="1Vz0V0avHuc?feature=shared" /> */}
       {/* https://youtube.com/shorts/1Vz0V0avHuc?feature=shared */}
+      <img src={innovation_image} alt="innovation_image"></img>
         </div>
         <div className="about-overview-right">
           <div className="about-overview-main-heading">About BUTEC & Innovation Centre</div>

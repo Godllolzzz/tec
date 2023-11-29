@@ -18,7 +18,7 @@ const OurLeaders = () => {
 
         <div className="vcsir1">
           <div className="officials-logo">
-            <div className="vcsir_image">
+            <div className="vc-sir_image">
               <img src={vcsirlogo} alt="vc_sir_image"></img>
               <div className="vcsir1-title">
                 <h3>Prof. Mukesh Pandey</h3>

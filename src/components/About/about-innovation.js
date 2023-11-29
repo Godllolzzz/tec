@@ -328,7 +328,7 @@
 // export default AboutInnovationCentre;
 
 import "./about-innovation-centre.css";
-import ab0 from "../../images/inovate.png"
+import ab0 from "../../images/inovate.90fe99107a81d3c931b9.png"
 import ab1 from "../../images/about-innovation-1.jpg";
 import ab2 from "../../images/about-innovation-2.jpg";
 import ab3 from "../../images/about-innovation-3.jpg";
