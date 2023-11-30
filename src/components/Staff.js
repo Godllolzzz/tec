@@ -1,7 +1,7 @@
 import React from "react";
 import './Staff.css';
 import firststaff from "../images/Nistha_mam.png";
-import secondstaff from "../images/kSrikantsir.jpg"
+import secondstaff from "../images/staff2.jpg"
 import NavBar from "./NavBar";
 import Footer from "./footer";
 
