@@ -77,10 +77,11 @@ const Carousel = () => {
             <img src={tec_logo1}></img>
           </div>
         </div> */}
-        <div
-          className="typewriter-parent"
-        >
-          <TypeWriter first = "DST - TECHNOLOGY ENABLING CENTRE" second = "BU - INNOVATION CENTRE"/>
+        <div className="typewriter-parent">
+          <TypeWriter
+            first="DST - TECHNOLOGY ENABLING CENTRE"
+            second="BU - INNOVATION CENTRE"
+          />
         </div>
         {/* <div
           style={{
@@ -121,10 +122,8 @@ const Carousel = () => {
                 <ArrowBackIosNewIcon onClick={eventCloseHandler} />
               </div>
               <div className="content">
-                We are excited to announce our upcoming product launch event!
-                Join us on [Date] at [Location] to get a sneak peek at our
-                latest innovations and offerings. Don't miss out on this
-                exciting opportunity to learn and connect with our team.
+                One week training cum workshop on Advanced Technology staring
+                from 16 December 2023.
               </div>
             </div>
           )}
@@ -148,10 +147,8 @@ const Carousel = () => {
                 <ArrowBackIosNewIcon onClick={announcementClosetHandler} />
               </div>
               <div className="content">
-                Join us for the Tech Conference 2023, where industry experts and
-                innovators will discuss the latest trends and technologies in
-                the tech world. Don't miss this opportunity to learn and
-                network.
+                Two Weeks Capacity Building programme for young Social Science
+                faculty.
               </div>
             </div>
           )}
@@ -175,11 +172,12 @@ const Carousel = () => {
                 <ArrowBackIosNewIcon onClick={highlightCloseHandler} />
               </div>
               <div className="content">
-                {" "}
-                Join us for the Tech Conference 2023, where industry experts and
-                innovators will discuss the latest trends and technologies in
-                the tech world. Don't miss this opportunity to learn and
-                network.
+                ICUMAST was a great success.The event was marked by spirited
+                discussions, insightful presentations, and a vision of
+                collaboration and knowledge sharing among the attending
+                universities. More than 110 participants registered for for the
+                one week training on Advanced Characterization Technology.
+                Applicants were from around 25 states of India.
               </div>
             </div>
           )}
