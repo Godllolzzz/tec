@@ -61,6 +61,7 @@
     .contact-us-outer-container{
         flex-direction: column;
         gap: 2rem;
+        align-items: center;
     }
     .contact-us-container{
         padding: 2rem;

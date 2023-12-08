@@ -58,6 +58,7 @@
   .events, .highlights, .announcements {
     width: 100%;
     animation: slide-in 1s;
+    z-index: 102;
   }
   
   @keyframes slide-in {
@@ -118,6 +119,27 @@
     border-bottom-right-radius: 8px;
     display: flex;
     
+  }
+  .typewriter-parent {
+    position: absolute;
+    z-index: 101;
+    bottom: 2rem;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+  }
+  @media screen and (max-width: 750px) {
+    .carousel-image-container{
+      height: 20rem;
+    }
+    .typewriter-parent {
+      bottom: 0.5rem;
+      width: 80%;
+      margin-left: 20%;
+    }
+  .content{
+    font-size: small;
+  }
   }
   /* ...rest of your styles... */
   

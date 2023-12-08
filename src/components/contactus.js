@@ -44,7 +44,7 @@ const ContactUs = () => {
               <div className="contact-us-content">
                 <p className="contact-us-name">Dr. Nishtha Vyas</p>
                 <p>+91 9511015157</p>
-                <p className="contact-us-name">Dr. Shrikanth Krishnamurthy</p>
+                <p className="contact-us-name">Dr. K Shrikanth</p>
                 <p>+91 9840998686</p>
               </div>
             </div>

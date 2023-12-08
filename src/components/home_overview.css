@@ -5,15 +5,16 @@
   position: relative;
   /* height: 40rem; */
   padding: 2rem 2rem;
+  padding-top: 3rem;
   justify-content: center;
   background-color: rgb(62, 98, 155);
-  gap: 4rem;
+  gap: 2rem;
   display: flex;
   box-shadow: 10px 10px 20px gold;
 }
 .about-overview-left {
   margin-bottom: 4rem;
-  width: 35%;
+  width: 45%;
   z-index: 1000;
   /* border-left: 2px solid #03174F; */
   /* border-bottom: 2px solid #03174F;
@@ -62,12 +63,12 @@
   padding-bottom: 1rem;
   color: #000e36;
   font-size: 1.8rem;
-  
+  text-align: center;
 }
 .about-overview-left img {
   width: 86%;
   height: 90%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .service-overview-container {
   background-color: gold;
@@ -113,6 +114,10 @@
   color: rgb(0, 183, 255);
   margin-right: -89%;
   margin-top: 1rem;
+  background: gold;
+  padding: 0.2rem 0.5rem;
+  text-decoration: none;
+  border-radius: 4px;
 }
 .see_more:hover {
   cursor: pointer;
@@ -249,5 +254,19 @@
   }
   .outer-patent-container{
     padding: 0rem;
+  }
+  .about-overview-container {
+    flex-direction: column;
+    gap: 0rem;
+  }
+  .about-overview-left {
+    display: none;
+  }
+  .about-overview-right {
+    padding: 0rem;
+    width: 100%;
+  }
+  .about-overview-main-heading {
+    font-size: 1.5rem;
   }
 }

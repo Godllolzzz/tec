@@ -78,13 +78,7 @@ const Carousel = () => {
           </div>
         </div> */}
         <div
-          style={{
-            position: "absolute",
-            zIndex: "101",
-            bottom: "8rem",
-            marginRight:"20%",
-            marginLeft:"20%",
-          }}
+          className="typewriter-parent"
         >
           <TypeWriter first = "DST - TECHNOLOGY ENABLING CENTRE" second = "BU - INNOVATION CENTRE"/>
         </div>

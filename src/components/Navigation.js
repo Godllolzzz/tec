@@ -251,7 +251,7 @@ const Navigation = () => {
                 <Link to="/staff">Staff</Link>
               </li>
               <li className="dropdown-item">
-                <a href="#">Students Team</a>
+                <a href="/students-team">Students Team</a>
               </li>
             </ul>
           </l1>
