@@ -72,7 +72,7 @@ function App() {
       </Router>
       {/* WhatsApp icon */}
       <a
-        href="https://wa.me/9919085351"
+        href="https://wa.me/9511015157"
         class="whatsapp_float"
         target="_blank"
         rel="noopener noreferrer"
