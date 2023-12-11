@@ -9,7 +9,7 @@ import partner4 from "../images/CentralAgro.jpg";
 import partner5 from "../images/CentralAyurved.jpg";
 import partner6 from "../images/baidyanath_logo.png";
 import partner7 from "../images/bhel logo.png";
-import innovation_image from "../images/innovation_centre__2_.1e7cba71ec612361ba0e-removebg-preview.png";
+import innovation_image from "../images/home_about_image.jpeg.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBriefcase,
@@ -20,6 +20,7 @@ import "./home_overview.css";
 import Grid from "./grid";
 import { Widgets } from "@mui/icons-material";
 import VideoPlayer from "./VideoPlayer";
+import { Link } from "@mui/material";
 
 
 const HomeOverview = () => {
@@ -27,7 +28,7 @@ const HomeOverview = () => {
     <>
       {/* about tec */}
       <div className="about-overview-container">
-        <div className="about-overview-style-box"></div>
+        {/* <div className="about-overview-style-box"></div> */}
         <div className="about-overview-left">
       {/* <VideoPlayer videoId="1Vz0V0avHuc?feature=shared" /> */}
       {/* https://youtube.com/shorts/1Vz0V0avHuc?feature=shared */}
@@ -40,7 +41,7 @@ const HomeOverview = () => {
 The State-of-Art facility named as Innovation centre was established in 2014, this research centre cum testing lab is having almost all kinds of sample testing equipment that have been serving the society in the region.
           </div>
           <div className="about-overview-learn-more">
-            <a href="/about">LEARN MORE</a>
+            <Link href="/about">LEARN MORE</Link>
           </div>
         </div>
       </div>
@@ -120,7 +121,7 @@ The State-of-Art facility named as Innovation centre was established in 2014, th
           </div>
         </div>
         <div className="see_more">
-          <a  href="/service">See More...</a>
+        <Link  href="/service">See More...</Link>
         </div>
       </div>
       {/* patent */}
@@ -147,7 +148,7 @@ The State-of-Art facility named as Innovation centre was established in 2014, th
           </div>
         </div>
         <div className="see_more">
-        <a  href="/patents"> See More...</a>
+          <Link href="/patents">See More...</Link>
 </div>
       </div>
       {/* partners */}
@@ -212,7 +213,7 @@ The State-of-Art facility named as Innovation centre was established in 2014, th
           </div>
         </div>
         <div className="see_more">
-          <a href="/our-partners">See More...</a>
+          <Link href="/our-partners">See More...</Link>
         </div>
       </div>
     </>
