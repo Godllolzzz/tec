@@ -75,7 +75,8 @@ section {
 /* Footer Center */
 
 .footer-distributed .footer-center {
-  width: 30%;
+  width: 28%;
+  padding-left: 1rem;
 }
 
 .footer-distributed .footer-center i {
@@ -178,6 +179,8 @@ section {
 .footer-phone {
   display: flex;
   margin-top: 1rem;
+  justify-content: start;
+  gap: 2rem;
 }
 .footer-phone-number {
   color: white;
@@ -187,11 +190,17 @@ section {
 .footer-email {
   display: flex;
   margin-top: 1rem;
+  justify-content: start;
+  gap: 2rem;
 }
 .footer-email-inner {
   color: rgb(50, 175, 224);
   text-decoration: underline;
   font-weight: 300;
+}
+.footer-address{
+  display: flex;
+  justify-content: start;
 }
 @media screen and (max-width: 1020px) {
   .footer-right {
@@ -208,6 +217,10 @@ section {
     height: 100%;
   }
   .footer-phone {
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-address {
     align-items: center;
     justify-content: center;
   }

@@ -8,7 +8,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import { Widgets } from "@mui/icons-material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faMailBulk, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -56,7 +56,6 @@ const Footer = () => {
 
       <div class="footer-center">
         <div className="footer-address">
-          <i class="fa fa-map-marker"></i>
           <p>
             Bundelkhand University
             <span>Kanpur Road Jhansi, 284128</span> Uttar Pradesh, India
@@ -64,7 +63,9 @@ const Footer = () => {
         </div>
 
         <div className="footer-phone">
-          <i class="fa fa-phone"></i>
+        <FontAwesomeIcon  icon={faPhone} style={{color: "white"}} />
+          
+          {/* <i class="fa fa-phone"></i> */}
           <div>
             <div className="footer-phone-number">+91 9511015157</div>
             <div className="footer-phone-number">+91 9840998686</div>
@@ -73,7 +74,8 @@ const Footer = () => {
         </div>
 
         <div className="footer-email">
-          <i class="fa fa-envelope"></i>
+        <FontAwesomeIcon  icon={faEnvelope} style={{color: "white"}} />
+
           <div>
             <div>
               <a

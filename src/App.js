@@ -34,6 +34,9 @@ import TrainingPlan from "./components/training_plan";
 import MoU from "./components/MoU";
 import ScrollToTop from "./components/ScrollToTop";
 import StudentsTeam from "./components/StudentsTeam";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaWhatsapp } from "react-icons/fa";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 function App() {
   return (
@@ -74,7 +77,7 @@ function App() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i class="fa fa-whatsapp whatsapp-icon"></i>
+        <FontAwesomeIcon  icon={faWhatsapp} style={{color: "white"}} />
       </a>
       <ScrollToTop />
     </div>
