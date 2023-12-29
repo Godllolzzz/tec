@@ -1,0 +1,136 @@
+.sanctioned-main-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.sanctioned-main-container h1{
+  border-bottom: 1px solid rgb(41, 38, 38);
+  font-family: "Montserrat", sans-serif;
+  padding: 1rem;
+  padding-top: 3rem;
+  
+  color: #F4C430;
+  text-shadow: 2px 2px 2px #03174f;
+  font-size: 2.2rem;
+  text-align: center;
+  margin: auto;
+  width: 40%;
+
+}
+
+
+.sanctioned-container{
+    display: flex;
+    text-align: justify;
+}
+
+.project-logo{
+    width: 40%;
+    height: auto;
+    margin: 2rem;
+    align-self: center;
+    box-shadow: 5px 5px 10px gray;
+}
+.project-logo img{
+  max-width: 100%;;
+    height: auto;
+    object-fit: cover;
+}
+.project2-logo{
+  width: 40%;
+  height: auto;
+  margin: 2rem;
+  align-self: center;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.project2-logo img{
+  
+    max-width: 100%;;
+    
+    height: auto;
+    object-fit: cover;
+}
+.project3-logo{
+  width: 40%;
+  height: auto;
+  margin: 2rem;
+  align-self: center;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.project3-logo img{
+  
+    max-width: 100%;;
+    
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+.project4-logo{
+  width: 40%;
+  height: auto;
+  margin: 2rem;
+  align-self: center;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.project4-logo img{
+  
+    max-width: 100%;;
+    
+    height: auto;
+    object-fit: cover;
+}
+
+.project5-logo{
+  width: 40%;
+  height: auto;
+  margin: 2rem;
+  align-self: center;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.project5-logo img{
+  
+    max-width: 100%;;
+    
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+.project-content{
+    width: 60%;
+    background-color: #03174f;
+    color:white;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+@media (max-width: 768px) {
+  .sanctioned-main-container {
+    padding: 10px;
+  }
+  
+  .project-content {
+    padding: 10px;
+  }
+}
+
+/* Responsive styles for screens smaller than 576px (e.g., mobile devices) */
+@media (max-width: 576px) {
+  .sanctioned-main-container {
+    padding: 5px;
+  }
+  
+  .project-content {
+    padding: 5px;
+  }
+}

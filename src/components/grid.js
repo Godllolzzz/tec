@@ -13,8 +13,8 @@ const GridComponent = () => {
 
   const targetNumbers = {
     facultyTrained: 150,
-    undergradTrained: 300,
-    postgradTrained: 200,
+    undergradTrained: 200,
+    postgradTrained: 300,
     projectsDone: 90,
     patents: 25,
     MOUs: 120,
@@ -77,18 +77,9 @@ const GridComponent = () => {
 
   return (
     <>
-      <div>
-        <hr
-          style={{ width: "70%", height: "4px", backgroundColor: "#03174F", marginTop:"3rem" }}
-        ></hr>
-      </div>
+      <div></div>
       <div className="outer-container">
-        <div
-          style={{ fontSize: "2rem", fontWeight: "bold" }}
-          className="heading"
-        >
-          Manpower Trained
-        </div>
+        <div className="grid-main-heading">Manpower Trained</div>
         <div className="data-box" ref={targetRef}>
           <div className="data">
             <div className="figure">{figures.facultyTrained}+</div>
@@ -103,10 +94,7 @@ const GridComponent = () => {
             <div className="topic">Postgraduate Trained</div>
           </div>
         </div>
-        <div
-          style={{ fontSize: "2rem", fontWeight: "bold" }}
-          className="heading"
-        >
+        <div className="grid-main-heading">
           Project, Patents and Collaborative work
         </div>
         <div className="data-box">

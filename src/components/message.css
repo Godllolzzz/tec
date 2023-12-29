@@ -1,11 +1,10 @@
-.outer {
+.outer-msg-container {
   /* display: flex;
   flex-direction: column; */
-  background-color: rgba(255, 217, 0, 0.835);
-  color: #03174F;
+  background-color: gold;
   margin: 4rem;
   /* border-radius: 2rem; */
-  min-height: 25rem;
+  min-height: 20rem;
   justify-content: center;
   box-shadow: 5px 5px 10px gold;
 }
@@ -13,6 +12,7 @@
   /* width: 60%; */
   padding: 3rem 1rem 3rem 2rem;
   font-style: oblique;
+  font-size: small;
 }
 .inner1 {
   display: flex;
@@ -28,12 +28,24 @@
   margin: 1rem;
 }
 .vcsir_image {
+  /* border: 2px solid #03174F; */
   margin: 1rem;
+  /* padding: 1rem; */
+}
+.vcsir-msg-img {
+  width: 10rem;
+
 }
 .vcsir_name {
-  font-size: x-large;
+  font-size: large;
   color: #03174F;
   font-weight: bolder;
 }
-.vcsir_intro {
+@media screen and (max-width: 750px) {
+  .outer-msg-container {
+    margin: 2rem;
+  }
+  .inner2{
+    padding: 3rem 1rem 1rem 2rem;
+  }
 }

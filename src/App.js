@@ -20,32 +20,64 @@ import CoreCommitte from "./components/CoreCommitte";
 import Pag from "./components/Pag";
 import Staff from "./components/Staff";
 import Partners from "./components/Partners";
-import Event from "./components/event";
+import Events from "./components/events";
 import Service from "./components/service";
 import Gallery from "./components/gallery";
+import Tec from "./components/Tec";
+import SanctionedProjects from "./components/SanctionedProjects";
+import ContactUs from "./components/contactus";
+import ResourcePersons from "./components/ResourcePersons";
+import Patents2 from "./components/Patents2";
+import AboutInnovationCentre from "./components/About/about-innovation";
+import ToTPlan from "./components/totplan";
+import TrainingPlan from "./components/training_plan";
+import MoU from "./components/MoU";
+import ScrollToTop from "./components/ScrollToTop";
+import StudentsTeam from "./components/StudentsTeam";
 
 function App() {
   return (
-    <>
+    <div className="app">
       <Router>
         <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        {/* <Route path="/about" element={<About />} />  */}
-        
-        <Route path="/our-leaders" element={<OurLeaders />} /> 
-        <Route path="/our-committe" element={<CoreCommitte />} /> 
-        <Route path="/pag" element={<Pag />} />
-        <Route path="/staff" element={<Staff />} /> 
-        <Route path="/our-partners" element={<Partners />} /> 
-        <Route path="/events" element={<Event />} /> 
-        <Route path="/service" element={<Service />} /> 
-        <Route path="/gallery" element={<Gallery />} /> 
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+
+          <Route path="/our-leaders" element={<OurLeaders />} />
+          <Route path="/core-committee" element={<CoreCommitte />} />
+          <Route path="/pag" element={<Pag />} />
+          <Route path="/staff" element={<Staff />} />
+          <Route path="/our-partners" element={<Partners />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/service" element={<Service />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/all-tec" element={<Tec />} />
+          <Route path="/sanctioned-projects" element={<SanctionedProjects />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/Resource-persons" element={<ResourcePersons/>}/>
+          <Route path="/patents" element={<Patents2/>}/>
+          <Route path="/Mou" element={<MoU/>}/>
+          <Route path="/about-innovation-centre" element={<AboutInnovationCentre/>}/>
+          <Route path="/tot-plan" element={<ToTPlan/>}/>
+          <Route path="/training-plan" element={<TrainingPlan/>}/>
+          <Route path="/students-team" element={<StudentsTeam/>}/>
+
+          
         </Routes>
 
         {/* <Achievements /> */}
       </Router>
-    </>
+      {/* WhatsApp icon */}
+      <a
+        href="https://wa.me/9919085351"
+        class="whatsapp_float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="fa fa-whatsapp whatsapp-icon"></i>
+      </a>
+      <ScrollToTop />
+    </div>
   );
 }
 export default App;

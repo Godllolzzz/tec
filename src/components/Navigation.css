@@ -1,0 +1,132 @@
+.outer-navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 2rem;
+  position: relative;
+}
+.inner-navbar {
+  display: flex; /* Arrange items horizontally */
+  align-items: center;
+  background-color: #03174f;
+  border-top-left-radius: 2rem;
+  padding-left: 2rem;
+}
+.navbar-items {
+  list-style: none; /* Remove default list styles */
+  padding: 0;
+  display: flex; /* Arrange items horizontally */
+}
+
+.navbar-item {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.navbar-item:hover {
+  cursor: pointer;
+  text-shadow: 2px 2px 8px white;
+  /* font-weight: 500; */
+  /* transform: scale(1.2);  */
+}
+
+.social-handles {
+  display: flex;
+  flex-direction: row;
+}
+.social-handle {
+  align-self: center;
+  padding: 1rem;
+  /* padding-top: 1.5rem; */
+}
+
+/* Dropdown styling */
+.dropdown {
+  display: none;
+  position: absolute;
+  margin-top: 0.2rem;
+  min-width: 130px;
+  /* width: rem; */
+  /* top: 100%; */
+  /* left: 40rem; */
+  /* left: 0;S */
+  background-color: gold; /* Set dropdown background color */
+
+  padding: 10px;
+  z-index: 1000;
+}
+/* .dropdown:hover{
+  display: block;
+} */
+/* .navbar-item:hover .dropdown {
+  display: block;
+} */
+
+/* Style for dropdown items */
+.dropdown-item {
+  /* padding: 5px 0; */
+  color: black; /* Set dropdown text color */
+  text-decoration: none;
+  margin: 0.5rem;
+  display: block;
+  font-size: large;
+  transition: transform 200ms ease-in-out;
+  /* font-style: oblique; */
+  /* border-bottom: 2px solid white; */
+}
+.dropdown-item a {
+  text-decoration: none;
+}
+.dropdown-item:hover {
+  transform: translateX(5%);
+}
+.hamburger {
+  display: none;
+  width: 2rem;
+  height: 2rem;
+  background-color: #03174f;
+}
+.mobile-navbar {
+  display: flex; /* Arrange items horizontally */
+  align-items: center;
+  background-color: #03174f;
+  position: absolute;
+  top: 2rem;
+  right: 0rem;
+  width: 40%;
+  z-index: 1000;
+  transition: all 0.3s ease-out;
+  padding: 0.5rem;
+}
+
+.showMobileNavBar {
+  transform: translateX(0);
+}
+
+.hideMobileNavBar {
+  transform: translateX(100%);
+}
+
+@media screen and (max-width: 1020px) {
+  .hamburger {
+    display: block;
+  }
+  .inner-navbar {
+    display: none;
+  }
+  .navbar-items {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+    display: flex; /* Arrange items horizontally */
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .dropdown {
+    right: 10.8rem;
+  }
+}
+@media screen and (min-width: 1020px) {
+  .mobile-navbar {
+    display: none;
+  }
+}

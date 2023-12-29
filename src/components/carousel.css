@@ -1,10 +1,16 @@
 /* ...previous styles... */
-
+.carousel-blue-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #03174fa4;
+  z-index: 10;
+}
 /* Carousel Image Container */
 .carousel-image-container {
     /* padding-top: 1rem; */
     width: 100%;
-    height: 40rem;
+    height: 30rem;
     /* padding-bottom: 56.25%; 16:9 aspect ratio (change this to the desired aspect ratio) */
     position: relative;
     overflow: hidden;
@@ -14,7 +20,18 @@
   .carousel-image {
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: cover;
+  }
+  .carousel-logo-box {
+    width: 20rem;
+    height: 10rem;
+    /* align-self: end; */
+    margin-left: 70%;
+
+  }
+  .carousel-logo-box img{
+    width: 100%;
+    height: 100%;
   }
   .parent{
     position: relative;
@@ -22,8 +39,13 @@
   .info{
     position: absolute;
     width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     color: white;
     bottom: 0rem;
+    z-index: 100;
     /* right: 2rem; */
   }
   .events{
@@ -31,13 +53,12 @@
     background-color: rgba(27, 172, 198, 0.631);
     border-top-left-radius: 2.5rem;
     margin: 1rem;
-    animation: 3s slide-right;
+    animation: 1s slide-right;
   }
   .events, .highlights, .announcements {
-    /* position: absolute; */
-    /* top: 0; */
     width: 100%;
-    animation: slide-in 3s;
+    animation: slide-in 1s;
+    z-index: 102;
   }
   
   @keyframes slide-in {
@@ -52,7 +73,7 @@
   
   
   .highlights{
-    padding: 1rem;
+    padding: 0.5rem 1rem 1rem 1rem;
     background-color: rgba(0, 55, 107, 0.633);
     margin: 1rem;
     border-bottom-right-radius: 2.5rem;
@@ -65,6 +86,60 @@
   .heading{
     font-size: larger;
     margin: 0.5rem;
+  }
+ .heading-container {
+  display: flex;
+  justify-content: space-between;
+ }
+  .close-events{
+    background-color: rgba(27, 172, 198);
+    width: 4.5rem;
+    display: flex;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 0.25rem 0.5rem;
+    
+  }
+  .close-announcements{
+    background-color: hsla(99, 42%, 35%);
+    width: 8.7rem;
+    
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 0.25rem 0.5rem;
+    display: flex;
+    
+  }
+  .close-highlights{
+    background-color: rgba(0, 55, 107);
+    width: 6.2rem;
+    padding: 0.25rem 0.5rem;
+    
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    
+  }
+  .typewriter-parent {
+    position: absolute;
+    z-index: 101;
+    bottom: 2rem;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+  }
+  @media screen and (max-width: 750px) {
+    .carousel-image-container{
+      height: 20rem;
+    }
+    .typewriter-parent {
+      bottom: 0.5rem;
+      width: 80%;
+      margin-left: 20%;
+    }
+  .content{
+    font-size: small;
+  }
   }
   /* ...rest of your styles... */
   
