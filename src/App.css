@@ -1,4 +1,7 @@
 /* for desktop */
+*{
+  margin: 0;padding: 0;
+}
 .whatsapp_float {
   position: fixed;
   width: 47px;
