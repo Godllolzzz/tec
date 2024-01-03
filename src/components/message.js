@@ -67,7 +67,7 @@ Together, we can harness the power of innovation to drive positive change and ma
         <div className="inner1">
           <div className="vcsir">
             <div className="vcsir_image">
-              <img className="vcsir-msg-img" src={img1} alt="VC" />
+              <img className="vcsir-msg-img" src="https://drive.google.com/file/d/10sEMz2invEq13qL7XiJOBHmiR25y2AX6/view?usp=sharing" alt="VC" />
             </div>
             <div className="vcsir_name">Prof. Mukesh Pandey</div>
             <div className="vcsir_intro"> Hon'ble Vice-Chancellor</div>
