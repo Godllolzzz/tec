@@ -137,7 +137,7 @@
 }
 
 .about-innovation-centre-heading {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bolder;
   font-family: 'Merriweather', serif;
   color: #007cc6;
@@ -147,6 +147,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 .about-innovation-centre-points {
