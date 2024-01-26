@@ -4,7 +4,7 @@ import "./Navigation.css";
 import SocialHandles from "./SocialHandles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { faBars, faXmark} from "@fortawesome/free-solid-svg-icons";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 const Navigation = () => {
   const [isMobileNavbarOpen, setIsMobileNavbarOpen] = useState(false);
@@ -15,8 +15,6 @@ const Navigation = () => {
   const [isAboutVisible, setIsAboutVisible] = useState(false);
   const [isDownloadVisible, setIsDownloadVisible] = useState(false);
   const [isHomeOpen, setisHomeOpen] = useState(false);
-  
-
 
   // if(!isMobileNavbarOpen) {
   //   document.querySelector('.dropdown').style.display = "none";
@@ -29,7 +27,7 @@ const Navigation = () => {
     setIsAboutVisible(false);
     setIsDownloadVisible(false);
     setIsTeamTecVisible(false);
-  }
+  };
 
   const tec_on_click_handler = () => {
     setIsTeamTecVisible((prevState) => !prevState);
@@ -71,9 +69,9 @@ const Navigation = () => {
     setIsNetworkVisible(false);
     setIsAchievementsVisible(false);
     setIsAboutVisible(false);
-    setIsEventVisible(false)
+    setIsEventVisible(false);
   };
- 
+
   const about_on_click_handler = () => {
     setIsAboutVisible((prevState) => !prevState);
     setIsTeamTecVisible(false);
@@ -115,7 +113,9 @@ const Navigation = () => {
       <div className="inner-navbar">
         <ul className="navbar-items">
           <Link to="/">
-            <l1 className="navbar-item" onClick={home_on_click_handler}>Home</l1>
+            <l1 className="navbar-item" onClick={home_on_click_handler}>
+              Home
+            </l1>
           </Link>
           <l1 className="navbar-item" onClick={about_on_click_handler}>
             About Us
@@ -147,12 +147,12 @@ const Navigation = () => {
               <li className="dropdown-item">
                 <Link to="/core-committee">Core Committee</Link>
               </li>
-             
+
               <li className="dropdown-item">
                 <Link to="/staff">Staff</Link>
               </li>
               <li className="dropdown-item">
-              <Link to="/students-team">Students Team</Link>
+                <Link to="/students-team">Students Team</Link>
               </li>
             </ul>
           </l1>
@@ -173,9 +173,13 @@ const Navigation = () => {
                 <Link to="/all-tec">TEC Network</Link>
               </li>
               <li className="dropdown-item">
-              <a href="https://drive.google.com/file/d/1EuGegi80mCKjljQiZ4ewIb9AoFgF5V7x/view" target="_blank" rel="noopener noreferrer">
-      Collaborations
-      </a>
+                <a
+                  href="https://drive.google.com/file/d/1EuGegi80mCKjljQiZ4ewIb9AoFgF5V7x/view"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Collaborations
+                </a>
               </li>
             </ul>
           </l1>
@@ -195,7 +199,9 @@ const Navigation = () => {
               </li>
 
               <li className="dropdown-item">
-                <a href="https://drive.google.com/file/d/1L0jGXdQ37eF1qbQkTWQ2Z6s1Dahc7bFj/view?usp=drivesdk">News Letter</a>
+                <a href="https://drive.google.com/file/d/1L0jGXdQ37eF1qbQkTWQ2Z6s1Dahc7bFj/view?usp=drivesdk">
+                  News Letter
+                </a>
               </li>
               <li className="dropdown-item">
                 <Link to="/Mou">MoU's</Link>
@@ -232,10 +238,19 @@ const Navigation = () => {
               style={{ display: `${isDownloadVisible ? "block" : "none"}` }}
             >
               <li className="dropdown-item">
-                <a href="https://bujhansi.ac.in/site/writereaddata/siteContent/201801221641141857UIC%20Brochure%20.pdf">Brochure</a>
+                <a href="https://bujhansi.ac.in/site/writereaddata/siteContent/201801221641141857UIC%20Brochure%20.pdf">
+                  Brochure
+                </a>
               </li>
               <li className="dropdown-item">
-                <a href="https://bujhansi.ac.in/innovation/user_application_form.pdf">User Application Form</a>
+                <a href="https://bujhansi.ac.in/innovation/user_application_form.pdf">
+                Offline  User Application Form
+                </a>
+              </li>
+              <li className="dropdown-item">
+                <a href="https://forms.gle/JaDicxPu1ZurkvPh6">
+                Online  User Application Form
+                </a>
               </li>
             </ul>
           </l1>
@@ -255,7 +270,9 @@ const Navigation = () => {
       >
         <ul className="navbar-items">
           <Link to="/">
-            <l1 className="navbar-item" onClick={home_on_click_handler}>Home</l1>
+            <l1 className="navbar-item" onClick={home_on_click_handler}>
+              Home
+            </l1>
           </Link>
           <l1 className="navbar-item" onClick={about_on_click_handler}>
             About Us
@@ -334,7 +351,6 @@ const Navigation = () => {
               <li className="dropdown-item">
                 <Link to="/Mou">MoU's</Link>
               </li>
-              
             </ul>
           </l1>
           {/* <l1 className="navbar-item">Contacts</l1> */}
@@ -358,7 +374,6 @@ const Navigation = () => {
               <li className="dropdown-item">
                 <Link to="/training-plan">Training Plan</Link>{" "}
               </li>
-             
             </ul>
           </l1>
           <l1 className="navbar-item" onClick={download_on_click_handler}>
@@ -368,17 +383,25 @@ const Navigation = () => {
               style={{ display: `${isDownloadVisible ? "block" : "none"}` }}
             >
               <li className="dropdown-item">
-                <a href="https://bujhansi.ac.in/site/writereaddata/siteContent/201801221641141857UIC%20Brochure%20.pdf">Brochure</a>
+                <a href="https://bujhansi.ac.in/site/writereaddata/siteContent/201801221641141857UIC%20Brochure%20.pdf">
+                  Brochure
+                </a>
               </li>
               <li className="dropdown-item">
-                <a href="https://bujhansi.ac.in/innovation/user_application_form.pdf">User Application Form</a>
+                <a href="https://bujhansi.ac.in/innovation/user_application_form.pdf">
+                Offline  User Application Form
+                </a>
+              </li>
+              <li className="dropdown-item">
+                <a href="https://forms.gle/JaDicxPu1ZurkvPh6">
+                Online  User Application Form
+                </a>
               </li>
             </ul>
           </l1>
           <Link to="/service">
             <l1 className="navbar-item">Services</l1>
           </Link>
-         
 
           {/* <l1 className="navbar-item">Achievements</l1> */}
           <Link to="/contact-us">

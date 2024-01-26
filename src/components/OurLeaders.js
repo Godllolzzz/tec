@@ -30,7 +30,7 @@ const OurLeaders = () => {
               <div className="fo_bu">
                 <img src={fo_Sir_logo} alt="vc_sir_image"></img>
                 <div className="vcsir1-title">
-                  <h3>Mr. Wasi Mohammad</h3>
+                  <h3>Shri. Wasi Mohammad</h3>
                   <h4>Finance Officer</h4>
                 </div>
               </div>
@@ -78,7 +78,7 @@ const OurLeaders = () => {
           </div>
         </div>
         <hr
-          style={{ width: "60%", border: "1px solid black", marginTop: "2rem" }}
+          style={{ width: "100%", border: "1px solid black", marginTop: "2rem" }}
         ></hr>
 
         <div className="vcsir1">

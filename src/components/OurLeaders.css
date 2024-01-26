@@ -34,6 +34,7 @@
  
 .officials-logo{
     display: flex;
+    gap: 1rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -55,7 +56,7 @@
     width: 40%;
 }
 .registrar_bu img{
-    width: 100%;
+    width: 92%;
 }
 .vc-sir_image {
     width: 90%;
@@ -67,10 +68,6 @@
 
 .vcsir1-title{
     text-align: center;
-}
-
-.vcsir1-title h4{
-    margin-top: -1rem;
 }
  .lavsir-logo {
     width: 30%;

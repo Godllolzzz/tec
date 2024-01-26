@@ -1,7 +1,7 @@
 import React from "react";
 import './Staff.css';
 import firststaff from "../images/Nistha_mam.png";
-import secondstaff from "../images/staff2.jpg"
+import secondstaff from "../images/Shrikanth_sir.jpg"
 import NavBar from "./NavBar";
 import Footer from "./footer";
 
@@ -26,7 +26,7 @@ const Staff=()=>{
                 
                 <div className="staff-logo-1-2">
                 <img src={secondstaff} alt="yet to pe added"></img>
-                <div><b>Dr. K.Shrikanth</b></div>
+                <div><b>Dr. K Shrikanth</b></div>
                 <div>Principal Project Associate</div>
                   <div>DST-BU TEC</div>
                     </div>
