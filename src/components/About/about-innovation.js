@@ -354,7 +354,7 @@ const AboutInnovationCentre = () => {
           <img src={ab0} alt="about-image"></img>
         </div>
         <div className="about-innovation-equipment-heading-box">
-          Glimpse of Major Equipments & Activities
+          Glimpse of Major Equipment & Activities
         </div>
         <div className="about-innovation-centre-image-container">
           <img src={ab9} alt="about-image"></img>
@@ -374,7 +374,7 @@ const AboutInnovationCentre = () => {
         <ul className="about-innovation-centre-content">
           <li>
             Innovation Centre is a Central Instrumentation facility equipped
-            with sophisticated analytical equipments like X- Ray Diffractometer,
+            with sophisticated analytical Equipment like X- Ray Diffractometer,
             Gas Chromatography- Mass Spectrometer, Atomic Absorption
             Spectrometer (AAS), High Performance Liquid Chromatography (HPLC),
             Real Time – PCR, Total Organic Carbon Analyzer, Fourier Transform
@@ -394,7 +394,7 @@ const AboutInnovationCentre = () => {
           <li>
             It is engaged in the Research Capacity Building & Human Resource
             Development by organizing various project-based research trainings,
-            workshops on the equipments of social importance like Real Time PCR,
+            workshops on the Equipment of social importance like Real Time PCR,
             GC-MS, AAS, etc.
           </li>
         </ul>
@@ -605,7 +605,7 @@ const AboutInnovationCentre = () => {
           <li>
             UG & PG level students seeking for the Research Capacity Building &
             Human Resource Development through training/workshop on various
-            equipments.
+            Equipment.
           </li>
           <li>
             Society people like farmers seeking facility for the water, soil
@@ -667,14 +667,19 @@ const AboutInnovationCentre = () => {
               <tr>
                 <td>1.</td>
                 <td>
-                  One-week Hands-on-Training Program on Advanced Research
-                  Equipments for the technological advancement of MSMEs.{" "}
+                  One Week Hands-on-Training on Advancement Research Equipment
                 </td>
-                <td>July 25-31, 2023</td>
-                <td>30 </td>
+                <td>January 16-23, 2024</td>
+                <td>19 </td>
               </tr>
               <tr>
                 <td>2.</td>
+                <td>Advanced Characterization Techniques</td>
+                <td>Dec 16-22, 2023</td>
+                <td>30 </td>
+              </tr>
+              <tr>
+                <td>3.</td>
                 <td>
                   One Week Hands-on-Training cum workshop on industry oriented
                   spectroscopic techniques
@@ -683,16 +688,25 @@ const AboutInnovationCentre = () => {
                 <td>30 </td>
               </tr>
               <tr>
-                <td>3.</td>
+                <td>4.</td>
                 <td>
                   One-week Hands-on-Training Program on Advanced Research
-                  Equipments.{" "}
+                  Equipment for the technological advancement of MSMEs.{" "}
+                </td>
+                <td>July 25-31, 2023</td>
+                <td>30 </td>
+              </tr>
+              <tr>
+                <td>5.</td>
+                <td>
+                  One-week Hands-on-Training Program on Advanced Research
+                  Equipment.{" "}
                 </td>
                 <td>May 01-07, 2023. </td>
                 <td>30 </td>
               </tr>
               <tr>
-                <td>4.</td>
+                <td>6.</td>
                 <td>
                   DST-STUTI funded one-week Hands-on-Training Program on
                   Biotechnology applications.
@@ -701,17 +715,17 @@ const AboutInnovationCentre = () => {
                 <td>30 </td>
               </tr>
               <tr>
-                <td>5.</td>
+                <td>7.</td>
                 <td>
                   DST-STUTI funded one-week Hands-on-Training on Sophisticated
-                  equipments of Material Science
+                  Equipment of Material Science
                 </td>
                 <td></td>
                 <td>30 </td>
               </tr>
 
               <tr>
-                <td>6.</td>
+                <td>8.</td>
                 <td>
                   One Week Hands on-Training on Spectroscopic analysis of heavy
                   metals and trace elements in soil, water and plant samples
@@ -722,7 +736,7 @@ const AboutInnovationCentre = () => {
                 <td>18</td>
               </tr>
               <tr>
-                <td>7.</td>
+                <td>9.</td>
                 <td>
                   Brain Storming on Innovative Ideation & Conceptualization of
                   Research Themes (Round-1)
@@ -731,16 +745,16 @@ const AboutInnovationCentre = () => {
                 <td>15</td>
               </tr>
               <tr>
-                <td>8.</td>
+                <td>10.</td>
                 <td>
                   UGC-STRIDE funded Two Weeks Hands-on-Training on Advanced
-                  Research Equipments (Module-2, Batch-III)
+                  Research Equipment (Module-2, Batch-III)
                 </td>
                 <td>June 06-21, 2022 </td>
                 <td>50</td>
               </tr>
               <tr>
-                <td>9.</td>
+                <td>11.</td>
                 <td>
                   UGC-STRIDE(I) funded One Week Workshop on Nucleic Acid
                   Extraction analysis through Gel Electrophoresis and Real
@@ -750,7 +764,7 @@ const AboutInnovationCentre = () => {
                 <td>40</td>
               </tr>
               <tr>
-                <td>10.</td>
+                <td>12.</td>
                 <td>
                   UGC-STRIDE(I) funded One Week Workshop on Phytochemical
                   Extraction and their chromatographic Analysis through HPLC &
@@ -760,7 +774,7 @@ const AboutInnovationCentre = () => {
                 <td>50</td>
               </tr>
               <tr>
-                <td>11.</td>
+                <td>13.</td>
                 <td>
                   UGC-STRIDE(I) funded Advanced Research Methodology Teaching
                   (Module-1; Batch-III){" "}
@@ -769,16 +783,16 @@ const AboutInnovationCentre = () => {
                 <td>28</td>
               </tr>
               <tr>
-                <td>12.</td>
+                <td>14.</td>
                 <td>
                   UGC-STRIDE (I) funded Hands on Training on Advanced Research
-                  Equipments{" "}
+                  Equipment{" "}
                 </td>
                 <td>June 21- July 01, 2021 </td>
                 <td>45</td>
               </tr>
               <tr>
-                <td>13.</td>
+                <td>15.</td>
                 <td>
                   UGC-STRIDE(I) Funded 2nd National Conference on Recent Trends
                   in Transdisciplinary Research for Socio-economic Development
@@ -788,7 +802,7 @@ const AboutInnovationCentre = () => {
                 <td>50</td>
               </tr>
               <tr>
-                <td>14.</td>
+                <td>16.</td>
                 <td>
                   UGC-STRIDE(I) funded Online Faculty Development Programme on
                   Teaching, Examination, and Research Ethics
@@ -797,7 +811,7 @@ const AboutInnovationCentre = () => {
                 <td>52</td>
               </tr>
               <tr>
-                <td>15.</td>
+                <td>17.</td>
                 <td>
                   UGC-STRIDE(I) funded Research on socially relevant
                   Transdisciplinary areas through 30+ minor projects. (Module-3;
@@ -824,11 +838,11 @@ const AboutInnovationCentre = () => {
         </div>
         <ul className="about-innovation-centre-content">
           <li>
-            About 2500 researchers of different disciplines used the facility in
+            About 3000 researchers of different disciplines used the facility in
             their samples analysis.
           </li>
           <li>
-            About 3400 samples are analyzed on various equipments in last 05
+            About 4000 samples are analyzed on various Equipment in last 05
             years.
           </li>
           <li>
@@ -836,7 +850,7 @@ const AboutInnovationCentre = () => {
             research, analysis & training works.
           </li>
           <li>
-            About 65 minor projects on Interdisciplinary, Multidisciplinary and
+            About 70 minor projects on Interdisciplinary, Multidisciplinary and
             Transdisciplinary fields have been carried out in the Centre under
             the UGC-STRIDE(I) Programme in last 2 Years.
           </li>
@@ -902,7 +916,7 @@ etc. organized by the Centre
           <tr>
             <td style={{textAlign:"end"}}>ii.</td>
             <td style={{fontWeight:"bold"}}>
-            Revenue generated through other equipments (Academic 
+            Revenue generated through other Equipment (Academic 
 year wise) 
  
             </td>
@@ -1006,7 +1020,7 @@ Conference Reg. fee Rs. 1000.00) </td>
           </li>
           <li>
             More than 1000 external samples have been analyzed so far on various
-            equipments.{" "}
+            Equipment.{" "}
           </li>
         </ul>
         <div
@@ -1026,17 +1040,17 @@ Conference Reg. fee Rs. 1000.00) </td>
         </div>
         <ul className="about-innovation-centre-content">
           <li>
-            One-week Hands-on-Training Programme on 4-5 equipments of allied
+            One-week Hands-on-Training Programme on 4-5 Equipment of allied
             fields (Throughout the year)
           </li>
           <li>
-            Two weeks Hands-on-Training Programme on major equipments of the
+            Two weeks Hands-on-Training Programme on major Equipment of the
             Centre (May-June).
           </li>
           <li>Faculty Development Programme (Sep.-Oct.).</li>
           <li>
             Certificate Programme on Advanced Research Methodology & Training on
-            Advanced Research Equipments (Jan-June)
+            Advanced Research Equipment (Jan-June)
           </li>
           <li>
             Two weeks Dedicated Training on particular equipment (Throughout the

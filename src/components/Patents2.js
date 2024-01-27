@@ -2,6 +2,8 @@ import React from "react";
 import img1 from "../images/patent1.jpg";
 import img2 from "../images/patent2.jpg";
 import img3 from "../images/patent3.jpg";
+import img4 from "../images/patent4.jpg";
+import img5 from "../images/patent5.jpg";
 import "./Patents2.css";
 import NavBar from "./NavBar";
 import Footer from "./footer";
@@ -105,6 +107,85 @@ const Patents2 = () => {
               proposed invention is provided with a network of volunteers who
               may immediately support the candidate in reducing stress and
               normalizing the condition as per geographic location.
+            </p>
+          </div>
+        </div>
+        <div className="patents2-container">
+          <div className="patents2-image">
+            <img src={img4} alt="patents-image"></img>
+          </div>
+          <div className="patents2-content">
+            <div className="patents2-title">
+              Portable Solar Power Charger for Electronic Devices
+            </div>
+            <div className="patents2-developed-by">
+              <div>DEVELOPED BY-</div>
+              <div>
+                <div>Prof. Mukesh Pandey Hon'ble Vice-Chancellor,</div>
+                <div>Dr. Anupam Vyas Co-Principal Investigator</div>
+                <div>DR. S K Srivastava</div>
+                <div>Dr. Lavkush Dwivedi Principal Investigator</div>
+                <div>Dr. Surendra Verma</div>
+                <div>Dr. Priyanka Tripathi</div>
+              </div>
+            </div>
+            <p className="patents2-inner-content">
+              Portable solar power for electronic devices offers a convenient
+              and sustainable solution for on-the-go energy needs. These compact
+              and efficient solar chargers utilize photovoltaic technology to
+              harness sunlight and convert it into usable electrical energy.
+              Designed with the modern, mobile lifestyle in mind, these portable
+              solar panels can be easily folded or rolled up, making them
+              lightweight and highly portable. Equipped with USB ports or other
+              compatible connectors, they can charge a variety of electronic
+              devices such as smartphones, tablets, cameras, and power banks
+              directly from the sun. This eco-friendly alternative not only
+              reduces reliance on traditional energy sources but also ensures
+              that electronic devices can be powered up wherever there is access
+              to sunlight, making it an ideal companion for outdoor activities,
+              travel, and emergency situations. As the demand for sustainable
+              energy solutions grows, portable solar power for electronic
+              devices emerges as a practical and environmentally conscious
+              choice for powering our tech-savvy lives.
+            </p>
+          </div>
+        </div>
+        <div className="patents2-container">
+          <div className="patents2-image">
+            <img src={img5} alt="patents-image"></img>
+          </div>
+          <div className="patents2-content">
+            <div className="patents2-title">
+              Eco-friendly Fully Renewable Energy-Based E-Vehicle for Movement
+              in Campus of Bundelkhand University
+            </div>
+            <div className="patents2-developed-by">
+              <div>DEVELOPED BY-</div>
+              <div>
+                <div>Prof. Mukesh Pandey Hon'ble Vice-Chancellor,</div>
+                <div>Dr. Deepak Tomar</div>
+                <div>Dr. Zakir Ali</div>
+                <div>DR. Sadik Khan</div>
+                <div>Mr. Sabir Ali</div>
+              </div>
+            </div>
+            <p className="patents2-inner-content">
+              Eco-friendly, fully renewable energy-based electric vehicles
+              represent a revolutionary leap towards sustainable transportation.
+              These vehicles will rely on renewable energy sources such as solar
+              energy to charge their batteries, minimizing their carbon
+              footprint and reducing dependence on fossil fuels. Harnessing the
+              power of nature, these e-vehicles contribute significantly to
+              mitigating climate change and promoting environmental
+              conservation. The integration of advanced technologies, such as
+              regenerative braking systems and energy-efficient motors, enhances
+              the overall efficiency of these electric vehicles. By embracing
+              renewable energy, e-vehicles not only reduce air pollution and
+              greenhouse gas emissions but also pave the way for a cleaner and
+              greener future. As society increasingly prioritizes environmental
+              consciousness, the adoption of these eco-friendly e-vehicles plays
+              a pivotal role in promoting a sustainable and responsible approach
+              to transportation.
             </p>
           </div>
         </div>

@@ -32,60 +32,60 @@ function Events() {
                 className="timeline-item"
                 style={{ "--accent-color": "#41516C" }}
               >
-                <div className="date">November 23 to 27, 2023</div>
-                <div className="title">
-                  {" "}
-                  The two-day event was marked by spirited discussions,
-                  insightful presentations, and a vision of collaboration and
-                  knowledge sharing among the attending universities.
-                </div>
+                <div className="date">February 1, 2024</div>
+                <div className="title"> Launch of Hack-3 Posters</div>
               </li>
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#FBCA3E" }}
               >
-                <div className="date">December 1 to 6, 2023</div>
+                <div className="date">February 05, 2024</div>
+                <div className="title">HacK-2 Level-2</div>
+              </li>
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#FBCA3E" }}
+              >
+                <div className="date">February 10 to 16, 2024</div>
                 <div className="title">
-                  Technology Hackthon - 2 (Screening Round)
+                  Advanced Android Application Developer
+                </div>
+                <div className="descr">
+                  One week training for application development.
                 </div>
               </li>
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#E24A68" }}
               >
-                <div className="date">December 11, 2023</div>
-                <div className="title">Technology Hackthon- 1 (Review)</div>
+                <div className="date">February 20 to 26, 2024</div>
+                <div className="title">
+                  AI Ethics & Applications for the technological advancements
+                </div>
               </li>
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#1B5F8C" }}
               >
-                <div className="date">December 16 to 22, 2023</div>
-                <div className="title">
-                  One Week Training cum Workshop on the Advanced
-                  Characterization Technology
-                </div>
+                <div className="date">February 28, 2024</div>
+                <div className="title">Exhibition Innova-thon</div>
               </li>
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#4CADAD" }}
               >
-                <div className="date">December 1, 2023 onwards</div>
-                <div className="title">
-                  Starting of Module-1 (Advanced Research Methodology)
-                </div>
+                <div className="date">February 29, 2024</div>
+                <div className="title">TOT and MSME meet</div>
+                <div className="descr">Prize Distribution</div>
               </li>
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#41516C" }}
               >
-                <div className="date">January 16 to 27, 2024</div>
-                <div className="title">
-                  Two Weeks Capacity Building programme for young Social Science
-                  faculty
-                </div>
+                <div className="date">March 1, 2024</div>
+                <div className="title">Exhibition Closure</div>
               </li>
-              <li
+              {/* <li
                 className="timeline-item"
                 style={{ "--accent-color": "#FBCA3E" }}
               >
@@ -112,7 +112,7 @@ function Events() {
                 <div className="title">
                   Event for Transfer of Technology to industries
                 </div>
-              </li>
+              </li> */}
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#1B5F8C" }}
@@ -132,7 +132,9 @@ function Events() {
                 style={{ "--accent-color": "#41516C" }}
               >
                 <div className="date">April 17 to 18, 2023</div>
-                <div className="title">TEC Conclave at Hyderabad University</div>
+                <div className="title">
+                  TEC Conclave at Hyderabad University
+                </div>
                 <div className="descr">
                   The two-day event was marked by spirited discussions,
                   insightful presentations, and a vision of collaboration and
@@ -165,9 +167,9 @@ function Events() {
                 </div>
                 <div className="descr">
                   For the screening of project proposals received under
-                  Technology Hackathon Phase 1 module was held during May 25 to 30,
-                  2023, 11:00 am onward at the Innovation Centre, Bundelkhand
-                  University, Jhansi.
+                  Technology Hackathon Phase 1 module was held during May 25 to
+                  30, 2023, 11:00 am onward at the Innovation Centre,
+                  Bundelkhand University, Jhansi.
                 </div>
               </li>
               <li
@@ -216,7 +218,10 @@ function Events() {
                   Technology Hackthon- 1 (FinalSelection)
                 </div>
                 <div className="descr">
-                  The evaluation committee meeting was held on July 15, 2023 for selection of final five projects under TEC - Technology Hackathon-1. Five projects on different areas of the identified social needs were sanctioned.
+                  The evaluation committee meeting was held on July 15, 2023 for
+                  selection of final five projects under TEC - Technology
+                  Hackathon-1. Five projects on different areas of the
+                  identified social needs were sanctioned.
                 </div>
               </li>
               <li
@@ -264,6 +269,80 @@ function Events() {
                   and daily assessments. The Experts & participants were given
                   certificates by hon'ble Vice Chancellor of Bundelkhand
                   University, Jhansi
+                </div>
+              </li>
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#41516C" }}
+              >
+                <div className="date">November 23 to 27, 2023</div>
+                <div className="title">
+                  The two-day event was marked by spirited discussions,
+                  insightful presentations, and a vision of collaboration and
+                  knowledge sharing among the attending universities.
+                </div>
+              </li>
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#E24A68" }}
+              >
+                <div className="date">December 16 to 22, 2023</div>
+                <div className="title">
+                  Advanced Characterization Techniques
+                </div>
+                <div className="descr">
+                  One week training on Advanced Characterization Techniques was
+                  a great success along with knowledge about research equipment,
+                  students were given information about Patents, Digital
+                  Security and other important information related to government
+                  policies.
+                </div>
+              </li>
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#E24A68" }}
+              >
+                <div className="date">December 28, 2023</div>
+                <div className="title">Partner Institute Meet</div>
+                <div className="descr">
+                  All partner institute representatives were invited along with
+                  the core committee to give their suggestions for better
+                  working of the technology enabling centre.
+                </div>
+              </li>
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#1B5F8C" }}
+              >
+                <div className="date">January 8, 2024</div>
+                <div className="title">Technology Hackathon-1 (Review)</div>
+                <div className="descr">
+                  All the Sanctioned Projects under DST-TEC BU Jhansi were
+                  reviewed to check their progress and fund utilization.
+                </div>
+              </li>
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#4CADAD" }}
+              >
+                <div className="date">January 9 to 13, 2024</div>
+                <div className="title">Technology Hack - 2 (Screening) </div>
+                <div className="descr">
+                  More than 60 application were received for registration in
+                  Hackathon - 2. These participants presented their idea in both
+                  online and offline mode and screening was done to select best
+                  10 projects for level 2.
+                </div>
+              </li>
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#E24A68" }}
+              >
+                <div className="date">January 16 to 23, 2024</div>
+                <div className="title">Advanced Research Equipment</div>
+                <div className="descr">
+                  One week hands-on training cum workshop was organised for
+                  students of Axis College, Kanpur.
                 </div>
               </li>
             </ul>

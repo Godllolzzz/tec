@@ -50,7 +50,7 @@
   }
   .events{
     padding: 1rem;
-    background-color: rgba(27, 172, 198, 0.631);
+    background-color: rgba(243, 167, 14, 0.756);
     border-top-left-radius: 2.5rem;
     margin: 1rem;
     animation: 1s slide-right;
@@ -92,7 +92,7 @@
   justify-content: space-between;
  }
   .close-events{
-    background-color: rgba(27, 172, 198);
+    background-color: rgba(243, 167, 14);
     width: 4.5rem;
     display: flex;
     border-top-right-radius: 8px;

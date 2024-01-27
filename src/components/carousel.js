@@ -122,8 +122,36 @@ const Carousel = () => {
                 <ArrowBackIosNewIcon onClick={eventCloseHandler} />
               </div>
               <div className="content">
-                One week training cum workshop on Advanced Technology staring
-                from 16 December 2023.
+                <ul style={{ paddingLeft: "20px" }}>
+                  <li>
+                    <a
+                      href="https://drive.google.com/file/d/1N-q91Q9FqmOtHJcKs91VPw7GrEC9QSzc/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Registration for AI Ethics and Application for the
+                      technological advancements on February 20 - 26, 2024.
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://drive.google.com/file/d/1WTTC-Yru8jKck1Jx6skWGEDKcunmErCK/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Registration for Innova-thon
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://drive.google.com/file/d/1bYq62TqkG0RLZ6Ja5QHqgqV_q8X17dxa/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Registration for Technology Hackathon 3.
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           )}
@@ -147,8 +175,8 @@ const Carousel = () => {
                 <ArrowBackIosNewIcon onClick={announcementClosetHandler} />
               </div>
               <div className="content">
-                Two Weeks Capacity Building programme for young Social Science
-                faculty.
+                <div>Innovative Model Exhibition on February 28, 2024.</div>
+                <div>Industry Meet on February 29, 2024.</div>
               </div>
             </div>
           )}
@@ -172,12 +200,17 @@ const Carousel = () => {
                 <ArrowBackIosNewIcon onClick={highlightCloseHandler} />
               </div>
               <div className="content">
-                ICUMAST was a great success.The event was marked by spirited
-                discussions, insightful presentations, and a vision of
-                collaboration and knowledge sharing among the attending
-                universities. More than 110 participants registered for for the
-                one week training on Advanced Characterization Technology.
-                Applicants were from around 25 states of India.
+                <div>
+                  ICUMAST was a great success.The event was marked by spirited
+                  discussions, insightful presentations, and a vision of
+                  collaboration and knowledge sharing among the attending
+                  universities.
+                </div>
+                <div>
+                  More than 110 participants registered for for the one week
+                  training on Advanced Characterization Technology. Applicants
+                  were from around 25 states of India.
+                </div>
               </div>
             </div>
           )}

@@ -6,7 +6,6 @@ import Navigation from "./Navigation";
 // import { useState } from "react";
 
 function NavBar() {
-
   return (
     <div className="parent">
       {/* top-heading */}
@@ -17,8 +16,8 @@ function NavBar() {
           <div id="bu_name_third">JHANSI</div>
         </div>
         <div className="bu_details">
-          NAAC Accredited | NIRF ranked, ISO certified | UGC-12(b) 2(f)
-          category State University of U.P. | AISHE Code: U-0502
+          A+ NAAC Accredited (3.46 CGPA) | NIRF ranked, ISO certified |
+          UGC-12(b) 2(f) category State University of U.P. | AISHE Code: U-0502
         </div>
       </div>
       {/* bu-tec */}
@@ -37,12 +36,8 @@ function NavBar() {
         </div>
       </div>
       <div className="navbar-bottom-strip">
-        <div>
-        Only Government University in Uttar Pradesh having TEC
-        </div>
-        <div>
-        The State-of-Art Research facility of Bundelkhand University
-        </div>
+        <div>Only Government University in Uttar Pradesh having TEC</div>
+        <div>The State-of-Art Research facility of Bundelkhand University</div>
       </div>
       {/* navbar */}
       <Navigation />

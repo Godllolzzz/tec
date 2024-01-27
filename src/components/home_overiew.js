@@ -22,7 +22,6 @@ import { Widgets } from "@mui/icons-material";
 import VideoPlayer from "./VideoPlayer";
 import { Link } from "@mui/material";
 
-
 const HomeOverview = () => {
   return (
     <>
@@ -30,18 +29,31 @@ const HomeOverview = () => {
       <div className="about-overview-container">
         {/* <div className="about-overview-style-box"></div> */}
         <div className="about-overview-left">
-      {/* <VideoPlayer videoId="1Vz0V0avHuc?feature=shared" /> */}
-      {/* https://youtube.com/shorts/1Vz0V0avHuc?feature=shared */}
-      <img src={innovation_image} alt="innovation_image"></img>
+          {/* <VideoPlayer videoId="1Vz0V0avHuc?feature=shared" /> */}
+          {/* https://youtube.com/shorts/1Vz0V0avHuc?feature=shared */}
+          <img src={innovation_image} alt="innovation_image"></img>
         </div>
         <div className="about-overview-right">
-          <div className="about-overview-main-heading">About BUTEC & Innovation Centre</div>
+          <div className="about-overview-main-heading">
+            About BUTEC & Innovation Centre
+          </div>
           <div className="about-overview-content">
-          The TEC program, is a significant initiative under DST's purview. Its goals align with the broader objectives of DST by focusing on creating an ecosystem for technology development within universities and enhancing collaboration between academia, national laboratories, and industry. This approach is crucial for translating research outcomes into practical applications and driving innovation that can contribute to economic growth and societal development. BUTEC was established in the Bundelkhand University in the Year 2023. The BUTEC facility in the campus has ignited the young brains since then.
-The State-of-Art facility named as Innovation centre was established in 2014, this research centre cum testing lab is having almost all kinds of sample testing equipment that have been serving the society in the region.
+            The TEC program, is a significant initiative under DST's purview.
+            Its goals align with the broader objectives of DST by focusing on
+            creating an ecosystem for technology development within universities
+            and enhancing collaboration between academia, national laboratories,
+            and industry. This approach is crucial for translating research
+            outcomes into practical applications and driving innovation that can
+            contribute to economic growth and societal development. BUTEC was
+            established in the Bundelkhand University in the Year 2023. The
+            BUTEC facility in the campus has ignited the young brains since
+            then. The State-of-Art facility named as Innovation centre was
+            established in 2014, this research centre cum testing lab is having
+            almost all kinds of sample testing equipment that have been serving
+            the society in the region.
           </div>
           <div className="about-overview-learn-more">
-            <Link href="/about">LEARN MORE</Link>
+            <Link to="/about">LEARN MORE</Link>
           </div>
         </div>
       </div>
@@ -121,7 +133,7 @@ The State-of-Art facility named as Innovation centre was established in 2014, th
           </div>
         </div>
         <div className="see_more">
-        <Link  href="/service">See More...</Link>
+          <Link to="/service">See More...</Link>
         </div>
       </div>
       {/* patent */}
@@ -148,8 +160,8 @@ The State-of-Art facility named as Innovation centre was established in 2014, th
           </div>
         </div>
         <div className="see_more">
-          <Link href="/patents">See More...</Link>
-</div>
+          <Link to="/patents">See More...</Link>
+        </div>
       </div>
       {/* partners */}
       <div className="partner-overview-container">
@@ -196,8 +208,12 @@ The State-of-Art facility named as Innovation centre was established in 2014, th
             </div>
           </div>
           <div className="partner-overview-inner-container">
-            <div style={{width:"7.5rem"}} className="partner-overview-logo">
-              <img style={{width:"100%"}} src={partner6} alt="partner image"></img>
+            <div style={{ width: "7.5rem" }} className="partner-overview-logo">
+              <img
+                style={{ width: "100%" }}
+                src={partner6}
+                alt="partner image"
+              ></img>
             </div>
             <div className="partner-overview-name">
               Shree Baidyanath Ayurved Bhawan Pvt. Ltd.
@@ -205,15 +221,19 @@ The State-of-Art facility named as Innovation centre was established in 2014, th
           </div>
           <div className="partner-overview-inner-container">
             <div className="partner-overview-logo">
-              <img style={{width:"10rem"}} src={partner7} alt="partner image"></img>
+              <img
+                style={{ width: "10rem" }}
+                src={partner7}
+                alt="partner image"
+              ></img>
             </div>
             <div className="partner-overview-name">
-              Bhartiya Heavy  Electronic Limited, Jhansi
+              Bhartiya Heavy Electronic Limited, Jhansi
             </div>
           </div>
         </div>
         <div className="see_more">
-          <Link href="/our-partners">See More...</Link>
+          <Link to="/our-partners">See More...</Link>
         </div>
       </div>
     </>

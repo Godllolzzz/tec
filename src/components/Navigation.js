@@ -174,7 +174,7 @@ const Navigation = () => {
               </li>
               <li className="dropdown-item">
                 <a
-                  href="https://drive.google.com/file/d/1EuGegi80mCKjljQiZ4ewIb9AoFgF5V7x/view"
+                  href="https://drive.google.com/file/d/14AXpjyMXoibUtiMBlkxUmMt9RjUbo6yO/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -199,7 +199,7 @@ const Navigation = () => {
               </li>
 
               <li className="dropdown-item">
-                <a href="https://drive.google.com/file/d/1L0jGXdQ37eF1qbQkTWQ2Z6s1Dahc7bFj/view?usp=drivesdk">
+                <a href="https://drive.google.com/file/d/1Q8PpghxbcbEppHguNVSXzacgZTUoQoJW/view?usp=sharing">
                   News Letter
                 </a>
               </li>
@@ -244,12 +244,12 @@ const Navigation = () => {
               </li>
               <li className="dropdown-item">
                 <a href="https://bujhansi.ac.in/innovation/user_application_form.pdf">
-                Offline  User Application Form
+                  Offline User Application Form
                 </a>
               </li>
               <li className="dropdown-item">
                 <a href="https://forms.gle/JaDicxPu1ZurkvPh6">
-                Online  User Application Form
+                  Online User Application Form
                 </a>
               </li>
             </ul>
@@ -308,7 +308,7 @@ const Navigation = () => {
                 <Link to="/staff">Staff</Link>
               </li>
               <li className="dropdown-item">
-                <a href="/students-team">Students Team</a>
+                <Link to="/students-team">Students Team</Link>
               </li>
             </ul>
           </l1>
@@ -328,6 +328,15 @@ const Navigation = () => {
               <li className="dropdown-item">
                 <Link to="/all-tec">TEC Network</Link>
               </li>
+              <li className="dropdown-item">
+                <a
+                  href="https://drive.google.com/file/d/14AXpjyMXoibUtiMBlkxUmMt9RjUbo6yO/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Collaborations
+                </a>
+              </li>
             </ul>
           </l1>
           {/* <l1 className="navbar-item">Events</l1> */}
@@ -346,7 +355,9 @@ const Navigation = () => {
               </li>
 
               <li className="dropdown-item">
-                <a href="#">News Letter</a>
+                <a href="https://drive.google.com/file/d/1Q8PpghxbcbEppHguNVSXzacgZTUoQoJW/view?usp=sharing">
+                  News Letter
+                </a>
               </li>
               <li className="dropdown-item">
                 <Link to="/Mou">MoU's</Link>
@@ -389,12 +400,12 @@ const Navigation = () => {
               </li>
               <li className="dropdown-item">
                 <a href="https://bujhansi.ac.in/innovation/user_application_form.pdf">
-                Offline  User Application Form
+                  Offline User Application Form
                 </a>
               </li>
               <li className="dropdown-item">
                 <a href="https://forms.gle/JaDicxPu1ZurkvPh6">
-                Online  User Application Form
+                  Online User Application Form
                 </a>
               </li>
             </ul>

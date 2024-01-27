@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import Footer from "./footer";
 import firstimg from "../images/logo_1.png";
-import secondimg from "../images/logo2_.png";
+import secondimg from "../images/logo2.jpg";
 import thirdimg from "../images/logo3_.png";
 import fourthimg from "../images/logo4_.png";
 import fifthimg from "../images/logo5_.png";
@@ -28,17 +28,17 @@ const Pag = () => {
 
         <div className="pag-logo-1">
           <div style={{ marginLeft: "2rem" }} className="pag-logo-1-1">
-            <img src={secondimg}></img>
+            <img style={{borderRadius:"8px"}} src={secondimg}></img>
             <div>
-              <b>Prof. B. Gurumoorthy</b>
+              <b>Prof. CS Sharma</b>
             </div>
-            <div>Indian Institute of Science,Banglore</div>
+            <div>Indian Institute of Science, Hyderabad</div>
           </div>
 
           <div style={{ marginLeft: "3rem" }} className="pag-logo-1-2">
             <img src={thirdimg}></img>
             <div>
-              <b>Dr. Anita Aggarwal</b>{" "}
+              <b>Dr. Anita Agarwal</b>{" "}
             </div>
             <div>Department of Science & Technology</div>
           </div>
@@ -174,7 +174,7 @@ const Pag = () => {
             <tr>
               <td>10.</td>
               <td>Shri K A Rafe</td>
-              <td>General Manager</td>
+              <td>General Manager (BHEL, Jhansi)</td>
             </tr>
             <tr>
               <td>11.</td>
