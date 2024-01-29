@@ -37,6 +37,7 @@ import StudentsTeam from "./components/StudentsTeam";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { FaWhatsapp } from "react-icons/fa";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import NewsLetter from "./components/NewsLetter";
 
 function App() {
   return (
@@ -57,15 +58,17 @@ function App() {
           <Route path="/all-tec" element={<Tec />} />
           <Route path="/sanctioned-projects" element={<SanctionedProjects />} />
           <Route path="/contact-us" element={<ContactUs />} />
-          <Route path="/Resource-persons" element={<ResourcePersons/>}/>
-          <Route path="/patents" element={<Patents2/>}/>
-          <Route path="/Mou" element={<MoU/>}/>
-          <Route path="/about-innovation-centre" element={<AboutInnovationCentre/>}/>
-          <Route path="/tot-plan" element={<ToTPlan/>}/>
-          <Route path="/training-plan" element={<TrainingPlan/>}/>
-          <Route path="/students-team" element={<StudentsTeam/>}/>
-
-          
+          <Route path="/Resource-persons" element={<ResourcePersons />} />
+          <Route path="/patents" element={<Patents2 />} />
+          <Route path="/Mou" element={<MoU />} />
+          <Route
+            path="/about-innovation-centre"
+            element={<AboutInnovationCentre />}
+          />
+          <Route path="/tot-plan" element={<ToTPlan />} />
+          <Route path="/training-plan" element={<TrainingPlan />} />
+          <Route path="/students-team" element={<StudentsTeam />} />
+          <Route path="/news-letter" element={<NewsLetter />} />
         </Routes>
 
         {/* <Achievements /> */}
@@ -77,7 +80,7 @@ function App() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FontAwesomeIcon  icon={faWhatsapp} style={{color: "white"}} />
+        <FontAwesomeIcon icon={faWhatsapp} style={{ color: "white" }} />
       </a>
       <ScrollToTop />
     </div>

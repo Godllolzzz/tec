@@ -30,6 +30,8 @@ const SanctionedProjects = () => {
               PREDICTING STUDENTS' STRESS LEVEL AND WELLBEING WITH MACHINE
               LEARNING<br></br> PI- DR. KAVYA DUBE
             </h2>
+            <br></br>
+
             <p>
               <b>Introduction : </b>
               Mental health is a growing concern among students, with studies
@@ -70,6 +72,8 @@ const SanctionedProjects = () => {
               <br></br>
               PI – DR. SHAMBHUNATH SINGH{" "}
             </h2>
+            <br></br>
+
             <p>
               <b>Introduction : </b>
               We know that people have their unlimited wants. If one want is
@@ -128,6 +132,8 @@ const SanctionedProjects = () => {
               COCKTAIL TO ALLEVIATE ORAL SQUAMOUS CELL CARCINOMA<br></br>
               PI– DR. BHAWNA SHARMA
             </h2>
+            <br></br>
+
             <p>
               <b>Introduction : </b>
               The traditional Indian healthcare systems of Ayurveda and Siddha
@@ -197,6 +203,7 @@ const SanctionedProjects = () => {
               BUNDELKHAND REGION OF UTTAR PRADESH <br></br>
               PI- DR. ERA TIWARI
             </h2>
+            <br></br>
             <p>
               <b>Introduction : </b>
               The study is based upon both primary and secondary data. The
@@ -239,6 +246,8 @@ const SanctionedProjects = () => {
               SMART HELMET<br></br>
               PI- DR. ROHIT PEARDON
             </h2>
+            <br></br>
+
             <p>
               <b>Introduction : </b>
               Road safety continues to be a major developmental issue, a public

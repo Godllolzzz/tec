@@ -199,9 +199,7 @@ const Navigation = () => {
               </li>
 
               <li className="dropdown-item">
-                <a href="https://drive.google.com/file/d/1Q8PpghxbcbEppHguNVSXzacgZTUoQoJW/view?usp=sharing">
-                  News Letter
-                </a>
+                <Link to="/news-letter">NewsLetter</Link>
               </li>
               <li className="dropdown-item">
                 <Link to="/Mou">MoU's</Link>
@@ -355,9 +353,7 @@ const Navigation = () => {
               </li>
 
               <li className="dropdown-item">
-                <a href="https://drive.google.com/file/d/1Q8PpghxbcbEppHguNVSXzacgZTUoQoJW/view?usp=sharing">
-                  News Letter
-                </a>
+                <Link to="/news-letter">NewsLetter</Link>
               </li>
               <li className="dropdown-item">
                 <Link to="/Mou">MoU's</Link>

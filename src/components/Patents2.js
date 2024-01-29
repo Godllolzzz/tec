@@ -22,12 +22,13 @@ const Patents2 = () => {
             <div className="patents2-title">Smart Helmet</div>
             <div className="patents2-developed-by">
               <div>DEVELOPED BY-</div>
-              <div>
+              <div style={{fontWeight:"bold"}}>
                 <div>Prof. Mukesh Pandey Hon'ble Vice-Chancellor,</div>
                 <div>Dr. Lavkush Dwivedi Co-Coordinator DST-TEC</div>
                 <div>Dr. Rohit Peardon Principal Investigator</div>
               </div>
             </div>
+            <br></br>
             <p className="patents2-inner-content">
               The present invention provides a safety system for a wearable
               helmet that keeps a regular check on a rider in 5-minute intervals
@@ -56,12 +57,13 @@ const Patents2 = () => {
             </div>
             <div className="patents2-developed-by">
               <div>DEVELOPED BY-</div>
-              <div>
+              <div style={{fontWeight:"bold"}}>
                 <div>Prof. Mukesh Pandey Hon'ble Vice-Chancellor,</div>
                 <div>Dr. Lavkush Dwivedi Principal Investigator</div>
                 <div>Dr. Anupam Vyas Co-Principal Investigator</div>
               </div>
             </div>
+            <br></br>
             <p className="patents2-inner-content">
               A system to predict the health risks by monitoring various factors
               related to occupational, environmental, and regional specific
@@ -87,11 +89,12 @@ const Patents2 = () => {
 
             <div className="patents2-developed-by">
               <div>DEVELOPED BY-</div>
-              <div>
+              <div style={{fontWeight:"bold"}}>
                 <div>Prof. Mukesh Pandey Hon'ble Vice-Chancellor,</div>
                 <div>Dr. Lavkush Dwivedi Principal Investigator</div>
               </div>
             </div>
+            <br></br>
             <p className="patents2-inner-content">
               Increasing stress, depression, anxiety, intolerance, disrespected
               and value for life is leading a significant population to suicidal
@@ -120,7 +123,7 @@ const Patents2 = () => {
             </div>
             <div className="patents2-developed-by">
               <div>DEVELOPED BY-</div>
-              <div>
+              <div style={{fontWeight:"bold"}}>
                 <div>Prof. Mukesh Pandey Hon'ble Vice-Chancellor,</div>
                 <div>Dr. Anupam Vyas Co-Principal Investigator</div>
                 <div>DR. S K Srivastava</div>
@@ -129,6 +132,7 @@ const Patents2 = () => {
                 <div>Dr. Priyanka Tripathi</div>
               </div>
             </div>
+            <br></br>
             <p className="patents2-inner-content">
               Portable solar power for electronic devices offers a convenient
               and sustainable solution for on-the-go energy needs. These compact
@@ -161,7 +165,7 @@ const Patents2 = () => {
             </div>
             <div className="patents2-developed-by">
               <div>DEVELOPED BY-</div>
-              <div>
+              <div style={{fontWeight:"bold"}}>
                 <div>Prof. Mukesh Pandey Hon'ble Vice-Chancellor,</div>
                 <div>Dr. Deepak Tomar</div>
                 <div>Dr. Zakir Ali</div>
@@ -169,6 +173,7 @@ const Patents2 = () => {
                 <div>Mr. Sabir Ali</div>
               </div>
             </div>
+            <br></br>
             <p className="patents2-inner-content">
               Eco-friendly, fully renewable energy-based electric vehicles
               represent a revolutionary leap towards sustainable transportation.

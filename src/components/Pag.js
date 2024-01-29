@@ -30,7 +30,7 @@ const Pag = () => {
           <div style={{ marginLeft: "2rem" }} className="pag-logo-1-1">
             <img style={{borderRadius:"8px"}} src={secondimg}></img>
             <div>
-              <b>Prof. CS Sharma</b>
+              <b>Prof. C S Sharma</b>
             </div>
             <div>Indian Institute of Science, Hyderabad</div>
           </div>
@@ -107,8 +107,8 @@ const Pag = () => {
             <tr>
               <td>2.</td>
               <td>
-                Prof. B. Gurumoorthy<br></br>
-                Indian Institute of Science, Bengaluru
+                Prof. C S Sharma<br></br>
+                Indian Institute of Science, Hyderabad
               </td>
               <td>
                 TEC-EAG Expert<br></br>

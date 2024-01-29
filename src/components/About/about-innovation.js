@@ -437,7 +437,7 @@ const AboutInnovationCentre = () => {
               Biomedical Sciences
             </li>
           </ul>
-          <table className="core-committee-table" border="1">
+          <table className="core-committee-table" border="1" style={{fontFamily:"Merriweather"}}>
             <thead>
               <tr>
                 <th>S.No.</th>
@@ -651,10 +651,10 @@ const AboutInnovationCentre = () => {
             (Submitted to- Govt. of Uttar Pradesh; Cost-152.32 Lacs).
           </li>
         </ul>
-        <div className="about-innovation-centre-heading">
+        <div className="about-innovation-centre-heading" style={{marginBottom:"1rem"}}>
           7. The Research Capacity Building & Human Resource Development
-          activities conducted in last 05 years.
-          <table className="core-committee-table" border="1">
+          activities conducted in last 05 years - 30+.
+          {/* <table className="core-committee-table" border="1"  style={{fontFamily:"Merriweather"}}>
             <thead>
               <tr>
                 <th>S.No.</th>
@@ -821,7 +821,7 @@ const AboutInnovationCentre = () => {
                 <td>27</td>
               </tr>
             </tbody>
-          </table>
+          </table> */}
         </div>
         <div className="about-innovation-centre-heading">
           8. The Human Resources trained so far through FDPs, Training
@@ -855,7 +855,7 @@ const AboutInnovationCentre = () => {
             the UGC-STRIDE(I) Programme in last 2 Years.
           </li>
         </ul>
-        <div className="about-innovation-centre-heading">
+        <div className="about-innovation-centre-heading" style={{marginBottom:"1rem"}}>
           10. Earning of the Centre through Consultancy is 15+ Lakhs.
           {/* <table className="core-committee-table" border="1">
         <thead>

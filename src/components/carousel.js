@@ -3,13 +3,14 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import "./carousel.css"; // Import your CSS file for carousel styling
 // import img1 from "../images/GandhiAuditorium.jpeg";
-import img1 from "../images/about-top-image.jpg";
+import img1 from "../images/about_top_image.jpg";
 import img2 from "../galleryimage/DSC_0491.JPG";
 import img3 from "../galleryimage/A7403529.JPG";
 import img4 from "../galleryimage/A7403304.JPG";
 import img5 from "../images/TEC-3.jpg";
 import img6 from "../galleryimage/A7402281.JPG";
 import img7 from "../images/innovation_centre (2).jpg";
+import img8 from "../images/carousel_img.jpg"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -21,7 +22,7 @@ import tec_logo1 from "../images/tec_handmade_logo1.png";
 import tec_logo2 from "../images/tec_handmade_logo2.png";
 import TypeWriter from "./Typewriter";
 
-const images = [img1, img2, img3, img4, img5, img6, img7];
+const images = [img1, img2, img3, img4, img5, img6, img7, img8];
 
 const Carousel = () => {
   const [isEventOpen, setIsEventOpen] = useState(false);

@@ -160,6 +160,7 @@ const HomeOverview = () => {
           </div>
         </div>
         <div className="see_more">
+        <Link to="/patents ">Patents</Link>
           <Link to="/patents">See More...</Link>
         </div>
       </div>

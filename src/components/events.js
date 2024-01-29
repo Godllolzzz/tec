@@ -33,14 +33,17 @@ function Events() {
                 style={{ "--accent-color": "#41516C" }}
               >
                 <div className="date">February 1, 2024</div>
-                <div className="title"> Launch of Hack-3 Posters</div>
+                <div className="title">
+                  {" "}
+                  Launch of Technology Hackathon-3 Posters
+                </div>
               </li>
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#FBCA3E" }}
               >
                 <div className="date">February 05, 2024</div>
-                <div className="title">HacK-2 Level-2</div>
+                <div className="title">Technology Hackathon-2 Level-2</div>
               </li>
               <li
                 className="timeline-item"
@@ -75,8 +78,10 @@ function Events() {
                 style={{ "--accent-color": "#4CADAD" }}
               >
                 <div className="date">February 29, 2024</div>
-                <div className="title">TOT and MSME meet</div>
-                <div className="descr">Prize Distribution</div>
+                <ul className="title">
+                  <li>TOT and MSME Meet</li>
+                  <li>Prize Distribution</li>
+                </ul>
               </li>
               <li
                 className="timeline-item"
@@ -163,7 +168,7 @@ function Events() {
               >
                 <div className="date">May 25 to 30, 2023</div>
                 <div className="title">
-                  Technology Hackthon- 1 (Screening Round)
+                  Technology Hackathon- 1 (Screening Round)
                 </div>
                 <div className="descr">
                   For the screening of project proposals received under
@@ -215,7 +220,7 @@ function Events() {
               >
                 <div className="date">July 15, 2023</div>
                 <div className="title">
-                  Technology Hackthon- 1 (FinalSelection)
+                  Technology Hackathon- 1 (FinalSelection)
                 </div>
                 <div className="descr">
                   The evaluation committee meeting was held on July 15, 2023 for
@@ -246,7 +251,7 @@ function Events() {
               >
                 <div className="date">September 15, 2023</div>
                 <div className="title">
-                  Technology Hackthon - 2 (Poster Release)
+                  Technology Hackathon - 2 (Poster Release)
                 </div>
                 <div className="descr">
                   The process of selection of projects for the Hackathon-2
@@ -277,9 +282,13 @@ function Events() {
               >
                 <div className="date">November 23 to 27, 2023</div>
                 <div className="title">
-                  The two-day event was marked by spirited discussions,
-                  insightful presentations, and a vision of collaboration and
-                  knowledge sharing among the attending universities.
+                  International Conference on Ultrasonics and Material Science
+                  for Advanced Technology
+                </div>
+                <div className="descr">
+                  The event was marked by spirited discussions, insightful
+                  presentations, and a vision of collaboration and knowledge
+                  sharing among the attending universities.
                 </div>
               </li>
               <li
@@ -326,7 +335,9 @@ function Events() {
                 style={{ "--accent-color": "#4CADAD" }}
               >
                 <div className="date">January 9 to 13, 2024</div>
-                <div className="title">Technology Hack - 2 (Screening) </div>
+                <div className="title">
+                  Technology Hackathon - 2 (Screening){" "}
+                </div>
                 <div className="descr">
                   More than 60 application were received for registration in
                   Hackathon - 2. These participants presented their idea in both
