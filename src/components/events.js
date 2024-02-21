@@ -5,7 +5,7 @@ import Footer from "./footer";
 import { useState } from "react";
 
 function Events() {
-  const [isUpcomingEventOpen, setIsUpcomingEventOpen] = useState(true);
+  const [isUpcomingEventOpen, setIsUpcomingEventOpen] = useState(false);
   const eventToggleHandler = () => {
     setIsUpcomingEventOpen(!isUpcomingEventOpen);
   };
@@ -28,35 +28,6 @@ function Events() {
           <div className="timeline-card">
             <h1 className="timeline-title">Upcoming Events</h1>
             <ul className="timeline-list">
-              <li
-                className="timeline-item"
-                style={{ "--accent-color": "#41516C" }}
-              >
-                <div className="date">February 1, 2024</div>
-                <div className="title">
-                  {" "}
-                  Launch of Technology Hackathon-3 Posters
-                </div>
-              </li>
-              <li
-                className="timeline-item"
-                style={{ "--accent-color": "#FBCA3E" }}
-              >
-                <div className="date">February 05, 2024</div>
-                <div className="title">Technology Hackathon-2 Level-2</div>
-              </li>
-              <li
-                className="timeline-item"
-                style={{ "--accent-color": "#FBCA3E" }}
-              >
-                <div className="date">February 10 to 16, 2024</div>
-                <div className="title">
-                  Advanced Android Application Developer
-                </div>
-                <div className="descr">
-                  One week training for application development.
-                </div>
-              </li>
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#E24A68" }}
@@ -354,6 +325,35 @@ function Events() {
                 <div className="descr">
                   One week hands-on training cum workshop was organised for
                   students of Axis College, Kanpur.
+                </div>
+              </li>
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#41516C" }}
+              >
+                <div className="date">February 1, 2024</div>
+                <div className="title">
+                  {" "}
+                  Launch of Technology Hackathon-3 Posters
+                </div>
+              </li>
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#FBCA3E" }}
+              >
+                <div className="date">February 05, 2024</div>
+                <div className="title">Technology Hackathon-2 Level-2</div>
+              </li>
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#FBCA3E" }}
+              >
+                <div className="date">February 10 to 16, 2024</div>
+                <div className="title">
+                  Advanced Android Application Developer
+                </div>
+                <div className="descr">
+                  One week training for application development.
                 </div>
               </li>
             </ul>

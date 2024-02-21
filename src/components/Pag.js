@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 import Footer from "./footer";
 import firstimg from "../images/logo_1.png";
 import secondimg from "../images/logo2.jpg";
-import thirdimg from "../images/logo3_.png";
+import thirdimg from "../images/Dr.PraveenRoy.jpg";
 import fourthimg from "../images/logo4_.png";
 import fifthimg from "../images/logo5_.png";
 import sixthimg from "../images/logo6_.png";
@@ -28,7 +28,7 @@ const Pag = () => {
 
         <div className="pag-logo-1">
           <div style={{ marginLeft: "2rem" }} className="pag-logo-1-1">
-            <img style={{borderRadius:"8px"}} src={secondimg}></img>
+            <img style={{ borderRadius: "8px" }} src={secondimg}></img>
             <div>
               <b>Prof. C S Sharma</b>
             </div>
@@ -36,9 +36,9 @@ const Pag = () => {
           </div>
 
           <div style={{ marginLeft: "3rem" }} className="pag-logo-1-2">
-            <img src={thirdimg}></img>
+            <img style={{ borderRadius: "12px" }} src={thirdimg}></img>
             <div>
-              <b>Dr. Anita Agarwal</b>{" "}
+              <b>Dr. Praveen Roy</b>{" "}
             </div>
             <div>Department of Science & Technology</div>
           </div>
@@ -118,9 +118,9 @@ const Pag = () => {
             <tr>
               <td>3.</td>
               <td>
-                Dr. Anita Aggarwal
+                Dr. Praveen Roy
                 <br></br>
-                TDT Division, DST, Govt. of India
+                TTI Division, DST, Govt. of India
               </td>
               <td>DST Representative </td>
             </tr>
@@ -129,7 +129,7 @@ const Pag = () => {
               <td>4.</td>
               <td>
                 Dr. Krishna Kanth Pulicherla<br></br>
-                TDT Division, DST, Govt. of India
+                TTI Division, DST, Govt. of India
               </td>
               <td>DST Representative </td>
             </tr>
