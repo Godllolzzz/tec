@@ -1,0 +1,78 @@
+.compliment_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    /* Add any other styles as needed */
+  }
+  
+
+
+.compliment_main1{
+    border-bottom: 1px solid rgb(41, 38, 38);
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 1rem;
+  padding-top: 3rem;
+  /* color: rgb(41, 36, 36);
+   */
+   color: gold;
+  font-size: 2.2rem;
+  margin: auto;
+  width: 60%;
+  text-align: center;
+  text-shadow: 2px 2px 2px #03174f;
+}
+ 
+.compliment_img {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  max-width: 90%;
+}
+
+.compliment_img1,
+.compliment_img2 {
+  flex: 1; /* Equal width for both images */
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.img1,
+.img2 {
+    max-width: 100%;
+
+  display: block; /* Ensures images are block elements */
+  margin: auto;
+  }
+  
+  .compliment_img2:hover::before {
+    content: ''; /* Empty content */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+    z-index: 1; /* Ensure the overlay is above the image */
+}
+
+.img2 {
+    transition: transform 0.3s ease; /* Smooth transition effect for image */
+}
+
+.compliment_img2:hover .img2 {
+    transform: scale(1.1); /* Scale up the image on hover */
+    z-index: 2; /* Ensure the image is above the overlay */
+}
+
+/* @media screen and (max-width: 750px) {
+    .key-points {
+      padding: 1rem;
+    }
+    .about-heading {
+      font-size: 1.5rem;
+      text-align: center;
+      max-width: 90%;
+    }
+  } */

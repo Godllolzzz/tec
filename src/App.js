@@ -38,6 +38,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { FaWhatsapp } from "react-icons/fa";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import NewsLetter from "./components/NewsLetter";
+import Compliment from "./components/Compliment";
+import Key_Indicator from "./components/Keyindicators";
 
 function App() {
   return (
@@ -69,6 +71,8 @@ function App() {
           <Route path="/training-plan" element={<TrainingPlan />} />
           <Route path="/students-team" element={<StudentsTeam />} />
           <Route path="/news-letter" element={<NewsLetter />} />
+          <Route path="/compliment-corner" element={<Compliment/>}/>
+          <Route path="/key-indicator"  element={<Key_Indicator/>}/>
         </Routes>
 
         {/* <Achievements /> */}

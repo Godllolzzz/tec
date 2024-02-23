@@ -204,6 +204,12 @@ const Navigation = () => {
               <li className="dropdown-item">
                 <Link to="/Mou">MoU's</Link>
               </li>
+              <li className="dropdown-item">
+                <Link to="/compliment-corner">Compliment Corner</Link>
+              </li>
+              <li className="dropdown-item">
+                <Link to="/key-indicator">Key Indicator</Link>
+              </li>
             </ul>
           </l1>
           {/* <l1 className="navbar-item">Contacts</l1> */}
