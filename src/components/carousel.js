@@ -202,15 +202,11 @@ const Carousel = () => {
               </div>
               <div className="content">
                 <div>
-                  ICUMAST was a great success.The event was marked by spirited
-                  discussions, insightful presentations, and a vision of
-                  collaboration and knowledge sharing among the attending
-                  universities.
+                  Successful completion of One Week Hands-on Training in Advanced
+                  Android development for Digital Empowerment of MSMEs
                 </div>
                 <div>
-                  More than 110 participants registered for for the one week
-                  training on Advanced Characterization Technology. Applicants
-                  were from around 25 states of India.
+                  Bundelkhand University got a grand of rupees 100 crores under the m-usha project MERU.
                 </div>
               </div>
             </div>
