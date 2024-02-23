@@ -3,18 +3,14 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Route,
-  Switch,
+  
   Routes,
 } from "react-router-dom";
 import "./App.css";
 import About from "./components/About";
-import Achievements from "./components/Achievments";
-import NavBar from "./components/NavBar";
-import Footer from "./components/footer";
-import Grid from "./components/grid";
+
 import Home from "./components/home";
-import VCMessage from "./components/message";
-import TecTeam from "./components/OurLeaders";
+
 import OurLeaders from "./components/OurLeaders";
 import CoreCommitte from "./components/CoreCommitte";
 import Pag from "./components/Pag";
@@ -35,7 +31,7 @@ import MoU from "./components/MoU";
 import ScrollToTop from "./components/ScrollToTop";
 import StudentsTeam from "./components/StudentsTeam";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { FaWhatsapp } from "react-icons/fa";
+
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import NewsLetter from "./components/NewsLetter";
 import Compliment from "./components/Compliment";

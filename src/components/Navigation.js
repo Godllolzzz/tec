@@ -14,7 +14,6 @@ const Navigation = () => {
   const [isEventVisible, setIsEventVisible] = useState(false);
   const [isAboutVisible, setIsAboutVisible] = useState(false);
   const [isDownloadVisible, setIsDownloadVisible] = useState(false);
-  const [isHomeOpen, setisHomeOpen] = useState(false);
 
   // if(!isMobileNavbarOpen) {
   //   document.querySelector('.dropdown').style.display = "none";

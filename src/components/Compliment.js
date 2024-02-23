@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-import { Link } from 'react-router-dom';
+
 
 import compliment1 from "../documents/Chandra_twitter.jpg"
 import compliment2 from "../documents/compliment2.png"
