@@ -23,17 +23,17 @@ import img19 from "../galleryimage/DSC_0495.JPG";
 import img20 from "../galleryimage/DSC_0496.JPG";
 import img21 from "../galleryimage/DSC_0497.JPG";
 import img25 from "../galleryimage/DSC_0501.JPG";
-import img26 from "../galleryimage/DSC_0502.JPG";
-import img27 from "../galleryimage/DSC_0503.JPG";
+import img26 from "../galleryimage/change10.jpg";
+import img27 from "../galleryimage/change9.jpg";
 import img28 from "../galleryimage/DSC_0504.JPG";
-import img29 from "../galleryimage/DSC_0505.JPG";
+import img29 from "../galleryimage/change8.jpg";
 import img37 from "../galleryimage/DSC_0513.JPG";
 import img38 from "../galleryimage/DSC_0514.JPG";
 import img39 from "../galleryimage/DSC_0515.JPG";
 import img40 from "../galleryimage/DSC_0518.JPG";
-import img43 from "../galleryimage/DSC_0519.JPG";
-import img44 from "../galleryimage/DSC_0520.JPG";
-import img45 from "../galleryimage/DSC_0521.JPG";
+import img43 from "../galleryimage/change5.jpg";
+import img44 from "../galleryimage/change6.jpg";
+import img45 from "../galleryimage/change7.jpg";
 import img46 from "../galleryimage/DSC_0522.JPG";
 import img47 from "../galleryimage/DSC_0523.JPG";
 import img48 from "../galleryimage/DSC_0524.JPG";
@@ -42,6 +42,12 @@ import img49 from "../galleryimage/DSC01400.JPG";
 const Gallery = () => {
   const [isImgOpen, setIsImgOpen] = useState(null);
   let image_array = [
+    img43,
+    img44,
+    img45,
+    img29,
+    img26,
+    img27,
     img1,
     img2,
     img3,
