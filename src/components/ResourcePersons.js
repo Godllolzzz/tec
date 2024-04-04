@@ -11,7 +11,7 @@ const ResourcePersons = () => {
     <div>
       <NavBar />
       <div className="resource-logo">
-        <img src={resourcelogo} alt="reloaded"></img>
+        <img src={resourcelogo} alt="reloaded" ></img>
       </div>
       <h2 className="resource-person-heading">External Resource Persons</h2>
 

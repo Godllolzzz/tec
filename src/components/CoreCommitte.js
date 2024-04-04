@@ -36,7 +36,7 @@ const CoreCommitte = () => {
                 <br></br>
                 Associate Professor, Economics & Finance
               </td>
-              <td>Coordinator</td>
+              <td>Co-ordinator</td>
             </tr>
             <tr>
               <td>2.</td>
@@ -74,7 +74,7 @@ const CoreCommitte = () => {
                 Dr. Sanjeev Srivastava <br></br> Associate Professor, Department
                 of Physics
               </td>
-              <td>Co-Coordinator</td>
+              <td>Co-ordinator</td>
             </tr>
             <tr>
               <td>2.</td>

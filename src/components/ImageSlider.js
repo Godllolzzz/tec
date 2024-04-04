@@ -11,6 +11,7 @@ import img7 from "./../newsimage/img7.jpg";
 import img8 from "./../newsimage/img8.jpg";
 import img9 from "./../newsimage/img9.jpg";
 import img10 from "./../newsimage/img10.jpg";
+import img11 from "./../newsimage/img11.jpg";
 
 const ImageSlider = () => {
   const SliderData = [
@@ -43,6 +44,9 @@ const ImageSlider = () => {
     },
     {
       image: img10,
+    },
+    {
+      image: img11,
     },
   ];
   const [current, setCurrent] = useState(0);

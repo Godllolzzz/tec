@@ -4,7 +4,7 @@ import NavBar from "./NavBar";
 import Footer from "./footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
-import all_tec_image from "../images/TEC-1.png";
+import all_tec_image from "../images/TEC-1.jpg";
 
 const Tec = () => {
   return (

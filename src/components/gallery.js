@@ -38,10 +38,20 @@ import img46 from "../galleryimage/DSC_0522.JPG";
 import img47 from "../galleryimage/DSC_0523.JPG";
 import img48 from "../galleryimage/DSC_0524.JPG";
 import img49 from "../galleryimage/DSC01400.JPG";
+import img50 from "../galleryimage/gallery2.jpg";
+import img51 from "../galleryimage/gallery3.jpg";
+import img52 from "../galleryimage/gallery4.jpg";
+import img53 from "../galleryimage/gallery5.jpg";
+import img54 from "../galleryimage/gallery6.jpg";
 
 const Gallery = () => {
   const [isImgOpen, setIsImgOpen] = useState(null);
   let image_array = [
+    img50,
+    img51,
+    img52,
+    img53,
+    img54,
     img43,
     img44,
     img45,

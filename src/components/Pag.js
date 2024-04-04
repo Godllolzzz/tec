@@ -236,7 +236,7 @@ const Pag = () => {
                 Dr. Lavkush Dwivedi <br></br>
                 Department of Biomedical Sciences Bundelkhand University, Jhansi
               </td>
-              <td>TEC Co-Coordinator/ Coordinator</td>
+              <td>Associate Professor, Innovation Centre</td>
             </tr>
           </tbody>
         </table>

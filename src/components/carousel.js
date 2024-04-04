@@ -10,7 +10,8 @@ import img4 from "../galleryimage/A7403304.JPG";
 import img5 from "../images/TEC-3.jpg";
 import img6 from "../galleryimage/A7402281.JPG";
 import img7 from "../images/innovation_centre (2).jpg";
-import img8 from "../galleryimage/change3.jpg"
+import img8 from "../galleryimage/change11.jpg"
+import img12 from "../galleryimage/change12.jpg"
 import img9 from "../galleryimage/change2.jpg"
 import img10 from "../galleryimage/change4.jpg"
 
@@ -23,7 +24,7 @@ import {
 
 import TypeWriter from "./Typewriter";
 
-const images = [img9,img10, img2, img3, img4, img5, img6, img7];
+const images = [img9,img10,img12,img8, img2, img3, img4, img5, img6, img7];
 
 const Carousel = () => {
   const [isEventOpen, setIsEventOpen] = useState(false);
