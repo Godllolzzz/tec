@@ -437,7 +437,7 @@ const AboutInnovationCentre = () => {
               Biomedical Sciences
             </li>
           </ul>
-          <table className="core-committee-table" border="1" style={{fontFamily:"Merriweather"}}>
+          <table className="core-committee-table" border="1" >
             <thead>
               <tr>
                 <th>S.No.</th>
@@ -445,7 +445,7 @@ const AboutInnovationCentre = () => {
                 <th>Works done/ongoing for the social benefits (in brief)</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody style={{fontFamily:"Normal",fontSize:"small"}}>
               <tr>
                 <td>1.</td>
                 <td>

@@ -39,6 +39,16 @@ function NewsLetter() {
               </a>
             </td>
           </tr>
+          <tr>
+            <td>2.</td>
+            <td>News Letter 3</td>
+            <td>October - December, 2023</td>
+            <td>
+              <a href="https://drive.google.com/file/d/1QblRHPKC2yhZ2DRlh14nHtAtG_1A-tDv/view?usp=sharing">
+                View
+              </a>
+            </td>
+          </tr>
         </tbody>
       </table>
       <Footer />
