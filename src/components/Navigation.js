@@ -170,7 +170,7 @@ const Navigation = () => {
               </li>
               <li className="dropdown-item">
                 <Link to="/all-tec">TEC Network</Link>
-              </li>
+              </li>{" "}
               <li className="dropdown-item">
                 <a
                   href="https://drive.google.com/file/d/14AXpjyMXoibUtiMBlkxUmMt9RjUbo6yO/view?usp=sharing"
@@ -179,6 +179,9 @@ const Navigation = () => {
                 >
                   Collaborations
                 </a>
+              </li>
+              <li className="dropdown-item">
+                <Link to="/msme">MSME</Link>
               </li>
             </ul>
           </l1>
@@ -339,6 +342,9 @@ const Navigation = () => {
                 >
                   Collaborations
                 </a>
+              </li>
+              <li className="dropdown-item">
+                <Link to="/msme">MSME</Link>
               </li>
             </ul>
           </l1>

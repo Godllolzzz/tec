@@ -10,7 +10,7 @@ const StudentsTeam = () => {
   return (
     <>
       <NavBar />
-      <div className="students-heading">Students-Team</div>
+      <div className="students-heading">Technical Team</div>
       <div className="Student-outer">
         <div className="student-inner">
           <img src={sushantimg}></img>
@@ -32,12 +32,14 @@ const StudentsTeam = () => {
             <b>Full Stack Developer</b>
           </div>
         </div>
-
+      </div>
+      <div className="students-heading">Event Management Team</div>
+      <div className="Student-outer">
         <div className="student-inner">
           <img src={rohitimg}></img>
           <div className="student-name">Rohit Khare</div>
           <div>
-            <b>Student</b>
+            <b>B.Sc Mathematics</b>
           </div>
           <div>
             <b>Bundelkhand University</b>

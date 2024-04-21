@@ -3,7 +3,7 @@ import committelogo from "../images/CoreCommity.jpg";
 import NavBar from "./NavBar";
 import Footer from "./footer";
 import "./CoreCommitte.css";
-import core_committee_top_image from "../images/core_committee_top_image.jpg";
+import core_committee_top_image from "../galleryimage/core-committee.jpeg";
 
 const CoreCommitte = () => {
   return (
@@ -236,6 +236,16 @@ const CoreCommitte = () => {
                 <a href="https://drive.google.com/file/d/1yx32z_aU_oUq5k-nMr15F3Qq9ojGyYz_/view?usp=sharing">
                   View
                 </a>
+              </td>
+            </tr>
+            <tr>
+              <td>6.</td>
+              <td>Core Committee Meeting 7</td>
+              <td>March 18, 2024</td>
+              <td>
+                {/* <a href="https://drive.google.com/file/d/1yx32z_aU_oUq5k-nMr15F3Qq9ojGyYz_/view?usp=sharing"> */}
+                View
+                {/* </a> */}
               </td>
             </tr>
           </tbody>

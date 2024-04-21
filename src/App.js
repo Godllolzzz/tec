@@ -1,11 +1,6 @@
 // import Router from "router";
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  
-  Routes,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import About from "./components/About";
 
@@ -36,6 +31,7 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import NewsLetter from "./components/NewsLetter";
 import Compliment from "./components/Compliment";
 import Key_Indicator from "./components/Keyindicators";
+import Msme from "./components/Msme";
 
 function App() {
   return (
@@ -67,8 +63,9 @@ function App() {
           <Route path="/training-plan" element={<TrainingPlan />} />
           <Route path="/students-team" element={<StudentsTeam />} />
           <Route path="/news-letter" element={<NewsLetter />} />
-          <Route path="/compliment-corner" element={<Compliment/>}/>
-          <Route path="/key-indicator"  element={<Key_Indicator/>}/>
+          <Route path="/compliment-corner" element={<Compliment />} />
+          <Route path="/key-indicator" element={<Key_Indicator />} />
+          <Route path="/msme" element={<Msme />} />
         </Routes>
 
         {/* <Achievements /> */}

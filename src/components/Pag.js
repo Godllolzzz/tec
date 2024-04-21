@@ -234,9 +234,10 @@ const Pag = () => {
               <td>17.</td>
               <td>
                 Dr. Lavkush Dwivedi <br></br>
-                Department of Biomedical Sciences Bundelkhand University, Jhansi
+                Associate Professor <br></br>
+                Innovation Centre, Bundelkhand University, Jhansi
               </td>
-              <td>Associate Professor, Innovation Centre</td>
+              <td>Co-ordinator</td>
             </tr>
           </tbody>
         </table>

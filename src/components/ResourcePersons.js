@@ -1,17 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import committelogo from "../images/CoreCommity.jpg";
 import NavBar from "./NavBar";
 import Footer from "./footer";
-import "./CoreCommitte.css";
-import "./ResourcePersons.css"
-import resourcelogo from "../images/resourcepersons.jpg"
+import "./ResourcePersons.css";
+import resourcelogo from "../galleryimage/resourcePerson.jpeg";
+import file from "../assests/ResourcePerson.xlsx";
+import { fetchDataAndExtract } from "../utils/extractXlsxData";
 
 const ResourcePersons = () => {
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    const fetchData = async () => {
+      const d = await fetchDataAndExtract(file);
+      for (let i = 0; i < 24; i++) d.shift();
+      setData(d);
+    };
+
+    fetchData();
+  }, []);
+  console.log(data); // Do something with the extracted data
   return (
     <div>
       <NavBar />
       <div className="resource-logo">
-        <img src={resourcelogo} alt="reloaded" ></img>
+        <img src={resourcelogo} alt="reloaded"></img>
       </div>
       <h2 className="resource-person-heading">External Resource Persons</h2>
 
@@ -24,70 +36,18 @@ const ResourcePersons = () => {
           </tr>
         </thead>
         <tbody>
-          
-          <tr>
-            <td>1.</td>
-            <td>
-            Prof. A.C. Pandey  
-             
-            </td>
-            <td>IUAC, New Delhi</td>
-          </tr>
-          <tr>
-            <td>2.</td>
-            <td>
-            Prof. Anand Kar 
-            </td>
-            <td>DAVV, Indore</td>
-
-          </tr>
-          <tr>
-            <td>3.</td>
-            <td>Prof. U.N. Dwivedi </td>
-            <td>Lucknow University</td>
-
-          </tr>
-          
-
-          <tr>
-            <td>4.</td>
-            <td>Prof. Yogesh C. Goswami</td>
-            <td>ITM University, Gwalior</td>
-          </tr>
-          <tr>
-          <td>5.</td>
-            <td>Dr. D. Harnath </td>
-            <td>NIT, Warangal</td>
-          </tr>
-          <tr>
-            <td>6.</td>
-            <td>Dr. Mukesh K. Meghvanshi </td>
-            <td>DRDE, Gwalior</td>
-          </tr>
-          
-          <tr>
-            <td>7.</td>
-            <td>Dr. Naveen Dhingra </td>
-            <td>Medicap University, Indore</td>
-          </tr>
-
-          <tr>
-            <td>8.</td>
-            <td>Dr. Vinit Kumar  </td>
-            <td>BBACU, Lucknow</td>
-          </tr>
-          
-           
-          
-           
-
-          
-         
+          {data.map((item, index) => (
+            <tr>
+              <td>{index + 1}</td>
+              <td>{item["Internal Experts"]}</td>
+              <td>{item["__EMPTY"]}</td>
+            </tr>
+          ))}
         </tbody>
       </table>
 
       <h2 className="resource-person-heading">Internal Resource Persons</h2>
-      
+
       <table className="core-committee-table" border="1">
         <thead>
           <tr>
@@ -97,30 +57,21 @@ const ResourcePersons = () => {
           </tr>
         </thead>
         <tbody>
-          
           <tr>
             <td>1.</td>
-            <td>
-            Prof. S.P. Singh 
-             
-            </td>
+            <td>Prof. S.P. Singh</td>
             <td>Institute of Earth Science</td>
           </tr>
           <tr>
             <td>2.</td>
-            <td>
-            Prof. Poonam Puri
-            </td>
+            <td>Prof. Poonam Puri</td>
             <td>Institute of Management</td>
-
           </tr>
           <tr>
             <td>3.</td>
             <td>Prof. Soma Anil Mishra</td>
             <td>Institute of Architecture and Town planning</td>
-
           </tr>
-          
 
           <tr>
             <td>4.</td>
@@ -137,7 +88,7 @@ const ResourcePersons = () => {
             <td>Dr. Rishi Saxena </td>
             <td>Dept. of Microbiology</td>
           </tr>
-          
+
           <tr>
             <td>7.</td>
             <td>Dr. Anu Singla </td>
@@ -219,8 +170,6 @@ const ResourcePersons = () => {
             <td>Er. Vishal Arya </td>
             <td>Dept. of Electronics & Communication, IET</td>
           </tr>
-         
-         
         </tbody>
       </table>
       <Footer />
@@ -229,4 +178,3 @@ const ResourcePersons = () => {
 };
 
 export default ResourcePersons;
-

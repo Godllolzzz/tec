@@ -15,6 +15,7 @@ import {
   faBriefcase,
   faCheckDouble,
   faChartSimple,
+  faComputer,
 } from "@fortawesome/free-solid-svg-icons";
 import "./home_overview.css";
 import Grid from "./grid";
@@ -119,6 +120,7 @@ const HomeOverview = () => {
               known for its consultancy services to the scientific.
             </div>
           </div>
+
           <div className="service-overview-inner-container">
             <FontAwesomeIcon
               icon={faChartSimple}
@@ -129,6 +131,21 @@ const HomeOverview = () => {
             <div className="service-overview-content">
               Bundelkhand University has a dedicated IPR cell with patent
               attorneys on board. University has an easy patent policy.
+            </div>
+          </div>
+          <div className="service-overview-inner-container">
+            <FontAwesomeIcon
+              icon={faComputer}
+              size="2xl"
+              style={{ color: "#03174F" }}
+            />
+
+            <div className="service-overview-heading">
+              App & Web Development
+            </div>
+            <div className="service-overview-content">
+              Bundelkhand University Technology Enabling Centre has a dedicated
+              team for Website and Android Development Services
             </div>
           </div>
         </div>
@@ -160,7 +177,7 @@ const HomeOverview = () => {
           </div>
         </div>
         <div className="see_more">
-        <Link to="/patents ">Patents</Link>
+          <Link to="/patents ">Patents</Link>
           <Link to="/patents">See More...</Link>
         </div>
       </div>
