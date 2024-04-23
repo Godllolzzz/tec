@@ -292,6 +292,10 @@ const Navigation = () => {
           <Link to="/technical-services">Technical Services
           </Link>{" "}
             </li>
+            <li className="dropdown-item">
+          <Link to="/developers-team">DevelopersTeam
+          </Link>{" "}
+            </li>
           </ul>
           </l1>
           {/* <l1 className="navbar-item">Achievements</l1> */}
