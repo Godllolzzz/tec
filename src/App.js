@@ -32,6 +32,7 @@ import NewsLetter from "./components/NewsLetter";
 import Compliment from "./components/Compliment";
 import Key_Indicator from "./components/Keyindicators";
 import Msme from "./components/Msme";
+import TechnicalServices from "./components/TechnicalServices";
 
 function App() {
   return (
@@ -66,6 +67,7 @@ function App() {
           <Route path="/compliment-corner" element={<Compliment />} />
           <Route path="/key-indicator" element={<Key_Indicator />} />
           <Route path="/msme" element={<Msme />} />
+          <Route path="/technical-services" element={<TechnicalServices/>}/>
         </Routes>
 
         {/* <Achievements /> */}

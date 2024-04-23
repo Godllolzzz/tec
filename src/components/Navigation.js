@@ -14,6 +14,7 @@ const Navigation = () => {
   const [isEventVisible, setIsEventVisible] = useState(false);
   const [isAboutVisible, setIsAboutVisible] = useState(false);
   const [isDownloadVisible, setIsDownloadVisible] = useState(false);
+  const [isServicesVisible, setIsServicesVisible] = useState(false);
 
   // if(!isMobileNavbarOpen) {
   //   document.querySelector('.dropdown').style.display = "none";
@@ -26,6 +27,7 @@ const Navigation = () => {
     setIsAboutVisible(false);
     setIsDownloadVisible(false);
     setIsTeamTecVisible(false);
+    setIsServicesVisible(false)
   };
 
   const tec_on_click_handler = () => {
@@ -34,6 +36,7 @@ const Navigation = () => {
     setIsAchievementsVisible(false);
     setIsEventVisible(false);
     setIsAboutVisible(false);
+    setIsServicesVisible(false)
     setIsDownloadVisible(false);
   };
 
@@ -43,6 +46,7 @@ const Navigation = () => {
     setIsAchievementsVisible(false);
     setIsEventVisible(false);
     setIsDownloadVisible(false);
+    setIsServicesVisible(false)
     setIsAboutVisible(false);
   };
 
@@ -52,6 +56,7 @@ const Navigation = () => {
     setIsNetworkVisible(false);
     setIsEventVisible(false);
     setIsDownloadVisible(false);
+    setIsServicesVisible(false)
     setIsAboutVisible(false);
   };
   const event_on_click_handler = () => {
@@ -60,6 +65,7 @@ const Navigation = () => {
     setIsNetworkVisible(false);
     setIsAchievementsVisible(false);
     setIsDownloadVisible(false);
+    setIsServicesVisible(false)
     setIsAboutVisible(false);
   };
   const download_on_click_handler = () => {
@@ -68,6 +74,7 @@ const Navigation = () => {
     setIsNetworkVisible(false);
     setIsAchievementsVisible(false);
     setIsAboutVisible(false);
+    setIsServicesVisible(false)
     setIsEventVisible(false);
   };
 
@@ -77,8 +84,19 @@ const Navigation = () => {
     setIsNetworkVisible(false);
     setIsAchievementsVisible(false);
     setIsDownloadVisible(false);
+    setIsServicesVisible(false)
     setIsEventVisible(false);
   };
+
+  const services_on_click_handler=()=>{
+    setIsServicesVisible((prevState)=>!prevState)
+    setIsAboutVisible(false);
+    setIsTeamTecVisible(false);
+    setIsNetworkVisible(false);
+    setIsAchievementsVisible(false);
+    setIsDownloadVisible(false);
+    setIsEventVisible(false);
+  }
   const hamburgerHandler = () => {
     setIsMobileNavbarOpen(!isMobileNavbarOpen);
   };
@@ -260,9 +278,22 @@ const Navigation = () => {
               </li>
             </ul>
           </l1>
-          <Link to="/service">
-            <l1 className="navbar-item">Services</l1>
-          </Link>
+          <l1 className="navbar-item" onClick={services_on_click_handler}>
+          Services
+            <ul
+              class="dropdown"
+              style={{ display: `${isServicesVisible ? "block" : "none"}` }}
+            >
+               <li className="dropdown-item">
+          <Link to="/service">Services
+          </Link>{" "}
+          </li>
+          <li className="dropdown-item">
+          <Link to="/technical-services">Technical Services
+          </Link>{" "}
+            </li>
+          </ul>
+          </l1>
           {/* <l1 className="navbar-item">Achievements</l1> */}
           <Link to="/contact-us">
             <l1 className="navbar-item">Contacts</l1>
