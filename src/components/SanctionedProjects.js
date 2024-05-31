@@ -29,7 +29,7 @@ const SanctionedProjects = () => {
     <>
       <NavBar />
       <div className="sanctioned-main-container">
-        <h1>Sanctioned Projects</h1>
+        <h1>Projects</h1>
         <div className="sanctioned-container">
           <div className="project-logo">
             <img src={project6}></img>

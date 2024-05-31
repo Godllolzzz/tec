@@ -16,7 +16,7 @@ const GridComponent = () => {
     undergradTrained: 230,
     postgradTrained: 330,
     projectsDone: 90,
-    patents: 25,
+    patents: 30,
     MOUs: 120,
   };
 

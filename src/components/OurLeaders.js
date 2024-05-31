@@ -26,7 +26,7 @@ const OurLeaders = () => {
                 <h4>Bundelkhand University</h4>
               </div>
             </div>
-            <div className="other_officials">
+            {/* <div className="other_officials">
               <div className="fo_bu">
                 <img src={fo_Sir_logo} alt="vc_sir_image"></img>
                 <div className="vcsir1-title">
@@ -41,7 +41,7 @@ const OurLeaders = () => {
                   <h4>Registrar</h4>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="vcsir1-content">
             <p>
