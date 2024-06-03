@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import  { useState, useEffect } from 'react';
 import picture from "../images/DST.png";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
@@ -11,6 +12,18 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faMailBulk, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    const initialVisitCount = 8467;
+    const storedCount = localStorage.getItem("pageVisits");
+    const initialCount = storedCount ? Number(storedCount) : initialVisitCount;
+    
+    setCount(initialCount + 1);
+    localStorage.setItem("pageVisits", initialCount + 1);
+  }, []);
+
+
   return (
     <footer class="footer-distributed">
       <div class="footer-left">
@@ -61,6 +74,7 @@ const Footer = () => {
             <span>Kanpur Road Jhansi, 284128</span> Uttar Pradesh, India
           </p>
         </div>
+      
 
         <div className="footer-phone">
         <FontAwesomeIcon  icon={faPhone} style={{color: "white"}} />
@@ -113,6 +127,9 @@ const Footer = () => {
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
+         <div className="counter">
+  Total Visits: {count}
+ </div>
       </div>
     </footer>
   );

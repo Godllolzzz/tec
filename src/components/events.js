@@ -29,44 +29,53 @@ function Events() {
             <h1 className="timeline-title">Upcoming Events</h1>
             <ul className="timeline-list">
              
-             
-             
-             
-              {/* <li
+            <li
                 className="timeline-item"
                 style={{ "--accent-color": "#FBCA3E" }}
               >
-                <div className="date">January 15, 2024 onwards</div>
+                <div className="date">June 20, 2024 </div>
                 <div className="title">
-                  Starting of Module-2 (Two weeks training on Advanced Research
-                  Equipments)
+                Monthly Faculty Meet
+                </div>
+              </li>
+             
+             
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#FBCA3E" }}
+              >
+                <div className="date">July 08, 2024 </div>
+                <div className="title">
+                Hackathon-2 Review
                 </div>
               </li>
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#E24A68" }}
               >
-                <div className="date">February, 2024 onwards</div>
+                <div className="date">July 09- 12, 
+2024
+</div>
                 <div className="title">
-                  Starting of Module-3 Project based training
+                Hackathon -3 Screening
                 </div>
               </li>
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#1B5F8C" }}
               >
-                <div className="date">March 15 to 16, 2024</div>
+                <div className="date">July 20, 2024</div>
                 <div className="title">
-                  Event for Transfer of Technology to industries
+                Monthly Faculty Meet
                 </div>
-              </li> */}
-              {/* <li
+              </li>
+              <li
                 className="timeline-item"
                 style={{ "--accent-color": "#1B5F8C" }}
               >
-                <div className="date">March 18th, 2024 (Tentative)</div>
-                <div className="title">2nd PAG meeting</div>
-              </li> */}
+                <div className="date">July 29,2024</div>
+                <div className="title"> Hackathon -3 Selection</div>
+              </li>
             </ul>
           </div>
         )}
