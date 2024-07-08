@@ -12,7 +12,7 @@ import React, { useState, useEffect } from "react";
 // import img6 from "../galleryimage/A7402281.JPG";
 // import img7 from "../images/innovation_center.jpeg";
 // import img8 from "../images/innovation_centre (2).jpg";
-import about_top_image from "../images/about_top_image.jpg"
+import about_top_image from "../images/about_top_image.jpeg"
 import AboutInnovationCentre from "./About/about-innovation";
 
 const About = () => {

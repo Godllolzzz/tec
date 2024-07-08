@@ -341,6 +341,7 @@ import ab9 from "../../images/about-innovation-9.jpg";
 import ab10 from "../../images/about-innovation-10.jpg";
 import ab11 from "../../images/about-innovation-11.jpg";
 import ab12 from "../../images/about-innovation-12.jpg";
+import mmsir from "../../images/LavKushSir.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
 import NavBar from ".././NavBar";
@@ -352,7 +353,9 @@ const AboutInnovationCentre = () => {
       <div className="about-innovation-centre-outer">
         <div className="about-innovation-centre-image-container">
           <img src={ab0} alt="about-image"></img>
+         
         </div>
+        <div style={{display:"flex", justifyContent:"center"}}> <a className="link" href="https://bujhansi.ac.in/en/page/innovation-center-overview" alt="reloding">Click to Know More About Innovation</a></div>
         <div className="about-innovation-equipment-heading-box">
           Glimpse of Major Equipment & Activities
         </div>
@@ -1091,6 +1094,7 @@ Conference Reg. fee Rs. 1000.00) </td>
           <img src={ab8} alt="about-image"></img>
         </div>
       </div>
+      
       <Footer />
     </>
   );

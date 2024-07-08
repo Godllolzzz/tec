@@ -126,19 +126,10 @@ const Carousel = () => {
               </div>
               <div className="content">
                 <ul style={{ paddingLeft: "20px" }}>
+                  
                   <li>
                     <a
-                      href="https://drive.google.com/file/d/1N-q91Q9FqmOtHJcKs91VPw7GrEC9QSzc/view?usp=sharing"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Registration for AI Ethics and Application for the
-                      technological advancements on February 20 - 26, 2024.
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://drive.google.com/file/d/1WTTC-Yru8jKck1Jx6skWGEDKcunmErCK/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1l50w-NWLPa-XqMVPo2LJ7qH-Mk8uo-HX/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -147,7 +138,7 @@ const Carousel = () => {
                   </li>
                   <li>
                     <a
-                      href="https://drive.google.com/file/d/1bYq62TqkG0RLZ6Ja5QHqgqV_q8X17dxa/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1EEbO9I1IMCuOkwnJ-I2aI5f_4Cte1ti_/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -178,8 +169,8 @@ const Carousel = () => {
                 <ArrowBackIosNewIcon onClick={announcementClosetHandler} />
               </div>
               <div className="content">
-                <div>Innovative Model Exhibition on February 28, 2024.</div>
-                <div>Industry Meet on February 29, 2024.</div>
+                <div>STRIDE Module-2 starting from August 1(Tentative) </div>
+                <div>Registration open for Innovathon and Hackathon-3</div>
               </div>
             </div>
           )}
@@ -208,7 +199,7 @@ const Carousel = () => {
                   Android development for Digital Empowerment of MSMEs
                 </div>
                 <div>
-                  Bundelkhand University got a grand of rupees 100 crores under the m-usha project MERU.
+                  Bundelkhand University got a grand of rupees 100 crores under the PM-UShA (MERU).
                 </div>
               </div>
             </div>

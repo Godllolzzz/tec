@@ -26,22 +26,7 @@ const OurLeaders = () => {
                 <h4>Bundelkhand University</h4>
               </div>
             </div>
-            <div className="other_officials">
-              <div className="fo_bu">
-                <img src={fo_Sir_logo} alt="vc_sir_image"></img>
-                <div className="vcsir1-title">
-                  <h3>Shri. Wasi Mohammad</h3>
-                  <h4>Finance Officer</h4>
-                </div>
-              </div>
-              <div className="registrar_bu">
-                <img src={registrar_logo} alt="vc_sir_image"></img>
-                <div className="vcsir1-title">
-                  <h3>Shri Vinay Kumar Singh</h3>
-                  <h4>Registrar</h4>
-                </div>
-              </div>
-            </div>
+            
           </div>
           <div className="vcsir1-content">
             <p>

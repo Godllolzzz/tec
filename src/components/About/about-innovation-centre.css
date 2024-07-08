@@ -24,6 +24,19 @@
   width: 30%;
   margin: 4rem;
 }
+
+.link {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: initial; /* Sets initial text color */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: red; /* Change to whatever color you prefer on hover */
+  font-size: 1.8rem;
+}
 .about-innovation-image {
   /* width: 50%; Adjust the width as needed */
   justify-content: center;

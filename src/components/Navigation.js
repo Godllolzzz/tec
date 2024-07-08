@@ -215,7 +215,7 @@ const Navigation = () => {
                 <Link to="/sanctioned-projects ">Sanctioned Projects</Link>
               </li>
               <li className="dropdown-item">
-                <Link to="/patents ">Patents</Link>
+                <Link to="/patents ">Patents & Products</Link>
               </li>
 
               <li className="dropdown-item">

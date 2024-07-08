@@ -40,11 +40,21 @@ function NewsLetter() {
             </td>
           </tr>
           <tr>
-            <td>2.</td>
+            <td>3.</td>
             <td>News Letter 3</td>
             <td>October - December, 2023</td>
             <td>
               <a href="https://drive.google.com/file/d/1QblRHPKC2yhZ2DRlh14nHtAtG_1A-tDv/view?usp=sharing">
+                View
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>4.</td>
+            <td>News Letter 4</td>
+            <td>January - March, 2024</td>
+            <td>
+              <a href="https://drive.google.com/file/d/1_UFBfZoMB1GadsDuFCBc_4WObtko9spI/view?usp=sharing">
                 View
               </a>
             </td>

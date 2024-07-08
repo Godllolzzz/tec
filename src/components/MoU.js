@@ -84,6 +84,11 @@ const MoU=()=>{
             <td>MoU between Bundelkhand University, Jhansi & Botho University is Botswana  </td>
             
           </tr>
+          <tr>
+            <td>10.</td>
+            <td>MoU between Bundelkhand University, Jhansi & NRDC </td>
+            
+          </tr>
           
            
           

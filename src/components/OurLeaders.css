@@ -85,9 +85,10 @@
     margin: 4rem;
     margin-left: 0rem;
     box-shadow: 5px 5px 10px #03174F;
-    font-family: 'Montserrat', sans-serif;
+    
     justify-content: center;
 }
 .vcsir1-content p{
     text-align: justify;
+    font-size: 1rem;
 }

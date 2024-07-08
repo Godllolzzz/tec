@@ -13,7 +13,7 @@ const Patents2 = () => {
     <>
       <NavBar />
       <div className="outer-patents2-container">
-        <h1 className="patents2-main-heading">Our Patents</h1>
+        <h1 className="patents2-main-heading">Patents & Products</h1>
         <div className="patents2-container">
           <div className="patents2-image">
             <img src={img1} alt="patents-image"></img>
