@@ -212,7 +212,7 @@ const Navigation = () => {
               style={{ display: `${isAchievementsVisible ? "block" : "none"}` }}
             >
               <li className="dropdown-item">
-                <Link to="/sanctioned-projects ">Sanctioned Projects</Link>
+                <Link to="/sanctioned-projects ">Projects</Link>
               </li>
               <li className="dropdown-item">
                 <Link to="/patents ">Patents & Products</Link>

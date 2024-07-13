@@ -12,9 +12,9 @@
 }
 
 .video-inner-container {
-  border:1rem solid gold;
-  width: 35rem;
-  height: 20rem;
+  border:1rem solid #03174f;
+  width: 20rem;
+  height: 10rem;
   box-shadow: 5px 5px 10px #03174f;
 }
 

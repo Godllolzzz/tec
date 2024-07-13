@@ -19,6 +19,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import "./home_overview.css";
 import Grid from "./grid";
+import { HashLink } from "react-router-hash-link";
 import { Widgets } from "@mui/icons-material";
 import VideoPlayer from "./VideoPlayer";
 import { Link } from "@mui/material";
@@ -30,7 +31,7 @@ const HomeOverview = () => {
       <div className="about-overview-container">
         {/* <div className="about-overview-style-box"></div> */}
         <div className="about-overview-left">
-          {/* <VideoPlayer videoId="1Vz0V0avHuc?feature=shared" /> */}
+         
           {/* https://youtube.com/shorts/1Vz0V0avHuc?feature=shared */}
           <img src={innovation_image} alt="innovation_image"></img>
         </div>
@@ -53,8 +54,9 @@ const HomeOverview = () => {
             almost all kinds of sample testing equipment that have been serving
             the society in the region.
           </div>
+          <VideoPlayer videoId="VEsMnb1J8hE?feature=shared" />
           <div className="about-overview-learn-more">
-            <Link to="/about">LEARN MORE</Link>
+            <HashLink to="/about">LEARN MORE</HashLink>
           </div>
         </div>
       </div>
@@ -150,7 +152,7 @@ const HomeOverview = () => {
           </div>
         </div>
         <div className="see_more">
-          <Link to="/service">See More...</Link>
+          <HashLink to="/service">See More...</HashLink>
         </div>
       </div>
       {/* patent */}
@@ -177,8 +179,8 @@ const HomeOverview = () => {
           </div>
         </div>
         <div className="see_more">
-          <Link to="/patents ">Patents</Link>
-          <Link to="/patents">See More...</Link>
+          {/* <Link to="/patents ">Patents</Link> */}
+          <HashLink to="/patents">See More...</HashLink>
         </div>
       </div>
       {/* partners */}
@@ -251,7 +253,7 @@ const HomeOverview = () => {
           </div>
         </div>
         <div className="see_more">
-          <Link to="/our-partners">See More...</Link>
+          <HashLink to="/our-partners">See More...</HashLink>
         </div>
       </div>
     </>

@@ -341,7 +341,8 @@ import ab9 from "../../images/about-innovation-9.jpg";
 import ab10 from "../../images/about-innovation-10.jpg";
 import ab11 from "../../images/about-innovation-11.jpg";
 import ab12 from "../../images/about-innovation-12.jpg";
-import mmsir from "../../images/LavKushSir.jpg"
+import lavkushsir from "../../images/lavsir.jpg"
+import mmsir from "../../images/mm_sir.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
 import NavBar from ".././NavBar";
@@ -657,174 +658,7 @@ const AboutInnovationCentre = () => {
         <div className="about-innovation-centre-heading" style={{marginBottom:"1rem"}}>
           7. The Research Capacity Building & Human Resource Development
           activities conducted in last 05 years - 30+.
-          {/* <table className="core-committee-table" border="1"  style={{fontFamily:"Merriweather"}}>
-            <thead>
-              <tr>
-                <th>S.No.</th>
-                <th>Title of the Programme</th>
-                <th>Duration</th>
-                <th>Participants (Approx.)</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1.</td>
-                <td>
-                  One Week Hands-on-Training on Advancement Research Equipment
-                </td>
-                <td>January 16-23, 2024</td>
-                <td>19 </td>
-              </tr>
-              <tr>
-                <td>2.</td>
-                <td>Advanced Characterization Techniques</td>
-                <td>Dec 16-22, 2023</td>
-                <td>30 </td>
-              </tr>
-              <tr>
-                <td>3.</td>
-                <td>
-                  One Week Hands-on-Training cum workshop on industry oriented
-                  spectroscopic techniques
-                </td>
-                <td>October 12-18, 2023</td>
-                <td>30 </td>
-              </tr>
-              <tr>
-                <td>4.</td>
-                <td>
-                  One-week Hands-on-Training Program on Advanced Research
-                  Equipment for the technological advancement of MSMEs.{" "}
-                </td>
-                <td>July 25-31, 2023</td>
-                <td>30 </td>
-              </tr>
-              <tr>
-                <td>5.</td>
-                <td>
-                  One-week Hands-on-Training Program on Advanced Research
-                  Equipment.{" "}
-                </td>
-                <td>May 01-07, 2023. </td>
-                <td>30 </td>
-              </tr>
-              <tr>
-                <td>6.</td>
-                <td>
-                  DST-STUTI funded one-week Hands-on-Training Program on
-                  Biotechnology applications.
-                </td>
-                <td>January 06-12, 2023 </td>
-                <td>30 </td>
-              </tr>
-              <tr>
-                <td>7.</td>
-                <td>
-                  DST-STUTI funded one-week Hands-on-Training on Sophisticated
-                  Equipment of Material Science
-                </td>
-                <td></td>
-                <td>30 </td>
-              </tr>
-
-              <tr>
-                <td>8.</td>
-                <td>
-                  One Week Hands on-Training on Spectroscopic analysis of heavy
-                  metals and trace elements in soil, water and plant samples
-                  through Flame Photometer & Atomic Absorption Spectrometer
-                  (AAS)
-                </td>
-                <td>September 14-20, 2022</td>
-                <td>18</td>
-              </tr>
-              <tr>
-                <td>9.</td>
-                <td>
-                  Brain Storming on Innovative Ideation & Conceptualization of
-                  Research Themes (Round-1)
-                </td>
-                <td>July 11, 2022</td>
-                <td>15</td>
-              </tr>
-              <tr>
-                <td>10.</td>
-                <td>
-                  UGC-STRIDE funded Two Weeks Hands-on-Training on Advanced
-                  Research Equipment (Module-2, Batch-III)
-                </td>
-                <td>June 06-21, 2022 </td>
-                <td>50</td>
-              </tr>
-              <tr>
-                <td>11.</td>
-                <td>
-                  UGC-STRIDE(I) funded One Week Workshop on Nucleic Acid
-                  Extraction analysis through Gel Electrophoresis and Real
-                  Time-PCR
-                </td>
-                <td>May 04-10, 2022 </td>
-                <td>40</td>
-              </tr>
-              <tr>
-                <td>12.</td>
-                <td>
-                  UGC-STRIDE(I) funded One Week Workshop on Phytochemical
-                  Extraction and their chromatographic Analysis through HPLC &
-                  GC-MS{" "}
-                </td>
-                <td>April 04-10, 2022</td>
-                <td>50</td>
-              </tr>
-              <tr>
-                <td>13.</td>
-                <td>
-                  UGC-STRIDE(I) funded Advanced Research Methodology Teaching
-                  (Module-1; Batch-III){" "}
-                </td>
-                <td>February 28- April 15, 2020 </td>
-                <td>28</td>
-              </tr>
-              <tr>
-                <td>14.</td>
-                <td>
-                  UGC-STRIDE (I) funded Hands on Training on Advanced Research
-                  Equipment{" "}
-                </td>
-                <td>June 21- July 01, 2021 </td>
-                <td>45</td>
-              </tr>
-              <tr>
-                <td>15.</td>
-                <td>
-                  UGC-STRIDE(I) Funded 2nd National Conference on Recent Trends
-                  in Transdisciplinary Research for Socio-economic Development
-                  of India.{" "}
-                </td>
-                <td>December 29- 30, 2021</td>
-                <td>50</td>
-              </tr>
-              <tr>
-                <td>16.</td>
-                <td>
-                  UGC-STRIDE(I) funded Online Faculty Development Programme on
-                  Teaching, Examination, and Research Ethics
-                </td>
-                <td>October 03- 09, 2021 </td>
-                <td>52</td>
-              </tr>
-              <tr>
-                <td>17.</td>
-                <td>
-                  UGC-STRIDE(I) funded Research on socially relevant
-                  Transdisciplinary areas through 30+ minor projects. (Module-3;
-                  Batch-II)
-                </td>
-                <td>March 15- October 15, 2021</td>
-                <td>27</td>
-              </tr>
-            </tbody>
-          </table> */}
+      
         </div>
         <div className="about-innovation-centre-heading">
           8. The Human Resources trained so far through FDPs, Training
@@ -860,146 +694,7 @@ const AboutInnovationCentre = () => {
         </ul>
         <div className="about-innovation-centre-heading" style={{marginBottom:"1rem"}}>
           10. Earning of the Centre through Consultancy is 15+ Lakhs.
-          {/* <table className="core-committee-table" border="1">
-        <thead>
-          <tr>
-            <th>S.No.</th>
-            <th>Type</th>
-            <th>Income Generated</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1.</td>
-            <td>
-            Registration Fee of the various programmes like WTP, STP, 
-etc. organized by the Centre 
-
-            </td>
-            <td>1,35,000.0000 
-</td>
-          </tr>
-          <tr>
-            <td>2.</td>
-            <td>
-            Equipment Usage Charges (excluding STRIDE) 
-            </td>
-            <td></td>
-          </tr>
-          <tr>
-            <td style={{textAlign:"end"}}>i.</td>
-            <td style={{fontWeight:"bold"}}>
-            Revenue generated through GC-MS (Academic Year Wise) 
-            </td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>
-            </td>
-            <td>2019-20</td>
-            <td>56400.00</td>
-          </tr>
-          <tr>
-            <td>
-            </td>
-            <td>2020-21</td>
-            <td>90500.00</td>
-          </tr>
-          <tr>
-            <td>
-            </td>
-            <td>2021-22</td>
-            <td>71150.00</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td style={{textAlign:"end",fontWeight:"bold"}}>Total</td>
-            <td style={{fontWeight:"bold"}}>2,18,050.00</td>
-          </tr>
-          <tr>
-            <td style={{textAlign:"end"}}>ii.</td>
-            <td style={{fontWeight:"bold"}}>
-            Revenue generated through other Equipment (Academic 
-year wise) 
- 
-            </td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>
-            </td>
-            <td>2019-20</td>
-            <td>19200.00</td>
-          </tr>
-          <tr>
-            <td>
-            </td>
-            <td>2020-21</td>
-            <td>19050.00</td>
-          </tr>
-          <tr>
-            <td>
-            </td>
-            <td>2021-22</td>
-            <td>63950.00</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td style={{textAlign:"end",fontWeight:"bold"}}>Total</td>
-            <td style={{fontWeight:"bold"}}>1,02,200.00</td>
-          </tr>
-          <tr>
-            <td>3.</td>
-            <td style={{fontWeight:"bold"}}>
-            Trainings
- 
-            </td>
-            <td></td>
-          </tr>
-          <tr>
-            <td style={{textAlign:"end"}}>i.</td>
-            <td>Batch I 
-(Reg. fee Rs. 2,10,000.00 + EU Charges Rs. 39250.00 + Module-4 
-Conference Reg. fee Rs. 900.00) 
-</td>
-            <td>2,50,150.00</td>
-          </tr>
-          <tr>
-            <td style={{textAlign:"end"}}>ii.</td>
-            <td>Batch II 
-(Reg. fee Rs. 192000.00+ EU Charges Rs. 65100.00 + Module-4 
-Conference Reg. fee Rs. 1000.00) </td>
-            <td>2,67,100.00 </td>
-          </tr>
-          <tr>
-            <td style={{textAlign:"end"}}>iii.</td>
-            <td>Hands on Training Programme (May-June 2021)</td>
-            <td>25,000.00</td>
-          </tr>
-          <tr>
-            <td style={{textAlign:"end"}}>iv.</td>
-            <td>Batch-III Registration Fee</td>
-            <td>1,50,000.00 </td>
-          </tr>
-          <tr>
-            <td style={{textAlign:"end"}}>v.</td>
-            <td>One Week Workshops in April-May 2022 </td>
-            <td>45,000.00 </td>
-          </tr>
-          <tr>
-            <td style={{textAlign:"end"}}>vi.</td>
-            <td> 14 days Training Program (June 06-21, 2022)</td>
-            <td>62,500.00 
-</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td style={{fontWeight:"bold"}}>Grand Total</td>
-            <td style={{fontWeight:"bold",textDecoration:"underline"}}>12,49,900.00</td>
-          </tr>
-          
-        </tbody>
-      </table> */}
+        
         </div>
         <div className="about-innovation-centre-heading">
           11. Community Services & Outreach Programs of the Centre
@@ -1094,7 +789,24 @@ Conference Reg. fee Rs. 1000.00) </td>
           <img src={ab8} alt="about-image"></img>
         </div>
       </div>
-      
+     
+      <div className="image-row">
+        <div className="image-text">
+        <img src={lavkushsir} alt="LavkushSir"/>
+        <h3>Dr. Lavkush Dwivedi</h3>
+        <h4>Co-cordinator</h4>
+        <h4>Innovation Centre</h4>
+        </div>
+        <div className="image-text">
+        <img src={mmsir} alt="MMsinghsir"/>
+        <h3>Prof. M.M. Singh</h3>
+        <h4>Convener</h4>
+        <h4>Innovation Centre</h4>
+        </div>
+        
+        
+        
+    </div>
       <Footer />
     </>
   );

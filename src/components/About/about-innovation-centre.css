@@ -196,3 +196,16 @@
   padding: 0.5rem 0rem;
   margin-top: 2rem;
 }
+.image-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.image-text{
+  text-align: center;
+}
+.image-row img {
+  margin: 10px;
+  width: 280px;
+  height: 280px;
+}

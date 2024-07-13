@@ -4,6 +4,7 @@ import img2 from "../images/patent2.jpg";
 import img3 from "../images/patent3.jpg";
 import img4 from "../images/patent4.jpg";
 import img5 from "../images/patent5.jpg";
+import img6 from  "../images/bikepatent.jpeg"
 import "./Patents2.css";
 import NavBar from "./NavBar";
 import Footer from "./footer";
@@ -21,11 +22,11 @@ const Patents2 = () => {
           <div className="patents2-content">
             <div className="patents2-title">Smart Helmet</div>
             <div className="patents2-developed-by">
-              <div>DEVELOPED BY-</div>
+            <div>INVENTORS-</div>
               <div style={{fontWeight:"bold"}}>
                 <div>Prof. Mukesh Pandey Hon'ble Vice-Chancellor,</div>
-                <div>Dr. Lavkush Dwivedi Co-Coordinator DST-TEC</div>
-                <div>Dr. Rohit Peardon Principal Investigator</div>
+                <div>Dr. Lavkush Dwivedi </div>
+                <div>Dr. Rohit Peardon </div>
               </div>
             </div>
             <br></br>
@@ -56,11 +57,11 @@ const Patents2 = () => {
               and Their Management
             </div>
             <div className="patents2-developed-by">
-              <div>DEVELOPED BY-</div>
+            <div>INVENTORS-</div>
               <div style={{fontWeight:"bold"}}>
                 <div>Prof. Mukesh Pandey Hon'ble Vice-Chancellor,</div>
-                <div>Dr. Lavkush Dwivedi Principal Investigator</div>
-                <div>Dr. Anupam Vyas Co-Principal Investigator</div>
+                <div>Dr. Lavkush Dwivedi </div>
+                <div>Dr. Anupam Vyas </div>
               </div>
             </div>
             <br></br>
@@ -88,10 +89,10 @@ const Patents2 = () => {
             <div className="patents2-title">System for Preventing Suicides</div>
 
             <div className="patents2-developed-by">
-              <div>DEVELOPED BY-</div>
+            <div>INVENTORS-</div>
               <div style={{fontWeight:"bold"}}>
                 <div>Prof. Mukesh Pandey Hon'ble Vice-Chancellor,</div>
-                <div>Dr. Lavkush Dwivedi Principal Investigator</div>
+                <div>Dr. Lavkush Dwivedi </div>
               </div>
             </div>
             <br></br>
@@ -122,12 +123,12 @@ const Patents2 = () => {
               Portable Solar Power Charger for Electronic Devices
             </div>
             <div className="patents2-developed-by">
-              <div>DEVELOPED BY-</div>
+            <div>INVENTORS-</div>
               <div style={{fontWeight:"bold"}}>
                 <div>Prof. Mukesh Pandey Hon'ble Vice-Chancellor,</div>
-                <div>Dr. Anupam Vyas Co-Principal Investigator</div>
+                <div>Dr. Anupam Vyas </div>
                 <div>DR. S K Srivastava</div>
-                <div>Dr. Lavkush Dwivedi Principal Investigator</div>
+                <div>Dr. Lavkush Dwivedi</div>
                 <div>Dr. Surendra Verma</div>
                 <div>Dr. Priyanka Tripathi</div>
               </div>
@@ -164,7 +165,7 @@ const Patents2 = () => {
               in Campus of Bundelkhand University
             </div>
             <div className="patents2-developed-by">
-              <div>DEVELOPED BY-</div>
+            <div>INVENTORS-</div>
               <div style={{fontWeight:"bold"}}>
                 <div>Prof. Mukesh Pandey Hon'ble Vice-Chancellor,</div>
                 <div>Dr. Deepak Tomar</div>
@@ -194,8 +195,35 @@ const Patents2 = () => {
             </p>
           </div>
         </div>
+        <div className="patents2-container">
+          <div className="patents2-image">
+            <img src={img6} alt="patents-image"></img>
+          </div>
+          <div className="patents2-content">
+            <div className="patents2-title">
+            Safety Air Bags for Two-Wheelers
+            </div>
+            <div className="patents2-developed-by">
+              <div>INVENTORS-</div>
+              <div style={{fontWeight:"bold"}}>
+                <div>Prof. Mukesh Pandey Hon'ble Vice-Chancellor,</div>
+                
+                <div>D Dr. A.P.S. Gaur</div>
+                <div>Dr. Lavkush Dwivedi</div>
+                <div>MD Numan Alam</div>
+                <div>Neelendra Pratap Singh</div>
+                <div>Somesh Narayan Tripathi</div>
+                <div>Prateek Kumar Singh</div>
+              </div>
+            </div>
+            <br></br>
+            <p className="patents2-inner-content">
+            Safety airbags for two-wheelers represent a significant advancement in rider protection technology, aiming to mitigate the severity of injuries in the event of a crash. Unlike traditional airbags in cars, which deploy outwardly from the vehicle's interior, two-wheeler airbags are typically integrated into the rider's protective gear, such as jackets or vests. These airbags are equipped with sensors that detect sudden deceleration or impact, triggering the rapid inflation of the airbag to provide a cushioning effect and protect vital areas of the rider's body, including the chest, abdomen, and back. By absorbing and dispersing the impact force, safety airbags for two-wheelers can reduce the risk of severe injuries, particularly to the upper body, neck, and spine. While still relatively new, the adoption of this technology has the potential to enhance rider safety and reduce the severity of injuries in motorcycle and scooter accidents, underscoring its importance in improving road safety for two-wheeler riders.
+            </p>
+          </div>
+        </div>
         <div className="see_more">
-          <a href="http://bujhansi.co.in/bujhansi.ac.in/en/page/patents.html">
+          <a href="https://www.bujhansi.ac.in/dumpost/en/en-patents-list">
             See more...
           </a>
         </div>
