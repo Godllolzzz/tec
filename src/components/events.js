@@ -28,36 +28,28 @@ function Events() {
           <div className="timeline-card">
             <h1 className="timeline-title">Upcoming Events</h1>
             <ul className="timeline-list">
-             
-            <li
-                className="timeline-item"
-                style={{ "--accent-color": "#FBCA3E" }}
-              >
-                <div className="date">June 20, 2024 </div>
-                <div className="title">
-                Monthly Faculty Meet
-                </div>
-              </li>
-             
-             
+
+            
+
+
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#FBCA3E" }}
               >
                 <div className="date">July 08, 2024 </div>
                 <div className="title">
-                Hackathon-2 Review
+                  Hackathon-2 Review
                 </div>
               </li>
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#E24A68" }}
               >
-                <div className="date">July 09- 12, 
-2024
-</div>
+                <div className="date">July 09- 12,
+                  2024
+                </div>
                 <div className="title">
-                Hackathon -3 Screening
+                  Hackathon -3 Screening
                 </div>
               </li>
               <li
@@ -66,7 +58,7 @@ function Events() {
               >
                 <div className="date">July 20, 2024</div>
                 <div className="title">
-                Monthly Faculty Meet
+                  Monthly Faculty Meet
                 </div>
               </li>
               <li
@@ -76,33 +68,80 @@ function Events() {
                 <div className="date">July 29,2024</div>
                 <div className="title"> Hackathon -3 Selection</div>
               </li>
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#FBCA3E" }}
+              >
+                <div className="date">August 01 - August 31, 2024 </div>
+                <div className="title">
+                STRIDE Module-2 ( Advanced Research Equipment)
+
+                </div>
+                <div className="descr">During the training on advanced Research Equipment, we will learn to operate cutting-edge tools, analyze data with precision, and troubleshoot technical issues effectively, enhancing our research capabilities significantly.
+                </div>
+              </li>
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#E24A68" }}
+              >
+                <div className="date">September 21, 2024
+
+                </div>
+                <div className="title">
+                Exhibition Innova-thon 2.0
+
+                </div>
+                <div className="descr">Innova-thon 2.0 is an innovation marathon where participants showcase, and industry experts pitch solutions to real-world challenges, fostering creativity and problem-solving skills in a competitive environment.</div>
+              </li>
             </ul>
           </div>
         )}
+        //past events codes
         {!isUpcomingEventOpen && (
           <div className="timeline-card">
             <h1 className="timeline-title">Past Events</h1>
             <ul className="timeline-list">
+
             <li
+                className="timeline-item"
+                style={{ "--accent-color": "#E24A68" }}
+              >
+                <div className="date">June 3 to July 10, 2024</div>
+                <div className="title">STRIDE Module 1 (Research Methodology)
+                </div>
+                <div className="descr">
+                Over the month, we delved into the intricacies of research design, methods, and analysis, refining our skills in systematic inquiry and critical evaluation.
+                </div>
+              </li>
+              <li
                 className="timeline-item"
                 style={{ "--accent-color": "#41516C" }}
               >
-                <div className="date">March 25 to 31, 2024</div>
+                <div className="date">April 27 to May 5, 2024</div>
                 <div className="title">One Week Hands-on-Training
-cum Workshop on
-IOT & ITS APPLICATIONS
-IN THE ADVANCEMENT OF
-TRL’s OF INNOVATIONS IN
-SCIENCE & TECHNOLOGY</div>
-              </li>  
-            <li
+                  cum Workshop on
+                  IOT & ITS APPLICATIONS
+                  IN THE ADVANCEMENT OF
+                  TRL’s OF INNOVATIONS IN
+                  SCIENCE & TECHNOLOGY</div>
+              </li>
+              <li
                 className="timeline-item"
                 style={{ "--accent-color": "#41516C" }}
               >
                 <div className="date">March 18, 2024</div>
                 <div className="title">Student's Meet</div>
               </li>
-            <li
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#FBCA3E" }}
+              >
+                <div className="date">March 14, 2024</div>
+                <div className="title">TEC Conclave at Jawaharlal Nehru University</div>
+                <div className="descr">The  event was marked by spirited discussions, insightful presentations, and a vision of collaboration and knowledge sharing among the attending universities. All TECs showcased their achievements and key indicators.
+                </div>
+              </li>
+              <li
                 className="timeline-item"
                 style={{ "--accent-color": "#41516C" }}
               >
@@ -120,8 +159,8 @@ SCIENCE & TECHNOLOGY</div>
                   <li>Exhibition Innova-thon</li>
                 </ul>
               </li>
-            
-            <li
+
+              <li
                 className="timeline-item"
                 style={{ "--accent-color": "#E24A68" }}
               >
@@ -257,7 +296,7 @@ SCIENCE & TECHNOLOGY</div>
                   University, Jhansi
                 </div>
               </li>
-           
+
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#E24A68" }}
@@ -272,16 +311,16 @@ SCIENCE & TECHNOLOGY</div>
                   last date to submit the entries was 10th October 2023.
                 </div>
               </li>
-              
-            
-            
-          
-           
-            
-           
-             
-             
-            
+
+
+
+
+
+
+
+
+
+
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#FBCA3E" }}
@@ -332,7 +371,7 @@ SCIENCE & TECHNOLOGY</div>
                   innovation Centre with the panel of industrial professionals.
                 </div>
               </li>
-            
+
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#1B5F8C" }}
@@ -351,7 +390,7 @@ SCIENCE & TECHNOLOGY</div>
                   on 01st June 2023.
                 </div>
               </li>
-             
+
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#E24A68" }}
@@ -367,7 +406,7 @@ SCIENCE & TECHNOLOGY</div>
                   Bundelkhand University, Jhansi.
                 </div>
               </li>
-              
+
 
               <li
                 className="timeline-item"
@@ -385,7 +424,7 @@ SCIENCE & TECHNOLOGY</div>
                   University, Jhansi
                 </div>
               </li>
-           
+
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#41516C" }}
@@ -400,8 +439,8 @@ SCIENCE & TECHNOLOGY</div>
                   knowledge sharing among the attending universities.
                 </div>
               </li>
-            
-              
+
+
             </ul>
           </div>
         )}

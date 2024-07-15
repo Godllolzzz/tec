@@ -30,14 +30,14 @@ import img29 from "../galleryimage/change8.jpg";
 import img37 from "../galleryimage/DSC_0513.JPG";
 import img38 from "../galleryimage/DSC_0514.JPG";
 import img39 from "../galleryimage/DSC_0515.JPG";
-import img40 from "../galleryimage/DSC_0518.JPG";
+import img40 from "../galleryimage/july154.jpg";
 import img43 from "../galleryimage/change5.jpg";
 import img44 from "../galleryimage/change6.jpg";
 import img45 from "../galleryimage/change7.jpg";
-import img46 from "../galleryimage/DSC_0522.JPG";
-import img47 from "../galleryimage/DSC_0523.JPG";
-import img48 from "../galleryimage/DSC_0524.JPG";
-import img49 from "../galleryimage/DSC01400.JPG";
+import img46 from "../galleryimage/july15.jpg";
+import img47 from "../galleryimage/july151.jpg";
+import img48 from "../galleryimage/july152.jpg";
+import img49 from "../galleryimage/july153.jpg";
 import img50 from "../galleryimage/gallery2.jpg";
 import img51 from "../galleryimage/gallery3.jpg";
 import img52 from "../galleryimage/gallery4.jpg";
@@ -47,6 +47,11 @@ import img54 from "../galleryimage/gallery6.jpg";
 const Gallery = () => {
   const [isImgOpen, setIsImgOpen] = useState(null);
   let image_array = [
+    img40,
+    img46,
+    img47,
+    img48,
+    img49,
     img50,
     img51,
     img52,
@@ -79,11 +84,7 @@ const Gallery = () => {
     img37,
     img38,
     img39,
-    img40,
-    img46,
-    img47,
-    img48,
-    img49,
+  
   ];
   return (
     <>

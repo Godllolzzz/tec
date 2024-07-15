@@ -1,15 +1,14 @@
 import React from "react";
 import "./footer.css";
-import  { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import picture from "../images/DST.png";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
-import { Widgets } from "@mui/icons-material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faMailBulk, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   const [count, setCount] = useState(0);
@@ -17,37 +16,34 @@ const Footer = () => {
   useEffect(() => {
     const initialVisitCount = 8467;
     const storedCount = localStorage.getItem("pageVisits");
-    const initialCount = storedCount ? Number(storedCount) : initialVisitCount;
-    
-    setCount(initialCount + 1);
-    localStorage.setItem("pageVisits", initialCount + 1);
+
+    if (storedCount === null) {
+      setCount(initialVisitCount);
+      localStorage.setItem("pageVisits", initialVisitCount);
+    } else {
+      const initialCount = Number(storedCount);
+      setCount(initialCount + 1);
+      localStorage.setItem("pageVisits", initialCount + 1);
+    }
   }, []);
 
-
   return (
-    <footer class="footer-distributed">
-      <div class="footer-left">
+    <footer className="footer-distributed">
+      <div className="footer-left">
         <div style={{ width: "16rem" }}>
-          <img style={{ height: "5rem" }} src={picture}></img>
+          <img style={{ height: "5rem" }} src={picture} alt="DST Logo" />
         </div>
 
-        <p class="footer-links">
-          <a href="/" class="link-1">
-            Home
-          </a>
-
+        <p className="footer-links">
+          <a href="/" className="link-1">Home</a>
           <a href="/about">About</a>
-
           <a href="/network">Network</a>
-
           <a href="/events">Events</a>
-
           <a href="/service">Services</a>
           <a href="/achievement">Achievements</a>
-
           <a href="/gallery">Gallery</a>
         </p>
-        <div class="footer-icons">
+        <div className="footer-icons">
           <a href="https://www.facebook.com/busocial/">
             <FacebookIcon />
           </a>
@@ -64,22 +60,19 @@ const Footer = () => {
             <YouTubeIcon />
           </a>
         </div>
-        <p class="footer-company-name">Bundelkhand University ©1975</p>
+        <p className="footer-company-name">Bundelkhand University ©1975</p>
       </div>
 
-      <div class="footer-center">
+      <div className="footer-center">
         <div className="footer-address">
           <p>
             Bundelkhand University
             <span>Kanpur Road Jhansi, 284128</span> Uttar Pradesh, India
           </p>
         </div>
-      
 
         <div className="footer-phone">
-        <FontAwesomeIcon  icon={faPhone} style={{color: "white"}} />
-          
-          {/* <i class="fa fa-phone"></i> */}
+          <FontAwesomeIcon icon={faPhone} style={{ color: "white" }} />
           <div>
             <div className="footer-phone-number">+91 9511015157</div>
             <div className="footer-phone-number">+91 9840998686</div>
@@ -88,22 +81,15 @@ const Footer = () => {
         </div>
 
         <div className="footer-email">
-        <FontAwesomeIcon  icon={faEnvelope} style={{color: "white"}} />
-
+          <FontAwesomeIcon icon={faEnvelope} style={{ color: "white" }} />
           <div>
             <div>
-              <a
-                className="footer-email-inner"
-                href="mailto:support@company.com"
-              >
+              <a className="footer-email-inner" href="mailto:dsttec.bu@gmail.com">
                 dsttec.bu@gmail.com
               </a>
             </div>
             <div>
-              <a
-                className="footer-email-inner"
-                href="mailto:support@company.com"
-              >
+              <a className="footer-email-inner" href="mailto:tecdst2022@bujhansi.ac.in">
                 tecdst2022@bujhansi.ac.in
               </a>
             </div>
@@ -111,25 +97,19 @@ const Footer = () => {
         </div>
       </div>
 
-      <div class="footer-right">
-        {/* <p class="footer-company-about">
-          <span>About the DST-TEC</span>
-          <p style={{textAlign:"justify"}}>
-          The DST's establishment in May 1971 reflects the Indian government's commitment to advancing science and technology as a means of fostering national development and innovation.
-        </p>
-        </p> */}
+      <div className="footer-right">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.5799643162395!2d78.60745061014272!3d25.452302721228588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3977770042a35717%3A0x31d94ad50c4da8ee!2sInnovation%20Center!5e0!3m2!1sen!2sin!4v1698774275582!5m2!1sen!2sin"
           width="450"
           height="250"
-          // style=
-          allowfullscreen=""
+          allowFullScreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+          referrerPolicy="no-referrer-when-downgrade"
+          title="Bundelkhand University Map"
         ></iframe>
-         <div className="counter">
-  Total Visits: {count}
- </div>
+        <div className="counter">
+          Total Visits: {count}
+        </div>
       </div>
     </footer>
   );
