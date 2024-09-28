@@ -67,7 +67,7 @@ const OurLeaders = () => {
         ></hr>
 
         <div className="vcsir1">
-          <div className="lavsir-logo">
+          <div className="lavsir-logo ">
             <img
               src={lavsirlogo}
             ></img>
