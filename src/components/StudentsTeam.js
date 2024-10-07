@@ -1,4 +1,3 @@
-import react from "react";
 import sushantimg from "../images/sushant1.jpg";
 import praveenimg from "../images/Praveen.jpg";
 import rohitimg from "../images/rohit1.jpg";
@@ -14,7 +13,7 @@ const StudentsTeam = () => {
       <div className="Student-outer">
         <div className="student-inner">
           <img src={sushantimg}></img>
-          <div className="student-name">Sushant Kumar</div>
+          <div className="student-name">Sushant Srivastava</div>
           <div>
             <b>B.Tech CSE</b>
           </div>
