@@ -43,6 +43,11 @@ const Compliment = () => {
               <img className='img3' src={compliment3} alt='reloading' />
             </a>
           </div>
+          {/* <div className='compliment_img3'>
+            <a href='https://drive.google.com/file/d/1tfkwctMWN7dJ_HvvaJpEB_w_AMmXu7_Q/view?usp=drivesdk'>
+              <img className='img3' src={compliment3} alt='reloading' />
+            </a>
+          </div> */}
         </div>
        
       </div>

@@ -10,12 +10,12 @@
 }
 .patents-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     /* padding: 1rem; */
     width: 100%;
 }
 .patent-container {
-    width: 25%;   
+    width: 15%;   
 }
 .patent-container img {
     /* height: 26rem; */

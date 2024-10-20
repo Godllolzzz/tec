@@ -13,11 +13,11 @@ const GridComponent = () => {
 
   const targetNumbers = {
     facultyTrained: 180,
-    undergradTrained: 300,
+    undergradTrained: 350,
     postgradTrained: 330,
     projectsDone: 90,
     patents: 30,
-    MOUs: 120,
+    MOUs: 125,
   };
 
   const targetRef = useRef(null);

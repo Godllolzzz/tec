@@ -28,45 +28,89 @@ function Events() {
           <div className="timeline-card">
             <h1 className="timeline-title">Upcoming Events</h1>
             <ul className="timeline-list">
-
-            
-
-
+             
+             
+             
               <li
                 className="timeline-item"
-                style={{ "--accent-color": "#FBCA3E" }}
+                style={{ "--accent-color": "#1B5F8C" }}
               >
-                <div className="date">July 08, 2024 </div>
-                <div className="title">
-                  Hackathon-2 Review
+                <div className="date">November,2024</div>
+                <div className="title">Technology Hackathon -3 Selection</div>
+              </li>
+              
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#E24A68" }}
+              >
+                <div className="date">November, 2024</div>
+                <div className="title">Innova-thon 2.0</div>
+                <div className="descr">
+                  Innova-thon 2.0 is an innovation marathon where participants
+                  showcase, and industry experts pitch solutions to real-world
+                  challenges, fostering creativity and problem-solving skills in
+                  a competitive environment.
+                </div>
+              </li>
+            </ul>
+          </div>
+        )}
+        {/* //past events codes */}
+        {!isUpcomingEventOpen && (
+          <div className="timeline-card">
+            <h1 className="timeline-title">Past Events</h1>
+            <ul className="timeline-list">
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#1B5F8C" }}
+              >
+                <div className="date">October 15-16, 2024</div>
+                <div className="title">Technology Hackathon-3 ( Screening)</div>
+                <div className="descr">
+                  All registered candidates presented their innovations and
+                  prototypes. The expert panel selected 10 potent ideas for the
+                  final presentation.
                 </div>
               </li>
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#E24A68" }}
               >
-                <div className="date">July 09- 12,
-                  2024
-                </div>
-                <div className="title">
-                  Hackathon -3 Screening
-                </div>
-              </li>
-              <li
-                className="timeline-item"
-                style={{ "--accent-color": "#1B5F8C" }}
-              >
-                <div className="date">July 20, 2024</div>
-                <div className="title">
-                  Monthly Faculty Meet
+                <div className="date">October 5, 2024</div>
+                <div className="title">Hackathon-2 Review</div>
+                <div className="descr">
+                  All projects sanctioned under DST-BUTEC in Hackathon-2 were
+                  reviewed to check their progress & fund utilisation.
                 </div>
               </li>
               <li
                 className="timeline-item"
-                style={{ "--accent-color": "#1B5F8C" }}
+                style={{ "--accent-color": "#4CADAD" }}
               >
-                <div className="date">July 29,2024</div>
-                <div className="title"> Hackathon -3 Selection</div>
+                <div className="date">September 27, 2024</div>
+                <div className="title">
+                  Safety of cosmetics and personal care products as per GLP
+                  compliance
+                </div>
+                <div className="descr">
+                  One day symposium was conducted to spread awareness in
+                  students. Experts from industries like Bio tox solutions,
+                  Shree Baidhyanath Pvt. Ltd and CSIR -IITR guided the
+                  participants about research in their expert areas.
+                </div>
+              </li>
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#FBCA3E" }}
+              >
+                <div className="date">August 31, 2024 </div>
+                <div className="title">Android App Launching Ceremony</div>
+                <div className="descr">
+                  This event was a great achievement as seven Android
+                  Applications were transferred to MSMEs free-of-cost for
+                  supporting their digital presence. These apps were developed
+                  by students trained by DST-BUTEC.
+                </div>
               </li>
               <li
                 className="timeline-item"
@@ -74,56 +118,88 @@ function Events() {
               >
                 <div className="date">August 01 - August 31, 2024 </div>
                 <div className="title">
-                STRIDE Module-2 ( Advanced Research Equipment)
-
+                  STRIDE Module-2 ( Advanced Research Equipment)
                 </div>
-                <div className="descr">During the training on advanced Research Equipment, we will learn to operate cutting-edge tools, analyze data with precision, and troubleshoot technical issues effectively, enhancing our research capabilities significantly.
+                <div className="descr">
+                  During the training on advanced Research Equipment, we will
+                  learn to operate cutting-edge tools, analyze data with
+                  precision, and troubleshoot technical issues effectively,
+                  enhancing our research capabilities significantly.
                 </div>
               </li>
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#E24A68" }}
               >
-                <div className="date">September 21, 2024
-
-                </div>
-                <div className="title">
-                Exhibition Innova-thon 2.0
-
-                </div>
-                <div className="descr">Innova-thon 2.0 is an innovation marathon where participants showcase, and industry experts pitch solutions to real-world challenges, fostering creativity and problem-solving skills in a competitive environment.</div>
-              </li>
-            </ul>
-          </div>
-        )}
-        //past events codes
-        {!isUpcomingEventOpen && (
-          <div className="timeline-card">
-            <h1 className="timeline-title">Past Events</h1>
-            <ul className="timeline-list">
-
-            <li
-                className="timeline-item"
-                style={{ "--accent-color": "#E24A68" }}
-              >
                 <div className="date">June 3 to July 10, 2024</div>
-                <div className="title">STRIDE Module 1 (Research Methodology)
+                <div className="title">
+                  STRIDE Module 1 (Research Methodology)
                 </div>
                 <div className="descr">
-                Over the month, we delved into the intricacies of research design, methods, and analysis, refining our skills in systematic inquiry and critical evaluation.
+                  Over the month, we delved into the intricacies of research
+                  design, methods, and analysis, refining our skills in
+                  systematic inquiry and critical evaluation.
+                </div>
+              </li>
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#1B5F8C" }}
+              >
+                <div className="date">May 15, 2024</div>
+                <div className="title">
+                  INTELLECTUAL PROPERTY AND PATENT DRAFTING IN INDIAN CONTEXT
+                </div>
+                <div className="descr">
+                  One day seminar was conducted by Mr. Vikas Asawat, he is a
+                  government certified attorney, who guided the the participants
+                  about details related to patent filling in India.
                 </div>
               </li>
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#41516C" }}
               >
+                <div className="date">April 29, 2024</div>
+                <div className="title">Award Ceremony Innova-thon</div>
+                <div className="descr">
+                  The event was marked with great enthusiasm and excitement of
+                  students as the teams awarded with cash prices for Innova-thon
+                  conducted on 28 Feb 2024. Along with this posters for
+                  Innova-thon 2.0 and Hackathon-3 were also released.
+                </div>
+              </li>
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#FBCA3E" }}
+              >
                 <div className="date">April 27 to May 5, 2024</div>
-                <div className="title">One Week Hands-on-Training
-                  cum Workshop on
-                  IOT & ITS APPLICATIONS
-                  IN THE ADVANCEMENT OF
-                  TRL’s OF INNOVATIONS IN
-                  SCIENCE & TECHNOLOGY</div>
+                <div className="title">
+                  One Week Hands-on-Training cum Workshop on IOT & ITS
+                  APPLICATIONS IN THE ADVANCEMENT OF TRL’s OF INNOVATIONS IN
+                  SCIENCE & TECHNOLOGY
+                </div>
+                <div className="descr">
+                  This one week training helped the students to understand
+                  basics of sensors and their implementation in basic
+                  electronics circuits. In this training students created small
+                  sensor based circuits themselves and created innovative
+                  designs to solve day to day problems.
+                </div>
+              </li>{" "}
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#4CADAD" }}
+              >
+                <div className="date">April 24, 2024</div>
+                <div className="title">Faculty RENDEZVOUS</div>
+                <div className="descr">
+                  The program aimed to create a network in the universities and
+                  colleges that will provide a platform for aiding eco system,
+                  process and support system to identify young talent, support
+                  research ideation,promote innovation, build research capacity,
+                  technology development, transfer and their commercialization
+                  to the industry.
+                </div>
               </li>
               <li
                 className="timeline-item"
@@ -131,22 +207,29 @@ function Events() {
               >
                 <div className="date">March 18, 2024</div>
                 <div className="title">Student's Meet</div>
+                <div className="descr">
+                  {" "}
+                  DST-BU TEC organised a students meet to know the status of the
+                  projects assigned to them to support the MSMEs of the
+                  Bundelkhand Region. The MSME representatives also attended the
+                  meeting and here the student teams were assigned to each MSME
+                  for digital empowerment.
+                </div>
               </li>
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#FBCA3E" }}
               >
                 <div className="date">March 14, 2024</div>
-                <div className="title">TEC Conclave at Jawaharlal Nehru University</div>
-                <div className="descr">The  event was marked by spirited discussions, insightful presentations, and a vision of collaboration and knowledge sharing among the attending universities. All TECs showcased their achievements and key indicators.
+                <div className="title">
+                  TEC Conclave at Jawaharlal Nehru University
                 </div>
-              </li>
-              <li
-                className="timeline-item"
-                style={{ "--accent-color": "#41516C" }}
-              >
-                <div className="date">March 1, 2024</div>
-                <div className="title">Exhibition Closure</div>
+                <div className="descr">
+                  The event was marked by spirited discussions, insightful
+                  presentations, and a vision of collaboration and knowledge
+                  sharing among the attending universities. All TECs showcased
+                  their achievements and key indicators.
+                </div>
               </li>
               <li
                 className="timeline-item"
@@ -159,7 +242,6 @@ function Events() {
                   <li>Exhibition Innova-thon</li>
                 </ul>
               </li>
-
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#E24A68" }}
@@ -186,7 +268,14 @@ function Events() {
                 style={{ "--accent-color": "#FBCA3E" }}
               >
                 <div className="date">February 05, 2024</div>
-                <div className="title">Technology Hackathon-2 Level-2</div>
+                <div className="title">
+                  Technology Hackathon-2 Final Selection
+                </div>
+                <div className="descr">
+                  The evaluation committee selected five projects keeping needs
+                  of the society in priority for funding further development of
+                  the presented ideas.
+                </div>
               </li>
               <li
                 className="timeline-item"
@@ -224,7 +313,6 @@ function Events() {
                   10 projects for level 2.
                 </div>
               </li>
-
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#1B5F8C" }}
@@ -296,7 +384,6 @@ function Events() {
                   University, Jhansi
                 </div>
               </li>
-
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#E24A68" }}
@@ -311,16 +398,6 @@ function Events() {
                   last date to submit the entries was 10th October 2023.
                 </div>
               </li>
-
-
-
-
-
-
-
-
-
-
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#FBCA3E" }}
@@ -371,7 +448,6 @@ function Events() {
                   innovation Centre with the panel of industrial professionals.
                 </div>
               </li>
-
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#1B5F8C" }}
@@ -390,7 +466,6 @@ function Events() {
                   on 01st June 2023.
                 </div>
               </li>
-
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#E24A68" }}
@@ -406,8 +481,6 @@ function Events() {
                   Bundelkhand University, Jhansi.
                 </div>
               </li>
-
-
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#FBCA3E" }}
@@ -424,7 +497,6 @@ function Events() {
                   University, Jhansi
                 </div>
               </li>
-
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#41516C" }}
@@ -439,8 +511,6 @@ function Events() {
                   knowledge sharing among the attending universities.
                 </div>
               </li>
-
-
             </ul>
           </div>
         )}

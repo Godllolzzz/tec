@@ -56,10 +56,10 @@
     width: 40%;
 }
 .registrar_bu img{
-    width: 92%;
+    width: 100%;
 }
 .vc-sir_image {
-    width: 90%;
+    width: 95%;
 }
 .vc-sir_image img{
     width: 100%;
@@ -70,9 +70,10 @@
     text-align: center;
 }
  .lavsir-logo {
-    width: 30%;
+    width: 20%;
     align-self: center;
-    padding:1rem;
+    padding:1rem; 
+    margin-left: 2.5rem;
  }
  .lavsir-logo img{
     width: 100%;

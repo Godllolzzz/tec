@@ -12,6 +12,16 @@ import img8 from "./../newsimage/img8.jpg";
 import img9 from "./../newsimage/img9.jpg";
 import img10 from "./../newsimage/img10.jpg";
 import img11 from "./../newsimage/img11.jpg";
+import img12 from "./../newsimage/img12.jpeg";
+import img13 from "./../newsimage/img13.jpeg";
+import img14 from "./../newsimage/img14.jpeg";
+import img15 from "./../newsimage/img15.jpeg";
+import img16 from "./../newsimage/img16.jpeg";
+import img17 from "./../newsimage/img17.jpeg";
+import img18 from "./../newsimage/img18.jpeg";
+import img19 from "./../newsimage/img19.jpeg";
+import img20 from "./../newsimage/img20.jpeg";
+import img21 from "./../newsimage/img21.jpeg";
 
 const ImageSlider = () => {
   const SliderData = [
@@ -47,6 +57,26 @@ const ImageSlider = () => {
     },
     {
       image: img11,
+    },{
+      image: img12,
+    },{
+      image: img13,
+    },{
+      image: img14,
+    },{
+      image: img15,
+    },{
+      image: img16,
+    },{
+      image: img17,
+    },{
+      image: img18,
+    },{
+      image: img19,
+    },{
+      image: img20,
+    },{
+      image: img21,
     },
   ];
   const [current, setCurrent] = useState(0);
@@ -54,7 +84,7 @@ const ImageSlider = () => {
   useEffect(() => {
     setTimeout(() => {
       nextSlide();
-    }, 8000);
+    }, 21000);
   }, [current]);
 
   const nextSlide = () => {

@@ -239,9 +239,19 @@ const CoreCommitte = () => {
               </td>
             </tr>
             <tr>
-              <td>6.</td>
+              <td>7.</td>
               <td>Core Committee Meeting 7</td>
               <td>March 18, 2024</td>
+              <td>
+                {/* <a href="https://drive.google.com/file/d/1yx32z_aU_oUq5k-nMr15F3Qq9ojGyYz_/view?usp=sharing"> */}
+                View
+                {/* </a> */}
+              </td>
+            </tr>
+            <tr>
+              <td>8.</td>
+              <td>Core Committee Meeting 8</td>
+              <td>July 22, 2024</td>
               <td>
                 {/* <a href="https://drive.google.com/file/d/1yx32z_aU_oUq5k-nMr15F3Qq9ojGyYz_/view?usp=sharing"> */}
                 View

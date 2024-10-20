@@ -19,7 +19,7 @@ const Home = () => {
       {/* <VideoPlayer videoId="M3ygFVrfR6E?si=3hj0krRt9Yp8AeTJ" /> */}
       <HomeOverview />
       <VCMessage />
-      <ImageSlider />
+      {/* <ImageSlider /> */}
       <ContactUsHome/>
       <Footer />
     </>

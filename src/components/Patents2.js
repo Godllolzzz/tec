@@ -4,7 +4,9 @@ import img2 from "../images/patent2.jpg";
 import img3 from "../images/patent3.jpg";
 import img4 from "../images/patent4.jpg";
 import img5 from "../images/patent5.jpg";
-import img6 from  "../images/bikepatent.jpeg"
+import img6 from "../images/bikepatent.jpeg";
+import img7 from "../images/patent6.jpeg";
+import img8 from "../images/patent7.jpeg";
 import "./Patents2.css";
 import NavBar from "./NavBar";
 import Footer from "./footer";
@@ -20,10 +22,10 @@ const Patents2 = () => {
             <img src={img1} alt="patents-image"></img>
           </div>
           <div className="patents2-content">
-            <div className="patents2-title">Smart Helmet</div>
+            <div className="patents2-title">Smart Wearable Helmet</div>
             <div className="patents2-developed-by">
-            <div>INVENTORS-</div>
-              <div style={{fontWeight:"bold"}}>
+              <div>INVENTORS-</div>
+              <div style={{ fontWeight: "bold" }}>
                 <div>Prof. Mukesh Pandey Hon'ble Vice-Chancellor,</div>
                 <div>Dr. Lavkush Dwivedi </div>
                 <div>Dr. Rohit Peardon </div>
@@ -57,8 +59,8 @@ const Patents2 = () => {
               and Their Management
             </div>
             <div className="patents2-developed-by">
-            <div>INVENTORS-</div>
-              <div style={{fontWeight:"bold"}}>
+              <div>INVENTORS-</div>
+              <div style={{ fontWeight: "bold" }}>
                 <div>Prof. Mukesh Pandey Hon'ble Vice-Chancellor,</div>
                 <div>Dr. Lavkush Dwivedi </div>
                 <div>Dr. Anupam Vyas </div>
@@ -89,8 +91,8 @@ const Patents2 = () => {
             <div className="patents2-title">System for Preventing Suicides</div>
 
             <div className="patents2-developed-by">
-            <div>INVENTORS-</div>
-              <div style={{fontWeight:"bold"}}>
+              <div>INVENTORS-</div>
+              <div style={{ fontWeight: "bold" }}>
                 <div>Prof. Mukesh Pandey Hon'ble Vice-Chancellor,</div>
                 <div>Dr. Lavkush Dwivedi </div>
               </div>
@@ -123,8 +125,8 @@ const Patents2 = () => {
               Portable Solar Power Charger for Electronic Devices
             </div>
             <div className="patents2-developed-by">
-            <div>INVENTORS-</div>
-              <div style={{fontWeight:"bold"}}>
+              <div>INVENTORS-</div>
+              <div style={{ fontWeight: "bold" }}>
                 <div>Prof. Mukesh Pandey Hon'ble Vice-Chancellor,</div>
                 <div>Dr. Anupam Vyas </div>
                 <div>DR. S K Srivastava</div>
@@ -165,13 +167,13 @@ const Patents2 = () => {
               in Campus of Bundelkhand University
             </div>
             <div className="patents2-developed-by">
-            <div>INVENTORS-</div>
-              <div style={{fontWeight:"bold"}}>
+              <div>INVENTORS-</div>
+              <div style={{ fontWeight: "bold" }}>
                 <div>Prof. Mukesh Pandey Hon'ble Vice-Chancellor,</div>
                 <div>Dr. Deepak Tomar</div>
                 <div>Dr. Zakir Ali</div>
                 <div>DR. Sadik Khan</div>
-                <div>Mr. Sabir Ali</div>
+                <div>Er. Sabir Ali</div>
               </div>
             </div>
             <br></br>
@@ -201,14 +203,14 @@ const Patents2 = () => {
           </div>
           <div className="patents2-content">
             <div className="patents2-title">
-            Safety Air Bags for Two-Wheelers
+              Safety Air Bags for Two-Wheelers
             </div>
             <div className="patents2-developed-by">
               <div>INVENTORS-</div>
-              <div style={{fontWeight:"bold"}}>
+              <div style={{ fontWeight: "bold" }}>
                 <div>Prof. Mukesh Pandey Hon'ble Vice-Chancellor,</div>
-                
-                <div>D Dr. A.P.S. Gaur</div>
+
+                <div>Dr. A.P.S. Gaur</div>
                 <div>Dr. Lavkush Dwivedi</div>
                 <div>MD Numan Alam</div>
                 <div>Neelendra Pratap Singh</div>
@@ -218,7 +220,112 @@ const Patents2 = () => {
             </div>
             <br></br>
             <p className="patents2-inner-content">
-            Safety airbags for two-wheelers represent a significant advancement in rider protection technology, aiming to mitigate the severity of injuries in the event of a crash. Unlike traditional airbags in cars, which deploy outwardly from the vehicle's interior, two-wheeler airbags are typically integrated into the rider's protective gear, such as jackets or vests. These airbags are equipped with sensors that detect sudden deceleration or impact, triggering the rapid inflation of the airbag to provide a cushioning effect and protect vital areas of the rider's body, including the chest, abdomen, and back. By absorbing and dispersing the impact force, safety airbags for two-wheelers can reduce the risk of severe injuries, particularly to the upper body, neck, and spine. While still relatively new, the adoption of this technology has the potential to enhance rider safety and reduce the severity of injuries in motorcycle and scooter accidents, underscoring its importance in improving road safety for two-wheeler riders.
+              Safety airbags for two-wheelers represent a significant
+              advancement in rider protection technology, aiming to mitigate the
+              severity of injuries in the event of a crash. Unlike traditional
+              airbags in cars, which deploy outwardly from the vehicle's
+              interior, two-wheeler airbags are typically integrated into the
+              rider's protective gear, such as jackets or vests. These airbags
+              are equipped with sensors that detect sudden deceleration or
+              impact, triggering the rapid inflation of the airbag to provide a
+              cushioning effect and protect vital areas of the rider's body,
+              including the chest, abdomen, and back. By absorbing and
+              dispersing the impact force, safety airbags for two-wheelers can
+              reduce the risk of severe injuries, particularly to the upper
+              body, neck, and spine. While still relatively new, the adoption of
+              this technology has the potential to enhance rider safety and
+              reduce the severity of injuries in motorcycle and scooter
+              accidents, underscoring its importance in improving road safety
+              for two-wheeler riders.
+            </p>
+          </div>
+        </div>
+        <div className="patents2-container">
+          <div className="patents2-image">
+            <img src={img7} alt="patents-image"></img>
+          </div>
+          <div className="patents2-content">
+            <div className="patents2-title">
+              Market Research of a Loaclity for the development of online
+              bridging tool between Service Provider and Needy Population
+            </div>
+            <div className="patents2-developed-by">
+              <div>INVENTORS-</div>
+              <div style={{ fontWeight: "bold" }}>
+                <div>Prof. Mukesh Pandey Hon'ble Vice-Chancellor,</div>
+                <div>Dr. Shambhu Nath Singh</div>
+                <div>Dr. Lavkush Dwivedi</div>
+              </div>
+            </div>
+            <br></br>
+            <p className="patents2-inner-content">
+              We know that people have their unlimited wants. If one want is
+              completed other is automatically created and it is going
+              continuously. Due to this economic activity and economic process
+              is going on. As population is increasing day by day so the demand
+              of the general services also increases. To complete these at time
+              bound at reasonable charges is the main challenges at national as
+              well as international level. To complete this we have created so
+              many employment opportunities and help to India to become
+              self-reliant this is the main need of the hour. The overall
+              purpose of this market research is study to develop a bridging
+              tool to fulfil the demand of the nonworking population by the
+              working population. Specific objective to be addressed because of
+              the study are: To identify the general most demanded services of
+              which frequently occurs. To identify the all-skilled working
+              population who are willing to do their services. To match the
+              demand and supply of these two with the help of online bridging
+              tool within a specific framework of time. Expected outcomes of
+              this project to find an effective online tool which fulfil the
+              demand the non-working population of a locality through the
+              working population at reasonable charges and in time bound
+              commitment. Society will take the advantages of this online tool
+              and will find all the general identified services at reasonable
+              charges. In teaching it will inspire the students as well as
+              faculty to join this and take the advantages of it and it can be
+              generalized at large level with the logo of Bundelkhand
+              University, Jhansi.
+            </p>
+          </div>
+        </div>
+        <div className="patents2-container">
+          <div className="patents2-image">
+            <img src={img8} alt="patents-image"></img>
+          </div>
+          <div className="patents2-content">
+            <div className="patents2-title">
+              Predicting Students Stress level and wellbeing with Machine
+              Learning
+            </div>
+            <div className="patents2-developed-by">
+              <div>INVENTORS-</div>
+              <div style={{ fontWeight: "bold" }}>
+                <div>Prof. Mukesh Pandey Hon'ble Vice-Chancellor,</div>
+                <div>Dr. Kavya Dubey</div>
+                <div>Dr. Lavkush Dwivedi</div>
+              </div>
+            </div>
+            <br></br>
+            <p className="patents2-inner-content">
+              Mental health is a growing concern among students, with studies
+              showing that many college and university students experience
+              mental health challenges such as anxiety and depression. Early
+              detection and intervention of these challenges can help students
+              manage their stress and anxiety, improving their academic
+              performance and overall quality of life. This proposal presents a
+              machine learning-based app that can identify students' mental
+              stress by building models and predicting students’ mental stress
+              levels and well-being. The proposed machine learning-based app can
+              help identify students experiencing mental stress and provide
+              early intervention to prevent further mental health deterioration.
+              The app will use machine learning algorithms to analyse various
+              parameters, including sleep patterns, social media activity,
+              academic performance, and other behavioural patterns. The app will
+              also provide students personalized recommendations and resources
+              to manage their stress levels. The development of this app will
+              require collaboration between several stakeholders, including
+              university administration, mental health professionals, and
+              technology experts.
             </p>
           </div>
         </div>

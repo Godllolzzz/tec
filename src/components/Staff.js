@@ -2,6 +2,8 @@ import React from "react";
 import "./Staff.css";
 import firststaff from "../images/Nistha_mam.png";
 import secondstaff from "../images/Shrikanth_sir.jpg";
+import thirdstaff from "../images/staff3.jpeg";
+import fourthstaff from "../images/pankajkushwaha.jpeg";
 import NavBar from "./NavBar";
 import Footer from "./footer";
 
@@ -97,6 +99,84 @@ const Staff = () => {
             ICFRE-IFGTB and the Junior Mentor (in-charge) at the Innovation Hub,
             District Science Centre under the Ministry of Culture, Government of
             India
+          </div>
+        </div>
+        <div className="staff-inner">
+          <div className="staff-inner-left">
+            <img src={fourthstaff}></img>
+            <div>
+              {" "}
+              <b>Mr. Pankaj Kushwaha</b>
+            </div>
+            <div>Senior Project Associate</div>
+            <div>DST-BU TEC</div>
+          </div>
+          <div className="staff-inner-right">
+            Mr. Pankaj Kushwaha, an accomplished research professional, earned
+            his Master in Biomedical Science at Institute of Biomedical
+            Sciences, Bundelkhand University, Jhansi, in 2018. He graduated with
+            honors’ degree in Biomedical Sciences at same University in 2016.
+            His expertise extent diverse scientific as well as technical
+            domains, including Cell biology, Microbiology, Biochemistry,
+            Medicinal Biochemistry, Biostatistics, Analytical Techniques,
+            Pharmaceutical sciences & Toxicology, Human Physiology, Immunology,
+            Pathology, Medical Biotechnology, with applications in agriculture,
+            environment, industry, and medicine, Testing laboratories. He is
+            acclaimed for his commitment to scientific approaches, development,
+            testing and also have good knowledge of ISO/IEC 17025:2017 for
+            Testing and Calibration. He is a well-known member of the scientific
+            community who has actively participated in conferences all around
+            the world and published his research articles in international
+            journals. Committed to using science for rural development, he works
+            with communities, grassroots groups, and young people to foster
+            creativity and innovation while providing livelihood security
+            through participatory methods. Overall his expertise in Academic
+            domain, testing laboratories, and Pharmaceutical industries with 5
+            years of experience- Operation & Calibration of High-Performance
+            Liquid Chromatography-Waters, Gas Chromatography-Mass Spectroscopy,
+            Atomic absorption Spectroscopy, Flame Photometer,
+            UV-Spectrophotometer, During the NRDMS DST research project mainly
+            focused Photochemical & Microbial contamination analysis of
+            medicinal plants under a Department of Science & Technology using
+            TLC, HPLC, GC-MS, and AAS techniques, funded by Natural Resources
+            Data Management System-DST Govt. of India, New Delhi to develop
+            employment for local farmers and skilled youth minds. Currently
+            serves as the Senior Project Associate at the Department of Science
+            & Technology-Technology Enabling Centre (DST-TEC) at Bundelkhand
+            University, Jhansi,
+          </div>
+        </div>
+        <div className="staff-inner">
+          <div className="staff-inner-left">
+            <img src={thirdstaff}></img>
+            <div>
+              {" "}
+              <b>Mr. Satish Kumar</b>
+            </div>
+            <div>Project Associate</div>
+            <div>DST-BU TEC</div>
+          </div>
+          <div className="staff-inner-right">
+            Mr. Satish Kumar, a proficient in the field of Mechanical
+            Engineering, with a strong background in product design and
+            development. He holds an M. Tech degree in Product design and
+            development from Motilal Nehru National Institute of Technology
+            (MNNIT), Allahabad and B. Tech in Mechanical Engineering from Dr. A
+            P J Abdul Kalam Technical University. With a solid foundation in 3D
+            modelling and analysis, Mr. Kumar has applied his expertise to
+            various industrial projects, including centrifugal mud pumps, wind
+            turbine blades and conducting flow analyses. His professional
+            experience includes serving as an Assistant Design Engineer at
+            Grlndmech Technologies Pvt. Ltd., where he gained hands-on
+            experience in modelling and analysis using tools such as AutoCAD,
+            Ansys APDL and Solidworks. He has also contributed his publication
+            in IEEE publication. His technical skills encompass a wide range of
+            engineering software, further highlighting his problem-solving
+            abilities and interest in concurrent engineering tools. Along his
+            technical and teaching roles, Mr. Satish has a passion for
+            extracurricular activities. His strong work ethic, punctuality, and
+            collaborative spirit make him a valuable asset in both academic and
+            industrial environments.
           </div>
         </div>
       </div>

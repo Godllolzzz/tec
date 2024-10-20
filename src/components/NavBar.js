@@ -16,7 +16,7 @@ function NavBar() {
           <div id="bu_name_third">JHANSI</div>
         </div>
         <div className="bu_details">
-          A+ NAAC Accredited (3.46 CGPA) | NIRF ranked, ISO certified |
+          A++ NAAC Accredited | NIRF ranked, ISO certified |
           UGC-12(b) 2(f) category State University of U.P. | AISHE Code: U-0502
         </div>
       </div>

@@ -3,7 +3,7 @@ import committelogo from "../images/CoreCommity.jpg";
 import NavBar from "./NavBar";
 import Footer from "./footer";
 import "./ResourcePersons.css";
-import resourcelogo from "../galleryimage/resourcePerson.jpeg";
+import resourcelogo from "../galleryimage/resourceperson.jpeg";
 import file from "../assests/ResourcePerson.xlsx";
 import { fetchDataAndExtract } from "../utils/extractXlsxData";
 

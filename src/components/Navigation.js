@@ -225,6 +225,12 @@ const Navigation = () => {
                 <Link to="/Mou">MoU's</Link>
               </li>
               <li className="dropdown-item">
+                <Link to="/startup">Startup</Link>
+              </li>
+              <li className="dropdown-item">
+                <Link to="/mediaCoverage">Media Coverage</Link>
+              </li>
+              <li className="dropdown-item">
                 <Link to="/compliment-corner">Compliment Corner</Link>
               </li>
               <li className="dropdown-item">

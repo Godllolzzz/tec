@@ -1,6 +1,7 @@
 import sushantimg from "../images/sushant1.jpg";
 import praveenimg from "../images/Praveen.jpg";
 import rohitimg from "../images/rohit1.jpg";
+import mukulimg from "../images/Mukul.jpeg";
 import NavBar from "./NavBar";
 import Footer from "./footer";
 import "./StudentsTeam.css";
@@ -24,6 +25,16 @@ const StudentsTeam = () => {
         <div className="student-inner">
           <img src={praveenimg}></img>
           <div className="student-name">Praveen Chauhan</div>
+          <div>
+            <b>B.Tech CSE</b>
+          </div>
+          <div>
+            <b>Full Stack Developer</b>
+          </div>
+        </div>
+        <div className="student-inner">
+          <img src={mukulimg}></img>
+          <div className="student-name">Mukul Kumar Sahu</div>
           <div>
             <b>B.Tech CSE</b>
           </div>

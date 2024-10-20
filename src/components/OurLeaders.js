@@ -4,8 +4,9 @@ import NavBar from "./NavBar";
 import Footer from "./footer";
 import "./OurLeaders.css";
 import vcsirlogo from "../images/sirlogo.jpeg";
-import fo_Sir_logo from "../images/fo_bu.jpeg";
-import registrar_logo from "../images/registrar_bu.jpg"
+import fo_Sir_logo from "../images/FOsir.jpeg";
+import registrar_logo from "../images/Registrarsir.jpeg";
+
 import lavsirlogo from "../images/LavKushSir.jpg";
 
 const OurLeaders = () => {
@@ -26,8 +27,9 @@ const OurLeaders = () => {
                 <h4>Bundelkhand University</h4>
               </div>
             </div>
-            
           </div>
+          
+
           <div className="vcsir1-content">
             <p>
               The Technology Enabling Centre is not just a project; it is a
@@ -62,15 +64,37 @@ const OurLeaders = () => {
             </p>
           </div>
         </div>
+        <div className="officials-logo">
+            <div className="fo_bu">
+              <img src={fo_Sir_logo} alt="vc_sir_image"></img>
+              <div className="vcsir1-title">
+                <h3>Mr. Pramod Kumar Singh</h3>
+                <h4>Finance Officer</h4>
+                <h4>Bundelkhand University</h4>
+              </div>
+            </div>
+          </div>
+          <div className="officials-logo">
+            <div className="registrar_bu">
+              <img src={registrar_logo} alt="vc_sir_image"></img>
+              <div className="vcsir1-title">
+                <h3>Mr. Vinay Kumar Singh</h3>
+                <h4>Registrar</h4>
+                <h4>Bundelkhand University</h4>
+              </div>
+            </div>
+          </div>
         <hr
-          style={{ width: "100%", border: "1px solid black", marginTop: "2rem" }}
+          style={{
+            width: "100%",
+            border: "1px solid black",
+            marginTop: "2rem",
+          }}
         ></hr>
 
         <div className="vcsir1">
           <div className="lavsir-logo ">
-            <img
-              src={lavsirlogo}
-            ></img>
+            <img src={lavsirlogo}></img>
             <div className="vcsir1-title">
               <h3>Dr. Lavkush Dwivedi</h3>
               <h4>Co-Co-ordinator</h4>

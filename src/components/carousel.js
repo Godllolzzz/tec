@@ -10,10 +10,18 @@ import img4 from "../galleryimage/A7403304.JPG";
 import img5 from "../images/TEC-3.jpg";
 import img6 from "../galleryimage/A7402281.JPG";
 import img7 from "../images/innovation_centre (2).jpg";
-import img8 from "../galleryimage/change11.jpg"
-import img12 from "../galleryimage/change12.jpg"
-import img9 from "../galleryimage/change2.jpg"
-import img10 from "../galleryimage/change4.jpg"
+import img8 from "../galleryimage/change11.jpg";
+import img12 from "../galleryimage/change12.jpg";
+import img9 from "../galleryimage/change2.jpg";
+import img13 from "../galleryimage/change13.jpeg";
+import img14 from "../galleryimage/change14.jpeg";
+import img15 from "../galleryimage/change15.jpeg";
+import img16 from "../galleryimage/change16.jpeg";
+import img17 from "../galleryimage/change17.jpeg";
+import img19 from "../galleryimage/change19.jpeg";
+import img20 from "../galleryimage/change20.jpeg";
+import img21 from "../galleryimage/change21.jpeg";
+import img22 from "../galleryimage/change22.jpeg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -24,7 +32,26 @@ import {
 
 import TypeWriter from "./Typewriter";
 
-const images = [img9,img10,img12,img8, img2, img3, img4, img5, img6, img7];
+const images = [
+  img13,
+  img14,
+  img15,
+  img16,
+  img17,
+  img19,
+  img20,
+  img21,
+  img22,
+  img9,
+  img12,
+  img8,
+  img2,
+  img3,
+  img4,
+  img5,
+  img6,
+  img7,
+];
 
 const Carousel = () => {
   const [isEventOpen, setIsEventOpen] = useState(false);
@@ -126,7 +153,6 @@ const Carousel = () => {
               </div>
               <div className="content">
                 <ul style={{ paddingLeft: "20px" }}>
-                  
                   <li>
                     <a
                       href="https://drive.google.com/file/d/1l50w-NWLPa-XqMVPo2LJ7qH-Mk8uo-HX/view?usp=sharing"
@@ -195,11 +221,12 @@ const Carousel = () => {
               </div>
               <div className="content">
                 <div>
-                  Successful completion of One Week Hands-on Training in Advanced
-                  Android development for Digital Empowerment of MSMEs
+                  Successfully launched 7 Android Applications and handed them
+                  over to MSMEs free of cost.
                 </div>
                 <div>
-                  Bundelkhand University got a grand of rupees 100 crores under the PM-UShA (MERU).
+                  Bundelkhand University got a grand of rupees 100 crores under
+                  the PM-UShA (MERU).
                 </div>
               </div>
             </div>

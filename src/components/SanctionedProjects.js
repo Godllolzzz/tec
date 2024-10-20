@@ -1,6 +1,6 @@
 import React from "react";
 
-import project11 from "../images/mentalstresslogo.jpg";
+import project11 from "../images/stressManager.jpeg";
 import "./SanctionedProjects.css";
 import NavBar from "./NavBar";
 import Footer from "./footer";
@@ -9,7 +9,7 @@ import project44 from "../images/EraMamProject.png";
 import project4 from "../images/EraMam1.jpg";
 import project5 from "../images/RohitSir.png";
 import project2 from "../images/SambhuNathSir.jpg";
-import project22 from "../images/SambhuNathSirContent.png";
+import project22 from "../images/bridgenext.jpeg";
 import project3 from "../images/BhavanaMam1.jpg";
 import project33 from "../images/BhavanaMam2.jpg";
 import project55 from "../images/SmartHelmet.jpg";

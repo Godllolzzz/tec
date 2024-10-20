@@ -43,6 +43,16 @@ import img51 from "../galleryimage/gallery3.jpg";
 import img52 from "../galleryimage/gallery4.jpg";
 import img53 from "../galleryimage/gallery5.jpg";
 import img54 from "../galleryimage/gallery6.jpg";
+import img55 from "../galleryimage/change13.jpeg";
+import img56 from "../galleryimage/change14.jpeg";
+import img57 from "../galleryimage/change15.jpeg";
+import img58 from "../galleryimage/change16.jpeg";
+import img59 from "../galleryimage/change17.jpeg";
+import img60 from "../galleryimage/change19.jpeg";
+import img61 from "../galleryimage/change20.jpeg";
+import img62 from "../galleryimage/change21.jpeg";
+import img63 from "../galleryimage/change22.jpeg";
+
 
 const Gallery = () => {
   const [isImgOpen, setIsImgOpen] = useState(null);
@@ -57,6 +67,15 @@ const Gallery = () => {
     img52,
     img53,
     img54,
+    img55,
+    img56,
+    img57,
+    img58,
+    img59,
+    img60,
+    img61,
+    img62,
+    img63,
     img43,
     img44,
     img45,

@@ -7,6 +7,7 @@ import thirdimg from "../images/Dr.PraveenRoy.jpg";
 import fourthimg from "../images/logo4_.png";
 import fifthimg from "../images/logo5_.png";
 import sixthimg from "../images/logo6_.png";
+import ninethimg from "../images/Sanjay-Kumar-150.png";
 import seventhimg from "../images/logo7_.png";
 import eighthimg from "../images/lavsir.jpg";
 
@@ -68,6 +69,14 @@ const Pag = () => {
             </div>
             <div>TEC Coordinator</div>
             <div>University of Pune</div>
+          </div><div className="pag-logo-2-3">
+            <img src={ninethimg}></img>
+            <div>
+              <b>Dr. Sanjay Kumar</b>
+            </div>
+            <div>Chief Scientist </div>
+            {/* <div>Head Metal Extraction & Recycling Division</div> */}
+            <div> CSIR- NML</div>
           </div>
 
           {/* <div className="pag-logo-2-3">
