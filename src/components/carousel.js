@@ -162,15 +162,7 @@ const Carousel = () => {
                       Registration for Innova-thon
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="https://drive.google.com/file/d/1EEbO9I1IMCuOkwnJ-I2aI5f_4Cte1ti_/view?usp=sharing"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Registration for Technology Hackathon 3.
-                    </a>
-                  </li>
+                  
                 </ul>
               </div>
             </div>
@@ -195,8 +187,7 @@ const Carousel = () => {
                 <ArrowBackIosNewIcon onClick={announcementClosetHandler} />
               </div>
               <div className="content">
-                <div>STRIDE Module-2 starting from August 1(Tentative) </div>
-                <div>Registration open for Innovathon and Hackathon-3</div>
+                <div>Trainings will be conducted between November 2024 - Januray 2025 </div>
               </div>
             </div>
           )}
