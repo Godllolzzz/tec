@@ -91,6 +91,7 @@
 .compliment_gallery_item img {
   width: 100%;
   height: auto;
+  border: 1px solid black;
 }
 
 .compliment_img2:hover .img2 {

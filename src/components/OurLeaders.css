@@ -1,95 +1,107 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
-
-
-
-.our-leader{
-    width: 100%;
+.our-leader {
+  width: 100%;
 }
 
-.our-leader-heading{
-    border-bottom: 1px solid rgb(41, 38, 38);
+.leader-main-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.our-leader-heading {
+  border-bottom: 1px solid rgb(41, 38, 38);
   font-family: "Montserrat", sans-serif;
   padding-bottom: 1rem;
   padding-top: 3rem;
   /* color: rgb(41, 36, 36);
    */
-   color: gold;
+  color: gold;
   font-size: 2.2rem;
   margin: auto;
   width: 25%;
   text-align: center;
   text-shadow: 2px 2px 2px #03174f;
-
-    
 }
 
-.vcsir1{
-    display: flex;
-    gap:2rem;
-    
-    
-    
+.vcsir1 {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
 }
- 
-.officials-logo{
-    display: flex;
-    gap: 1rem;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
+
+.other_officials_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.officials-logo {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin-top: 2rem;
 }
 .other_officials {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
 }
 .fo_bu {
-    width: 40%;
+  width: 55%;
 }
-.fo_bu img{
-    width: 100%;
+.fo_bu img {
+  width: 100%;
 }
-.registrar_bu{
-    width: 40%;
+.registrar_bu {
+  width: 55%;
 }
-.registrar_bu img{
-    width: 100%;
+.registrar_bu_iamge {
+  border: 1px solid black;
+}
+.registrar_bu img {
+  width: 100%;
 }
 .vc-sir_image {
-    width: 95%;
+  width: 150%;
 }
-.vc-sir_image img{
-    width: 100%;
+.vc-sir_image img {
+  width: 100%;
 }
 
+.vcsir1-title {
+  text-align: center;
+}
+.lavsir-logo {
+  width: 20%;
+  align-self: center;
+  padding: 1rem;
+  margin-left: 2.5rem;
+}
+.lavsir-logo img {
+  width: 100%;
+}
+.vcsir1-content {
+  background-color: #03174f;
+  color: white;
+  padding: 2rem;
+  width: 60%;
+  margin: 4rem;
+  margin-left: 0rem;
+  box-shadow: 5px 5px 10px #03174f;
+  align-items: center;
 
-.vcsir1-title{
-    text-align: center;
+  justify-content: center;
 }
- .lavsir-logo {
-    width: 20%;
-    align-self: center;
-    padding:1rem; 
-    margin-left: 2.5rem;
- }
- .lavsir-logo img{
-    width: 100%;
- }
-.vcsir1-content{
-    background-color: #03174F ;
-    color: white;
-    padding: 2rem;
-    width: 60%;
-    margin: 4rem;
-    margin-left: 0rem;
-    box-shadow: 5px 5px 10px #03174F;
-    
-    justify-content: center;
-}
-.vcsir1-content p{
-    text-align: justify;
-    font-size: 1rem;
+.vcsir1-content p {
+  text-align: justify;
+  font-size: 1rem;
 }

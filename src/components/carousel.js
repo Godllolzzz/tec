@@ -34,12 +34,12 @@ import TypeWriter from "./Typewriter";
 
 const images = [
   img13,
-  img14,
-  img15,
+  img14,//
+  img15,//
   img16,
-  img17,
+  img17,//
   img19,
-  img20,
+  // img20,
   img21,
   img22,
   img9,

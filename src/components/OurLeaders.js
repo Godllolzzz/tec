@@ -5,7 +5,7 @@ import Footer from "./footer";
 import "./OurLeaders.css";
 import vcsirlogo from "../images/sirlogo.jpeg";
 import fo_Sir_logo from "../images/FOsir.jpeg";
-import registrar_logo from "../images/Registrarsir.jpeg";
+import registrar_logo from "../images/Registrarsir.png";
 
 import lavsirlogo from "../images/LavKushSir.jpg";
 
@@ -16,74 +16,76 @@ const OurLeaders = () => {
 
       <div className="leader-main-container">
         <div className="our-leader-heading">Our Leaders</div>
-
         <div className="vcsir1">
           <div className="officials-logo">
             <div className="vc-sir_image">
               <img src={vcsirlogo} alt="vc_sir_image"></img>
               <div className="vcsir1-title">
                 <h3>Prof. Mukesh Pandey</h3>
-                <h4> Hon'ble Vice-Chancellor</h4>
-                <h4>Bundelkhand University</h4>
+                <h5> Hon'ble Vice-Chancellor</h5>
+                <h5>Bundelkhand University</h5>
               </div>
             </div>
           </div>
-          
-
-          <div className="vcsir1-content">
-            <p>
-              The Technology Enabling Centre is not just a project; it is a
-              beacon of hope and a catalyst for transformative change. In
-              today's fast-paced world, where technology is at the heart of
-              almost every endeavour, having a dedicated centre for technology
-              is paramount. It is a place where ideas converge, where research
-              finds its practical applications, and where innovation thrives.
-            </p>
-            <p>
-              This initiative reflects our commitment to advancing science and
-              technology in our region, and it underscores the pivotal role that
-              universities play in fostering innovation and progress. This
-              centre embodies our vision to bridge the gap between academia and
-              industry. It is a platform where our talented students and faculty
-              members can collaborate with industry experts and researchers to
-              address real-world challenges. By doing so, we not only contribute
-              to the development of cutting-edge technologies but also nurture
-              the next generation of innovators and problem solvers.
-            </p>
-            <p>
-              As the Vice Chancellor of Bundelkhand University, I extend my
-              wholehearted support to the Technology Enabling Centre. I
-              encourage all our students, faculty members, and stakeholders to
-              actively participate and leverage this resource to explore new
-              horizons, push boundaries, and contribute to the advancement of
-              science, technology, and our society.
-            </p>
-            <p>
-              Together, we can harness the power of innovation to drive positive
-              change and make a lasting impact on the world.
-            </p>
-          </div>
         </div>
-        <div className="officials-logo">
-            <div className="fo_bu">
-              <img src={fo_Sir_logo} alt="vc_sir_image"></img>
+        <div className="other_officials_wrapper">
+          <div className="officials-logo">
+            <div className="registrar_bu">
+              {/* <div className="registrar_bu_iamge"> */}
+                <img src={registrar_logo} alt="vc_sir_image"></img>
+              {/* </div> */}
               <div className="vcsir1-title">
-                <h3>Mr. Pramod Kumar Singh</h3>
-                <h4>Finance Officer</h4>
-                <h4>Bundelkhand University</h4>
+                <h3>Mr. Vinay Kumar Singh</h3>
+                <h5>Registrar</h5>
+                <h5>Bundelkhand University</h5>
               </div>
             </div>
           </div>
           <div className="officials-logo">
-            <div className="registrar_bu">
-              <img src={registrar_logo} alt="vc_sir_image"></img>
+            <div className="fo_bu">
+              <img src={fo_Sir_logo} alt="vc_sir_image"></img>
               <div className="vcsir1-title">
-                <h3>Mr. Vinay Kumar Singh</h3>
-                <h4>Registrar</h4>
-                <h4>Bundelkhand University</h4>
+                <h3>Mr. Pramod Kumar Singh</h3>
+                <h5>Finance Officer</h5>
+                <h5>Bundelkhand University</h5>
               </div>
             </div>
           </div>
+        </div>
+        <div className="vcsir1-content">
+          <p>
+            The Technology Enabling Centre is not just a project; it is a beacon
+            of hope and a catalyst for transformative change. In today's
+            fast-paced world, where technology is at the heart of almost every
+            endeavour, having a dedicated centre for technology is paramount. It
+            is a place where ideas converge, where research finds its practical
+            applications, and where innovation thrives.
+          </p>
+          <p>
+            This initiative reflects our commitment to advancing science and
+            technology in our region, and it underscores the pivotal role that
+            universities play in fostering innovation and progress. This centre
+            embodies our vision to bridge the gap between academia and industry.
+            It is a platform where our talented students and faculty members can
+            collaborate with industry experts and researchers to address
+            real-world challenges. By doing so, we not only contribute to the
+            development of cutting-edge technologies but also nurture the next
+            generation of innovators and problem solvers.
+          </p>
+          <p>
+            As the Vice Chancellor of Bundelkhand University, I extend my
+            wholehearted support to the Technology Enabling Centre. I encourage
+            all our students, faculty members, and stakeholders to actively
+            participate and leverage this resource to explore new horizons, push
+            boundaries, and contribute to the advancement of science,
+            technology, and our society.
+          </p>
+          <p>
+            Together, we can harness the power of innovation to drive positive
+            change and make a lasting impact on the world.
+          </p>
+        </div>
+
         <hr
           style={{
             width: "100%",
