@@ -1,35 +1,47 @@
+.compliment_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  /* Add any other styles as needed */
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .developers-heading {
-    border-bottom: 1px solid rgb(41, 38, 38);
-    font-family: "Montserrat", sans-serif;
-    padding-bottom: 1rem;
-    padding-top: 3rem;
-    color: #f4c430;
-    text-shadow: 2px 2px 2px #03174f;
-    font-size: 2.2rem;
-    width: 30%;
-    margin: auto;
-    text-align: center;
-  }
-  
-  
-  .compliment_gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  
-  .compliment_gallery_item {
-    flex: 1 1 calc(33.333% - 10px);
-    box-sizing: border-box;
-    border-radius: 2px solid black;
-  }
-  
-  .compliment_gallery_item img {
-    width: 100%;
-    height: auto;
-  }
-  
-  /* @media screen and (max-width: 750px) {
+  border-bottom: 1px solid rgb(41, 38, 38);
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 1rem;
+  padding-top: 3rem;
+  color: #f4c430;
+  text-shadow: 2px 2px 2px #03174f;
+  font-size: 2.2rem;
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.compliment_gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.compliment_gallery_item {
+  flex: 1 1 calc(33.333% - 10px);
+  box-sizing: border-box;
+  border-radius: 2px solid black;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.compliment_gallery_item img {
+  width: 100%;
+  height: auto;
+}
+
+/* @media screen and (max-width: 750px) {
     .msme-heading {
       font-size: 1.5rem;
       width: 70%;

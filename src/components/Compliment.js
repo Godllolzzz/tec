@@ -12,7 +12,7 @@ import img4 from "../images/comp4.jpeg";
 import img5 from "../images/comp5.jpeg";
 
 const Compliment = () => {
-  const compliMentData = [img6, img1, img2, img3, img4, img5];
+  const compliMentData = [img6, img4, img3, img2, img5, img1];
 
   return (
     <>

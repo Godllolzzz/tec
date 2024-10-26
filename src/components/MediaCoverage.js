@@ -26,39 +26,41 @@ import img20 from "./../newsimage/img20.jpeg";
 import img21 from "./../newsimage/img21.jpeg";
 const MediaCoverage = () => {
   const compliMentData = [
-      img4,
-      img7,
+    img11,
+    img14,
+    img16,
+    img9,
     img2,
+    img21,
+    img8,
     img3,
     img5,
-    img6,
-    img8,
-    img9,
     img10,
-    img1,
-    img11,
-    img12,
-    img13,
-    img14,
     img15,
-    img16,
     img17,
-    img18,
-    img19,
     img20,
-    img21,
+    img13,
+    img18,
+    img12,
+    img19,
+    img1,
+    img6,
+    img7,
+    img4,
   ];
 
   return (
     <div>
       <NavBar />
-      <h2 className="developers-heading"> Media Coverage</h2>
-      <div className="compliment_gallery">
-        {compliMentData.map((image, index) => (
-          <div key={index} className="compliment_gallery_item">
-            <img src={image} alt={`compliment ${index + 1}`} />
-          </div>
-        ))}
+      <div className="compliment_main">
+        <h2 className="developers-heading"> Media Coverage</h2>
+        <div className="compliment_gallery">
+          {compliMentData.map((image, index) => (
+            <div key={index} className="compliment_gallery_item">
+              <img src={image} alt={`compliment ${index + 1}`} />
+            </div>
+          ))}
+        </div>
       </div>
       <Footer />
     </div>
