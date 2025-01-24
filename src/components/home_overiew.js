@@ -167,22 +167,23 @@ const HomeOverview = () => {
             </div>
             <div></div>
           </div>
-          <div className="patent-container">
+          {/* <div className="patent-container">
             <div className="img-container">
               <img src={img6} alt="patent_image"></img>
             </div>
             <div></div>
-          </div>
+          </div> */}
           <div className="patent-container">
             <div>
               <img src={img3} alt="patent_image"></img>
             </div>
             <div></div>
           </div>
-          <div  className="patent-container">
+          {/* <div  className="patent-container">
                 <div><img src={img7} alt="patent_image"></img></div>
                 <div></div>
-            </div>   <div  className="patent-container">
+            </div>  */}
+              <div  className="patent-container">
                 <div><img src={img2} alt="patent_image"></img></div>
                 <div></div>
             </div>

@@ -347,6 +347,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
 import NavBar from ".././NavBar";
 import Footer from ".././footer";
+import { SlArrowRightCircle } from "react-icons/sl";
 const AboutInnovationCentre = () => {
   return (
     <>
@@ -356,7 +357,18 @@ const AboutInnovationCentre = () => {
           <img src={ab0} alt="about-image"></img>
          
         </div>
-        <div style={{display:"flex", justifyContent:"center"}}> <a className="link" href="https://bujhansi.ac.in/en/page/innovation-center-overview" alt="reloding">Click to Know More About Innovation</a></div>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+  <a 
+    className="link" 
+    href="https://bujhansi.ac.in/en/page/innovation-center-overview" 
+    alt="reloding" 
+    style={{ display: "flex", alignItems: "center", gap: "8px" }}
+  >
+    Click here to know more about the Innovation Centre
+    <SlArrowRightCircle />
+  </a>
+</div>
+
         <div className="about-innovation-equipment-heading-box">
           Glimpse of Major Equipment & Activities
         </div>
@@ -794,7 +806,7 @@ const AboutInnovationCentre = () => {
         <div className="image-text">
         <img src={lavkushsir} alt="LavkushSir"/>
         <h3>Dr. Lavkush Dwivedi</h3>
-        <h4>Co-cordinator</h4>
+        <h4>Coordinator</h4>
         <h4>Innovation Centre</h4>
         </div>
         <div className="image-text">

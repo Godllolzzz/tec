@@ -27,10 +27,12 @@
 
 .link {
   font-size: 1.5rem;
+  font-weight: bolder;
   font-style: italic;
   color: initial; /* Sets initial text color */
-  transition: color 0.3s ease; /* Smooth transition for color change */
+  /* transition: color 0.3s ease;  */
   text-decoration: underline;
+  color: darkgreen;
 }
 
 .link:hover {

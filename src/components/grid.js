@@ -12,11 +12,11 @@ const GridComponent = () => {
   });
 
   const targetNumbers = {
-    facultyTrained: 180,
-    undergradTrained: 350,
-    postgradTrained: 330,
-    projectsDone: 90,
-    patents: 30,
+    facultyTrained: 250,
+    undergradTrained: 450,
+    postgradTrained: 450,
+    projectsDone: 100,
+    patents: 100,
     MOUs: 125,
   };
 
