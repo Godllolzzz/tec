@@ -37,15 +37,29 @@ const SanctionedProjects = () => {
           </div>
           <div className="project-content">
             <h2>
-            IoT-based Home Automation<br></br>PI – Er. Shashikant Verma 
+              IoT-based Home Automation<br></br>PI – Er. Shashikant Verma
             </h2>
             <br></br>
 
             <p>
               <b>Introduction : </b>
-              An IoT-based home automation system revolutionizes the way homeowners interact with their living spaces, seamlessly blending technology with everyday life. Through a network of interconnected sensors, actuators, and smart devices, users gain unprecedented control over their homes, accessible remotely via mobile apps or voice commands. From adjusting the thermostat to scheduling lighting scenes, and even monitoring security cameras, the system empowers users to customize and automate various aspects of their home environment. Energy efficiency is optimized through intelligent scheduling and remote management of appliances, while enhanced security features offer peace of mind through real-time monitoring and alerts. With the potential for integration with existing smart home ecosystems and continuous advancements in technology, IoT-based home automation systems represent the pinnacle of modern living, promising convenience, comfort, and security for homeowners worldwide.
+              An IoT-based home automation system revolutionizes the way
+              homeowners interact with their living spaces, seamlessly blending
+              technology with everyday life. Through a network of interconnected
+              sensors, actuators, and smart devices, users gain unprecedented
+              control over their homes, accessible remotely via mobile apps or
+              voice commands. From adjusting the thermostat to scheduling
+              lighting scenes, and even monitoring security cameras, the system
+              empowers users to customize and automate various aspects of their
+              home environment. Energy efficiency is optimized through
+              intelligent scheduling and remote management of appliances, while
+              enhanced security features offer peace of mind through real-time
+              monitoring and alerts. With the potential for integration with
+              existing smart home ecosystems and continuous advancements in
+              technology, IoT-based home automation systems represent the
+              pinnacle of modern living, promising convenience, comfort, and
+              security for homeowners worldwide.
             </p>
-            
           </div>
         </div>
 
@@ -56,15 +70,33 @@ const SanctionedProjects = () => {
           </div>
           <div className="project-content">
             <h2>
-            Development of Nutraceutical Food Supplement as a Healthier Diet.<br></br>PI – Dr. Rajesh Kumar Pandey 
+              Development of Nutraceutical Food Supplement as a Healthier Diet.
+              <br></br>PI – Dr. Rajesh Kumar Pandey
             </h2>
             <br></br>
 
             <p>
               <b>Introduction : </b>
-              Nutraceutical food supplements incorporating millets offer a unique blend of nutritional and health benefits. Millets, including varieties like pearl millet, finger millet, and foxtail millet, are rich in essential nutrients such as fiber, vitamins, minerals, and phytochemicals. Incorporating millets into nutraceutical supplements can provide a range of health benefits, including improved digestion, weight management, blood sugar regulation, and heart health support. These supplements may also leverage the antioxidant properties of millets to promote overall well-being and reduce the risk of chronic diseases such as diabetes, obesity, and cardiovascular ailments. With their gluten-free nature and low glycemic index, millets appeal to individuals with dietary restrictions or those seeking healthier alternatives to traditional grains. Formulations could include millet-based powders, capsules, or functional foods fortified with additional nutrients to address specific health concerns. As with any nutraceutical supplement, it's essential to ensure quality sourcing, formulation, and consultation with healthcare professionals for optimal efficacy and safety.
+              Nutraceutical food supplements incorporating millets offer a
+              unique blend of nutritional and health benefits. Millets,
+              including varieties like pearl millet, finger millet, and foxtail
+              millet, are rich in essential nutrients such as fiber, vitamins,
+              minerals, and phytochemicals. Incorporating millets into
+              nutraceutical supplements can provide a range of health benefits,
+              including improved digestion, weight management, blood sugar
+              regulation, and heart health support. These supplements may also
+              leverage the antioxidant properties of millets to promote overall
+              well-being and reduce the risk of chronic diseases such as
+              diabetes, obesity, and cardiovascular ailments. With their
+              gluten-free nature and low glycemic index, millets appeal to
+              individuals with dietary restrictions or those seeking healthier
+              alternatives to traditional grains. Formulations could include
+              millet-based powders, capsules, or functional foods fortified with
+              additional nutrients to address specific health concerns. As with
+              any nutraceutical supplement, it's essential to ensure quality
+              sourcing, formulation, and consultation with healthcare
+              professionals for optimal efficacy and safety.
             </p>
-            
           </div>
         </div>
         <div className="sanctioned-container">
@@ -74,15 +106,30 @@ const SanctionedProjects = () => {
           </div>
           <div className="project-content">
             <h2>
-            Screening Of Intestinal Alpha Glucosidase Inhibition.<br></br>PI – Dr. Sumiran Srivastava
+              Screening Of Intestinal Alpha Glucosidase Inhibition.<br></br>PI –
+              Dr. Sumiran Srivastava
             </h2>
             <br></br>
 
             <p>
               <b>Introduction : </b>
-              The screening of intestinal alpha-glucosidase inhibition is a pivotal process in the discovery of compounds with potential anti-diabetic properties. This screening method involves testing various compounds or extracts to assess their ability to inhibit the activity of alpha-glucosidase enzymes found in the intestine. Alpha-glucosidase plays a crucial role in breaking down complex carbohydrates into simple sugars, contributing to postprandial blood glucose levels. By identifying compounds that can inhibit this enzyme, researchers aim to slow down carbohydrate digestion and absorption, thereby managing blood glucose levels. Through in vitro assays, test compounds are evaluated for their potency in inhibiting alpha-glucosidase activity, with further validation often carried out in animal models or clinical trials. This screening process serves as a foundation for the development of novel anti-diabetic drugs or functional food ingredients aimed at improving glucose control and diabetes management.
+              The screening of intestinal alpha-glucosidase inhibition is a
+              pivotal process in the discovery of compounds with potential
+              anti-diabetic properties. This screening method involves testing
+              various compounds or extracts to assess their ability to inhibit
+              the activity of alpha-glucosidase enzymes found in the intestine.
+              Alpha-glucosidase plays a crucial role in breaking down complex
+              carbohydrates into simple sugars, contributing to postprandial
+              blood glucose levels. By identifying compounds that can inhibit
+              this enzyme, researchers aim to slow down carbohydrate digestion
+              and absorption, thereby managing blood glucose levels. Through in
+              vitro assays, test compounds are evaluated for their potency in
+              inhibiting alpha-glucosidase activity, with further validation
+              often carried out in animal models or clinical trials. This
+              screening process serves as a foundation for the development of
+              novel anti-diabetic drugs or functional food ingredients aimed at
+              improving glucose control and diabetes management.
             </p>
-            
           </div>
         </div>
 
@@ -93,14 +140,30 @@ const SanctionedProjects = () => {
           </div>
           <div className="project-content">
             <h2>
-            Safety Air Bags for Two-Wheelers<br></br>PI – Dr. A.P.S. Gaur
+              Safety Air Bags for Two-Wheelers<br></br>PI – Dr. A.P.S. Gaur
             </h2>
             <br></br>
 
             <p>
               <b>Introduction : </b>
-              Safety airbags for two-wheelers represent a significant advancement in rider protection technology, aiming to mitigate the severity of injuries in the event of a crash. Unlike traditional airbags in cars, which deploy outwardly from the vehicle's interior, two-wheeler airbags are typically integrated into the rider's protective gear, such as jackets or vests. These airbags are equipped with sensors that detect sudden deceleration or impact, triggering the rapid inflation of the airbag to provide a cushioning effect and protect vital areas of the rider's body, including the chest, abdomen, and back. By absorbing and dispersing the impact force, safety airbags for two-wheelers can reduce the risk of severe injuries, particularly to the upper body, neck, and spine. While still relatively new, the adoption of this technology has the potential to enhance rider safety and reduce the severity of injuries in motorcycle and scooter accidents, underscoring its importance in improving road safety for two-wheeler riders.</p>
-            
+              Safety airbags for two-wheelers represent a significant
+              advancement in rider protection technology, aiming to mitigate the
+              severity of injuries in the event of a crash. Unlike traditional
+              airbags in cars, which deploy outwardly from the vehicle's
+              interior, two-wheeler airbags are typically integrated into the
+              rider's protective gear, such as jackets or vests. These airbags
+              are equipped with sensors that detect sudden deceleration or
+              impact, triggering the rapid inflation of the airbag to provide a
+              cushioning effect and protect vital areas of the rider's body,
+              including the chest, abdomen, and back. By absorbing and
+              dispersing the impact force, safety airbags for two-wheelers can
+              reduce the risk of severe injuries, particularly to the upper
+              body, neck, and spine. While still relatively new, the adoption of
+              this technology has the potential to enhance rider safety and
+              reduce the severity of injuries in motorcycle and scooter
+              accidents, underscoring its importance in improving road safety
+              for two-wheeler riders.
+            </p>
           </div>
         </div>
 
@@ -111,14 +174,34 @@ const SanctionedProjects = () => {
           </div>
           <div className="project-content">
             <h2>
-            Automated Fingerprint Development Scanner<br></br>PI – Dr. Anu Singla
+              Automated Fingerprint Development Scanner<br></br>PI – Dr. Anu
+              Singla
             </h2>
             <br></br>
 
             <p>
               <b>Introduction : </b>
-              The automated fingerprint development scanner represents a significant advancement in forensic technology, revolutionizing the process of fingerprint analysis and identification. Unlike traditional methods that rely on manual techniques and chemical processing, automated scanners employ sophisticated imaging technology to rapidly capture and enhance fingerprints from various surfaces, including paper, plastic, and metal. These scanners utilize advanced algorithms to enhance image clarity, remove background noise, and extract detailed fingerprint features with high accuracy. By automating the development and analysis process, these scanners streamline forensic investigations, reduce human error, and expedite the identification of suspects or individuals of interest. Moreover, automated fingerprint development scanners offer the advantage of non-destructive testing, preserving evidence integrity and allowing for re-analysis if necessary. With their ability to process large volumes of fingerprints efficiently, these scanners play a crucial role in law enforcement, border security, and criminal justice systems, enhancing overall investigative capabilities and contributing to the swift resolution of cases.</p>
-            
+              The automated fingerprint development scanner represents a
+              significant advancement in forensic technology, revolutionizing
+              the process of fingerprint analysis and identification. Unlike
+              traditional methods that rely on manual techniques and chemical
+              processing, automated scanners employ sophisticated imaging
+              technology to rapidly capture and enhance fingerprints from
+              various surfaces, including paper, plastic, and metal. These
+              scanners utilize advanced algorithms to enhance image clarity,
+              remove background noise, and extract detailed fingerprint features
+              with high accuracy. By automating the development and analysis
+              process, these scanners streamline forensic investigations, reduce
+              human error, and expedite the identification of suspects or
+              individuals of interest. Moreover, automated fingerprint
+              development scanners offer the advantage of non-destructive
+              testing, preserving evidence integrity and allowing for
+              re-analysis if necessary. With their ability to process large
+              volumes of fingerprints efficiently, these scanners play a crucial
+              role in law enforcement, border security, and criminal justice
+              systems, enhancing overall investigative capabilities and
+              contributing to the swift resolution of cases.
+            </p>
           </div>
         </div>
 

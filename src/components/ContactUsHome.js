@@ -46,7 +46,15 @@ const ContactUsHome = () => {
                 <p style={{ margin: "0.25rem" }} className="contact-us-name">
                   Dr. K Shrikanth
                 </p>
-                <p>+91 9840998686</p>
+                <p>+91 9840998686</p>{" "}
+                <p style={{ margin: "0.25rem" }} className="contact-us-name">
+                  Mr. Pankaj Kushwaha
+                </p>
+                <p>+91 9170474268, 8573997465</p>{" "}
+                <p style={{ margin: "0.25rem" }} className="contact-us-name">
+                  Er. Satish Kumar
+                </p>
+                <p>+91 9027471528</p>
               </div>
             </div>
             <div className="contact-us-inner-container">

@@ -7,6 +7,8 @@ import img5 from "../images/patent5.jpg";
 import img6 from "../images/bikepatent.jpeg";
 import img7 from "../images/patent6.jpeg";
 import img8 from "../images/patent7.jpeg";
+import img9 from "../images/patent8.png";
+import img10 from "../images/patent9.png";
 import "./Patents2.css";
 import NavBar from "./NavBar";
 import Footer from "./footer";
@@ -329,6 +331,119 @@ const Patents2 = () => {
             </p>
           </div>
         </div>
+        <div className="patents2-container">
+          <div className="patents2-image">
+            <img src={img9} alt="patents-image"></img>
+          </div>
+          <div className="patents2-content">
+            <div className="patents2-title">
+              SYNERGISTIC POLYHERBAL COMPOSITION
+            </div>
+            <div className="patents2-developed-by">
+              <div>INVENTORS-</div>
+              <div style={{ fontWeight: "bold" }}>
+                <div>Prof. Mukesh Pandey Hon'ble Vice-Chancellor,</div>
+                <div>Dr. Bhawna Sharma</div>
+                <div>Dr. Upendra Kumar Sharma</div>
+                <div>Dr. Lavkush Dwivedi</div>
+              </div>
+            </div>
+            <br></br>
+            <p className="patents2-inner-content">
+              The traditional Indian healthcare systems of Ayurveda and Siddha
+              affirm the value of using medicinal plants to treat illness. The
+              aim of present work is to formulate the polyherbal gel contains
+              Holoptelea Integrifolia, Albizia Amara and Moringa extract. The
+              studies also aim to evaluate the impact of polyherbalism on Wound
+              Healing and Anti-Inflammatory activity using in vitro and in vivo
+              Assays. Major Expected outcomes Opioids or non-steroidal
+              anti-inflammatory drugs are widely used to reduce the
+              inflammation, possess severe side effects like redness, itching
+              etc. Since herbal formulations have growing demand in world they
+              are more accepted for their fewer side effects and lower costs
+              than the synthetic drugs. The presence of a considerable number of
+              bioactive compounds and photochemical like flavonoids, terpenoids,
+              sterols, glycosides, and fatty acids in the plant extracts, which
+              can contribute to their wound healing and anti-inflammatory
+              activities. It has been shown that saponins, flavonoids, and
+              phenols possess potent anti-inflammatory activity The extract of
+              these plants Holoptelea Integrifolia, Albizia Amara and Moringa
+              has wound healing and anti-inflammatory activity and extract of
+              plant cannot be applied directly on skin ,so a suitable
+              formulation is required for application As a result, polyherbal
+              gel formulation by using these plant extract would be more
+              beneficial. Societal benefits Development of topical polyherbal
+              gel of (Holoptelea Integrifolia, Albizia Amara and Moringa)
+              extract will be suitable for the treatment of moderate to severe
+              type of wound healing and anti-inflammatory activity. Formulation
+              of polyherbal topical gel with synergistic effect is a very
+              promising approach for its treatment.{" "}
+              <ol>
+                <li>
+                  Gel formulations are used to deliver the drug topically
+                  because of easy application
+                </li>
+                <li>
+                  Gel formulations increase the contact time and minimum side
+                  effects as compare to other topical preparation and oral
+                  administration.
+                </li>
+                <li>
+                  {" "}
+                  Hence present study aim to prepare polyherbal gel for in-vitro
+                  and in vivo wound healing and anti-inflammatory activity.
+                </li>
+              </ol>
+            </p>
+          </div>
+        </div>
+        <div className="patents2-container">
+          <div className="patents2-image">
+            <img src={img10} alt="patents-image"></img>
+          </div>
+          <div className="patents2-content">
+            <div className="patents2-title">
+              A FINGERPRINT DETECTION AND DEVELOPMENT DEVICE FOR FORENSIC
+              INVESTIGATION
+            </div>
+            <div className="patents2-developed-by">
+              <div>INVENTORS-</div>
+              <div style={{ fontWeight: "bold" }}>
+                <div>Prof. Mukesh Pandey Hon'ble Vice-Chancellor,</div>
+                <div>Dr. Anu Singla </div>
+                <div>Saurabh Prajapati</div>
+                <div>Neha Ahirwar</div>
+                <div>Shashi Shekhar</div>
+
+                <div>Dr. Lavkush Dwivedi</div>
+              </div>
+            </div>
+            <br></br>
+            <p className="patents2-inner-content">
+              The automated fingerprint development scanner represents a
+              significant advancement in forensic technology, revolutionizing
+              the process of fingerprint analysis and identification. Unlike
+              traditional methods that rely on manual techniques and chemical
+              processing, automated scanners employ sophisticated imaging
+              technology to rapidly capture and enhance fingerprints from
+              various surfaces, including paper, plastic, and metal. These
+              scanners utilize advanced algorithms to enhance image clarity,
+              remove background noise, and extract detailed fingerprint features
+              with high accuracy. By automating the development and analysis
+              process, these scanners streamline forensic investigations, reduce
+              human error, and expedite the identification of suspects or
+              individuals of interest. Moreover, automated fingerprint
+              development scanners offer the advantage of non-destructive
+              testing, preserving evidence integrity and allowing for
+              re-analysis if necessary. With their ability to process large
+              volumes of fingerprints efficiently, these scanners play a crucial
+              role in law enforcement, border security, and criminal justice
+              systems, enhancing overall investigative capabilities and
+              contributing to the swift resolution of cases.
+            </p>
+          </div>
+        </div>
+
         <div className="see_more">
           <a href="https://www.bujhansi.ac.in/dumpost/en/en-patents-list">
             See more...
