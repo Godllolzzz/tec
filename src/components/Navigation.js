@@ -27,7 +27,7 @@ const Navigation = () => {
     setIsAboutVisible(false);
     setIsDownloadVisible(false);
     setIsTeamTecVisible(false);
-    setIsServicesVisible(false)
+    setIsServicesVisible(false);
   };
 
   const tec_on_click_handler = () => {
@@ -36,7 +36,7 @@ const Navigation = () => {
     setIsAchievementsVisible(false);
     setIsEventVisible(false);
     setIsAboutVisible(false);
-    setIsServicesVisible(false)
+    setIsServicesVisible(false);
     setIsDownloadVisible(false);
   };
 
@@ -46,7 +46,7 @@ const Navigation = () => {
     setIsAchievementsVisible(false);
     setIsEventVisible(false);
     setIsDownloadVisible(false);
-    setIsServicesVisible(false)
+    setIsServicesVisible(false);
     setIsAboutVisible(false);
   };
 
@@ -56,7 +56,7 @@ const Navigation = () => {
     setIsNetworkVisible(false);
     setIsEventVisible(false);
     setIsDownloadVisible(false);
-    setIsServicesVisible(false)
+    setIsServicesVisible(false);
     setIsAboutVisible(false);
   };
   const event_on_click_handler = () => {
@@ -65,7 +65,7 @@ const Navigation = () => {
     setIsNetworkVisible(false);
     setIsAchievementsVisible(false);
     setIsDownloadVisible(false);
-    setIsServicesVisible(false)
+    setIsServicesVisible(false);
     setIsAboutVisible(false);
   };
   const download_on_click_handler = () => {
@@ -74,7 +74,7 @@ const Navigation = () => {
     setIsNetworkVisible(false);
     setIsAchievementsVisible(false);
     setIsAboutVisible(false);
-    setIsServicesVisible(false)
+    setIsServicesVisible(false);
     setIsEventVisible(false);
   };
 
@@ -84,19 +84,19 @@ const Navigation = () => {
     setIsNetworkVisible(false);
     setIsAchievementsVisible(false);
     setIsDownloadVisible(false);
-    setIsServicesVisible(false)
+    setIsServicesVisible(false);
     setIsEventVisible(false);
   };
 
-  const services_on_click_handler=()=>{
-    setIsServicesVisible((prevState)=>!prevState)
+  const services_on_click_handler = () => {
+    setIsServicesVisible((prevState) => !prevState);
     setIsAboutVisible(false);
     setIsTeamTecVisible(false);
     setIsNetworkVisible(false);
     setIsAchievementsVisible(false);
     setIsDownloadVisible(false);
     setIsEventVisible(false);
-  }
+  };
   const hamburgerHandler = () => {
     setIsMobileNavbarOpen(!isMobileNavbarOpen);
   };
@@ -217,7 +217,6 @@ const Navigation = () => {
               <li className="dropdown-item">
                 <Link to="/patents ">Patents & Products</Link>
               </li>
-
               <li className="dropdown-item">
                 <Link to="/news-letter">NewsLetter</Link>
               </li>
@@ -235,6 +234,9 @@ const Navigation = () => {
               </li>
               <li className="dropdown-item">
                 <Link to="/key-indicator">Key Indicator</Link>
+              </li>{" "}
+              <li className="dropdown-item">
+                <Link to="/key-indicator">White Papers</Link>
               </li>
             </ul>
           </l1>
@@ -285,24 +287,21 @@ const Navigation = () => {
             </ul>
           </l1>
           <l1 className="navbar-item" onClick={services_on_click_handler}>
-          Services
+            Services
             <ul
               class="dropdown"
               style={{ display: `${isServicesVisible ? "block" : "none"}` }}
             >
-               <li className="dropdown-item">
-          <Link to="/service">Services
-          </Link>{" "}
-          </li>
-          <li className="dropdown-item">
-          <Link to="/technical-services">Technical Services
-          </Link>{" "}
-            </li>
-            <li className="dropdown-item">
-          <Link to="/developers-team">DevelopersTeam
-          </Link>{" "}
-            </li>
-          </ul>
+              <li className="dropdown-item">
+                <Link to="/service">Services</Link>{" "}
+              </li>
+              <li className="dropdown-item">
+                <Link to="/technical-services">Technical Services</Link>{" "}
+              </li>
+              <li className="dropdown-item">
+                <Link to="/developers-team">DevelopersTeam</Link>{" "}
+              </li>
+            </ul>
           </l1>
           {/* <l1 className="navbar-item">Achievements</l1> */}
           <Link to="/contact-us">
@@ -346,11 +345,12 @@ const Navigation = () => {
                 <Link to="/our-leaders">Our Leaders</Link>
               </li>
               <li className="dropdown-item">
-                <Link to="/core-committee">Core Committee</Link>
-              </li>
-              <li className="dropdown-item">
                 <Link to="/pag">PAG</Link>
               </li>
+              <li className="dropdown-item">
+                <Link to="/core-committee">Core Committee</Link>
+              </li>
+
               <li className="dropdown-item">
                 <Link to="/staff">Staff</Link>
               </li>
@@ -374,7 +374,7 @@ const Navigation = () => {
               </li>
               <li className="dropdown-item">
                 <Link to="/all-tec">TEC Network</Link>
-              </li>
+              </li>{" "}
               <li className="dropdown-item">
                 <a
                   href="https://drive.google.com/file/d/14AXpjyMXoibUtiMBlkxUmMt9RjUbo6yO/view?usp=sharing"
@@ -398,17 +398,31 @@ const Navigation = () => {
               style={{ display: `${isAchievementsVisible ? "block" : "none"}` }}
             >
               <li className="dropdown-item">
-                <Link to="/sanctioned-projects ">Sanctioned Projects</Link>
+                <Link to="/sanctioned-projects ">Projects</Link>
               </li>
               <li className="dropdown-item">
-                <Link to="/patents ">Patents</Link>
+                <Link to="/patents ">Patents & Products</Link>
               </li>
-
               <li className="dropdown-item">
                 <Link to="/news-letter">NewsLetter</Link>
               </li>
               <li className="dropdown-item">
                 <Link to="/Mou">MoU's</Link>
+              </li>
+              <li className="dropdown-item">
+                <Link to="/startup">Startup</Link>
+              </li>
+              <li className="dropdown-item">
+                <Link to="/mediaCoverage">Media Coverage</Link>
+              </li>
+              <li className="dropdown-item">
+                <Link to="/compliment-corner">Compliment Corner</Link>
+              </li>
+              <li className="dropdown-item">
+                <Link to="/key-indicator">Key Indicator</Link>
+              </li>{" "}
+              <li className="dropdown-item">
+                <Link to="/key-indicator">White Papers</Link>
               </li>
             </ul>
           </l1>
@@ -458,10 +472,23 @@ const Navigation = () => {
               </li>
             </ul>
           </l1>
-          <Link to="/service">
-            <l1 className="navbar-item">Services</l1>
-          </Link>
-
+          <l1 className="navbar-item" onClick={services_on_click_handler}>
+            Services
+            <ul
+              class="dropdown"
+              style={{ display: `${isServicesVisible ? "block" : "none"}` }}
+            >
+              <li className="dropdown-item">
+                <Link to="/service">Services</Link>{" "}
+              </li>
+              <li className="dropdown-item">
+                <Link to="/technical-services">Technical Services</Link>{" "}
+              </li>
+              <li className="dropdown-item">
+                <Link to="/developers-team">DevelopersTeam</Link>{" "}
+              </li>
+            </ul>
+          </l1>
           {/* <l1 className="navbar-item">Achievements</l1> */}
           <Link to="/contact-us">
             <l1 className="navbar-item">Contacts</l1>
