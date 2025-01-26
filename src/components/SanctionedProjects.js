@@ -23,6 +23,16 @@ import project9 from "../images/Aps_sir.jpg";
 import project99 from "../images/smartbike.jpg";
 import project10 from "../images/Anu_mam.jpg";
 import project100 from "../images/fingerprint.jpg";
+import projectBinMan from "../images/binManTeam.jpeg";
+import binManLogo from "../images/binMan.jpeg";
+import projectMouse from "../images/gamingMouse.jpeg";
+import gamingMouseTeam from "../images/gamingMouseTeam.jpeg";
+import projectKawachTeam from "../images/KawachTeam.jpeg";
+import projectKawach from "../images/kawach.jpeg";
+import projectMushroomTeam from "../images/mushroomCultivationTeam.jpeg";
+import projectMushroom from "../images/mushroomCultivation.jpeg";
+import projectIrigationTeam from "../images/IrigationTeam.jpeg";
+import projectIrigation from "../images/Irigation.jpeg";
 
 const SanctionedProjects = () => {
   return (
@@ -465,6 +475,146 @@ const SanctionedProjects = () => {
               two-wheeler instead of being a part of an accessory. Our
               technology will ensure that without wearing a helmet the vehicle
               will not start.
+            </p>
+          </div>
+        </div>
+
+        <div className="sanctioned-container">
+          <div className="projectBinMan-logo">
+            <img src={projectBinMan}></img>
+            <img src={binManLogo}></img>
+          </div>
+          <div className="project-content">
+            <h2>
+              BINMAN<br></br>
+              PI: Er. Anurag Kumar, IET<br></br>
+              Co-PI: Mr. Siddhant Raj and Members of the Team
+            </h2>
+            <br></br>
+
+            <p>
+              <b>Introduction : </b>
+              BINMAN is an advanced technical device specifically designed to
+              segregate waste materials. Featuring a combination of electronic
+              circuits, sensors, and software, it efficiently sorts various
+              types of waste. This state-of-the-art solution aims to promote
+              environmental sustainability and contribute to societal welfare.
+              By automating the waste segregation process, BINMAN not only
+              enhances recycling efforts but also minimizes human intervention.
+              It exemplifies the potential of technology in addressing critical
+              social and environmental challenges.
+            </p>
+          </div>
+        </div>
+
+        <div className="sanctioned-container">
+          <div className="projectMouse-logo">
+            <img src={gamingMouseTeam}></img>
+            <img src={projectMouse}></img>
+          </div>
+          <div className="project-content">
+            <h2>
+              Development of advanced high performance gaming mouse for the
+              Indian market<br></br>
+              PI: Dr. Alok Kumar Verma, IBS
+              <br></br>
+              Co-PI: Mr. Vipul Singh Parmar
+            </h2>
+            <br></br>
+
+            <p>
+              <b>Introduction : </b>
+              Development of advanced high performance gaming mouse for the
+              Indian market: The advanced high-performance gaming mouse is
+              designed for the Indian market, boasting cutting-edge technology
+              and customizable settings for a superior gaming experience. Its
+              ergonomic design ensures comfort during long sessions, while
+              responsive and accurate controls cater to both casual and
+              professional gamers. This mouse sets a new standard in the
+              industry, tailored specifically to meet the needs of Indian gamers
+              seeking top-notch equipment.
+            </p>
+          </div>
+        </div>
+
+        <div className="sanctioned-container">
+          <div className="projectKawach-logo">
+            <img src={projectKawachTeam}></img>
+            <img src={projectKawach}></img>
+          </div>
+          <div className="project-content">
+            <h2>
+              Suraksha Kawach<br></br>
+              PI: Dr. Alok Kumar Verma, IBS
+              <br></br>
+              Co-PI: Mr. Vipul Singh Parmar
+            </h2>
+            <br></br>
+
+            <p>
+              <b>Introduction : </b>
+              The Suraksha Kawach initiative is designed to improve safety and
+              security by utilizing advanced technology for monitoring and
+              protection. It aims to safeguard assets and personnel through
+              real-time alert systems that ensure immediate response. This
+              initiative enhances overall safety standards across various
+              settings, providing peace of mind and a higher level of security.
+            </p>
+          </div>
+        </div>
+
+        <div className="sanctioned-container">
+          <div className="projectMushroom-logo">
+            <img src={projectMushroomTeam}></img>
+            <img src={projectMushroom}></img>
+          </div>
+          <div className="project-content">
+            <h2>
+              Agro Waste Management through Mushroom Cultivation and Processing
+              <br></br>
+              PI: Dr. Amit Kumar Tiwari, IBS
+              <br></br>
+              Co-PI: Mr. Praveen Verma
+            </h2>
+            <br></br>
+
+            <p>
+              <b>Introduction : </b>
+              This innovative approach to agro waste management involves using
+              mushroom cultivation to recycle agricultural waste. By converting
+              agro waste into valuable by-products, this practice promotes
+              eco-friendly methods and resource efficiency. It also creates
+              economic opportunities for farmers and entrepreneurs, contributing
+              to sustainable development in the agricultural sector.
+            </p>
+          </div>
+        </div>
+
+        <div className="sanctioned-container">
+          <div className="projectIrigation-logo">
+            <img src={projectIrigationTeam}></img>
+            <img src={projectIrigation}></img>
+          </div>
+          <div className="project-content">
+            <h2>
+              Smart Irrigation System based on IoT and Advanced with Laser
+              Security
+              <br></br>
+              PI: Dr. Er. IKROOP VERMA, IET
+              <br></br>
+              Co-PI: Mr. Lalit Sen & Mr. Shivanshu Joshi
+            </h2>
+            <br></br>
+
+            <p>
+              <b>Introduction : </b>
+              The Smart Irrigation System integrates IoT technology to provide
+              precision irrigation control, monitoring soil moisture and weather
+              conditions in real-time. This system enhances water efficiency and
+              crop yield while incorporating laser security features to protect
+              against unauthorized access. It is an ideal solution for modern
+              agricultural practices and smart farming, ensuring optimal
+              resource utilization and productivity.
             </p>
           </div>
         </div>

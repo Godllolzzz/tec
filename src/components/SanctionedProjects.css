@@ -1,45 +1,41 @@
-.sanctioned-main-container{
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+.sanctioned-main-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-
-
-.sanctioned-main-container h1{
+.sanctioned-main-container h1 {
   border-bottom: 1px solid rgb(41, 38, 38);
   font-family: "Montserrat", sans-serif;
   padding: 1rem;
   padding-top: 3rem;
-  
-  color: #F4C430;
+
+  color: #f4c430;
   text-shadow: 2px 2px 2px #03174f;
   font-size: 2.2rem;
   text-align: center;
   margin: auto;
   width: 40%;
-
 }
 
-
-.sanctioned-container{
-    display: flex;
-    text-align: justify;
+.sanctioned-container {
+  display: flex;
+  text-align: justify;
 }
 
-.project-logo{
-    width: 40%;
-    height: auto;
-    margin: 2rem;
-    align-self: center;
-    box-shadow: 5px 5px 10px gray;
+.project-logo {
+  width: 40%;
+  height: auto;
+  margin: 2rem;
+  align-self: center;
+  box-shadow: 5px 5px 10px gray;
 }
-.project-logo img{
-  max-width: 100%;;
-    height: auto;
-    object-fit: cover;
+.project-logo img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
 }
-.project2-logo{
+.project2-logo {
   width: 40%;
   height: auto;
   margin: 2rem;
@@ -47,14 +43,13 @@
   box-shadow: 5px 5px 10px gray;
 }
 
-.project2-logo img{
-  
-    max-width: 100%;;
-    
-    height: auto;
-    object-fit: cover;
+.project2-logo img {
+  max-width: 100%;
+
+  height: auto;
+  object-fit: cover;
 }
-.project3-logo{
+.project3-logo {
   width: 40%;
   height: auto;
   margin: 2rem;
@@ -62,17 +57,14 @@
   box-shadow: 5px 5px 10px gray;
 }
 
-.project3-logo img{
-  
-    max-width: 100%;;
-    
-    height: auto;
-    object-fit: cover;
+.project3-logo img {
+  max-width: 100%;
+
+  height: auto;
+  object-fit: cover;
 }
 
-
-
-.project4-logo{
+.project4-logo {
   width: 40%;
   height: auto;
   margin: 2rem;
@@ -80,15 +72,14 @@
   box-shadow: 5px 5px 10px gray;
 }
 
-.project4-logo img{
-  
-    max-width: 100%;;
-    
-    height: auto;
-    object-fit: cover;
+.project4-logo img {
+  max-width: 100%;
+
+  height: auto;
+  object-fit: cover;
 }
 
-.project5-logo{
+.project5-logo {
   width: 40%;
   height: auto;
   margin: 2rem;
@@ -96,32 +87,104 @@
   box-shadow: 5px 5px 10px gray;
 }
 
-.project5-logo img{
-  
-    max-width: 100%;;
-    
-    height: auto;
-    object-fit: cover;
+.project5-logo img {
+  max-width: 100%;
+
+  height: auto;
+  object-fit: cover;
 }
 
-
-
-.project-content{
-    width: 60%;
-    background-color: #03174f;
-    color:white;
-    padding: 2rem;
-    margin: 2rem;
+.projectBinMan-logo {
+  width: 40%;
+  height: auto;
+  margin: 2rem;
+  align-self: center;
+  box-shadow: 5px 5px 10px gray;
 }
-.project-content h2{
-color: gold;
+
+.projectBinMan-logo img {
+  max-width: 100%;
+
+  height: auto;
+  object-fit: cover;
+}
+
+.projectMouse-logo {
+  width: 40%;
+  height: auto;
+  margin: 2rem;
+  align-self: center;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.projectMouse-logo img {
+  max-width: 100%;
+
+  height: auto;
+  object-fit: cover;
+}
+
+.projectKawach-logo {
+  width: 40%;
+  height: auto;
+  margin: 2rem;
+  align-self: center;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.projectKawach-logo img {
+  max-width: 100%;
+
+  height: auto;
+  object-fit: cover;
+}
+
+.projectMushroom-logo {
+  width: 40%;
+  height: auto;
+  margin: 2rem;
+  align-self: center;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.projectMushroom-logo img {
+  max-width: 100%;
+
+  height: auto;
+  object-fit: cover;
+}
+
+.projectIrigation-logo {
+  width: 40%;
+  height: auto;
+  margin: 2rem;
+  align-self: center;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.projectIrigation-logo img {
+  max-width: 100%;
+
+  height: auto;
+  object-fit: cover;
+}
+
+.project-content {
+  width: 60%;
+  background-color: #03174f;
+  color: white;
+  padding: 2rem;
+  margin: 2rem;
+}
+.project-content h2 {
+  color: gold;
 }
 
 @media (max-width: 768px) {
   .sanctioned-main-container {
     padding: 10px;
   }
-  
+
   .project-content {
     padding: 10px;
   }
@@ -132,7 +195,7 @@ color: gold;
   .sanctioned-main-container {
     padding: 5px;
   }
-  
+
   .project-content {
     padding: 5px;
   }

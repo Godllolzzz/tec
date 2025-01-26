@@ -32,7 +32,7 @@ const OurLeaders = () => {
           <div className="officials-logo">
             <div className="registrar_bu">
               {/* <div className="registrar_bu_iamge"> */}
-                <img src={registrar_logo} alt="vc_sir_image"></img>
+              <img src={registrar_logo} alt="vc_sir_image"></img>
               {/* </div> */}
               <div className="vcsir1-title">
                 <h3>Mr. Vinay Kumar Singh</h3>
@@ -99,7 +99,7 @@ const OurLeaders = () => {
             <img src={lavsirlogo}></img>
             <div className="vcsir1-title">
               <h3>Dr. Lavkush Dwivedi</h3>
-              <h4>Co-Co-ordinator</h4>
+              <h4>Co-ordinator</h4>
               <h4>DST-BU TEC</h4>
             </div>
           </div>
