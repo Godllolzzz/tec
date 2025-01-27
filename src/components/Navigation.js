@@ -238,9 +238,6 @@ const Navigation = () => {
               <li className="dropdown-item">
                 <Link to="/white-paper">White Paper</Link>
               </li>
-              <li className="dropdown-item">
-                <Link to="/white-paper">White Paper</Link>
-              </li>
             </ul>
           </l1>
           {/* <l1 className="navbar-item">Contacts</l1> */}
