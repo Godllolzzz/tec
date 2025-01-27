@@ -236,7 +236,10 @@ const Navigation = () => {
                 <Link to="/key-indicator">Key Indicator</Link>
               </li>{" "}
               <li className="dropdown-item">
-                <Link to="/key-indicator">White Papers</Link>
+                <Link to="/white-paper">White Paper</Link>
+              </li>
+              <li className="dropdown-item">
+                <Link to="/white-paper">White Paper</Link>
               </li>
             </ul>
           </l1>
@@ -422,7 +425,7 @@ const Navigation = () => {
                 <Link to="/key-indicator">Key Indicator</Link>
               </li>{" "}
               <li className="dropdown-item">
-                <Link to="/key-indicator">White Papers</Link>
+                <Link to="/white-paper">White Paper</Link>
               </li>
             </ul>
           </l1>

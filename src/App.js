@@ -36,6 +36,7 @@ import TechnicalServices from "./components/TechnicalServices";
 import DevelopersTeam from "./components/DevelopersTeam";
 import Startup from "./components/Startup";
 import MediaCoverage from "./components/MediaCoverage";
+import WhitePaper from "./components/WhitePaper";
 
 function App() {
   return (
@@ -58,6 +59,7 @@ function App() {
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/Resource-persons" element={<ResourcePersons />} />
           <Route path="/patents" element={<Patents2 />} />
+          <Route path="/white-paper" element={<WhitePaper />} />
           <Route path="/Mou" element={<MoU />} />
           <Route
             path="/about-innovation-centre"
@@ -70,10 +72,10 @@ function App() {
           <Route path="/compliment-corner" element={<Compliment />} />
           <Route path="/key-indicator" element={<Key_Indicator />} />
           <Route path="/msme" element={<Msme />} />
-          <Route path="/technical-services" element={<TechnicalServices/>}/>
-          <Route path="/developers-team"    element={<DevelopersTeam/>}/>
-          <Route path="/startup"    element={<Startup/>}/>
-          <Route path="/mediaCoverage"    element={<MediaCoverage/>}/>
+          <Route path="/technical-services" element={<TechnicalServices />} />
+          <Route path="/developers-team" element={<DevelopersTeam />} />
+          <Route path="/startup" element={<Startup />} />
+          <Route path="/mediaCoverage" element={<MediaCoverage />} />
         </Routes>
 
         {/* <Achievements /> */}

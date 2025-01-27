@@ -1,0 +1,59 @@
+.whitepaper_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  /* Add any other styles as needed */
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.whitepaper_main1 {
+  border-bottom: 1px solid rgb(41, 38, 38);
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 1rem;
+  padding-top: 3rem;
+  /* color: rgb(41, 36, 36);
+   */
+  color: gold;
+  font-size: 2.2rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  width: 60%;
+  text-align: center;
+  text-shadow: 2px 2px 2px #03174f;
+}
+
+.pdfs {
+  background-color: gold;
+  display: flex;
+  flex-direction: column;
+  /* height: 6rem; */
+  margin: 0.4rem;
+  padding: 10px;
+  min-width: 130px;
+  width: 40%;
+  border: 1px solid rgb(41, 38, 38);
+  border-radius: 20px;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.pdfs h2 {
+  color: #03174f;
+  font-weight: 700;
+}
+
+.pdfs a {
+  margin-top: 0.4rem;
+  padding: 1px;
+  font-size: larger;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 750px) {
+  .whitepaper_main {
+    font-size: 1.5rem;
+    width: 40%;
+  }
+}
