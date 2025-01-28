@@ -11,8 +11,8 @@ import img5 from "../images/TEC-3.jpg";
 import img6 from "../galleryimage/A7402281.JPG";
 import img7 from "../images/innovation_centre (2).jpg";
 import img8 from "../galleryimage/change11.jpg";
-import img12 from "../galleryimage/change12.jpg";
 import img9 from "../galleryimage/change2.jpg";
+import img12 from "../galleryimage/change12.jpg";
 import img13 from "../galleryimage/change13.jpeg";
 import img14 from "../galleryimage/change14.jpeg";
 import img15 from "../galleryimage/change15.jpeg";
@@ -22,6 +22,12 @@ import img19 from "../galleryimage/change19.jpeg";
 import img20 from "../galleryimage/change20.jpeg";
 import img21 from "../galleryimage/change21.jpeg";
 import img22 from "../galleryimage/change22.jpeg";
+import img23 from "../galleryimage/changeA.jpeg";
+import img24 from "../galleryimage/changeB.jpeg";
+import img25 from "../galleryimage/changeC.jpeg";
+import img26 from "../galleryimage/changeD.jpeg";
+import img27 from "../galleryimage/changeE.jpeg";
+import img28 from "../galleryimage/changeF.jpeg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -34,10 +40,10 @@ import TypeWriter from "./Typewriter";
 
 const images = [
   img13,
-  img14,//
-  img15,//
+  img14, //
+  img15, //
   img16,
-  img17,//
+  img17, //
   img19,
   // img20,
   img21,
@@ -51,6 +57,12 @@ const images = [
   img5,
   img6,
   img7,
+  img23,
+  img24,
+  img25,
+  img26,
+  img27,
+  img28,
 ];
 
 const Carousel = () => {
@@ -162,7 +174,6 @@ const Carousel = () => {
                       Registration for Innova-thon
                     </a>
                   </li>
-                  
                 </ul>
               </div>
             </div>
@@ -187,7 +198,10 @@ const Carousel = () => {
                 <ArrowBackIosNewIcon onClick={announcementClosetHandler} />
               </div>
               <div className="content">
-                <div>Trainings will be conducted between November 2024 - Januray 2025 </div>
+                <div>
+                  Trainings will be conducted between November 2024 - Januray
+                  2025{" "}
+                </div>
               </div>
             </div>
           )}

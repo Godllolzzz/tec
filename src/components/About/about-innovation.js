@@ -341,8 +341,8 @@ import ab9 from "../../images/about-innovation-9.jpg";
 import ab10 from "../../images/about-innovation-10.jpg";
 import ab11 from "../../images/about-innovation-11.jpg";
 import ab12 from "../../images/about-innovation-12.jpg";
-import lavkushsir from "../../images/lavsir.jpg"
-import mmsir from "../../images/mm_sir.jpg"
+import lavkushsir from "../../images/lavsir.jpg";
+import mmsir from "../../images/mm_sir.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
 import NavBar from ".././NavBar";
@@ -355,19 +355,35 @@ const AboutInnovationCentre = () => {
       <div className="about-innovation-centre-outer">
         <div className="about-innovation-centre-image-container">
           <img src={ab0} alt="about-image"></img>
-         
         </div>
         <div style={{ display: "flex", justifyContent: "center" }}>
-  <a 
-    className="link" 
-    href="https://bujhansi.ac.in/en/page/innovation-center-overview" 
-    alt="reloding" 
-    style={{ display: "flex", alignItems: "center", gap: "8px" }}
-  >
-    Click here to know more about the Innovation Centre
-    <SlArrowRightCircle />
-  </a>
-</div>
+          <a
+            className="link"
+            href="https://bujhansi.ac.in/en/page/innovation-center-overview"
+            alt="reloding"
+            style={{ display: "flex", alignItems: "center", gap: "8px" }}
+          >
+            Click here to know more about the Innovation Centre
+            <SlArrowRightCircle />
+          </a>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            marginTop: "5px",
+          }}
+        >
+          <a
+            className="link"
+            href="https://bujhansi.ac.in/innovation/user_application_form.pdf"
+            alt="reloding"
+            style={{ display: "flex", alignItems: "center", gap: "12px" }}
+          >
+            Offline User Application Form
+            <SlArrowRightCircle />
+          </a>
+        </div>
 
         <div className="about-innovation-equipment-heading-box">
           Glimpse of Major Equipment & Activities
@@ -453,7 +469,7 @@ const AboutInnovationCentre = () => {
               Biomedical Sciences
             </li>
           </ul>
-          <table className="core-committee-table" border="1" >
+          <table className="core-committee-table" border="1">
             <thead>
               <tr>
                 <th>S.No.</th>
@@ -461,7 +477,7 @@ const AboutInnovationCentre = () => {
                 <th>Works done/ongoing for the social benefits (in brief)</th>
               </tr>
             </thead>
-            <tbody style={{fontFamily:"Normal",fontSize:"small"}}>
+            <tbody style={{ fontFamily: "Normal", fontSize: "small" }}>
               <tr>
                 <td>1.</td>
                 <td>
@@ -667,10 +683,12 @@ const AboutInnovationCentre = () => {
             (Submitted to- Govt. of Uttar Pradesh; Cost-152.32 Lacs).
           </li>
         </ul>
-        <div className="about-innovation-centre-heading" style={{marginBottom:"1rem"}}>
+        <div
+          className="about-innovation-centre-heading"
+          style={{ marginBottom: "1rem" }}
+        >
           7. The Research Capacity Building & Human Resource Development
           activities conducted in last 05 years - 30+.
-      
         </div>
         <div className="about-innovation-centre-heading">
           8. The Human Resources trained so far through FDPs, Training
@@ -704,9 +722,11 @@ const AboutInnovationCentre = () => {
             the UGC-STRIDE(I) Programme in last 2 Years.
           </li>
         </ul>
-        <div className="about-innovation-centre-heading" style={{marginBottom:"1rem"}}>
+        <div
+          className="about-innovation-centre-heading"
+          style={{ marginBottom: "1rem" }}
+        >
           10. Earning of the Centre through Consultancy is 15+ Lakhs.
-        
         </div>
         <div className="about-innovation-centre-heading">
           11. Community Services & Outreach Programs of the Centre
@@ -801,24 +821,21 @@ const AboutInnovationCentre = () => {
           <img src={ab8} alt="about-image"></img>
         </div>
       </div>
-     
+
       <div className="image-row">
         <div className="image-text">
-        <img src={lavkushsir} alt="LavkushSir"/>
-        <h3>Dr. Lavkush Dwivedi</h3>
-        <h4>Coordinator</h4>
-        <h4>Innovation Centre</h4>
+          <img src={lavkushsir} alt="LavkushSir" />
+          <h3>Dr. Lavkush Dwivedi</h3>
+          <h4>Coordinator</h4>
+          <h4>Innovation Centre</h4>
         </div>
         <div className="image-text">
-        <img src={mmsir} alt="MMsinghsir"/>
-        <h3>Prof. M.M. Singh</h3>
-        <h4>Convener</h4>
-        <h4>Innovation Centre</h4>
+          <img src={mmsir} alt="MMsinghsir" />
+          <h3>Prof. M.M. Singh</h3>
+          <h4>Convener</h4>
+          <h4>Innovation Centre</h4>
         </div>
-        
-        
-        
-    </div>
+      </div>
       <Footer />
     </>
   );

@@ -60,7 +60,7 @@ function NewsLetter() {
             </td>
           </tr>
           <tr>
-            <td>4.</td>
+            <td>5.</td>
             <td>News Letter 5</td>
             <td>April - June, 2024</td>
             <td>
@@ -68,12 +68,23 @@ function NewsLetter() {
                 View
               </a>
             </td>
-          </tr><tr>
-            <td>4.</td>
+          </tr>
+          <tr>
+            <td>6.</td>
             <td>News Letter 6</td>
             <td>July - September, 2024</td>
             <td>
               <a href="https://drive.google.com/file/d/14Yum2vx6y-dWWbIgoOIYZMkng1BD0ksj/view?usp=sharing">
+                View
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>7.</td>
+            <td>News Letter 4</td>
+            <td>October - December, 2024</td>
+            <td>
+              <a href="https://drive.google.com/file/d/1PEA5zgpQ-157PWvKWf5JaXf4WVOFW_zv/view?usp=sharing">
                 View
               </a>
             </td>
