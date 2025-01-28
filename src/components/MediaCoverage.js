@@ -24,6 +24,32 @@ import img18 from "./../newsimage/img18.jpeg";
 import img19 from "./../newsimage/img19.jpeg";
 import img20 from "./../newsimage/img20.jpeg";
 import img21 from "./../newsimage/img21.jpeg";
+import img22 from "./../newsimage/Newscutting-images-0(1).jpg";
+import img23 from "./../newsimage/Newscutting-images-0(2).jpg";
+import img24 from "./../newsimage/Newscutting-images-0(3).jpg";
+import img25 from "./../newsimage/Newscutting-images-0(4).jpg";
+import img26 from "./../newsimage/Newscutting-images-0(5).jpg";
+import img27 from "./../newsimage/Newscutting-images-0(6).jpg";
+import img28 from "./../newsimage/Newscutting-images-0(7).jpg";
+import img29 from "./../newsimage/Newscutting-images-0(8).jpg";
+import img30 from "./../newsimage/Newscutting-images-0(9).jpg";
+import img31 from "./../newsimage/Newscutting-images-0(10).jpg";
+import img32 from "./../newsimage/Newscutting-images-0(11).jpg";
+import img33 from "./../newsimage/Newscutting-images-0(12).jpg";
+import img34 from "./../newsimage/Newscutting-images-0(13).jpg";
+import img35 from "./../newsimage/Newscutting-images-0(14).jpg";
+import img36 from "./../newsimage/Newscutting-images-0(15).jpg";
+import img37 from "./../newsimage/Newscutting-images-0(16).jpg";
+import img38 from "./../newsimage/Newscutting-images-0(17).jpg";
+import img39 from "./../newsimage/Newscutting-images-0(18).jpg";
+import img40 from "./../newsimage/Newscutting-images-0(19).jpg";
+import img41 from "./../newsimage/Newscutting-images-0(20).jpg";
+import img42 from "./../newsimage/Newscutting-images-0(21).jpg";
+import img43 from "./../newsimage/Newscutting-images-0(22).jpg";
+import img44 from "./../newsimage/Newscutting-images-0(23).jpg";
+import img45 from "./../newsimage/Newscutting-images-0(24).jpg";
+import img46 from "./../newsimage/Newscutting-images-0(25).jpg";
+
 const MediaCoverage = () => {
   const compliMentData = [
     img11,
@@ -47,6 +73,31 @@ const MediaCoverage = () => {
     img6,
     img7,
     img4,
+    img22,
+    img23,
+    img24,
+    img25,
+    img26,
+    img27,
+    img28,
+    img29,
+    img30,
+    img31,
+    img32,
+    img33,
+    img34,
+    img35,
+    img36,
+    img37,
+    img38,
+    img39,
+    img40,
+    img41,
+    img42,
+    img43,
+    img44,
+    img45,
+    img46,
   ];
 
   return (

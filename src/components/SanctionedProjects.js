@@ -545,9 +545,9 @@ const SanctionedProjects = () => {
           <div className="project-content">
             <h2>
               Suraksha Kawach<br></br>
-              PI: Dr. Alok Kumar Verma, IBS
+              PI: Dr. Lavkush Dwivedi, IBMS
               <br></br>
-              Co-PI: Mr. Vipul Singh Parmar
+              Co-PI: Mr. Abhay Namdev
             </h2>
             <br></br>
 
