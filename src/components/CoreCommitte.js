@@ -3,7 +3,7 @@ import committelogo from "../images/CoreCommity.jpg";
 import NavBar from "./NavBar";
 import Footer from "./footer";
 import "./CoreCommitte.css";
-import core_committee_top_image from "../galleryimage/core-committee.jpeg";
+import core_committee_top_image from "../galleryimage/core-committee.jpg";
 
 const CoreCommitte = () => {
   return (

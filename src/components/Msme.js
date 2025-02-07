@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import NavBar from "./NavBar";
 import Footer from "./footer";
-import msmelogo from "../images/msme.jpeg"
+import msmelogo from "../images/msme.jpg";
+// import msmelogo from "../images/msme.jpeg";
 import "./msme.css";
 import file from "../assests/IndustryDetails.xlsx";
 import { fetchDataAndExtract } from "../utils/extractXlsxData";
@@ -22,8 +23,8 @@ const Msme = () => {
     <>
       <NavBar />
       <div className="Mou-logo">
-  <img src={msmelogo} alt="reloded"></img>
- </div>
+        <img src={msmelogo} alt="reloded"></img>
+      </div>
       <h2 className="msme-heading"> MSME's</h2>
       <table className="core-committee-table" border="1">
         <thead>

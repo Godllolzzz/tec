@@ -259,6 +259,9 @@ const Navigation = () => {
                 <Link to="/tot-plan">ToT Plan</Link>{" "}
               </li>
               <li className="dropdown-item">
+                <Link to="/trl_plan">TRL Enhancement Plan</Link>{" "}
+              </li>
+              <li className="dropdown-item">
                 <Link to="/training-plan">Training Plan</Link>{" "}
               </li>
             </ul>
@@ -443,6 +446,9 @@ const Navigation = () => {
               </li>
               <li className="dropdown-item">
                 <Link to="/tot-plan">ToT Plan</Link>{" "}
+              </li>
+              <li className="dropdown-item">
+                <Link to="/trl_plan">TRL Enhancement Plan</Link>{" "}
               </li>
               <li className="dropdown-item">
                 <Link to="/training-plan">Training Plan</Link>{" "}

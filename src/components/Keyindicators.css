@@ -23,8 +23,10 @@ key_image {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: aqua;
 }
 .key_image img {
+  margin-left: 2%;
   height: auto;
   width: 95%;
 }

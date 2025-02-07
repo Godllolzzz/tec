@@ -28,6 +28,8 @@ import img25 from "../galleryimage/changeC.jpeg";
 import img26 from "../galleryimage/changeD.jpeg";
 import img27 from "../galleryimage/changeE.jpeg";
 import img28 from "../galleryimage/changeF.jpeg";
+import img29 from "../galleryimage/changeG.jpeg";
+import img30 from "../galleryimage/changeH.jpeg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -63,6 +65,8 @@ const images = [
   img26,
   img27,
   img28,
+  img29,
+  img30,
 ];
 
 const Carousel = () => {

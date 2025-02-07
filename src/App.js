@@ -37,6 +37,7 @@ import DevelopersTeam from "./components/DevelopersTeam";
 import Startup from "./components/Startup";
 import MediaCoverage from "./components/MediaCoverage";
 import WhitePaper from "./components/WhitePaper";
+import TRLPlan from "./components/trl_plan";
 
 function App() {
   return (
@@ -66,6 +67,7 @@ function App() {
             element={<AboutInnovationCentre />}
           />
           <Route path="/tot-plan" element={<ToTPlan />} />
+          <Route path="/trl_plan" element={<TRLPlan />} />
           <Route path="/training-plan" element={<TrainingPlan />} />
           <Route path="/students-team" element={<StudentsTeam />} />
           <Route path="/news-letter" element={<NewsLetter />} />
