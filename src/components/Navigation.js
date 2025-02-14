@@ -278,7 +278,7 @@ const Navigation = () => {
                 </a>
               </li>
               <li className="dropdown-item">
-                <a href="https://bujhansi.ac.in/innovation/user_application_form.pdf">
+                <a href="https://drive.google.com/file/d/1gUAikOVdVfiNAq016BSKg-Ry8KHfkQZR/view?usp=sharing">
                   Offline User Application Form
                 </a>
               </li>
