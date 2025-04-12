@@ -63,42 +63,44 @@ const Staff = () => {
             <div>DST-BU TEC</div>
           </div>
           <div className="staff-inner-right">
-            Dr. K Shrikanth, an accomplished scholar, earned his Doctorate in
-            Microbiology, Biotechnology & Biodiversity at the University of
-            Madras, Chennai, in the distinguished presence of Hon’ble President
-            of India Smt. Droupadi Murmu and Hon’ble Vice Chancellor Prof. Dr. S
-            Gowri. Demonstrating outstanding academic excellence, he graduated
-            with Distinction and received Gold Medal citations for both his
-            B.Sc. and M.Sc. degrees in Microbiology. His expertise spans diverse
-            scientific domains, including microbiology, molecular biology,
-            genomics, proteomics, and bioinformatics, with applications in
-            agriculture, environment, industry, and medicine. He is acclaimed
-            for his commitment to scientific rigor and focuses his research on
-            Need-based Solutions and Sustainable Development Goals (SDGs),
-            emphasizing genetic architectures and species relationships for
-            carbon sequestration through microbial mangroves and halophytes. A
-            recognized figure in the scientific community, he has numerous
-            publications in international journals and has actively participated
-            in conferences worldwide. Dedicated to the application of science
-            for rural development, he collaborates with youth, grassroots
-            organizations, and communities, striving to nurture innovation and
-            creativity while ensuring livelihood security through participatory
-            approaches. As an Eminent Fellow Member of Scholars Academic &
-            Scientific Society (SAS) and a Subject/Industry expert on the Board
-            of Studies at Madurai Kamaraj University, he has also played
-            leadership roles, presiding over the Intercollegiate Meet 'Cenittrez
-            2011' and organizing the Southern Zone 'Innovation Festival
-            2018-2020.' Engaged in professional associations, he is a member of
-            IIMAR, ADNAT, and the National Green Crops. Dr. Shrikanth, the
-            recipient of several awards, including the 'Youth Science Parliament
-            Medal' and 'Janaki Ammal Gold Medal,' currently serves as the
-            Principal Project Associate at the Department of Science &
-            Technology-Technology Enabling Centre (DST-TEC) at Bundelkhand
-            University, Jhansi, building upon a distinguished career that
-            includes roles as a Doctoral Senior Fellow at ICAR-IARI &
-            ICFRE-IFGTB and the Junior Mentor (in-charge) at the Innovation Hub,
-            District Science Centre under the Ministry of Culture, Government of
-            India
+            Dr. Shrikanth SK is a distinguished leader in microbial
+            biotechnology, an innovator, and a sustainability advocate with an
+            exceptional track record in driving science and technology solutions
+            across diverse sectors. Currently leading transformative initiatives
+            at the Department of Science and Technology - Technology Enabling
+            Centre (DST-TEC) at Bundelkhand University, he bridges academic
+            research with industry needs and has facilitated the transfer of
+            cutting-edge technologies to startups, advancing sustainable
+            solutions in agriculture, biotech, and environmental sectors. His
+            expertise, honed through previous roles as a Doctoral Senior Fellow
+            at the Indian Agricultural Research Institute (IARI-ICAR) in New
+            Delhi and as a Senior Research Fellow at the Institute of Forest
+            Genetics and Tree Breeding (IFGTB-ICFRE), spans genetic modification
+            for crop resilience and mangrove restoration. Dr. Shrikanth’s
+            academic foundation includes a Ph.D. in Microbiology, Biotechnology,
+            and Biodiversity from the University of Madras, and he graduated as
+            a Gold Medalist in Microbiology at both Master’s and Bachelor’s
+            levels. He has led significant projects such as the ₹1.11 Cr project
+            at IARI on genetic modification for biological nitrogen fixation and
+            a ₹77.49 L project on Stress Tolerance in Halophytes at MSSRF.
+            Additionally, his tenure as a Supportive Lecturer/Mentor at District
+            Science Centre, Tirunelveli (GoI) reflects his passion for STEM
+            education. With over 15 publications and patents in agricultural and
+            health technologies, including a Smart Storage Container for Cotton
+            Harvest and a Smart Insulin Dispensing Device, Dr. Shrikanth is a
+            reviewer for international journals and serves on editorial boards
+            for International Journal of Environment & Climate Change, Spectrum
+            Journal, and Naveen International Journal of Multidisciplinary
+            Sciences (NIJMS). He holds memberships in the International Council
+            of Applied Science Research (ICASR), Eudoxia Research University &
+            Centre, USA (ERU-USA), and the Scholars Academic & Scientific
+            Society. His achievements have been recognized through prestigious
+            awards such as the Highly Recommended Doctoral Laureate from the
+            President of India, the Thirumathi A. Janaki Ammal Gold Medal, and
+            the Youth Science Medal from the Minister for Science and
+            Technology, Government of India, solidifying his reputation as a
+            visionary leader in biotech innovation, fostering real-world
+            solutions for societal and environmental sustainability.
           </div>
         </div>
         <div className="staff-inner">

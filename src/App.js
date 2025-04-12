@@ -38,6 +38,7 @@ import Startup from "./components/Startup";
 import MediaCoverage from "./components/MediaCoverage";
 import WhitePaper from "./components/WhitePaper";
 import TRLPlan from "./components/trl_plan";
+import ContactUsHome from "./components/ContactUsHome";
 
 function App() {
   return (

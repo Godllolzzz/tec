@@ -376,7 +376,7 @@ const AboutInnovationCentre = () => {
         >
           <a
             className="link"
-            href="https://bujhansi.ac.in/innovation/user_application_form.pdf"
+            href="https://drive.google.com/file/d/1gUAikOVdVfiNAq016BSKg-Ry8KHfkQZR/view?usp=sharing"
             alt="reloding"
             style={{ display: "flex", alignItems: "center", gap: "12px" }}
           >

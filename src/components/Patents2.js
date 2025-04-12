@@ -9,6 +9,7 @@ import img7 from "../images/patent6.jpeg";
 import img8 from "../images/patent7.jpeg";
 import img9 from "../images/patent8.jpeg";
 import img10 from "../images/Patent9.jpeg";
+import img11 from "../images/img11.jpeg";
 import "./Patents2.css";
 import NavBar from "./NavBar";
 import Footer from "./footer";
@@ -440,6 +441,40 @@ const Patents2 = () => {
               role in law enforcement, border security, and criminal justice
               systems, enhancing overall investigative capabilities and
               contributing to the swift resolution of cases.
+            </p>
+          </div>
+        </div>
+
+        <div className="patents2-container">
+          <div className="patents2-image">
+            <img src={img11} alt="patents-image"></img>
+          </div>
+          <div className="patents2-content">
+            <div className="patents2-title">
+              SMART IRRIGATION SYSTEM BASED ON IOT AND ADVANCED WITH LASER
+              SECURITY
+            </div>
+            <div className="patents2-developed-by">
+              <div>INVENTORS-</div>
+              <div style={{ fontWeight: "bold" }}>
+                <div>Prof. Mukesh Pandey Hon'ble Vice-Chancellor,</div>
+                <div> Dr. Er. IKROOP VERMA</div>
+                <div>Mr. Lalit Sen </div>
+                <div>Mr. Shivanshu Joshi</div>
+
+                <div>Dr. Lavkush Dwivedi</div>
+              </div>
+            </div>
+            <br></br>
+            <p className="patents2-inner-content">
+              This innovative approach to agro-waste management introduces a
+              sustainable and practical solution by utilizing mushroom
+              cultivation to recycle and repurpose agricultural waste. Instead
+              of allowing crop residues such as straw, husks, stalks, and other
+              biomass to go unused or be burned—contributing to pollution—this
+              method transforms them into a productive growing medium for
+              mushrooms. The process not only reduces environmental impact but
+              also adds value to materials that are typically discarded.
             </p>
           </div>
         </div>
