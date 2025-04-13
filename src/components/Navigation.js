@@ -287,6 +287,11 @@ const Navigation = () => {
                   Online User Application Form
                 </a>
               </li>
+              <li className="dropdown-item">
+                <a href="https://drive.google.com/file/d/1fuikZ6vnCDtUthHM1YjSAOmeg1TNyjem/view?usp=sharing">
+                  List of Equipments
+                </a>
+              </li>
             </ul>
           </l1>
           <l1 className="navbar-item" onClick={services_on_click_handler}>

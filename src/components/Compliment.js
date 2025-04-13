@@ -2,6 +2,7 @@ import React from "react";
 import img6 from "../documents/Chandra_twitter.jpg";
 import compliment2 from "../documents/compliment2.png";
 import compliment3 from "../documents/studentscompliment.jpeg";
+import compliment4 from "../documents/compliment4.jpeg";
 import NavBar from "./NavBar";
 import "./Compliment.css";
 import Footer from "./footer";
@@ -39,6 +40,11 @@ const Compliment = () => {
           <div className="compliment_img3">
             <a href="https://drive.google.com/file/d/1tfkwctMWN7dJ_HvvaJpEB_w_AMmXu7_Q/view?usp=drivesdk">
               <img className="img3" src={compliment3} alt="reloading" />
+            </a>
+          </div>
+          <div className="compliment_img2">
+            <a href="https://youtu.be/p4wSOdaShxY?si=byZUu0sQ9Ej_MgYt">
+              <img className="img2" src={compliment4} alt="reloading" />
             </a>
           </div>
           {/* <div className='compliment_img3'>
