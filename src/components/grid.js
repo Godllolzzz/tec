@@ -13,7 +13,7 @@ const GridComponent = () => {
 
   const targetNumbers = {
     facultyTrained: 250,
-    undergradTrained: 450,
+    undergradTrained: 500,
     postgradTrained: 450,
     projectsDone: 100,
     patents: 100,

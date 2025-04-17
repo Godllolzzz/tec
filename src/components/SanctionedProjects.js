@@ -494,15 +494,34 @@ const SanctionedProjects = () => {
 
             <p>
               <b>Introduction : </b>
-              BINMAN is an advanced technical device specifically designed to
-              segregate waste materials. Featuring a combination of electronic
-              circuits, sensors, and software, it efficiently sorts various
-              types of waste. This state-of-the-art solution aims to promote
-              environmental sustainability and contribute to societal welfare.
-              By automating the waste segregation process, BINMAN not only
-              enhances recycling efforts but also minimizes human intervention.
-              It exemplifies the potential of technology in addressing critical
-              social and environmental challenges.
+              BINMAN is an innovative and intelligent waste management system,
+              developed as a cutting-edge technical solution to address one of
+              the most pressing environmental concerns—efficient waste
+              segregation. Designed with precision and purpose, BINMAN
+              integrates advanced electronic circuits, a suite of
+              high-performance sensors, and sophisticated software algorithms to
+              automatically identify and separate different types of waste
+              materials such as biodegradable, non-biodegradable, and recyclable
+              items. This smart device stands as a testament to the evolving
+              role of technology in promoting sustainable development. By
+              automating the waste segregation process, BINMAN significantly
+              reduces the need for manual sorting, thereby minimizing human
+              error and health risks associated with direct contact with waste.
+              Its implementation can greatly improve the overall efficiency of
+              waste management systems, enhance recycling rates, and support the
+              creation of cleaner and healthier urban and rural environments.
+              Moreover, BINMAN aligns with global environmental goals by
+              encouraging responsible waste disposal and contributing to
+              resource conservation. It not only streamlines the waste handling
+              process but also raises awareness about the importance of
+              sustainable living practices among communities. Through its
+              application, BINMAN showcases how technological innovation can be
+              leveraged to solve complex societal and ecological problems,
+              making it a valuable tool for municipalities, industries,
+              educational institutions, and households alike. In essence, BINMAN
+              is more than just a device—it is a step forward in redefining how
+              we manage waste, protect our environment, and move towards a
+              greener, more sustainable future.
             </p>
           </div>
         </div>
@@ -514,8 +533,8 @@ const SanctionedProjects = () => {
           </div>
           <div className="project-content">
             <h2>
-              Development of advanced high performance gaming mouse for the
-              Indian market<br></br>
+              Development of Advanced High Performance Gaming Mouse for the
+              Indian Market<br></br>
               PI: Dr. Alok Kumar Verma, IBS
               <br></br>
               Co-PI: Mr. Vipul Singh Parmar
@@ -524,15 +543,38 @@ const SanctionedProjects = () => {
 
             <p>
               <b>Introduction : </b>
-              Development of advanced high performance gaming mouse for the
-              Indian market: The advanced high-performance gaming mouse is
-              designed for the Indian market, boasting cutting-edge technology
-              and customizable settings for a superior gaming experience. Its
-              ergonomic design ensures comfort during long sessions, while
-              responsive and accurate controls cater to both casual and
-              professional gamers. This mouse sets a new standard in the
-              industry, tailored specifically to meet the needs of Indian gamers
-              seeking top-notch equipment.
+              The development of an advanced high-performance gaming mouse
+              specifically tailored for the Indian market represents a
+              significant stride in the evolution of gaming peripherals. With
+              gaming culture rapidly growing in India, there is a rising demand
+              for equipment that not only meets international standards but also
+              caters to the unique preferences and requirements of Indian
+              gamers. In response to this need, the high-performance gaming
+              mouse has been meticulously engineered to offer a premium,
+              immersive gaming experience. Equipped with state-of-the-art
+              technology, the mouse features ultra-responsive sensors, high DPI
+              (dots per inch) precision, and customizable macro buttons, all of
+              which allow for precise control and swift in-game actions. These
+              features are essential for both casual gamers and esports
+              professionals who demand accuracy, speed, and reliability in their
+              gear. The customizable settings enable users to fine-tune the
+              mouse according to their gameplay style, offering a personalized
+              experience that enhances performance. In addition to its
+              technological capabilities, the mouse is designed with ergonomics
+              at the forefront. Its form factor supports prolonged usage without
+              causing strain, making it ideal for extended gaming sessions. The
+              textured grip, lightweight build, and optimized button placement
+              ensure maximum comfort and ease of use. Moreover, this gaming
+              mouse is developed with an understanding of local market dynamics,
+              including affordability, durability, and compatibility with a wide
+              range of devices commonly used in Indian households. It bridges
+              the gap between global innovation and local relevance, setting a
+              new benchmark in the Indian gaming accessory market. In essence,
+              this advanced high-performance gaming mouse is not just a
+              tool—it's an enabler of enhanced gameplay, a symbol of India's
+              emerging presence in the global gaming arena, and a product
+              designed to empower Indian gamers with the precision and quality
+              they deserve.
             </p>
           </div>
         </div>
@@ -553,12 +595,30 @@ const SanctionedProjects = () => {
 
             <p>
               <b>Introduction : </b>
-              The Suraksha Kawach initiative is designed to improve safety and
-              security by utilizing advanced technology for monitoring and
-              protection. It aims to safeguard assets and personnel through
-              real-time alert systems that ensure immediate response. This
-              initiative enhances overall safety standards across various
-              settings, providing peace of mind and a higher level of security.
+              The Suraksha Kawach initiative is a forward-thinking safety and
+              security program that leverages advanced technologies to create a
+              robust monitoring and protection framework. Designed with a focus
+              on safeguarding both assets and personnel, this initiative
+              integrates intelligent surveillance systems, real-time data
+              analytics, and instant alert mechanisms to proactively address
+              security threats and emergencies. At the heart of Suraksha Kawach
+              is a real-time alert system that enables immediate response to any
+              suspicious activity or potential hazard. By ensuring quick
+              communication and rapid deployment of necessary action, the system
+              significantly minimizes risks and enhances situational awareness.
+              Whether implemented in industrial zones, public institutions,
+              commercial complexes, or residential areas, the initiative
+              provides a scalable and reliable solution to modern security
+              challenges. In addition to physical safety, Suraksha Kawach
+              promotes a culture of vigilance and preparedness, contributing to
+              an environment of trust and confidence. The integration of
+              automated systems with human oversight creates a seamless security
+              network that not only reacts to incidents but also anticipates and
+              prevents them. Overall, Suraksha Kawach represents a significant
+              step toward elevating safety standards across diverse settings. By
+              blending technology with strategic planning, it delivers peace of
+              mind and a heightened level of protection for individuals,
+              communities, and organizations alike.
             </p>
           </div>
         </div>
@@ -580,12 +640,35 @@ const SanctionedProjects = () => {
 
             <p>
               <b>Introduction : </b>
-              This innovative approach to agro waste management involves using
-              mushroom cultivation to recycle agricultural waste. By converting
-              agro waste into valuable by-products, this practice promotes
-              eco-friendly methods and resource efficiency. It also creates
-              economic opportunities for farmers and entrepreneurs, contributing
-              to sustainable development in the agricultural sector.
+              This innovative approach to agro-waste management introduces a
+              sustainable and practical solution by utilizing mushroom
+              cultivation to recycle and repurpose agricultural waste. Instead
+              of allowing crop residues such as straw, husks, stalks, and other
+              biomass to go unused or be burned—contributing to pollution—this
+              method transforms them into a productive growing medium for
+              mushrooms. The process not only reduces environmental impact but
+              also adds value to materials that are typically discarded. By
+              converting agro-waste into a nutrient-rich substrate for mushroom
+              farming, this approach promotes circular economy principles within
+              the agricultural sector. It emphasizes resource efficiency by
+              making full use of available biomass and minimizing waste. As
+              mushrooms grow on the agro-waste substrate, they generate
+              nutritious food and high-value by-products such as compost, which
+              can further enrich soil health and be used as organic fertilizer.
+              Beyond environmental benefits, this model creates new economic
+              opportunities, particularly for small and marginal farmers, rural
+              communities, and agri-based entrepreneurs. Mushroom cultivation
+              requires relatively low investment, has a short cultivation cycle,
+              and can be scaled to fit local needs, making it a viable source of
+              income generation. Additionally, the increasing demand for
+              mushrooms in domestic and export markets further enhances its
+              potential as a profitable enterprise. Ultimately, this integrated
+              method supports sustainable agricultural practices, enhances rural
+              livelihoods, and contributes to the broader goals of environmental
+              conservation and economic resilience in the farming sector. It
+              exemplifies how innovative, low-cost technologies can drive
+              sustainable development and empower communities through green
+              entrepreneurship.
             </p>
           </div>
         </div>
@@ -608,13 +691,35 @@ const SanctionedProjects = () => {
 
             <p>
               <b>Introduction : </b>
-              The Smart Irrigation System integrates IoT technology to provide
-              precision irrigation control, monitoring soil moisture and weather
-              conditions in real-time. This system enhances water efficiency and
-              crop yield while incorporating laser security features to protect
-              against unauthorized access. It is an ideal solution for modern
-              agricultural practices and smart farming, ensuring optimal
-              resource utilization and productivity.
+              The Smart Irrigation System represents a significant advancement
+              in modern agricultural technology, offering an intelligent and
+              efficient solution to water management through the integration of
+              Internet of Things (IoT) technology. This system is designed to
+              revolutionize traditional irrigation methods by enabling precision
+              control and real-time monitoring of essential parameters such as
+              soil moisture levels, temperature, and weather conditions. At the
+              core of the system is a network of smart sensors that collect data
+              from the field and transmit it to a centralized control unit. This
+              data is then analyzed to determine the exact water requirements of
+              crops, ensuring that irrigation is applied only when and where it
+              is needed. By automating the irrigation process, the system
+              drastically reduces water wastage, conserves energy, and improves
+              overall crop yield and quality. An additional feature that sets
+              this system apart is its integrated laser security mechanism,
+              which helps protect agricultural fields and equipment from
+              unauthorized access and potential threats. This laser-based
+              perimeter security adds a layer of physical protection,
+              safeguarding valuable resources and infrastructure in remote
+              farming areas. By combining precision agriculture with smart
+              security solutions, the Smart Irrigation System embodies the
+              principles of sustainable and smart farming. It supports optimal
+              resource utilization, reduces labor dependency, and helps farmers
+              make data-driven decisions, thereby increasing productivity and
+              profitability. This technology-driven approach is particularly
+              suited to meet the challenges of modern agriculture, especially in
+              water-scarce regions. It empowers farmers with greater control,
+              real-time insights, and reliable protection—paving the way for a
+              more resilient and technologically empowered agricultural sector.
             </p>
           </div>
         </div>

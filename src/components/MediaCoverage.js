@@ -49,6 +49,10 @@ import img43 from "./../newsimage/Newscutting-images-0(22).jpg";
 import img44 from "./../newsimage/Newscutting-images-0(23).jpg";
 import img45 from "./../newsimage/Newscutting-images-0(24).jpg";
 import img46 from "./../newsimage/Newscutting-images-0(25).jpg";
+import img47 from "./../newsimage/Newscutting-images-0(26).jpeg";
+import img48 from "./../newsimage/Newscutting-images-0(27).jpeg";
+import img49 from "./../newsimage/Newscutting-images-0(28).jpeg";
+import img50 from "./../newsimage/Newscutting-images-0(29).jpeg";
 
 const MediaCoverage = () => {
   const compliMentData = [
@@ -98,6 +102,10 @@ const MediaCoverage = () => {
     img44,
     img45,
     img46,
+    img47,
+    img48,
+    img49,
+    img50,
   ];
 
   return (
