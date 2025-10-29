@@ -5,7 +5,7 @@ import Footer from "./footer";
 import "./OurLeaders.css";
 import vcsirlogo from "../images/sirlogo.jpeg";
 import fo_Sir_logo from "../images/FOsir.jpeg";
-import registrar_logo from "../images/Registrarsir.png";
+import registrar_logo from "../images/Registrarsir.jpg";
 
 import lavsirlogo from "../images/LavKushSir.jpg";
 
@@ -35,7 +35,7 @@ const OurLeaders = () => {
               <img src={registrar_logo} alt="vc_sir_image"></img>
               {/* </div> */}
               <div className="vcsir1-title">
-                <h3>Mr. Vinay Kumar Singh</h3>
+                <h3>Mr. Gyanendra Kumar</h3>
                 <h5>Registrar</h5>
                 <h5>Bundelkhand University</h5>
               </div>

@@ -28,22 +28,43 @@ function Events() {
           <div className="timeline-card">
             <h1 className="timeline-title">Upcoming Events</h1>
             <ul className="timeline-list">
-             
-             
-             
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#1B5F8C" }}
               >
-                <div className="date">November,2024</div>
-                <div className="title">Technology Hackathon -3 Selection</div>
+                <div className="date">November 06-12, 2025</div>
+                <div className="title">Techrise</div>
+                <div className="descr">
+                  {" "}
+                  Techrise - Techrise is an initiative under the each program
+                  that focuses on increasing digital proficiency among
+                  undergraduate students. The students will be trained to
+                  understand and use computer systems efficiently along with
+                  basic of coding and application development.
+                </div>
               </li>
-              
+
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#4CADAD" }}
+              >
+                <div className="date">November 11-17, 2025</div>
+                <div className="title">
+                  Innovative Embedded System for Advancement in the Field of
+                  Technical Research
+                </div>
+                <div className="descr">
+                  This training aims at providing students with basic knowledge
+                  about embedded systems and their implementation, the students
+                  will also be given hands-on training on PCB designing, etching
+                  and assembly.
+                </div>
+              </li>
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#E24A68" }}
               >
-                <div className="date">November, 2024</div>
+                <div className="date">December 2025</div>
                 <div className="title">Innova-thon 2.0</div>
                 <div className="descr">
                   Innova-thon 2.0 is an innovation marathon where participants
@@ -60,6 +81,104 @@ function Events() {
           <div className="timeline-card">
             <h1 className="timeline-title">Past Events</h1>
             <ul className="timeline-list">
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#41516C" }}
+              >
+                <div className="date">October 15, 2025</div>
+                <div className="title">One-day workshop on DataShakti</div>
+                <div className="descr">
+                  A one day workshop on Data Shakti for SDG driven Development
+                  was organized by DST-TEC Bundelkhand University in
+                  collaboration with Indian School of Development Management,
+                  Noida & SCORE Livelihood Foundation, New Delhi. Among 85
+                  registrations 48 NGOs, 20 MSMEs, 10 Faculty members and
+                  Government officials and IT professionals also participated.
+                </div>
+              </li>
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#FBCA3E" }}
+              >
+                <div className="date">March 05, 2025</div>
+                <div className="title">
+                  Technology Hackathon-4 Final Selection
+                </div>
+                <div className="descr">
+                  The evaluation committee selected five projects keeping needs
+                  of the society in priority for funding further development of
+                  the presented ideas.
+                </div>
+              </li>
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#4CADAD" }}
+              >
+                <div className="date">March - June, 2025 </div>
+                <div className="title">STRIDE 2.0 Module 3</div>
+                <div className="descr">
+                  This module provides an opportunity to implement theoretical
+                  and practical knowledge gained by the students in the previous
+                  modules. The students are allocated mentors as per their field
+                  and choice and under their supervision the students complete a
+                  project assigned for research.
+                </div>
+              </li>
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#FBCA3E" }}
+              >
+                <div className="date">February 06 - March 05, 2025 </div>
+                <div className="title">
+                  STRIDE 2.0 Module-2 ( Advanced Research Equipment)
+                </div>
+                <div className="descr">
+                  During the training on advanced Research Equipment, we will
+                  learn to operate cutting-edge tools, analyze data with
+                  precision, and troubleshoot technical issues effectively,
+                  enhancing our research capabilities significantly.
+                </div>
+              </li>
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#E24A68" }}
+              >
+                <div className="date">January 30 - March 05, 2025</div>
+                <div className="title">
+                  STRIDE 2.0 Module 1 (Research Methodology)
+                </div>
+                <div className="descr">
+                  Over the month, we delved into the intricacies of research
+                  design, methods, and analysis, refining our skills in
+                  systematic inquiry and critical evaluation.
+                </div>
+              </li>
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#FBCA3E" }}
+              >
+                <div className="date">January 9-11, 2025</div>
+                <div className="title">Technology Hackathon-4 ( Screening)</div>
+                <div className="descr">
+                  All registered candidates presented their innovations and
+                  prototypes. The expert panel selected 10 potent ideas for the
+                  final presentation.
+                </div>
+              </li>
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#4CADAD" }}
+              >
+                <div className="date">December 13, 2024</div>
+                <div className="title">
+                  Technology Hackathon-3 Final Selection
+                </div>
+                <div className="descr">
+                  The evaluation committee selected five projects keeping needs
+                  of the society in priority for funding further development of
+                  the presented ideas.
+                </div>
+              </li>
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#1B5F8C" }}
