@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar";
 import Footer from "./footer";
-import moulogo from "../images/mou's_image.jpg"
+import moulogo from "../images/mou's_image.jpg";
 import "./Mou.css";
 // import { Document, Page,pdfjs } from 'react-pdf';
 // import docs from "../documents/Collaborations.pdf"
@@ -47,7 +47,6 @@ const MoU = () => {
               Commerce  and Industry, New Delhi{" "}
             </td>
           </tr>
-
           <tr>
             <td>4.</td>
             <td>
@@ -69,7 +68,6 @@ const MoU = () => {
               Chandigarh, Punjab{" "}
             </td>
           </tr>
-
           <tr>
             <td>7.</td>
             <td>
@@ -83,7 +81,6 @@ const MoU = () => {
               MoU between Bundelkhand University, Jhansi & B.H.E.L. Jhansi{" "}
             </td>
           </tr>
-
           <tr>
             <td>9.</td>
             <td>
@@ -123,9 +120,6 @@ const MoU = () => {
  </Document>
  </div> */}
 
-      <Footer />
-    </>
-  );
       <Footer />
     </>
   );
