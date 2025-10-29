@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 import picture from "../images/DST.png";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
@@ -35,7 +35,9 @@ const Footer = () => {
         </div>
 
         <p className="footer-links">
-          <a href="/" className="link-1">Home</a>
+          <a href="/" className="link-1">
+            Home
+          </a>
           <a href="/about">About</a>
           <a href="/network">Network</a>
           <a href="/events">Events</a>
@@ -44,16 +46,16 @@ const Footer = () => {
           <a href="/gallery">Gallery</a>
         </p>
         <div className="footer-icons">
-          <a href="https://www.facebook.com/busocial/">
+          <a href="https://www.facebook.com/people/DST-BU-TEC-and-Innovation-Centre/61567395542132/">
             <FacebookIcon />
           </a>
-          <a href="https://twitter.com/bu_jhansi?lang=en">
+          {/* <a href="https://twitter.com/bu_jhansi?lang=en">
             <TwitterIcon />
-          </a>
-          <a href="https://www.instagram.com/buiians/">
+          </a> */}
+          <a href=" https://www.instagram.com/dstbutecinnovationcentre/">
             <InstagramIcon />
           </a>
-          <a href="https://www.linkedin.com/school/bundelkhand-university/?originalSubdomain=in">
+          <a href="https://www.linkedin.com/company/dst-bu-tec-innovation-centre/">
             <LinkedInIcon />
           </a>
           <a href="https://www.youtube.com/channel/UCTL-YWI3GojQogY-YH4qQng">
@@ -84,12 +86,18 @@ const Footer = () => {
           <FontAwesomeIcon icon={faEnvelope} style={{ color: "white" }} />
           <div>
             <div>
-              <a className="footer-email-inner" href="mailto:dsttec.bu@gmail.com">
+              <a
+                className="footer-email-inner"
+                href="mailto:dsttec.bu@gmail.com"
+              >
                 dsttec.bu@gmail.com
               </a>
             </div>
             <div>
-              <a className="footer-email-inner" href="mailto:tecdst2022@bujhansi.ac.in">
+              <a
+                className="footer-email-inner"
+                href="mailto:tecdst2022@bujhansi.ac.in"
+              >
                 tecdst2022@bujhansi.ac.in
               </a>
             </div>
@@ -107,9 +115,7 @@ const Footer = () => {
           referrerPolicy="no-referrer-when-downgrade"
           title="Bundelkhand University Map"
         ></iframe>
-        <div className="counter">
-          Total Visits: {count}
-        </div>
+        <div className="counter">Total Visits: {count}</div>
       </div>
     </footer>
   );

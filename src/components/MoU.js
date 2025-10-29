@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar";
 import Footer from "./footer";
-import moulogo from "../images/mou's_image.jpg";
+import moulogo from "../images/mou's_image.jpg"
 import "./Mou.css";
 // import { Document, Page,pdfjs } from 'react-pdf';
 // import docs from "../documents/Collaborations.pdf"
@@ -94,15 +94,21 @@ const MoU = () => {
           <tr>
             <td>10.</td>
             <td>MoU between Bundelkhand University, Jhansi & NRDC </td>
-          </tr>
-
+          </tr>{" "}
           <tr>
             <td>11.</td>
             <td>
-              MoU between Bundelkhand University, Jhansi & Aditya Urjit
-              Solutions LLP
+              MoU between Bundelkhand University, Jhansi & SCORE Livelihood
+              Foundation
             </td>
           </tr>
+          <tr>
+            <td>12.</td>
+            <td>
+              MoU between Bundelkhand University, Jhansi & SCORE Livelihood
+              Foundation
+            </td>
+          </tr>{" "}
         </tbody>
       </table>
       <div className="seemore">
@@ -117,6 +123,9 @@ const MoU = () => {
  </Document>
  </div> */}
 
+      <Footer />
+    </>
+  );
       <Footer />
     </>
   );
