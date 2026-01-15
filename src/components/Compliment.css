@@ -6,7 +6,6 @@
   /* Add any other styles as needed */
   margin-left: 1rem;
   margin-right: 1rem;
-  
 }
 
 .compliment_main1 {
@@ -27,55 +26,62 @@
 
 .compliment_img {
   display: flex;
-  flex-direction: row;
-  margin-top: 2rem;
-  max-width: 90%;
+  flex-wrap: wrap; /* ★ This is the most important fix ★ */
+  gap: 2rem; /* nice spacing between items */
+  justify-content: center; /* center the items */
+  margin: 3rem auto;
+  max-width: 1400px; /* prevent getting ridiculously wide on large screens */
+  padding: 0 1rem;
 }
 
 .compliment_img1,
-.compliment_img2 {
-  flex: 1; /* Equal width for both images */
-  margin-bottom: 2rem;
+.compliment_img2,
+.compliment_img3,
+.compliment_img4,
+.compliment_img5,
+.compliment_img6 {
+  flex: 1 1 320px; /* grow + shrink + ideal ~320–400px width */
+  min-width: 280px; /* don't let them become too narrow */
+  max-width: 420px; /* optional – prevents huge cards on very wide screens */
   text-align: center;
+  position: relative; /* needed for the ::before overlay */
 }
-
-.img1,
-.img2 {
-  max-width: 80%;
-
-  display: block; /* Ensures images are block elements */
-  margin: auto;
-}
-
-.compliment_img2:hover::before {
-  content: ""; /* Empty content */
-  position: absolute;
-  top: 0;
-  left: 0;
+/* The images themselves */
+.compliment_img img {
   width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
-  transition: background-color 0.3s ease; /* Smooth transition effect */
-  z-index: 1; /* Ensure the overlay is above the image */
+  height: auto;
+  display: block;
+  border-radius: 8px; /* optional – looks nicer */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
-.compliment_img3:hover::before {
-  content: ""; /* Empty content */
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
-  transition: background-color 0.3s ease; /* Smooth transition effect */
-  z-index: 1; /* Ensure the overlay is above the image */
+/* Hover effect – overlay + scale */
+.compliment_img a {
+  display: block; /* makes the whole area clickable */
+  position: relative;
+  text-decoration: none;
 }
 
-.img2 {
-  transition: transform 0.3s ease; /* Smooth transition effect for image */
+.compliment_img a:hover img {
+  transform: scale(1.06);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
-.img3 {
-  transition: transform 0.3s ease; /* Smooth transition effect for image */
-  height: 350px;
+
+.compliment_img a:hover::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 8px;
+  transition: background 0.3s ease;
+  z-index: 1;
+  pointer-events: none; /* lets clicks go through to the link */
+}
+
+/* Optional: give later images consistent height if you want them aligned */
+.compliment_img img {
+  aspect-ratio: 4 / 3; /* or 16/9, 3/4, etc. — choose what fits your images best */
+  object-fit: cover; /* prevents stretching — very useful */
 }
 
 .compliment_gallery {
@@ -89,7 +95,6 @@
   box-sizing: border-box;
   border: 2px solid black;
   box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
-
 }
 
 .compliment_gallery_item img {

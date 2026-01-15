@@ -53,6 +53,16 @@ import img47 from "./../newsimage/Newscutting-images-0(26).jpeg";
 import img48 from "./../newsimage/Newscutting-images-0(27).jpeg";
 import img49 from "./../newsimage/Newscutting-images-0(28).jpeg";
 import img50 from "./../newsimage/Newscutting-images-0(29).jpeg";
+import img51 from "./../newsimage/Newscutting-images-0(30).jpeg";
+import img52 from "./../newsimage/Newscutting-images-0(31).jpeg";
+import img53 from "./../newsimage/Newscutting-images-0(32).jpg";
+import img54 from "./../newsimage/Newscutting-images-0(33).jpg";
+import img55 from "./../newsimage/Newscutting-images-0(34).jpg";
+import img56 from "./../newsimage/Newscutting-images-0(35).jpg";
+import img57 from "./../newsimage/Newscutting-images-0(36).jpg";
+import img58 from "./../newsimage/Newscutting-images-0(37).jpg";
+import img59 from "./../newsimage/Newscutting-images-0(38).jpeg";
+import img60 from "./../newsimage/Newscutting-images-0(39).jpeg";
 
 const MediaCoverage = () => {
   const compliMentData = [
@@ -106,6 +116,16 @@ const MediaCoverage = () => {
     img48,
     img49,
     img50,
+    img51,
+    img52,
+    img53,
+    img54,
+    img55,
+    img56,
+    img57,
+    img58,
+    img59,
+    img60,
   ];
 
   return (

@@ -102,8 +102,8 @@ const MoU = () => {
           <tr>
             <td>12.</td>
             <td>
-              MoU between Bundelkhand University, Jhansi & SCORE Livelihood
-              Foundation
+              MoU between Bundelkhand University, Jhansi & Parmarth Samaj Sevi
+              Sansthan
             </td>
           </tr>{" "}
         </tbody>

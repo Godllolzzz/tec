@@ -1,8 +1,12 @@
 import React from "react";
 import img6 from "../documents/Chandra_twitter.jpg";
-import compliment2 from "../documents/compliment2.png";
-import compliment3 from "../documents/studentscompliment.jpeg";
-import compliment4 from "../documents/compliment4.jpeg";
+import compliment1 from "../documents/compliment1.png";
+import compliment2 from "../documents/compliment2.jpeg";
+import compliment3 from "../documents/compliment3.jpeg";
+import compliment4 from "../documents/compliment4.png";
+import compliment5 from "../documents/compliment5.png";
+import compliment6 from "../documents/compliment6.png";
+
 import NavBar from "./NavBar";
 import "./Compliment.css";
 import Footer from "./footer";
@@ -32,19 +36,34 @@ const Compliment = () => {
           {/* <div className='compliment_img1'>
             <img className='img1' src={compliment1} alt='reloading' />
           </div> */}
-          <div className="compliment_img2">
+          <div className="compliment_img1">
             <a href="https://www.youtube.com/watch?v=E8fNtkb8LFY">
-              <img className="img2" src={compliment2} alt="reloading" />
+              <img className="img2" src={compliment1} alt="reloading" />
+            </a>
+          </div>
+          <div className="compliment_img2">
+            <a href="https://drive.google.com/file/d/1tfkwctMWN7dJ_HvvaJpEB_w_AMmXu7_Q/view?usp=drivesdk">
+              <img className="img3" src={compliment2} alt="reloading" />
             </a>
           </div>
           <div className="compliment_img3">
-            <a href="https://drive.google.com/file/d/1tfkwctMWN7dJ_HvvaJpEB_w_AMmXu7_Q/view?usp=drivesdk">
-              <img className="img3" src={compliment3} alt="reloading" />
+            <a href="https://youtu.be/p4wSOdaShxY?si=byZUu0sQ9Ej_MgYt">
+              <img className="img2" src={compliment3} alt="reloading" />
             </a>
           </div>
-          <div className="compliment_img2">
-            <a href="https://youtu.be/p4wSOdaShxY?si=byZUu0sQ9Ej_MgYt">
-              <img className="img2" src={compliment4} alt="reloading" />
+          <div className="compliment_img4">
+            <a href="https://drive.google.com/file/d/1TC0TzIcop6rzISbBxTPdNSrdTOfI2xkk/view?usp=drive_link">
+              <img className="img3" src={compliment4} alt="reloading" />
+            </a>
+          </div>
+          <div className="compliment_img5">
+            <a href="https://drive.google.com/file/d/17whBgBTZuVYYf9uMmxmFnGoOHHhy-Uv0/view?usp=drive_link">
+              <img className="img3" src={compliment5} alt="reloading" />
+            </a>
+          </div>
+          <div className="compliment_img6">
+            <a href="https://drive.google.com/file/d/1cFCZSsK7p4VUd3LRywBqNkgOsAaRq7DY/view?usp=drive_link">
+              <img className="img3" src={compliment6} alt="reloading" />
             </a>
           </div>
           {/* <div className='compliment_img3'>

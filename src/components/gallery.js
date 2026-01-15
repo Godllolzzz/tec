@@ -52,11 +52,60 @@ import img60 from "../galleryimage/change19.jpeg";
 import img61 from "../galleryimage/change20.jpeg";
 import img62 from "../galleryimage/change21.jpeg";
 import img63 from "../galleryimage/change22.jpeg";
-
+import img64 from "../galleryimage/DSC_0191.JPG";
+import img65 from "../galleryimage/DSC_0209.JPG";
+import img66 from "../galleryimage/DSC_0210.JPG";
+import img67 from "../galleryimage/DSC_0213.JPG";
+import img68 from "../galleryimage/DSC_0231.JPG";
+import img69 from "../galleryimage/DSC_0234.JPG";
+import img70 from "../galleryimage/DSC_0242.JPG";
+import img71 from "../galleryimage/DSC_0245.JPG";
+import img72 from "../galleryimage/DSC_0252.JPG";
+import img73 from "../galleryimage/DSC_0259.JPG";
+import img74 from "../galleryimage/DSC_0260.JPG";
+import img75 from "../galleryimage/DSC_0263.JPG";
+import img76 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.01.jpeg";
+import img77 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.02.jpeg";
+import img78 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.03.jpeg";
+import img79 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.04.jpeg";
+import img80 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.05.jpeg";
+import img81 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.06.jpeg";
+import img82 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.07.jpeg";
+import img83 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.08.jpeg";
+import img84 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.09.jpeg";
+import img85 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.10.jpeg";
+import img86 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.11.jpeg";
+import img87 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.12.jpeg";
+import img88 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.13.jpeg";
 
 const Gallery = () => {
   const [isImgOpen, setIsImgOpen] = useState(null);
   let image_array = [
+    img64,
+    img65,
+    img66,
+    img67,
+    img68,
+    img69,
+    img70,
+    img71,
+    img72,
+    img73,
+    img74,
+    img75,
+    img76,
+    img77,
+    img78,
+    img79,
+    img80,
+    img81,
+    img82,
+    img83,
+    img84,
+    img85,
+    img86,
+    img87,
+    img88,
     img40,
     img46,
     img47,
@@ -103,7 +152,6 @@ const Gallery = () => {
     img37,
     img38,
     img39,
-  
   ];
   return (
     <>

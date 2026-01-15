@@ -1,7 +1,7 @@
 import React from "react";
 import img6 from "../documents/Chandra_twitter.jpg";
-import compliment2 from "../documents/compliment2.png";
-import compliment3 from "../documents/studentscompliment.jpeg";
+import compliment1 from "../documents/compliment1.png";
+import compliment2 from "../documents/compliment2.jpeg";
 import NavBar from "./NavBar";
 import "./WhitePaper.css";
 import Footer from "./footer";

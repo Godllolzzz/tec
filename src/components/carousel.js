@@ -30,7 +30,31 @@ import img27 from "../galleryimage/changeE.jpeg";
 import img28 from "../galleryimage/changeF.jpeg";
 import img29 from "../galleryimage/changeG.jpeg";
 import img30 from "../galleryimage/changeH.jpeg";
-
+import img31 from "../galleryimage/DSC_0191.JPG";
+import img32 from "../galleryimage/DSC_0209.JPG";
+import img33 from "../galleryimage/DSC_0210.JPG";
+import img34 from "../galleryimage/DSC_0213.JPG";
+import img35 from "../galleryimage/DSC_0231.JPG";
+import img36 from "../galleryimage/DSC_0234.JPG";
+import img37 from "../galleryimage/DSC_0242.JPG";
+import img38 from "../galleryimage/DSC_0245.JPG";
+import img39 from "../galleryimage/DSC_0252.JPG";
+import img40 from "../galleryimage/DSC_0259.JPG";
+import img41 from "../galleryimage/DSC_0260.JPG";
+import img42 from "../galleryimage/DSC_0263.JPG";
+import img43 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.01.jpeg";
+import img44 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.02.jpeg";
+import img45 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.03.jpeg";
+import img46 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.04.jpeg";
+import img47 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.05.jpeg";
+import img48 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.06.jpeg";
+import img49 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.07.jpeg";
+import img50 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.08.jpeg";
+import img51 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.09.jpeg";
+import img52 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.10.jpeg";
+import img53 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.11.jpeg";
+import img54 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.12.jpeg";
+import img55 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.13.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCalendar,
@@ -41,32 +65,31 @@ import {
 import TypeWriter from "./Typewriter";
 
 const images = [
-  img13,
-  img14, //
-  img15, //
-  img16,
-  img17, //
-  img19,
-  // img20,
-  img21,
-  img22,
-  img9,
-  img12,
-  img8,
-  img2,
-  img3,
-  img4,
-  img5,
-  img6,
-  img7,
-  img23,
-  img24,
-  img25,
-  img26,
-  img27,
-  img28,
-  img29,
-  img30,
+  img31,
+  img32,
+  img33,
+  img34,
+  img35,
+  img36,
+  img37,
+  img38,
+  img39,
+  img40,
+  img41,
+  img42,
+  img43,
+  img44,
+  img45,
+  img46,
+  img47,
+  img48,
+  img49,
+  img50,
+  img51,
+  img52,
+  img53,
+  img54,
+  img55,
 ];
 
 const Carousel = () => {

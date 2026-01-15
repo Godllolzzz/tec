@@ -33,6 +33,10 @@ import projectMushroomTeam from "../images/mushroomCultivationTeam.jpeg";
 import projectMushroom from "../images/mushroomCultivation.jpeg";
 import projectIrigationTeam from "../images/IrigationTeam.jpeg";
 import projectIrigation from "../images/Irigation.jpeg";
+import waterlevelindicator from "../images/WaterLevelIndicator.jpeg";
+import electronicbazar from "../images/ElectronicsBazaarDIYKit.jpeg";
+import iotmedicinalpellet from "../images/IoTBasedMedicinalPelletMachine.jpeg";
+import socialsmartjhansibazar from "../images/SocialSmartlyProgressiveJhansiBazaar.jpeg";
 
 const SanctionedProjects = () => {
   return (
@@ -720,6 +724,194 @@ const SanctionedProjects = () => {
               water-scarce regions. It empowers farmers with greater control,
               real-time insights, and reliable protection—paving the way for a
               more resilient and technologically empowered agricultural sector.
+            </p>
+          </div>
+        </div>
+        <div className="sanctioned-container">
+          <div className="projectIrigation-logo">
+            <img src={waterlevelindicator}></img>
+            {/* <img src={projectIrigation}></img> */}
+          </div>
+          <div className="project-content">
+            <h2>
+              Water Level Indicator – Smart Water Management System
+              <br></br>
+              PI: Er. Shashikant Verma, IET, Bundelkhand University, Jhansi
+              <br></br>
+              Co-PI: Mr. Vipin Verma, IET, BU, Jhansi
+            </h2>
+            <br></br>
+
+            <p>
+              <b>Introduction : </b>
+              The fully automatic Water Level Indicator is a sensor-based
+              innovation designed to ensure efficient water utilization in
+              domestic, agricultural, and industrial setups. It operates through
+              real-time level detection, triggering alerts and pump control
+              without manual intervention. The system integrates
+              microcontrollers and float sensors to maintain optimal water
+              levels, preventing wastage and overflow. It also supports data
+              logging for monitoring water usage trends. Compact,
+              cost-effective, and durable, this prototype can be deployed in
+              rural and urban areas alike. Designed with scalability in mind, it
+              aligns with the Government’s Smart Village and Jal Shakti
+              initiatives. The project emphasizes sustainability and automation,
+              addressing critical challenges in water resource management. Its
+              low-maintenance design and affordability make it ideal for
+              widespread adoption. This innovation represents a step forward in
+              tech-driven environmental conservation through intelligent control
+              systems.
+            </p>
+          </div>
+        </div>
+        <div className="sanctioned-container">
+          <div className="projectIrigation-logo">
+            <img src={iotmedicinalpellet}></img>
+            {/* <img src={projectIrigation}></img> */}
+          </div>
+          <div className="project-content">
+            <h2>
+              IoT-Based Medicinal Pellet Machine – Smart Animal Feed Technology
+              <br></br>
+              PI: Dr. Atul Kumar Dwivedi BIET, Jhansi
+              <br></br>
+              Co-PI:Dr.Anupam Vyas, IET, Bundelkhand University, Jhansi
+            </h2>
+            <br></br>
+
+            <p>
+              <b>Introduction : </b>
+              The IoT-based Medicinal Pellet Machine is an advanced, fully
+              automated solution for producing customized medicinal and
+              nutritional pellets for animal feed. It integrates precision
+              sensors, microcontrollers, and IoT connectivity to regulate
+              temperature, pressure, and composition during production. This
+              ensures consistent quality and dosage uniformity, enhancing
+              livestock health and productivity. The machine enables remote
+              monitoring and control via mobile or web applications. It supports
+              integration with data analytics for performance optimization and
+              predictive maintenance. The innovation bridges biotechnology and
+              smart manufacturing, catering to veterinary and agritech startups.
+              Designed with energy efficiency and safety protocols, it minimizes
+              human intervention while maximizing throughput. Its modular
+              structure allows scalability for small-scale farmers and
+              commercial feed units alike. Overall, it reflects a sustainable
+              approach to technology transfer in animal nutrition and agritech
+              innovation.
+            </p>
+          </div>
+        </div>
+        <div className="sanctioned-container">
+          <div className="projectIrigation-logo">
+            <img src={socialsmartjhansibazar}></img>
+            {/* <img src={projectIrigation}></img> */}
+          </div>
+          <div className="project-content">
+            <h2>
+              Social Smartly Progressive Jhansi Bazaar – Digital Tourism &
+              Cultural Heritage Model
+              <br></br>
+              PI: Dr. Seeenivasan, ITHM, BU, Jhansi
+              <br></br>
+              Co-PI: Mr. Sanket Kanchan, BU- BASIC Start-up
+            </h2>
+            <br></br>
+
+            <p>
+              <b>Introduction : </b>
+              The Social Smartly Progressive Jhansi Bazaar is a visionary
+              digital innovation promoting tourism, culture, and heritage
+              exploration across Bundelkhand. Designed as a smart platform, it
+              connects travelers, local artisans, and businesses to showcase the
+              region’s vibrant traditions, craft excellence, and historical
+              landmarks. The model integrates e-tourism features, including
+              virtual guided tours, cultural event listings, and smart
+              navigation for heritage and pilgrimage sites. It also enables
+              local vendors and handicraft makers to market their products to
+              visitors through a seamless digital marketplace. By blending
+              technology with tradition, the initiative revitalizes Jhansi’s
+              local economy while enhancing tourist engagement and cultural
+              visibility. The platform encourages sustainable tourism by
+              supporting eco-friendly practices and community-led hospitality.
+              It serves as a bridge between heritage conservation and digital
+              innovation, positioning Jhansi and Bundelkhand as emerging
+              cultural destinations. Ultimately, it transforms local tourism
+              into a tech-enabled, socially progressive experience that
+              celebrates the essence of Bundelkhand.
+            </p>
+          </div>
+        </div>
+        <div className="sanctioned-container">
+          <div className="projectIrigation-logo">
+            {/* <img src={projectIrigationTeam}></img>
+            <img src={projectIrigation}></img> */}
+          </div>
+          <div className="project-content">
+            <h2>
+              Handheld Blood Identification Device – Rapid Field Diagnostics
+              <br></br>
+              PI: Dr. Anu Singla Institute of Forensic Science Bundelkhand
+              University, Jhansi
+              <br></br>
+              Co-PI: Mr. Abhay Agarwal Institute of Forensic Science, BU, Jhansi
+            </h2>
+            <br></br>
+
+            <p>
+              <b>Introduction : </b>
+              The Handheld Blood Identification Device is a compact, portable
+              diagnostic tool engineered for rapid blood analysis in
+              resource-limited or field settings. It employs optical sensors and
+              microfluidic channels to detect key parameters like blood type,
+              glucose levels, and hemoglobin concentration within minutes. Its
+              lightweight design and battery-powered operation make it suitable
+              for mobile clinics, veterinary use, and emergency response teams.
+              The device eliminates the need for bulky laboratory equipment,
+              ensuring accessibility and affordability. Integrated with AI-based
+              interpretation, it enhances diagnostic accuracy and reduces manual
+              error. Data can be stored or shared via Bluetooth for remote
+              consultation. The innovation supports public health surveillance
+              and early disease detection, aligning with the goals of precision
+              healthcare. It represents a convergence of biomedical engineering
+              and digital health. Ultimately, this lab-on-the-go innovation
+              bridges the diagnostic gap between urban hospitals and rural
+              healthcare systems.
+            </p>
+          </div>
+        </div>
+        <div className="sanctioned-container">
+          <div className="projectIrigation-logo">
+            <img src={electronicbazar}></img>
+            {/* <img src={projectIrigation}></img> */}
+          </div>
+          <div className="project-content">
+            <h2>
+              Electronics Bazaar DIY Kit – Hands-On Innovation Learning
+              <br></br>
+              PI: Dr. Sreedevi Jetty, Librarian, BU, Jhansi
+              <br></br>
+              Co-PI: Mr. Gaurav chaturvedi, IET, BU, Jhansi
+            </h2>
+            <br></br>
+
+            <p>
+              <b>Introduction : </b>
+              The Electronics Bazaar DIY Kit is an educational innovation
+              designed to ignite curiosity and creativity among students,
+              innovators, and hobbyists. It comprises modular electronic
+              components, sensors, and circuit boards that allow users to design
+              and build real-world electronic systems. Each kit includes guided
+              tutorials, schematic diagrams, and project challenges to enhance
+              experiential learning. It promotes a strong foundation in STEM
+              education and electronics prototyping. The kit supports a range of
+              applications—from automation and IoT devices to robotics and
+              energy systems. By combining affordability with accessibility, it
+              empowers learners from school to college level. It also encourages
+              innovation clubs and maker communities to prototype their ideas
+              quickly. With its focus on do-it-yourself experimentation, it
+              nurtures problem-solving and design thinking skills. The DIY Kit
+              embodies TEC’s vision to bridge innovation, education, and
+              entrepreneurship through practical learning ecosystems.
             </p>
           </div>
         </div>

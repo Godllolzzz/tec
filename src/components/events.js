@@ -30,22 +30,6 @@ function Events() {
             <ul className="timeline-list">
               <li
                 className="timeline-item"
-                style={{ "--accent-color": "#1B5F8C" }}
-              >
-                <div className="date">November 06-12, 2025</div>
-                <div className="title">Techrise</div>
-                <div className="descr">
-                  {" "}
-                  Techrise - Techrise is an initiative under the each program
-                  that focuses on increasing digital proficiency among
-                  undergraduate students. The students will be trained to
-                  understand and use computer systems efficiently along with
-                  basic of coding and application development.
-                </div>
-              </li>
-
-              <li
-                className="timeline-item"
                 style={{ "--accent-color": "#4CADAD" }}
               >
                 <div className="date">November 11-17, 2025</div>
@@ -81,6 +65,40 @@ function Events() {
           <div className="timeline-card">
             <h1 className="timeline-title">Past Events</h1>
             <ul className="timeline-list">
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#E24A68" }}
+              >
+                <div className="date">December 17-23, 2025.</div>
+                <div className="title">
+                  Millet Processing: Technology-Enabled Food Innovation &
+                  Packaging for Rural Start-ups
+                </div>
+                <div className="descr">
+                  More than 35 women participants from rural backgrounds
+                  actively took part in the training. Through hands-on sessions
+                  and technology-oriented demonstrations, the program aimed to
+                  empower women with technical knowledge and entrepreneurial
+                  skills, enabling them to start their own millet-based
+                  enterprises and move towards self-reliance and sustainable
+                  livelihoods.
+                </div>
+              </li>
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#1B5F8C" }}
+              >
+                <div className="date">November 07-14, 2025</div>
+                <div className="title">Techrise</div>
+                <div className="descr">
+                  {" "}
+                  Techrise - Techrise is an initiative under the each program
+                  that focuses on increasing digital proficiency among
+                  undergraduate students. The students will be trained to
+                  understand and use computer systems efficiently along with
+                  basic of coding and application development.
+                </div>
+              </li>
               <li
                 className="timeline-item"
                 style={{ "--accent-color": "#41516C" }}
