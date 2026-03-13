@@ -32,7 +32,7 @@ function Events() {
                 className="timeline-item"
                 style={{ "--accent-color": "#4CADAD" }}
               >
-                <div className="date">November 11-17, 2025</div>
+                <div className="date">April 2026</div>
                 <div className="title">
                   Innovative Embedded System for Advancement in the Field of
                   Technical Research
@@ -48,7 +48,7 @@ function Events() {
                 className="timeline-item"
                 style={{ "--accent-color": "#E24A68" }}
               >
-                <div className="date">December 2025</div>
+                <div className="date">March 2026</div>
                 <div className="title">Innova-thon 2.0</div>
                 <div className="descr">
                   Innova-thon 2.0 is an innovation marathon where participants
@@ -56,6 +56,31 @@ function Events() {
                   challenges, fostering creativity and problem-solving skills in
                   a competitive environment.
                 </div>
+              </li>
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#41516C" }}
+              >
+                <div className="date">March 7-13, 2026</div>
+                <div className="title">
+                  One-week Hands-on training on Artificial intelligence & it's
+                  Application
+                </div>
+                <div className="descr">
+                  This one week training helped the students to understand
+                  basics of sensors and their implementation in basic
+                  electronics circuits. In this training students created small
+                  sensor based circuits themselves and created innovative
+                  designs to solve day to day problems.
+                </div>
+              </li>
+              <li
+                className="timeline-item"
+                style={{ "--accent-color": "#4CADAD" }}
+              >
+                <div className="date">March 13, 2026</div>
+                <div className="title">PAG 2.0</div>
+                <div className="descr"></div>
               </li>
             </ul>
           </div>

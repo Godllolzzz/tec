@@ -81,10 +81,60 @@ function NewsLetter() {
           </tr>
           <tr>
             <td>7.</td>
-            <td>News Letter 4</td>
+            <td>News Letter 7</td>
             <td>October - December, 2024</td>
             <td>
               <a href="https://drive.google.com/file/d/1PEA5zgpQ-157PWvKWf5JaXf4WVOFW_zv/view?usp=sharing">
+                View
+              </a>
+            </td>
+          </tr>{" "}
+          <tr>
+            <td>8.</td>
+            <td>News Letter 8</td>
+            <td>January - March, 2025</td>
+            <td>
+              <a href="https://drive.google.com/file/d/1BhooQwND-TsdIJmVjncQYsXJjsFQYEBS/view?usp=sharing">
+                View
+              </a>
+            </td>
+          </tr>{" "}
+          <tr>
+            <td>9.</td>
+            <td>News Letter 9</td>
+            <td>April - June, 2025</td>
+            <td>
+              <a href="https://drive.google.com/file/d/1Zdm1lVJEZWUA7DrqIXRKlyjD2wt1pnF1/view?usp=sharing">
+                View
+              </a>
+            </td>
+          </tr>{" "}
+          <tr>
+            <td>10.</td>
+            <td>News Letter 10</td>
+            <td>July - September, 2025</td>
+            <td>
+              <a href="https://drive.google.com/file/d/1ANaWCZ6AW3WBlAw4b03_3qRvMid3kQnw/view?usp=sharing">
+                View
+              </a>
+            </td>
+          </tr>{" "}
+          <tr>
+            <td>11.</td>
+            <td>News Letter 11</td>
+            <td>October - December, 2025</td>
+            <td>
+              <a href="https://drive.google.com/file/d/1hQ7zJtjTuxwIVTOqBdRYYMoSmVaIjs8v/view?usp=sharing">
+                View
+              </a>
+            </td>
+          </tr>{" "}
+          <tr>
+            <td>12.</td>
+            <td>News Letter 12</td>
+            <td>January - March, 2026</td>
+            <td>
+              <a href="https://drive.google.com/file/d/1U1_qotNgr7XxfvTW1UupvU2g1hiyPQAc/view?usp=sharing">
                 View
               </a>
             </td>

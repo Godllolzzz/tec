@@ -1,35 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
-import "./carousel.css"; // Import your CSS file for carousel styling
-// import img1 from "../images/GandhiAuditorium.jpeg";
-import img1 from "../images/about_top_image.jpg";
-import img2 from "../galleryimage/DSC_0491.JPG";
-import img3 from "../galleryimage/A7403529.JPG";
-import img4 from "../galleryimage/A7403304.JPG";
-import img5 from "../images/TEC-3.jpg";
-import img6 from "../galleryimage/A7402281.JPG";
-import img7 from "../images/innovation_centre (2).jpg";
-import img8 from "../galleryimage/change11.jpg";
-import img9 from "../galleryimage/change2.jpg";
-import img12 from "../galleryimage/change12.jpg";
-import img13 from "../galleryimage/change13.jpeg";
-import img14 from "../galleryimage/change14.jpeg";
-import img15 from "../galleryimage/change15.jpeg";
-import img16 from "../galleryimage/change16.jpeg";
-import img17 from "../galleryimage/change17.jpeg";
-import img19 from "../galleryimage/change19.jpeg";
-import img20 from "../galleryimage/change20.jpeg";
-import img21 from "../galleryimage/change21.jpeg";
-import img22 from "../galleryimage/change22.jpeg";
-import img23 from "../galleryimage/changeA.jpeg";
-import img24 from "../galleryimage/changeB.jpeg";
-import img25 from "../galleryimage/changeC.jpeg";
-import img26 from "../galleryimage/changeD.jpeg";
-import img27 from "../galleryimage/changeE.jpeg";
-import img28 from "../galleryimage/changeF.jpeg";
-import img29 from "../galleryimage/changeG.jpeg";
-import img30 from "../galleryimage/changeH.jpeg";
+import "./carousel.css";
 import img31 from "../galleryimage/DSC_0191.JPG";
 import img32 from "../galleryimage/DSC_0209.JPG";
 import img33 from "../galleryimage/DSC_0210.JPG";
@@ -50,11 +22,15 @@ import img47 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.05.jpeg";
 import img48 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.06.jpeg";
 import img49 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.07.jpeg";
 import img50 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.08.jpeg";
-import img51 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.09.jpeg";
 import img52 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.10.jpeg";
 import img53 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.11.jpeg";
 import img54 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.12.jpeg";
-import img55 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.13.jpeg";
+import img55 from "../galleryimage/1000992759.jpg.jpeg";
+import img56 from "../galleryimage/980d3f28-8a6f-4971-a37c-19e1dc8a96cd-1_all_51910.jpg.jpeg";
+import img57 from "../galleryimage/980d3f28-8a6f-4971-a37c-19e1dc8a96cd-1_all_51881.jpg.jpeg";
+import img58 from "../galleryimage/IMG-20251219-WA0013.jpg.jpeg";
+import img59 from "../galleryimage/IMG-20251218-WA0032.jpg.jpeg";
+import img60 from "../galleryimage/IMG_20251217_125831.jpg.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCalendar,
@@ -65,6 +41,12 @@ import {
 import TypeWriter from "./Typewriter";
 
 const images = [
+  img55,
+  img56,
+  img57,
+  img58,
+  img59,
+  img60,
   img31,
   img32,
   img33,
@@ -85,11 +67,9 @@ const images = [
   img48,
   img49,
   img50,
-  img51,
   img52,
   img53,
   img54,
-  img55,
 ];
 
 const Carousel = () => {
@@ -125,7 +105,7 @@ const Carousel = () => {
   };
   const nextSlide = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === images.length - 1 ? 0 : prevIndex + 1
+      prevIndex === images.length - 1 ? 0 : prevIndex + 1,
     );
   };
 

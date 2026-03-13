@@ -243,9 +243,9 @@ const CoreCommitte = () => {
               <td>Core Committee Meeting 7</td>
               <td>March 18, 2024</td>
               <td>
-                {/* <a href="https://drive.google.com/file/d/1yx32z_aU_oUq5k-nMr15F3Qq9ojGyYz_/view?usp=sharing"> */}
-                View
-                {/* </a> */}
+                <a href="https://drive.google.com/file/d/1yx32z_aU_oUq5k-nMr15F3Qq9ojGyYz_/view?usp=sharing">
+                  View
+                </a>
               </td>
             </tr>
             <tr>
@@ -253,9 +253,9 @@ const CoreCommitte = () => {
               <td>Core Committee Meeting 8</td>
               <td>July 22, 2024</td>
               <td>
-                {/* <a href="https://drive.google.com/file/d/1yx32z_aU_oUq5k-nMr15F3Qq9ojGyYz_/view?usp=sharing"> */}
-                View
-                {/* </a> */}
+                <a href="https://drive.google.com/file/d/1yx32z_aU_oUq5k-nMr15F3Qq9ojGyYz_/view?usp=sharing">
+                  View
+                </a>
               </td>
             </tr>
             <tr>
@@ -263,9 +263,9 @@ const CoreCommitte = () => {
               <td>Core Committee Meeting 9</td>
               <td>December 10, 2024</td>
               <td>
-                {/* <a href="https://drive.google.com/file/d/1yx32z_aU_oUq5k-nMr15F3Qq9ojGyYz_/view?usp=sharing"> */}
-                View
-                {/* </a> */}
+                <a href="https://drive.google.com/file/d/1yx32z_aU_oUq5k-nMr15F3Qq9ojGyYz_/view?usp=sharing">
+                  View
+                </a>
               </td>
             </tr>{" "}
             <tr>
@@ -273,9 +273,29 @@ const CoreCommitte = () => {
               <td>Core Committee Meeting 10</td>
               <td>January 03, 2025</td>
               <td>
-                {/* <a href="https://drive.google.com/file/d/1yx32z_aU_oUq5k-nMr15F3Qq9ojGyYz_/view?usp=sharing"> */}
-                View
-                {/* </a> */}
+                <a href="https://drive.google.com/file/d/1yx32z_aU_oUq5k-nMr15F3Qq9ojGyYz_/view?usp=sharing">
+                  View
+                </a>
+              </td>
+            </tr>{" "}
+            <tr>
+              <td>11.</td>
+              <td>Core Committee Meeting 11</td>
+              <td>July 24, 2025</td>
+              <td>
+                <a href="https://drive.google.com/file/d/1yx32z_aU_oUq5k-nMr15F3Qq9ojGyYz_/view?usp=sharing">
+                  View
+                </a>
+              </td>
+            </tr>{" "}
+            <tr>
+              <td>12.</td>
+              <td>Core Committee Meeting 12</td>
+              <td>December 15, 2025</td>
+              <td>
+                <a href="https://drive.google.com/file/d/1yx32z_aU_oUq5k-nMr15F3Qq9ojGyYz_/view?usp=sharing">
+                  View
+                </a>
               </td>
             </tr>
           </tbody>

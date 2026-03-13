@@ -41,7 +41,6 @@ import img49 from "../galleryimage/july153.jpg";
 import img50 from "../galleryimage/gallery2.jpg";
 import img51 from "../galleryimage/gallery3.jpg";
 import img52 from "../galleryimage/gallery4.jpg";
-import img53 from "../galleryimage/gallery5.jpg";
 import img54 from "../galleryimage/gallery6.jpg";
 import img55 from "../galleryimage/change13.jpeg";
 import img56 from "../galleryimage/change14.jpeg";
@@ -72,7 +71,6 @@ import img80 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.05.jpeg";
 import img81 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.06.jpeg";
 import img82 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.07.jpeg";
 import img83 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.08.jpeg";
-import img84 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.09.jpeg";
 import img85 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.10.jpeg";
 import img86 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.11.jpeg";
 import img87 from "../galleryimage//WhatsApp Image 2026-01-15 at 13.25.12.jpeg";
@@ -101,7 +99,6 @@ const Gallery = () => {
     img81,
     img82,
     img83,
-    img84,
     img85,
     img86,
     img87,
@@ -114,7 +111,6 @@ const Gallery = () => {
     img50,
     img51,
     img52,
-    img53,
     img54,
     img55,
     img56,
