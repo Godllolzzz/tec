@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+
+.compendium-heading {
+  border-bottom: 1px solid rgb(41, 38, 38);
+  font-family: "Montserrat", sans-serif;
+  padding: 1rem;
+  padding-top: 3rem;
+  color: #f4c430;
+  text-shadow: 2px 2px 2px #03174f;
+  font-size: 2.2rem;
+}
+
+.compendium-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.compendium-grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  margin: 2rem 1rem;
+}
+
+.compendium-grid-item {
+  flex: 0 1 calc(33.333% - 3rem);
+  max-width: calc(33.333% - 3rem);
+  background-color: #fff;
+  height: 40rem;
+  transition:
+    transform 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.compendium-grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.compendium-grid-item:hover {
+  cursor: pointer;
+  box-shadow: 8px 8px 16px rgba(3, 23, 79, 0.35);
+  transform: translateY(-4px);
+}
+
+.compendium-grid-item:hover img {
+  transform: scale(1.05);
+}
+
+.compendium-view-btn-container {
+  margin: 2rem 0 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.compendium-view-btn {
+  display: inline-block;
+  padding: 0.9rem 2.5rem;
+  background-color: #03174f;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease,
+    box-shadow 0.3s ease;
+  box-shadow: 3px 3px 8px rgba(3, 23, 79, 0.3);
+}
+
+.compendium-view-btn:hover {
+  background-color: #f4c430;
+  color: #03174f;
+  transform: translateY(-2px);
+  box-shadow: 5px 5px 14px rgba(3, 23, 79, 0.4);
+}
+
+/* ---- Lightbox overlay ---- */
+.compendium-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.compendium-lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 8px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+}
+
+.compendium-lightbox-close {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.5rem;
+  color: #fff;
+  font-size: 2.5rem;
+  cursor: pointer;
+  font-family: sans-serif;
+  line-height: 1;
+  transition: color 0.2s;
+}
+
+.compendium-lightbox-close:hover {
+  color: #f4c430;
+}
+
+@media screen and (min-width: 820px) and (max-width: 1220px) {
+  .compendium-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .compendium-grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .compendium-heading {
+    font-size: 1.5rem;
+  }
+}

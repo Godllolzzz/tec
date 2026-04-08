@@ -37,6 +37,7 @@ import DevelopersTeam from "./components/DevelopersTeam";
 import Startup from "./components/Startup";
 import MediaCoverage from "./components/MediaCoverage";
 import WhitePaper from "./components/WhitePaper";
+import Compendium from "./components/Compendium";
 import TRLPlan from "./components/trl_plan";
 import ContactUsHome from "./components/ContactUsHome";
 
@@ -79,6 +80,7 @@ function App() {
           <Route path="/developers-team" element={<DevelopersTeam />} />
           <Route path="/startup" element={<Startup />} />
           <Route path="/mediaCoverage" element={<MediaCoverage />} />
+          <Route path="/tec-compendium" element={<Compendium />} />
         </Routes>
 
         {/* <Achievements /> */}

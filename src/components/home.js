@@ -9,18 +9,18 @@ import HomeOverview from "./home_overiew";
 
 import ContactUsHome from "./ContactUsHome";
 import ImageSlider from "./ImageSlider";
-// import VideoPlayer from "./VideoPlayer";
+import VideoPlayer2 from "./VideoPlayer2";
 
 const Home = () => {
   return (
     <>
       <NavBar />
       <Carousel />
-      {/* <VideoPlayer videoId="M3ygFVrfR6E?si=3hj0krRt9Yp8AeTJ" /> */}
       <HomeOverview />
       <VCMessage />
       {/* <ImageSlider /> */}
-      <ContactUsHome/>
+      <ContactUsHome />
+      <VideoPlayer2 />
       <Footer />
     </>
   );

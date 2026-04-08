@@ -1,43 +1,284 @@
+/* ── Key Indicators Page ───────────────────────────────────────────── */
 .key_main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 2rem 1rem 4rem;
+  min-height: 60vh;
 }
+
 .key_heading {
   border-bottom: 1px solid rgb(41, 38, 38);
   font-family: "Montserrat", sans-serif;
   padding-bottom: 1rem;
   padding-top: 3rem;
-  padding-left: 4rem;
-  /* color: rgb(41, 36, 36);
-     */
   color: gold;
   font-size: 2.2rem;
-  margin: auto;
-  width: 25%;
+  margin: 0 auto 0.5rem;
+  width: auto;
   text-align: center;
   text-shadow: 2px 2px 2px #03174f;
 }
-key_image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: aqua;
-}
-.key_image img {
-  margin-left: 2%;
-  height: auto;
-  width: 95%;
+
+.subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  margin: 1rem auto 0.5rem;
+  text-align: center;
 }
 
+.coordinator-info {
+  font-family: "Calibri", sans-serif;
+  font-size: 0.95rem;
+  color: #444;
+  margin: 0.3rem auto;
+  text-align: center;
+}
+
+.manpower-info {
+  font-family: "Calibri", sans-serif;
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0.2rem auto 1.5rem;
+  text-align: center;
+}
+
+.edit-hint {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.78rem;
+  color: #aaa;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.03em;
+}
+
+/* ── Table Wrapper ─────────────────────────────────────────────────── */
+.table-wrapper {
+  width: 100%;
+  max-width: 980px;
+  overflow-x: auto;
+  border-radius: 6px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+  margin-bottom: 2rem;
+}
+
+/* ── Table Base ────────────────────────────────────────────────────── */
+.ki-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Calibri", "Segoe UI", sans-serif;
+  font-size: 0.88rem;
+  background: #fff;
+}
+
+/* ── Header rows ───────────────────────────────────────────────────── */
+.ki-table thead tr:first-child th {
+  background-color: #6b8e3a;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 8px 10px;
+  border: 1px solid #3a5120;
+  vertical-align: middle;
+}
+
+.ki-table thead tr:nth-child(2) th {
+  background-color: #6b8e3a;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  padding: 8px 10px;
+  border: 1px solid #3a5120;
+  vertical-align: middle;
+}
+
+.ki-table thead tr.subheader-row th {
+  background-color: #6b8e3a;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  padding: 8px 10px;
+  border: 1px solid #3a5120;
+  font-size: 0.85rem;
+}
+
+/* ── Column widths ─────────────────────────────────────────────────── */
+.col-sno {
+  width: 8%;
+}
+.col-indicator {
+  width: 42%;
+}
+.col-header {
+  background-color: #6b8e3a !important;
+}
+.col-achievements {
+  font-weight: 600;
+}
+.col-at-host {
+  width: 25%;
+}
+.col-institute {
+  width: 25%;
+}
+
+/* ── Body cells ────────────────────────────────────────────────────── */
+.ki-table tbody td {
+  border: 1px solid #c8d9b0;
+  padding: 6px 10px;
+  vertical-align: top;
+  color: #2c2c2c;
+  background-color: #f5f8ee;
+}
+
+/* Alternating row tint */
+.ki-table tbody tr:nth-child(even) td {
+  background-color: #ecf2e0;
+}
+
+/* Hover highlight */
+.ki-table tbody tr:hover td {
+  background-color: #ddebc0;
+  transition: background 0.15s ease;
+}
+
+/* S.No column */
+.td-sno {
+  text-align: center;
+  font-weight: 600;
+  color: #3a5120 !important;
+  vertical-align: top;
+}
+
+/* Indicator column */
+.td-indicator {
+  text-align: left;
+  vertical-align: top;
+}
+
+.bold-indicator {
+  font-weight: 700;
+  color: #3a5120 !important;
+}
+
+.td-sublabel {
+  text-align: left;
+  padding: 4px 8px !important;
+}
+
+.td-sublabel-content {
+  text-align: left;
+  padding: 4px 8px !important;
+  vertical-align: top;
+}
+
+.empty-cell {
+  background-color: #f5f8ee !important;
+}
+
+/* At Host / Institute columns */
+.td-at-host,
+.td-institute {
+  text-align: center;
+  vertical-align: top;
+  font-size: 0.85rem;
+}
+
+.multiline-cell {
+  white-space: pre-line;
+  line-height: 1.4;
+}
+
+/* ── Editable cell interaction ─────────────────────────────────────── */
+.editable {
+  display: block;
+  width: 100%;
+  min-height: 1.2em;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 2px 4px;
+  transition: background 0.15s;
+}
+
+.editable:hover {
+  background: rgba(78, 107, 46, 0.12);
+  outline: 1px dashed #6b8e3a;
+}
+
+.empty-hint {
+  color: #bbb;
+  font-style: italic;
+}
+
+.edit-input {
+  width: 100%;
+  min-height: 48px;
+  font-family: inherit;
+  font-size: inherit;
+  border: 2px solid #6b8e3a;
+  border-radius: 3px;
+  padding: 4px 6px;
+  background: #fff;
+  resize: vertical;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(107, 142, 58, 0.2);
+}
+
+/* ── Footer Info ───────────────────────────────────────────────────── */
+.footer-info {
+  width: 100%;
+  max-width: 980px;
+  font-family: "Calibri", sans-serif;
+  font-size: 0.9rem;
+  color: #333;
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+
+.budget-row {
+  margin: 0.4rem 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.bullet {
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+/* ── Responsive ────────────────────────────────────────────────────── */
 @media screen and (max-width: 700px) {
   .key_main {
-    padding: 4rem;
+    padding: 3rem 0.5rem 3rem;
   }
-  .about_heading {
+
+  .key_heading {
     font-size: 1.5rem;
     text-align: center;
-    max-width: 90%;
+    width: 90%;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+  }
+
+  .coordinator-info,
+  .manpower-info {
+    font-size: 0.8rem;
+  }
+
+  .ki-table {
+    font-size: 0.75rem;
+  }
+
+  .ki-table thead tr:first-child th {
+    font-size: 0.8rem;
+  }
+
+  .footer-info {
+    font-size: 0.8rem;
   }
 }

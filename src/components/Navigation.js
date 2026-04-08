@@ -144,7 +144,9 @@ const Navigation = () => {
                 <Link to="/about">About BU TEC </Link>
               </li>
               <li className="dropdown-item">
-                <Link to="/about-innovation-centre">Innovation Centre</Link>{" "}
+                <Link to="/about-innovation-centre">
+                  Innovation Centre
+                </Link>{" "}
               </li>
             </ul>
           </l1>
@@ -292,6 +294,11 @@ const Navigation = () => {
                   List of Equipments
                 </a>
               </li>
+              <li className="dropdown-item">
+                <Link to="/tec-compendium">
+                  TEC Compendium
+                </Link>
+              </li>
             </ul>
           </l1>
           <l1 className="navbar-item" onClick={services_on_click_handler}>
@@ -338,7 +345,9 @@ const Navigation = () => {
                 <Link to="/about">About BU TEC </Link>
               </li>
               <li className="dropdown-item">
-                <Link to="/about-innovation-centre">Innovation Centre</Link>{" "}
+                <Link to="/about-innovation-centre">
+                  Innovation Centre
+                </Link>{" "}
               </li>
             </ul>
           </l1>
@@ -480,6 +489,11 @@ const Navigation = () => {
                 <a href="https://forms.gle/JaDicxPu1ZurkvPh6">
                   Online User Application Form
                 </a>
+              </li>
+              <li className="dropdown-item">
+                <Link to="/tec-compendium">
+                  TEC Compendium
+                </Link>
               </li>
             </ul>
           </l1>

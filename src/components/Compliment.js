@@ -6,6 +6,7 @@ import compliment3 from "../documents/compliment3.jpeg";
 import compliment4 from "../documents/compliment4.png";
 import compliment5 from "../documents/compliment5.png";
 import compliment6 from "../documents/compliment6.png";
+import compliment7 from "../documents/compliment7.png";
 
 import NavBar from "./NavBar";
 import "./Compliment.css";
@@ -66,11 +67,11 @@ const Compliment = () => {
               <img className="img3" src={compliment6} alt="reloading" />
             </a>
           </div>
-          {/* <div className='compliment_img3'>
-            <a href='https://drive.google.com/file/d/1tfkwctMWN7dJ_HvvaJpEB_w_AMmXu7_Q/view?usp=drivesdk'>
-              <img className='img3' src={compliment3} alt='reloading' />
+          <div className="compliment_img7">
+            <a href="https://drive.google.com/file/d/1B4PhJbzie51QOmrMBh8w-X8P060Fwgox/view?usp=sharing">
+              <img className="img3" src={compliment7} alt="reloading" />
             </a>
-          </div> */}
+          </div>
         </div>
       </div>
       <Footer />
