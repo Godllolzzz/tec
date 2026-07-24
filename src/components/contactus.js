@@ -50,10 +50,6 @@ const ContactUs = () => {
                 </p>
                 <p>+91 9840998686</p>{" "}
                 <p style={{ margin: "0.25rem" }} className="contact-us-name">
-                  Mr. Pankaj Kushwaha
-                </p>
-                <p>+91 9170474268, 8573997465</p>{" "}
-                <p style={{ margin: "0.25rem" }} className="contact-us-name">
                   Er. Satish Kumar
                 </p>
                 <p>+91 9027471528</p>

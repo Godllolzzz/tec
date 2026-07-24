@@ -10,6 +10,7 @@ import HomeOverview from "./home_overiew";
 import ContactUsHome from "./ContactUsHome";
 import ImageSlider from "./ImageSlider";
 import VideoPlayer2 from "./VideoPlayer2";
+import VideoPlayer from "./VideoPlayer";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       {/* <ImageSlider /> */}
       <ContactUsHome />
       <VideoPlayer2 />
+      <VideoPlayer videoId="13jSLS_kseo" />
       <Footer />
     </>
   );
